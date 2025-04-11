@@ -134,6 +134,53 @@
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+#### What?
+#### ¿Cuál es el problema?
+El problema radica en la gestión desorganizada y manual de los procesos administrativos en academias educativas presenciales. Muchas de estas instituciones utilizan hojas de Excel, documentos físicos o plataformas no integradas, lo que genera el aumento de esfuerzo, pérdida de información, errores y una ineficiente administración de los recursos y tiempo.
+#### When (Cuando)
+#### ¿Cuándo sucede el problema?
+Este problema sucede de manera constante en el día a día de las academias, especialmente al inicio de ciclos academicos, al momento de inscribir alumnos, registrar asistencia, gestionar pagos, distribuir horarios y administrar recursos. La falta de automatización y centralización de procesos es una barrera persistente que afecta la eficiencia desde el primer contacto con el alumno hasta el cierre del periodo académico.
+#### Where (Dónde)
+#### ¿A dónde se dirige?
+La solución está dirigida a academias privadas de nivel escolar, preuniversitario o técnico que buscan mejorar su gestión interna mediante tecnología accesible, amigable y diseñada para sus flujos operativos reales.
+#### ¿Dónde surge el problema?
+Surge dentro de las academias presenciales que gestionan sus operaciones de forma tradicional en todo el país. Específicamente, el problema ocurre en las áreas administrativas, académicas y de coordinación de recursos.
+#### Who (Quién)
+#### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+Los principales usuarios serán el personal administrativo (coordinadores) y los docentes (para el control de asistencia y gestión de clases)
+Estos perfiles utilizarán la plataforma para registrar matrículas, gestionar pagos, asignar horarios, monitorear asistencia, controlar inventarios, y obtener reportes para la toma de decisiones.
+#### Why (Por qué)
+#### ¿Cuál es la causa del problema?
+La causa del problema está en la falta de herramientas accesibles y especializadas que se adapten al contexto operativo de academias presenciales. Muchas instituciones no han adoptado soluciones tecnológicas por miedo al cambio, desconocimiento o falta de recursos, lo cual perpetúa el uso de métodos manuales que limitan su eficiencia y capacidad de crecimiento.
+
+### ¿Cuáles son las 2H?
+#### How (Cómo)
+#### ¿Cómo se utilizará el producto?
+La plataforma web será utilizada diariamente por el personal de la academia. A través de una interfaz amigable, podrán registrar matrículas, programar clases, marcar asistencia, ingresar pagos y gestionar inventario. Se podrá acceder desde computadoras o smartphones, permitiendo que los usuarios trabajen desde cualquier lugar con conexión a internet.
+#### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
+Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
+
+- Módulo de matrícula con formularios guiados.
+
+- Módulo de pagos con alertas automáticas de vencimientos.
+
+- Módulo de asistencia accesible para los docentes con visualización por grupo.
+
+- Modulo de inventarios para la gestion de los  bienes de la academia.
+
+- Módulo de horarios que permite programar docentes, salones y materias.
+
+- Modulo de reportes asistencias y pagos.
+
+- Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
+
+- Dashboard administrativo.
+
+#### How much (Cuánto)
+#### ¿Cuál es la magnitud del problema?
+A pesar de su importancia estratégica en el acceso a la universidad, muchas academias siguen operando sin herramientas adecuadas de gestión, lo que afecta su eficiencia operativa y su capacidad de brindar un servicio educativo de calidad.
+#### ¿Qué porcentaje del personal académico-administrativo se beneficiaría?
+Se estima que el sistema podría beneficiar directamente al 70% del personal de una academia promedio, incluyendo al menos 3 a 5 administrativos y entre 10 y 20 docentes, aunque todo esto dependeria del tamaño de la institución y las sedes que esta maneje.
 
 ### 1.2.2. Lean UX Process
 
