@@ -174,6 +174,46 @@ Egitsta sección tiene objetivo conocer mejor los competidores a los que se enfr
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+Para competir eficazmente en el mercado de plataformas de gestión para academias presenciales, SmartEdu aplicará las siguientes estrategias y tácticas preliminares, considerando sus propias fortalezas y debilidades, así como el contexto de oportunidades y amenazas en relación a sus competidores:
+
+* Diferenciación por enfoque especializado <br>
+  **Estrategia**: Posicionar a Demy como la plataforma especializada en academias preuniversitarias presenciales, a diferencia de otros competidores que ofrecen soluciones más genéricas o centradas en colegios o empresas.
+  <br>
+  **Tácticas**:Desarrollar funcionalidades específicas para academias preuniversitarias, como módulos de simulacros, cronogramas de preparación para exámenes de admisión
+
+<br>
+
+* Modelo de precios escalables
+  <br>
+  **Estrategia**:Mantener un esquema de precios accesible, con planes diferenciados según el tamaño de la academia, y con mejor relación calidad-precio frente a competidores como QuickSchools o Playoff.
+  <br>
+  **Tácticas**: Evaluar una prueba gratuita de n días , Ofrecer descuentos cada cierto tiempo o evaluar una contratación anual incluida con descuento
+
+<br>
+
+* Mejora progresiva del producto y adaptabilidad
+  <br>
+  **Estrategia**:Competir frente a soluciones más maduras (como QuickSchools) con un enfoque ágil y adaptable, incorporando mejoras constantes con base en la retroalimentación directa de los usuarios.
+  <br>
+  **Tácticas**: Lanzamientos de mejoras mensuales (por sprints) , futura implementación de la versión móvil.
+
+<br>
+
+*  Seguridad y confianza
+   <br>
+   **Estrategia**:  Reducir la percepción de riesgo en torno a ciberseguridad, una amenaza para startups, generando confianza desde etapas tempranas.
+   <br>
+   **Táctica**:Contratar un servicio externo para auditorías de seguridad básicas.
+
+<br>
+
+* Aprovechamiento del contexto post-pandemia
+  <br>
+  **Estrategia**: Capitalizar el aumento de la digitalización en la educación tras el COVID-19 para incentivar la transformación digital de academias tradicionales
+  <br>
+  **Tácticas**: Ofrecer workshops gratuitos virtuales sobre “Digitaliza tu academia en 3 pasos con Demy”. Enseñar casos de éxito que muestren cómo academias presenciales mejoraron su eficiencia tras usar la plataforma.
+
+
 
 ## 2.2. Entrevistas
 
