@@ -152,6 +152,21 @@
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+En el análisis del segmento objetivo para Demy, hemos previsto que nuestros principales usuarios de nuestra startup serían profesores y personal administrativo de academias preuniversitarias.
+
+### Profesores de academias preuniversitarias
+
+Conocemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+
+- **Edad**: Buscamos profesores de cualquier edad
+- **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
+
+### Administradores de las academias preuniversitarias
+
+Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificación de horarios, gestión de pagos y matrículas**. Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
+
+- **Edad**: Buscamos personal administrativo de cualquier edad
+- **Necesidad clave**: Contar con una solución tecnológica que facilite la gestión, mejore la eficiencia operativa y brinde una experiencia más fluida tanto para el personal como para los alumnos y padres.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
