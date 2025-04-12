@@ -31,6 +31,62 @@
 
 # Project Collaboration Insights
 
+URL de nuestro repositorio para el reporte del proyecto: **[link del landing page]**
+
+**TB1**
+<br>Para el desarrollo del TB1 cada participantes del equipo realizo las siguientes tareas:
+
+| Integrantes                         | Tarea Asignada                                                                                                                                                                 |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco        | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista                                   |
+| Dominguez Vargas, Rafael Alexander  | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista                                      |
+| Ramirez Mestanza, Salim Ignacio     | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista                            |
+| Sulca Gonzales, Paúl Ferdando       | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista                                                                  |
+| Vilca Saboya, Diego Alejandro       | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista |
+
+
+
+**Github Collaboration Insights**
+
+En github se presenta un timeline de las ramas principales realizadas por cada integrante del equipo y procesos merge sometidos. Todas las ramas fueron creadas tomando en cuenta el diseño del **GitFlow** para una organizacion que usa un software control de versiones.
+
+Los Integrantes son:
+
+| Integrantes                          | Nombre en GitHub |
+|--------------------------------------|------------------|
+| Crispin Ramos, Daniel Franco         | danielcr04       |
+| Dominguez Vargas, Rafael Alexander   | Radv2005         |
+| Ramirez Mestanza, Salim Ignacio      | salimramirez     |
+| Sulca Gonzales, Paúl Ferdando        | Kyrubi           |
+| Vilca Saboya, Diego Alejandro        | diegovilcasaboya |
+
+
+Las ramas mas prominentes:
+- **main:** 
+- **develop:** 
+- **feature-product-design:** 
+- **feature-sprint1:** 
+
+[Network graph]
+
+A continuación se presentan los gráficos que muestran el análisis de los commits en el repositorio del informe. En estos gráficos se detalla la cantidad de líneas de código añadidas por cada miembro del equipo.
+
+**TB1**
+
+[COMMITS]
+
+**TP**
+
+[COMMITS]
+
+**TB2**
+
+[COMMITS]
+
+**TF**
+
+[COMMITS]
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -185,7 +241,7 @@ Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificaci�
 ### 2.3.2. User Task Matrix
 En este User Task Matrix se detallan las tareas clave que cada tipo de usuario puede realizar dentro del sistema académico
 
-| **TAREA**                                      | **[Nombre].(Profesor) - Frecuencia** | **[Nombre].(Profesor) - Importancia** |
+| **TAREA**                                     | **[Nombre].(Profesor) - Frecuencia** | **[Nombre].(Profesor) - Importancia** |
 |-----------------------------------------------|--------------------------------------|---------------------------------------|
 | Registrar asistencia de estudiantes           |                                      |                                       |
 | Revisar y gestionar horarios de clases        |                                      |                                       |
