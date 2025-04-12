@@ -183,6 +183,31 @@ Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificaci�
 ### 2.3.1. User Personas
 
 ### 2.3.2. User Task Matrix
+En este User Task Matrix se detallan las tareas clave que cada tipo de usuario puede realizar dentro del sistema académico
+
+| **TAREA**                                      | **[Nombre].(Profesor) - Frecuencia** | **[Nombre].(Profesor) - Importancia** |
+|-----------------------------------------------|--------------------------------------|---------------------------------------|
+| Registrar asistencia de estudiantes           |                                      |                                       |
+| Revisar y gestionar horarios de clases        |                                      |                                       |
+| Registrar calificaciones                      |                                      |                                       |
+| Acceder a información de los estudiantes      |                                      |                                       |
+| Coordinar con el personal administrativo      |                                      |                                       |
+| Comunicar incidencias en horario regular      |                                      |                                       |
+| Preparar los materiales para las clases       |                                      |                                       |
+| Diseñar las evaluaciones                      |                                      |                                       |
+| Gestionar que se cumplan las normas en el aula|                                      |                                       |
+
+| **TAREA**                                              | **[Nombre].(Administrador) - Frecuencia** | **[Nombre].(Administrador) - Importancia** |
+|--------------------------------------------------------|-------------------------------------------|--------------------------------------------|
+| Registrar matrícula de estudiantes                     |                                           |                                            |
+| Gestionar los horarios de docentes y estudiantes       |                                           |                                            |
+| Controlar los pagos de estudiantes                     |                                           |                                            |
+| Visualizar la información académica                    |                                           |                                            |
+| Ver la información financiera de los estudiantes       |                                           |                                            |
+| Coordinar con los docentes para la gestión             |                                           |                                            |
+| Gestionar reportes para estudiantes y profesores       |                                           |                                            |
+| Gestionar cambios en la asignación de aulas y horarios |                                           |                                            |
+| Supervisar los procesos administrativos                |                                           |                                            |
 
 ### 2.3.3. User Journey Mapping
 
