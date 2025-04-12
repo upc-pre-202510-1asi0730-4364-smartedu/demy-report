@@ -388,21 +388,6 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento: [Docente / Administrativo] - Entrevistado [N°]
-
-| Atributo                | Detalle |
-|-------------------------|---------|
-| **Nombre**              | [Nombre completo del entrevistado] |
-| **Edad**                | [Edad] |
-| **Sexo**                | [Masculino / Femenino] |
-| **Distrito**            | [Distrito de residencia] |
-| **Ocupación**           | [Cargo o rol en la institución educativa] |
-| **Fecha de entrevista** | [Fecha] |
-| **Duración**            | [Minutos y segundos de duración del video] |
-| **Captura**             | ![Captura](./assets/screenshots/[nombre].jpg) |
-| **Video**               | [Ver en Microsoft Stream]([link]) |
-| **Resumen**             | [Redactar un resumen claro, en párrafo, que combine aspectos objetivos (herramientas, procesos, frecuencia de uso, dispositivos, coordinación con otros actores) y subjetivos (percepciones, dolores, expectativas, disposición a adoptar nuevas herramientas). Debe ser completo pero conciso, entre 8 y 12 líneas es ideal.] |
-
 #### Segmento: Docente - Entrevistado 2
 
 | Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -417,6 +402,21 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
+
+#### Segmento: Docente - Entrevistado 3
+
+| Atributo                | Detalle                                                                     |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Nombre**              | Jeff Aylas Quispe Vergara                                                   |
+| **Edad**                | 25                                                                          |
+| **Sexo**                | Masculino                                                                   |
+| **Distrito**            | San Juan de Lurigancho                                                      |
+| **Ocupación**           | Docente en Academia ADUNI                                                   |
+| **Fecha de entrevista** | 11 de abril del 2025                                                        |
+| **Duración**            | 4:28 minutos                                                                |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher3.png)          |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                 |
+| **Resumen**             | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
 
 ### 2.2.3. Análisis de entrevistas
 
