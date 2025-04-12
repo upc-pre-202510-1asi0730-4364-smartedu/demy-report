@@ -129,7 +129,22 @@
 
 ### 1.1.1. Descripción de la Startup
 
+La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería de Software, tiene como objetivo ofrecer una solución tecnológica para optimizar la gestión administrativa de academias educativas en el Perú. A través de nuestra plataforma web **Demy**, buscamos agilizar y mejorar los procesos fundamentales dentro de las academias, como la matrícula de alumnos, la gestión de asistencia, la asignación de horarios, y la administración de inventarios. Además, se incorpora el seguimiento de pagos tanto para estudiantes como para docentes, todo a través de un sistema centralizado y de fácil acceso.
+
+**Misión**: Revolucionar la gestión administrativa de las academias educativas en el Perú, ofreciendo una plataforma que optimice procesos clave de matrícula, asistencia, asignación de horarios, control de inventarios y pagos.
+
+**Visión**: Convertirnos en líderes en la transformación digital de la gestión administrativa de academias educativas presenciales en el Perú, asegurando la eficiencia, transparencia y accesibilidad de sus procesos internos mediante soluciones tecnológicas innovadoras.
+
+
 ### 1.1.2. Perfiles de los integrantes del equipo
+
+| **Foto**         | **Nombre**                 | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                        |
+|------------------|----------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Foto_Daniel]() | **Daniel Crispin Ramos**   | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa. |
+| ![Foto_Paul]()   | **Paul Sulca Gonzales**    |            | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Salim]()  | **Salim Ramirez Mestanza** |            | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Diego]()  | **Diego**                  |            | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Rafael]() | **Rafael**                 |            | Ingeniería de Software |                                                                                                                                            |
 
 ## 1.2. Solution Profile
 
