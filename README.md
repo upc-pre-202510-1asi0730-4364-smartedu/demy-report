@@ -152,7 +152,7 @@
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
-Egitsta sección tiene objetivo conocer mejor los competidores a los que se enfrentará SmartEDU y poder así comparar nuestros beneficios.
+Esta sección tiene objetivo conocer mejor los competidores a los que se enfrentará SmartEDU y poder así comparar nuestros beneficios.
 
 |**Competitive Analysis Landscape** |                             |                   
 |-----------------------------------|-----------------------------|
