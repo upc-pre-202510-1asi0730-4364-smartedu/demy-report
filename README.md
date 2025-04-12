@@ -263,9 +263,99 @@ A continuación se presenta el Lean UX Canvas elaborado en la herramienta Miro.
 
 ## 2.2. Entrevistas
 
+En esta sección se aborda la investigación cualitativa realizada mediante entrevistas a representantes de los segmentos objetivo del proyecto: administrativos y docentes de academias educativas.
+El objetivo fue comprender las herramientas, procesos y problemáticas actuales en su gestión, así como validar posibles soluciones digitales a partir de sus propias experiencias.
+
 ### 2.2.1. Diseño de entrevistas
 
+Para diseñar las entrevistas, se elaboraron dos bloques de preguntas, diferenciados según el segmento objetivo.
+Las preguntas buscaban obtener tanto información objetiva (como el contexto de trabajo y herramientas utilizadas) como información subjetiva (percepciones, frustraciones y expectativas respecto a posibles soluciones).
+
+---
+
+#### **Segmento 1: Administrativos de academias**
+
+**Preguntas sobre la problemática**
+
+1. ¿Cómo gestionan actualmente los procesos administrativos como matrículas, horarios, pagos y asistencia?
+
+2. ¿Qué problemas frecuentes enfrentas con las herramientas o métodos que usas hoy?
+
+3. ¿Qué tipo de información necesitas consultar con frecuencia, y qué tan fácil es acceder a ella?
+
+4. ¿Qué consecuencias trae la desorganización o errores en la administración para ti o tu equipo?
+
+**Preguntas sobre la solución**
+
+1. ¿Qué funcionalidades crees que debería tener una herramienta ideal para facilitar tu trabajo administrativo?
+
+2. ¿Qué tan importante sería para ti recibir alertas sobre tareas o pagos?
+
+3. ¿Preferirías un sistema con muchas funciones o uno más simple pero fácil de usar?
+
+4. ¿Qué beneficios esperas obtener si decides adoptar una nueva plataforma de gestión?
+
+5. ¿Estarías dispuesto a aprender a usar una nueva herramienta si mejora tu gestión (organización)?
+
+---
+
+#### **Segmento 2: Docentes de academias**
+
+**Preguntas sobre la problemática**
+
+1. ¿Qué herramientas o métodos usas para registrar asistencia o notas en caso lo hagas? ¿Funcionan bien para usted?
+
+2. ¿Qué tipo de coordinación tiene con el personal administrativo? ¿Es fácil comunicarse con ellos o enfrenta dificultades?
+
+3. ¿Cómo accedes a la información de tus clases o alumnos cuando la necesitas?
+
+4. ¿Cómo manejas los cambios de aula, horarios u otras incidencias en tu día a día?
+
+**Preguntas sobre la solución**
+
+1. ¿Qué funcionalidades te gustaría que tenga una herramienta digital para docentes?
+
+2. ¿Qué tan útil sería para ti revisar tu horario o registrar asistencia desde cualquier dispositivo?
+
+3. ¿Qué tan importante es que la plataforma sea fácil de usar e intuitiva?
+
+4. ¿Preferirías acceder a la plataforma desde tu celular, tablet o computadora?
+
+5. ¿Qué tan valioso sería que recibas alertas (notificaciones) sobre cambios de horario o asistencia irregular, y demás?
+
+6. ¿Estarías dispuesto a aprender a usar una nueva herramienta si mejora tu gestión (organización)?
+
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento: [Docente / Administrativo] - Entrevistado [N°]
+
+| Atributo                | Detalle |
+|-------------------------|---------|
+| **Nombre**              | [Nombre completo del entrevistado] |
+| **Edad**                | [Edad] |
+| **Sexo**                | [Masculino / Femenino] |
+| **Distrito**            | [Distrito de residencia] |
+| **Ocupación**           | [Cargo o rol en la institución educativa] |
+| **Fecha de entrevista** | [Fecha] |
+| **Duración**            | [Minutos y segundos de duración del video] |
+| **Captura**             | ![Captura](./assets/screenshots/[nombre].jpg) |
+| **Video**               | [Ver en Microsoft Stream]([link]) |
+| **Resumen**             | [Redactar un resumen claro, en párrafo, que combine aspectos objetivos (herramientas, procesos, frecuencia de uso, dispositivos, coordinación con otros actores) y subjetivos (percepciones, dolores, expectativas, disposición a adoptar nuevas herramientas). Debe ser completo pero conciso, entre 8 y 12 líneas es ideal.] |
+
+#### Segmento: Docente - Entrevistado 2
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jean Paul Benezú                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad**                | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Distrito**            | Santa Anita                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Ocupación**           | Docente en CEPRE Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Duración**            | 14:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
 
 ### 2.2.3. Análisis de entrevistas
 
