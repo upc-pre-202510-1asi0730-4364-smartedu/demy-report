@@ -398,3 +398,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Archivos y carpetas de JetBrains IDEs
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos multimedia o pesados si no deben subir
+*.mp4
+*.zip
+*.csv
