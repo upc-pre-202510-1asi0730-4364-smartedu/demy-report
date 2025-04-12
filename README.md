@@ -5,11 +5,11 @@
 
 <h5 style="text-align: center"> Ingeniería de Software </h5>
 
-<h5 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h5>
+<h5 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h5>
 
 <h5 style="text-align: center"> Seccíón: 4304  </h5>
 
-<h5 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h5>
+<h5 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h5>
 
 <h5 style="text-align: center"> Startup: SmartEdu </h5>
 
@@ -133,7 +133,7 @@
 
 ## 1.2. Solution Profile
 
-
+git
 ### 1.2.1. Antecedentes y problemática
 
 ### 1.2.2. Lean UX Process
