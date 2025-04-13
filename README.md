@@ -361,7 +361,35 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 ## 2.3. Needfinding
 
+El Needfinding permite identificar necesidades reales de los usuarios mediante entrevistas y análisis del contexto.
+A partir de esta información, se construyeron artefactos clave que ayudaron a comprender mejor sus objetivos, tareas, emociones y frustraciones.
+
 ### 2.3.1. User Personas
+
+Los User Personas fueron elaborados a partir de los hallazgos de las entrevistas, reflejando perfiles representativos de los segmentos objetivo.
+Cada ficha sintetiza aspectos demográficos, conductuales y emocionales que guían el diseño funcional y visual de la plataforma.
+
+---
+
+#### User Persona: Administrador de academia
+
+Coordinadora administrativa que necesita centralizar pagos, matrículas y horarios.
+Busca evitar errores, ahorrar tiempo y modernizar los procesos de su academia.
+
+![User Persona – Administrator](./assets/images/user-persona-admin.png)
+**Figura 2.** User Persona del segmento *Administrador*.
+
+---
+
+#### User Persona: Docente de academia
+
+Profesor joven que busca herramientas simples y accesibles para gestionar asistencia y horarios desde cualquier dispositivo, sin depender de su laptop.
+Valora la movilidad y odia perder tiempo con tareas repetitivas.
+
+![User Persona – Teacher](./assets/images/user-persona-teacher.png)
+**Figura 3.** User Persona del segmento *Docente*.
+
+---
 
 ### 2.3.2. User Task Matrix
 
