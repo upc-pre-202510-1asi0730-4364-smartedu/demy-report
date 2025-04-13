@@ -427,6 +427,16 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
+A continuación se presentarán los User Journey Maps de cada User Persona. Estos mapas nos permitirán comprender los puntos de dolor que experimentan en cada etapa, desde que descubren nuestra app hasta que comparten su opinión sobre ella.
+
+* User Journey Map de Luis Mendoza:
+![User Journey Map del User Persona Luis Mendoza](./assets/images/User Journey Map Luis Mendoza.png)
+[Ver Imagen detallada aquí](https://drive.google.com/file/d/1ZwP-W8qpUPP0yI6UFXMareIiCiphqNrr/view?usp=sharing)
+
+
+* User Journey Map de Carmen Gutiérrez:
+![User Journey Map del User Persona Carmen Gutiérrez](./assets/images/User Journey Map Carmen Gutiérrez.png)
+[Ver Imagen detallada aquí](https://drive.google.com/file/d/1oGSadSkVdSIzf-MeaMGnYL06wVVFKkJG/view?usp=sharing)
 
 ### 2.3.4. Empathy Mapping
 
