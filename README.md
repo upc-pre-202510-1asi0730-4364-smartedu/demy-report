@@ -208,6 +208,71 @@ La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería
 
 ## 2.4. Ubiquitous Language
 
+---
+
+**Teacher** (Docente)  
+Persona encargada de impartir clases, evaluar a los estudiantes y registrar información académica como notas y asistencias.
+
+---
+
+**Student** (Estudiante)  
+Persona inscrita en la academia para recibir formación académica y participar en actividades educativas.
+
+---
+
+**Administrative Coordinator** (Coordinador administrativo)  
+Persona responsable de organizar y gestionar los procesos administrativos como matrículas, pagos, horarios y seguimiento académico.
+
+---
+
+**Enrollment** (Matrícula)  
+Proceso mediante el cual un estudiante se inscribe formalmente en la academia para participar en sus clases.
+
+---
+
+**Attendance** (Asistencia)  
+Registro que indica si el estudiante estuvo presente o ausente en cada clase.
+
+---
+
+**Tuition Payment** (Pago de matrícula)  
+Pago realizado por el estudiante o su tutor para acceder a los servicios educativos de la academia.
+
+---
+
+**Outstanding Balance** (Deuda pendiente)  
+Monto que un estudiante aún no ha pagado por concepto de matrícula u otros compromisos financieros.
+
+---
+
+**Student Record** (Ficha del estudiante)  
+Conjunto de datos personales, académicos y administrativos de un estudiante, como notas, asistencia y pagos realizados.
+
+---
+
+**Academic Schedule** (Horario académico)  
+Distribución de clases a lo largo de la semana, especificando días, horas y asignaturas correspondientes.
+
+---
+
+**Payment Control** (Control de pagos)  
+Supervisión del cumplimiento de los pagos realizados por los estudiantes, con el fin de mantener actualizada la situación financiera.
+
+---
+
+**Manual Management** (Gestión manual)  
+Organización de la información y ejecución de procesos administrativos utilizando medios no automatizados como hojas de Excel o listas impresas.
+
+---
+
+**Information Centralization** (Centralización de información)  
+Proceso de integrar todos los datos administrativos y académicos en un único sistema para facilitar el acceso y la gestión.
+
+---
+
+**Reminder Alert** (Alerta de recordatorio)  
+Notificación automática que recuerda tareas o eventos importantes, como vencimientos de pagos o cambios de horario.
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
