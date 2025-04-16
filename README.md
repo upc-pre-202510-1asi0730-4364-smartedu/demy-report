@@ -507,52 +507,52 @@ En este User Task Matrix se detallan las tareas clave que cada tipo de usuario p
 
 Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático (LPS) para el sistema Demy, siguiendo buenas prácticas como INVEST. Estas historias reflejan necesidades reales de los usuarios y están organizadas por épicas, cada una con sus respectivos criterios de aceptación.
 
-| Epic / Story ID | Título                                         | Descripción                                                                                                         | Criterios de Aceptación                                                                                                                                                                                            | Relacionado con (Epic ID)  |
-|-----------------|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| EP01            | Gestión de usuarios y autenticación            | Login, gestión de sesiones y control de acceso a funcionalidades según el rol del usuario.                          | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP02            | Gestión de matrículas                          | Funcionalidades para registrar, editar y consultar matrículas de estudiantes.                                       | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP03            | Control de asistencia y rendimiento            | Registro de asistencia por parte del docente y consulta del estado por parte del administrativo.                    | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP04            | Gestión financiera y alertas de pago           | Control de pagos realizados por estudiantes, alertas de morosidad y registro básico de egresos.                     | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP05            | Gestión de horarios y asignaciones             | Asignación y reprogramación de horarios, salones y docentes según disponibilidad o cambios imprevistos.             | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP06            | Accesos desde Landing Page por segmento        | Redirecciones desde la landing page hacia vistas específicas según el tipo de visitante.                            | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| EP07            | Servicios técnicos y APIs REST                 | Implementación y documentación de endpoints RESTful, configuración del backend y aspectos técnicos.                 | — *(Epica, no aplica)*                                                                                                                                                                                             | —                          |
-| US01            | Iniciar sesión como usuario del sistema        | Como usuario registrado, quiero iniciar sesión en el sistema, para acceder a mis funcionalidades según mi rol.      | Given el formulario de login está disponible<br>When el usuario ingresa credenciales válidas<br>Then se muestra la pantalla de inicio correspondiente a su rol<br>And se almacena un token de sesión válido        | EP01                       |
-| US02            | | | | |
-| US03            | | | | |
-| US04            | | | | |
-| US05            | | | | |
-| US06            | | | | |
-| US07            | | | | |
-| US08            | | | | |
-| US09            | | | | |
-| US10            | | | | |
-| US11            | | | | |
-| US12            | | | | |
-| US13            | | | | |
-| US14            | | | | |
-| US15            | | | | |
-| US16            | | | | |
-| US17            | | | | |
-| US18            | | | | |
-| US19            | | | | |
-| US20            | | | | |
-| US21            | | | | |
-| US22            | | | | |
-| LPS01           | | | | |
-| LPS02           | | | | |
-| LPS03           | | | | |
-| LPS04           | | | | |
-| LPS05           | | | | |
-| LPS06           | | | | |
-| LPS07           | | | | |
-| LPS08           | | | | |
-| LPS09           | | | | |
-| LPS10           | | | | |
-| TS01            | | | | |
-| TS02            | | | | |
-| TS03            | | | | |
-| TS04            | | | | |
-| TS05            | | | | |
+| Epic / Story ID | Título                                               | Descripción                                                                                                         | Criterios de Aceptación                                                                                                                                                                                           | Relacionado con (Epic ID) |
+|-----------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| EP01            | Gestión de usuarios y autenticación                  | Login, gestión de sesiones y control de acceso a funcionalidades según el rol del usuario.                          | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP02            | Gestión de matrículas                                | Funcionalidades para registrar, editar y consultar matrículas de estudiantes.                                       | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP03            | Control de asistencia y rendimiento                  | Registro de asistencia por parte del docente y consulta del estado por parte del administrativo.                    | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP04            | Gestión financiera y alertas de pago                 | Control de pagos realizados por estudiantes, alertas de morosidad y registro básico de egresos.                     | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP05            | Gestión de horarios y asignaciones                   | Asignación y reprogramación de horarios, salones y docentes según disponibilidad o cambios imprevistos.             | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP06            | Accesos desde Landing Page por segmento              | Redirecciones desde la landing page hacia vistas específicas según el tipo de visitante.                            | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| EP07            | Servicios técnicos y APIs REST                       | Implementación y documentación de endpoints RESTful, configuración del backend y aspectos técnicos.                 | — *(Epica, no aplica)*                                                                                                                                                                                            | —                         |
+| US01            | Iniciar sesión como usuario del sistema              | Como usuario registrado, quiero iniciar sesión en el sistema, para acceder a mis funcionalidades según mi rol.      | Given el formulario de login está disponible<br>When el usuario ingresa credenciales válidas<br>Then se muestra la pantalla de inicio correspondiente a su rol<br>And se almacena un token de sesión válido       | EP01                      |
+| US02            |                                                      | | |                           |
+| US03            |                                                      | | |                           |
+| US04            |                                                      | | |                           |
+| US05            |                                                      | | |                           |
+| US06            |                                                      | | |                           |
+| US07            |                                                      | | |                           |
+| US08            |                                                      | | |                           |
+| US09            |                                                      | | |                           |
+| US10            | Registrar asistencia de estudiantes por clase        |Como usuario, quiero poder registrar la asistencia de los estudiantes, para tener un registro de los estudiantes que faltaron y los que asistieron. | Given el registro de asistencias esta disponible<br>When el usuario ingresa al registro de asistencias<br>When el usuario selecciona un estudiante<br>Then el sistema registra al estudiante como presente| EP03                      |
+| US11            | Consultar asistencia de un estudiantes en un periodo | Como usuario, quiero consultar la asistencia de un estudiante en el periodo escogido, para observar su desempeño en los cursos|Given el usuario está en la sección estudiantes<br>When el usuario selecciona a un estudiante<br>Then el sistema muestra la información del alumno<br>And la asistencia a sus clases<br>When el usuario observa la asistencia del estudiante con fecha| EP03                           |
+| US12            | Enviar alertas sobre inasistencias                   | Como usuario, quiero enviar alertas sobre inasistencias, para informar los demás usuarios sobre la cantidad de inasistencias que esta cometiendo un alumno| Given la alarma de asistencias está habilitada<br>When el usuario selecciona un alumno en su registro<br>Then el sistema le dará la opción de seleccionar información o alarma de inasistencia<br>When el usuario selecciona alarma de inasistencia<br>Then el sistema registra la alarma y informa a los demás usuarios sobre las faltas de un alumno|      EP03                      |
+| US13            |                                                      | | |                           |
+| US14            |                                                      | | |                           |
+| US15            |                                                      | | |                           |
+| US16            |                                                      | | |                           |
+| US17            |                                                      | | |                           |
+| US18            |                                                      | | |                           |
+| US19            |                                                      | | |                           |
+| US20            |                                                      | | |                           |
+| US21            |                                                      | | |                           |
+| US22            |                                                      | | |                           |
+| LPS01           |                                                      | | |                           |
+| LPS02           |                                                      | | |                           |
+| LPS03           |                                                      | | |                           |
+| LPS04           |                                                      | | |                           |
+| LPS05           |                                                      | | |                           |
+| LPS06           |                                                      | | |                           |
+| LPS07           |                                                      | | |                           |
+| LPS08           |                                                      | | |                           |
+| LPS09           |                                                      | | |                           |
+| LPS10           |                                                      | | |                           |
+| TS01            |                                                      | | |                           |
+| TS02            |                                                      | | |                           |
+| TS03            |                                                      | | |                           |
+| TS04            |                                                      | | |                           |
+| TS05            |                                                      | | |                           |
 
 ## 3.3. Impact Mapping
 
