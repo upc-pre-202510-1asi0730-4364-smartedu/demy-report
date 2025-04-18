@@ -570,6 +570,24 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 
 ### 4.2.1. Organization Systems
 
+Vamos a usar diferentes sistemas de organización según el tipo de contenido que se presente, con el objetivo de facilitar la comprensión, la navegación y la interacción por parte del usuario.
+
+**Organización visual del contenido**
+
+- **Jerárquica (Visual Hierarchy):**  
+  Utilizaremos una jerarquía visual cuando queramos destacar un mensaje principal, como un título. Este tipo de organización guía la mirada del usuario desde lo más importante (títulos en negrita o grandes) hasta los detalles secundarios (texto descriptivo o botones).
+
+- **Matriz (Matricial/Grid):**  
+  Aplicaremos una organización matricial cuando se presenten múltiples elementos similares, como tarjetas de contenido, productos o servicios. Esto permite al usuario comparar visualmente la información de forma equitativa y acceder a ella sin necesidad de seguir un orden lineal.
+
+**Esquemas de categorización de contenido**
+
+- **Por tópicos:** Se utilizará cuando el contenido pueda agruparse por temas o categorías, facilitando así que el usuario encuentre información relacionada o explore según sus intereses.
+
+- **Según audiencia (grupos de usuarios):** Este esquema se aplicará en casos donde el contenido esté dirigido a distintos tipos de usuarios.
+
+- **Secuencial (Step-by-step):** Se usará cuando el contenido deba seguir un orden lógico para ser comprendido o completado.
+
 ### 4.2.2. Labeling Systems
 
 ### 4.2.3. SEO Tags and Meta Tags
