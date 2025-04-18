@@ -460,6 +460,58 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 
 ## 3.4. Product Backlog
 
+*DESCRIPCION CHEVERE*
+
+| # Orden | User Story Id | Título                                                     | Descripción               | Story Points |
+|---------|---------------|------------------------------------------------------------|---------------------------|--------------|
+| 1       | LPS01         | Ver Hero Section                                           | Como... quiero... para... | 2            |
+| 2       | LPS02         | Ver sección "About the product"                            | Como... quiero... para... | 1            |
+| 3       | LPS03         | Ver sección de beneficios y características                | Como... quiero... para... | 2            |
+| 4       | LPS06         | Consultar planes y precios                                 | Como... quiero... para... | 2            |
+| 5       | LPS07         | Acceder a sección de contacto                              | Como... quiero... para... | 2            |
+| 6       | LPS08         | Consultar preguntas frecuentes                             | Como... quiero... para... | 1            |
+| 7       | LPS04         | Ver testimonios de usuarios reales                         | Como... quiero... para... | 3            |
+| 8       | LPS10         | Ver sitio en varios idiomas (internacionalización)         | Como... quiero... para... | 3            |
+| 9       | LPS05         | Ver sección "About us"                                     | Como... quiero... para... | 2            |
+| 10      | LPS09         | Ver sección Footer con enlaces útiles                      | Como... quiero... para... | 3            |
+| 11      | US05          | Registrarse como usuario en la plataforma                  | Como... quiero... para... | 3            |
+| 12      | US01          | Iniciar sesión como usuario autenticado                    | Como... quiero... para... | 2            |
+| 13      | US03          | Acceder con permisos según el rol                          | Como... quiero... para... | 3            |
+| 14      | US02          | Cerrar sesión de forma segura                              | Como... quiero... para... | 1            |
+| 15      | US19          | Crear cursos/materias por periodo de estudio               | -                         | 3            |
+| 16      | US20          | Asignar horarios a docentes y cursos                       | -                         | 2            | 
+| 17      | US06          | Registrar matrícula de un estudiante                       | -                         | 5            |
+| 18      | US11          | Registrar asistencia de estudiantes por clase              | -                         | 2            |
+| 19      | US14          | Registrar pago de un estudiante                            | -                         | 2            |
+| 20      | US17          | Registrar egresos (pagos a docentes, local, y otros)       | -                         | 3            |
+| 21      | US16          | Enviar alertas automáticas por pagos vencidos              | -                         | 2            |
+| 22      | US09          | Cancelar una matrícula registrada                          | -                         | 2            |
+| 23      | US08          | Editar datos de una matrícula existente                    | -                         | 2            |
+| 24      | US12          | Consultar asistencia de un estudiante en un periodo        | -                         | 3            | 
+| 25      | US13          | Enviar alertas sobre inasistencias                         | -                         | 3            |
+| 26      | US15          | Consultar estado de cuenta de un estudiante                | -                         | 3            |
+| 27      | US21          | Consultar disponibilidad de salones                        | -                         | 2            |
+| 28      | US10          | Visualizar resumen de estudiantes matriculados por periodo | -                         | 3            |
+| 29      | US22          | Reprogramar clase por cambio de horario                    | -                         | 3            |
+| 30      | US18          | Generar reporte financiero mensual                         | -                         | 5            |
+| 31      | US07          | Consultar historial de matrículas por estudiante           | -                         | 3            |
+| 32      | US23          | Recibir alertas sobre cambios de horarios realizados       | -                         | 2            |
+| 33      | US04          | Recuperar contraseña mediante correo electrónico           | -                         | 3            |
+| 34      | TS01          | --                                                         | -                         | -            |
+| 35      | TS02          | --                                                         | -                         | -            |
+| 36      | TS03          | --                                                         | -                         | -            |
+| 37      | TS04          | --                                                         | -                         | -            |
+| 38      | TS05          | --                                                         | -                         | -            |
+| 39      | TS06          | --                                                         | -                         | -            |
+| 40      | TS07          | --                                                         | -                         | -            |
+| 41      | TS08          | --                                                         | -                         | -            |
+| 42      | TS09          | --                                                         | -                         | -            |
+| 43      | TS10          | --                                                         | -                         | -            |
+| 44      | TS11          | --                                                         | -                         | -            |
+| 45      | TS12          | --                                                         | -                         | -            |
+| 46      | TS13          | --                                                         | -                         | -            |
+| 47      | TS14          | --                                                         | -                         | -            |
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
