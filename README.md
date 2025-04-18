@@ -610,12 +610,15 @@ A continuación, se muestra la landing page tal como se visualiza desde un naveg
 ![imagesWireframe6](./assets/images/images-wirefranes/landing-page-destop-web-browser-6.png)
 ![imagesWireframe7](./assets/images/images-wirefranes/landing-page-destop-web-browser-7.png)
 ![imagesWireframe8](./assets/images/images-wirefranes/landing-page-destop-web-browser-8.png)
+![imagesWireframe9](./assets/images/images-wirefranes/landing-page-destop-web-browser-9.png)
 **Landing Page para Movil Web Browser**
 
 A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil. Esta versión contiene los mismos elementos que el diseño para escritorio, pero está adaptada a las dimensiones y características de los móviles.
 
 ![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-1.png)
-![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-2.png)
+![imagesWireframe2.2](./assets/images/images-wirefranes/landing-page-movil-web-browser-2.png)
+![imagesWireframe2.3](./assets/images/images-wirefranes/landing-page-movil-web-browser-3.png)
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
