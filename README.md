@@ -539,6 +539,30 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 
 ### 4.1.2. Web Style Guidelines
 
+En esta sección explicaremos y mostraremos de manera **referencial** las decisiones sobre los estándares visuales y de interacción aplicados a las interfaces web responsivas, desarrolladas con Vue.js y la biblioteca de componentes PrimeVue 
+<br> 
+
+Las decisiones tomadas buscan garantizar una experiencia de usuario coherente, accesible y visualmente armónica en todos los dispositivos. Además, sacaremos provecho de los componentes que nos ofrece Primevue, entre ellos los que más destacamos son:
+<br>
+
+
+* **Buttons**: Para los botones de acción dentro de la aplicación se utilizarán los componentes Buttons de PrimeVue, con sus diferentes variantes las cuales no permitirá usar en muchas secciones. <br> 
+A continuación, se ilustra el estilo visual de manera referencial que tendrá en la aplicación web.
+![Buttons de la documentación de PrimeVue](./assets/screenshots/buttons-primevue-reference.png)
+
+
+* **Cards**: Para presentar información agrupada de manera visual, se utilizarán los componentes Card, los cuales permiten incluir títulos, subtítulos, imágenes y acciones dentro de un contenedor estilizado.<br>
+Haremos uso de ellas en varias vistas como la de los planes mensuales que ofrece la aplicación <br>
+A continuación, se ilustra de manera referencial los cards a implementar en la aplicación web sacado de la documentación oficial de PrimeVue.
+![Cards de la documentación de PrimeVue](./assets/screenshots/card-primevue-reference.png)
+
+
+* **Forms**: Los formularios no pueden faltar en ninguna aplicación web, se usa tanto para el logueo de la app o rellenar cualquier campo de información necesario como el registro de una materia para tal periodo académico.<br>
+Para ello, haremos uso de componentes como InputText, TextArea, CascadaSelect, etc. <br>
+A continuación, se ilustra de manera referencial los input texts a implementar en la aplicación web sacado de la documentación oficial de PrimeVue.
+![InputText de la documentación de PrimeVue](./assets/screenshots/inputtext-primevue-reference.png)
+
+
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
