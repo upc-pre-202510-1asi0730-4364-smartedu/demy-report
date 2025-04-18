@@ -581,7 +581,23 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+**Landing Page para Desktop Web Browser**
 
+A continuación, se muestra la landing page tal como se visualiza desde un navegador web en su versión para escritorio. Esta página incluye diversas secciones importantes para el usuario, donde se detallan los beneficios que ofrece el producto, las opciones de planes de pago, los perfiles del equipo de trabajo. Además, se incluye un apartado dedicado a resolver las preguntas frecuentes de los usuarios.
+![imagesWireframe1](./assets/images/images-wirefranes/landing-page-destop-web-browser-1.png)
+![imagesWireframe2](./assets/images/images-wirefranes/landing-page-destop-web-browser-2.png)
+![imagesWireframe3](./assets/images/images-wirefranes/landing-page-destop-web-browser-3.png)
+![imagesWireframe4](./assets/images/images-wirefranes/landing-page-destop-web-browser-4.png)
+![imagesWireframe5](./assets/images/images-wirefranes/landing-page-destop-web-browser-5.png)
+![imagesWireframe6](./assets/images/images-wirefranes/landing-page-destop-web-browser-6.png)
+![imagesWireframe7](./assets/images/images-wirefranes/landing-page-destop-web-browser-7.png)
+![imagesWireframe8](./assets/images/images-wirefranes/landing-page-destop-web-browser-8.png)
+**Landing Page para Movil Web Browser**
+
+A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil. Esta versión contiene los mismos elementos que el diseño para escritorio, pero está adaptada a las dimensiones y características de los móviles.
+
+![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-1.png)
+![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-2.png)
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
