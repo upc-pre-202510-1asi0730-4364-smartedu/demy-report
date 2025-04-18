@@ -140,8 +140,8 @@ La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería
 
 | **Foto**         | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                        |
 |------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Foto_Daniel]() | **Daniel Crispin Ramos**              | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa. |
-| ![Foto_Paul]()   | **Paul Sulca Gonzales**               | U20221C486 | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Daniel]() | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa. |
+| ![Foto_Paul]()   | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software |                                                                                                                                            |
 | ![Foto_Salim]()  | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software |                                                                                                                                            |
 | ![Foto_Diego]()  | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software |                                                                                                                                            |
 | ![Foto_Rafael]() | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software |                                                                                                                                            |
@@ -661,6 +661,16 @@ Además, **Inter** permite ajustarse a otros tonos según el contexto, como uno 
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems
+A medida que se incrementa la cantidad de información almacenada en nuestra plataforma, resulta esencial brindar herramientas que ayuden a los usuarios a encontrar lo que necesitan de forma ágil y precisa. Para evitar que se sientan abrumados, hemos integrado diferentes mecanismos de búsqueda y filtrado que se adaptan a distintos contextos dentro del sistema.
+
+#### Búsqueda por palabra clave
+En secciones como la de estudiantes o aulas, el usuario podrá ingresar términos específicos, como el **DNI del estudiante** o el **código del aula**, dentro de un buscador con el clásico ícono de lupa. El sistema mostrará coincidencias inmediatas, facilitando la navegación sin necesidad de recorrer listas extensas.
+
+#### Filtros desplegables por categoría y fecha
+Para consultar información detallada o generar reportes, los usuarios contarán con filtros como **tipo de ciclo**, **categoría**, **año** y **mes**. Estos se presentan en menús desplegables con una flecha hacia abajo, permitiendo seleccionar la opción deseada de forma rápida y sin errores.
+
+#### Selector de tipo de reporte
+En el módulo financiero, los usuarios tendrán la posibilidad de elegir entre **generar un reporte mensual** o **visualizar el historial completo** de movimientos. Esta acción se realiza mediante botones de selección simple, que adaptan dinámicamente el contenido mostrado en pantalla según la opción elegida.
 
 ### 4.2.5. Navigation Systems
 
