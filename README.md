@@ -628,8 +628,135 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
+,-
 
 ### 4.4.4. Web Applications User Flow Diagrams
+Enlace para acceder al [Lucid Chart](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9|)
+
+**UserGoal: Registrar matrícula de un alumno en Demy**<br>    
+**User persona:** Administradores<br> 
+**Explicación del flujo:** El usuario en todo momento tendrá en la parte de arriba la opción de Panel de Control. Cuando presione esta opción se mostrarán las categorías de la página, al darle click a "Matrícula" se encontrará en la sección de matrícula.  
+En esta pantalla el usuario tendrá que ingresar los datos de algún alumno, al terminar de rellenar los datos la página le mostrará una pantalla donde preguntará si quiere guardar o cancelar los datos de la matrícula en el sistema. Al presionar "Guardar" el usuario será llevado a la pestaña de "Historial de matrícula", donde observará los datos ingresados y la fecha de esta en el sistema.
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/3.Crear_Matricula.png)
+
+<br> 
+
+**UserGoal: Editar matrícula de un alumno en Demy**<br>  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** El usuario al estar en la pantalla de Matrícula, encontrará en la parte superior derecha la opción "Ver historial de Matrícula", al darle click se mostrará el historial de todas las matrículas.  
+Si el usuario selecciona alguna Matrícula en la tabla, los datos de abajo se actualizarán con la información de la matrícula. En la parte de abajo están 2 botones los cuales son: si se selecciona el botón de "Editar Matrícula", aparecerán lápices al lado de cada recuadro que permitirán actualizar los datos.  
+Luego de cambiar los datos, se selecciona la opción de "Guardar Matrícula" y se actualizarán los datos en el sistema, caso contrario Demy devolverá al usuario a Historial de Matrículas.
+![imagesFlowDiagrams2](./assets/images/web_applications_user_flow_diagrams/Admin/4.Editar_Matricula.png)
+
+<br> 
+
+**UserGoal: Eliminar la Matrícula de un alumno en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** El usuario al estar en la pantalla de Matrícula, encontrará en la parte superior derecha la opción "Ver historial de matrícula", al seleccionar la opción se mostrará el historial de matrículas.  
+Al seleccionar algún registro se verá en la parte de abajo la opción de "Eliminar Matrícula", si se selecciona la opción aparecerá una advertencia, se le preguntará al usuario si quiere Eliminar o Cancelar la acción.  
+Si se selecciona "Eliminar" se eliminará la matrícula del historial, caso contrario se devolverá al usuario a "Historial de Matrículas".
+![imagesFlowDiagrams3](./assets/images/web_applications_user_flow_diagrams/Admin/5.Eliminar_Matricula.png)
+
+
+<br> 
+
+**UserGoal: Ver la información de alumnos en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Alumnos", se redirigirá al usuario a la categoría Alumnos, donde observará los datos y el estado de pago de los alumnos.  
+El usuario podrá ingresar el DNI de algún alumno, al ingresar el dato, se mostrará la información básica del alumno y su estado de pago, si el DNI ingresado no está registrado en el sistema se le mostrará una pantalla al usuario diciendo que el DNI no existe.
+![imagesFlowDiagrams4](./assets/images/web_applications_user_flow_diagrams/Admin/7.Buscar_Estado_de_Pago_Alumno.png)
+
+<br> 
+
+**UserGoal: Registrar el pago de un alumno por DNI en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Pagos", se redirigirá al usuario a la categoría Pagos, donde observará un buscador que pide el DNI de un estudiante.  
+Si el usuario ingresa un DNI se mostrará en la tabla los datos básicos del alumno así como el estado de pago y la fecha de vencimiento, en caso que no exista el DNI en el registro de Demy aparecerá una pestaña que dice que no existe el alumno.  
+El usuario observa los datos que se agregan automáticamente a los recuadros y selecciona la opción de guardar pago, el sistema le avisará al usuario si quiere guardar el pago con la opción de "Confirmar" y "Cancelar", si se selecciona la opción de "Confirmar", se redirigirá al usuario a Historial de Pagos.  
+En historial de Pagos el usuario podrá observar en la tabla que se registró satisfactoriamente el pago del alumno.
+![imagesFlowDiagrams5](./assets/images/web_applications_user_flow_diagrams/Admin/8.Registrar_Pago_Alumno_por_Busqueda.png)
+
+<br> 
+
+**UserGoal: Registrar el pago de un alumno por medio del historial de pagos en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Pagos", se redirigirá al usuario a la categoría Pagos, donde observará un buscador que pide el DNI de un estudiante.  
+El usuario en la parte superior derecha verá la opción "Ver historial de pagos", cuando seleccione esta opción el sistema le mostrará una tabla con todos los alumnos y el estado de pago.  
+En la tabla existe la opción de "Registrar Pago", cuando el usuario seleccione esta opción, en la parte de abajo se rellenará los datos del alumno y se podrá clickear la opción "Guardar Pago".  
+Cuando se seleccione esta opción el sistema le preguntará al usuario si quiere registrar el pago, si se elige la opción de guardar se mostrará el pago realizado en la tabla.
+![imagesFlowDiagrams6](./assets/images/web_applications_user_flow_diagrams/Admin/9.Registrar_Pago_Alumno_por_Historial_de_Pago.png)
+
+<br> 
+
+**UserGoal: Ver el horario de un salón con el código**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Horarios", se redirigirá al usuario a la categoría Horarios, donde observará un buscador que pide el código de aula.  
+Cuando se ingrese el código del aula se mostrará el horario del aula con una tabla, en caso no exista o no esté registrado en el sistema se mostrará una pantalla que dice El aula no existe.
+![imagesFlowDiagrams7](./assets/images/web_applications_user_flow_diagrams/Admin/10.Buscar_Horario_Aulas.png)
+
+<br> 
+
+**UserGoal: Ver la asistencia de un alumno**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Asistencia", se redirigirá al usuario a la categoría Asistencia, donde observará un buscador que pide el DNI de un alumno y otro que pide el código de aula.  
+Cuando se ingrese un DNI se mostrará la asistencia del alumno a la academia, si no existe el DNI o no está registrado en el sistema se mostrará una pestaña donde dirá que el "Alumno no existe".
+![imagesFlowDiagrams8](./assets/images/web_applications_user_flow_diagrams/Admin/12.Asistencia_Alumno_Buscar.png)
+
+<br> 
+
+**UserGoal: Ver la asistencia de varios alumnos a un Aula**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Asistencia", se redirigirá al usuario a la categoría Asistencia, donde observará un buscador que pide el DNI de un alumno y otro que pide el código de aula.  
+Cuando se ingrese un código de aula se mostrarán todos los alumnos y su asistencia en los diferentes días del mes así como la opción de ver más días o alumnos, si no existe o no está registrado el código de aula el sistema lo dirá que "El aula no existe".
+![imagesFlowDiagrams9](./assets/images/web_applications_user_flow_diagrams/Admin/12.Asistencia_Aula_Buscar.png)
+
+<br> 
+
+**UserGoal: Generar el reporte financiero**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.  
+En la parte de arriba a la derecha se verá la opción de "Generar reportes financiero", cuando el usuario selecciona esta opción, verá una tabla con el reporte financiero y podrá elegir entre el reporte "Completo" o el "Mensual", por defecto está en "Completo".  
+Si se selecciona la opción "Mensual" el usuario podrá elegir el año, la categoría y el mes del reporte financiero.  
+Si cambia alguna opción la tabla se actualizará.
+![imagesFlowDiagrams10](./assets/images/web_applications_user_flow_diagrams/Admin/13.Mirar_El_Reporte_Financiero.png)
+
+<br> 
+
+**UserGoal: Registrar un Egreso**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.  
+Cuando el usuario haya completado los datos podrá darle a la opción de "Confirmar", el sistema le preguntará si quiere confirmar el Egreso.  
+Si se selecciona Confirmar se mostrará la tabla del reporte con el egreso registrado, caso contrario se redirigirá de nuevo a la categoría Finanzas con sus datos sin cambiar.
+![imagesFlowDiagrams11](./assets/images/web_applications_user_flow_diagrams/Admin/14.Registrar_un_Egreso.png)
+
+<br> 
+
+**UserGoal: Observar el horario**<br>  
+**User persona:** Profesor<br>  
+**Explicación del flujo:** En la parte de arriba se observa la opción de "Panel de control", cuando el usuario seleccione esta opción, se mostrará la categoría horario por defecto.  
+En horario el usuario podrá ver los cursos que tiene y qué día le toca cada curso.
+![imagesFlowDiagrams12](./assets/images/web_applications_user_flow_diagrams/Profesor/Ver_Horario_de_Clases.png)
+
+<br> 
+
+**UserGoal: Registrar Asistencia**<br>    
+**User persona:** Profesor <br>   
+**Explicación del flujo:** En la parte de arriba se observa la opción de "Panel de control", cuando el usuario seleccione esta opción, se mostrará la categoría horario por defecto.  
+En la parte de la derecha se muestran las categorías que hay en Demy, el usuario podrá ver la opción "Asistencia", cuando seleccione esta opción se mostrará una tabla y casillas, donde se podrá elegir la fecha y el número de salón.  
+Si existe el código de alumno se mostrará en la tabla el DNI y el nombre de cada alumno con una casilla para seleccionar si está presente o no, caso no exista el código se mostrará una pestaña que dice "El aula no existe".  
+Cuando el usuario ya haya terminado de pasar asistencia y registrado la asistencia en el sistema, podrá darle a la opción de guardar asistencia. Al seleccionarlo se mostrará una pestaña que pregunta si desea guardar la asistencia con las opciones de "Guardar" y "Cancelar".  
+Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asistencia ha sido registrada exitosamente".
+![imagesFlowDiagrams13](./assets/images/web_applications_user_flow_diagrams/Profesor/Guardar_Asitencia.png)
+
+
 
 ## 4.5. Web Applications Prototyping
 
