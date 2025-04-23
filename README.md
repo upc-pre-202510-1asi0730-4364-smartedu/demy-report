@@ -683,84 +683,270 @@ En el módulo financiero, los usuarios tendrán la posibilidad de elegir entre *
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+#### Web Application Wireframes para Desktop Web Browser
+**Selección tipo de usuario**
+Pantalla inicial de la aplicación web donde se solicita al visitante seleccionar su rol como "Administrador" o "Profesor", decisión fundamental que determinará el flujo de navegación y las funcionalidades disponibles según el tipo de usuario elegido.
+![Wireframe-1](assets/images/wireframes-appweb/desktop/Selección-tipo-usuario.png)
+
+**Crear cuenta**  
+Pantalla donde el usuario, tras haber seleccionado el rol de "Administrador", accede a un formulario de registro en el que debe ingresar información obligatoria como nombres y apellidos, número de RUC, nombre de la academia, correo electrónico y contraseña, datos esenciales para crear una cuenta institucional y acceder a la plataforma como administrador.  
+![Wireframe-2](assets/images/wireframes-appweb/desktop/Crear-cuenta.png)
+
+
+**Iniciar sesión**  
+Pantalla donde tanto administradores como profesores pueden ingresar, para acceder a la plataforma, permitiendo el ingreso seguro a sus respectivos espacios según el rol previamente registrado.  
+![Wireframe-3](assets/images/wireframes-appweb/desktop/Iniciar-sesión.png)
+
+**Recuperar contraseña**  
+Pantallas donde administradores pueden solicitar la recuperación de su contraseña ingresando su correo electrónico registrado; tras ello, el sistema enviará un código de verificación para restablecerla y así recuperar el acceso a la plataforma.  
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Recuperar-contraseña.png)
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Reestablecer-contraseña.png)
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Confirmacion-reestablecer-contraseña.png)
+
+**Seleccionar plan**  
+Pantalla presentada luego del registro del administrador, donde se le solicita elegir entre diferentes planes disponibles para su academia, cada uno con características y beneficios específicos que determinarán el alcance y funcionalidades habilitadas dentro de la plataforma.  
+![Wireframe-4](assets/images/wireframes-appweb/desktop/Seleccionar-plan.png)
+
+**Mi organización (Administrador)**  
+Pantalla principal que ve el administrador tras iniciar sesión, donde accede a la gestión interna de su academia con módulos clave como Periodos, Cursos, Aulas y Profesores, permitiéndole registrar, editar y visualizar la información esencial para el funcionamiento académico.  
+![Wireframe-6](assets/images/wireframes-appweb/desktop/Mi-organizacion-admin.png)
+
+**Mi organización - Cursos y Añadir cursos (Administrador)**  
+Pantallas dentro del módulo "Mis cursos" donde el administrador puede visualizar la lista de cursos registrados, y acceder al botón "Añadir curso", el cual despliega un formulario emergente que solicita el nombre del curso, área temática, duración y código del curso, permitiéndole registrar nuevos cursos que podrán ser asignados posteriormente a profesores y aulas.  
+![Wireframe-7](assets/images/wireframes-appweb/desktop/Organización-cursos.png)
+![Wireframe-7](assets/images/wireframes-appweb/desktop/Organización-añadir-cursos.png)
+
+**Mi organización - Añadir periodos, asignar cursos a periodos (Administrador)**  
+Pantallas dentro del módulo "Mis periodos" donde el administrador puede crear un nuevo periodo académico, eligiendo un bloque horario en una tabla de horarios semanales. Después de seleccionar el bloque, puede asignar un curso a dicho bloque mediante el botón "Seleccionar curso", eligiendo entre los cursos previamente registrados. Una vez completada la asignación de todos los cursos a los bloques correspondientes, el administrador puede guardar el periodo, el cual quedará disponible en la lista de periodos.  
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-Periodos.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-crear-periodo.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-seleccionar-cursos%20-periodos.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-guardar%20periodo.png)
+
+**Mi organización - Añadir Aulas (Administrador)**  
+Pantalla dentro del módulo "Mi organización" donde el administrador puede crear nuevas aulas para la academia. En esta pantalla, se solicita ingresar un código único para el aula y seleccionar el periodo académico al que pertenece. Después de completar los campos, el administrador puede presionar el botón "Crear aula" para guardar la nueva aula, que se añadirá automáticamente a la lista de aulas.  
+![Wireframe-9](assets/images/wireframes-appweb/desktop/Organización-Aulas.png)
+![Wireframe-9](assets/images/wireframes-appweb/desktop/Organización-añadir-aulas.png)
+
+**Mi organización - Añadir Profesor (Administrador)**  
+Pantalla donde el administrador puede registrar un nuevo profesor ingresando datos como nombres, correo y asignarle aulas o cursos.  
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organización-profesores.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-Agregar-profesor.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-Agregar-profesor-confirmacion.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-credenciales-profesor.png)
+
+
+**Panel de Control: Matrícula (Administrador)**  
+Pantalla dentro del panel de control donde el administrador puede gestionar la matrícula de los alumnos. En esta sección, se presenta un formulario donde el administrador debe ingresar los datos del alumno y asignarles un aula correspondiente. Al completar el formulario, puede presionar el botón "Guardar matrícula", lo que mostrará un cuadro de confirmación para asegurar que la matrícula se ha realizado correctamente. Luego, el alumno se agregará al historial de matrículas de la academia.  
+![Wireframe-10](assets/images/wireframes-appweb/desktop/Panel-control-Matrícula.png)
+![Wireframe-10](assets/images/wireframes-appweb/desktop/Panel-control-Matricula-Confirmacion.png)
+
+**Panel de Control: Historial de Matrícula (Administrador)**  
+Pantalla dentro del panel de control donde el administrador puede visualizar todas las matrículas realizadas. Se presenta una tabla con la lista de estudiantes matriculados, incluyendo información como el nombre del alumno, aula asignada y estado de la matrícula. Desde aquí, el administrador puede buscar, filtrar y revisar las matrículas anteriores, asegurando un seguimiento adecuado de los registros de los estudiantes.  
+![Wireframe-11](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Matrícula.png)
+![Wireframe-11](assets/images/wireframes-appweb/desktop/Panel-control-Editar-Matrícula.png)
+
+**Panel de Control: Alumnos (Administrador)**  
+Pantalla donde el administrador puede buscar y visualizar los datos de los alumnos, como nombre, matrícula, y estado de pago.  
+![Wireframe-13](assets/images/wireframes-appweb/desktop/Panel-control-Alumnos.png)
+
+**Panel de Control: Asistencia (Administrador)**  
+Pantalla donde el administrador puede seleccionar el aula y alumno para visualizar los dias asistidos.  
+![Wireframe-14](assets/images/wireframes-appweb/desktop/Panel-control-Asistencia.png)
+
+**Panel de Control: Pagos (Administrador)**  
+Pantallas donde el administrador puede buscar un alumno para ver su estado de pago, registrar un nuevo pago o acceder al historial de pagos, completando los datos necesarios y confirmando la acción.  
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Pagos.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Registrar-Pagos-confirmacion.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Pagos.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Pagos-registrar-pago-confirmacion.png)
+
+**Panel de Control: Horarios (Administrador)**  
+Pantalla donde el administrador puede buscar un aula específica y visualizar su horario correspondiente, permitiéndole revisar la programación de clases y bloques horarios asignados.  
+![Wireframe-16](assets/images/wireframes-appweb/desktop/Panel-control-Horarios.png)
+
+**Panel de Control: Finanzas y Reporte Financiero (Administrador)**  
+Pantalla donde el administrador puede registrar nuevos egresos, completando detalles como concepto, monto, fecha y categoría, así como generar reportes financieros de la academia, seleccionando entre opciones generales o mensuales, y visualizando un resumen de ingresos, egresos y balance final.  
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-registrar%20egreso-confirmacion.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-reporte-general.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-reporte-filtros.png)
+
+**Mi Organización (Profesor)**  
+Pantalla donde el profesor accede a la sección "Mi Organización", pudiendo visualizar la información relacionada con las aulas en las que está asignado y los horarios en que enseña, todo ello gestionado por el administrador de la academia.  
+![Wireframe-18](assets/images/wireframes-appweb/desktop/Mi-organizacion-vistaprofesor.png)
+![Wireframe-18](assets/images/wireframes-appweb/desktop/Organización-vistaprofesor-Aulas.png)
+
+**Panel de Control: Horario por Aula (Profesor)**  
+Pantalla donde el profesor puede visualizar el horario detallado de las aulas en las que está asignado, permitiéndole conocer los bloques de tiempo y las clases correspondientes a cada aula que le fue asignada.  
+![Wireframe-19](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Horario-por-aula.png)
+
+**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**  
+Pantalla donde el profesor puede registrar la asistencia de los estudiantes en su aula, seleccionando los estudiantes presentes mediante una casilla de verificación. También tiene la opción de consultar la lista completa de estudiantes.  
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Asistencia.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Asistencia-confirmacion.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-lista-alumnos.png)
+
+#### Web Application Wireframes para Mobile Web Browser
+**Selección tipo de usuario**  
+Pantalla inicial donde se elige si se ingresará como "Administrador" o "Profesor", lo que define el acceso a funciones específicas.  
+![Wireframe-1](assets/images/wireframes-appweb/mobile/seleccion-usuario.png)
+
+**Crear cuenta**  
+Pantalla de registro exclusivo para administradores, con campos como nombre, RUC, correo y contraseña.  
+![Wireframe-2](assets/images/wireframes-appweb/mobile/crear-cuenta.png)
+
+**Iniciar sesión**  
+Pantalla para que administradores o profesores ingresen a la plataforma con sus credenciales.  
+![Wireframe-3](assets/images/wireframes-appweb/mobile/iniciar-sesion.png)
+
+**Recuperar contraseña**  
+Pantallas para ingresar el correo registrado y recibir un código para recuperar la contraseña.  
+![Wireframe-4](assets/images/wireframes-appweb/mobile/recuperar-contrasena.png)
+
+**Seleccionar plan**  
+Pantalla donde el administrador elige el plan de la academia tras registrarse.  
+![Wireframe-5](assets/images/wireframes-appweb/mobile/seleccionar-plan.png)
+
+**Mi organización (Administrador)**  
+Pantalla principal del administrador con acceso a módulos como cursos, periodos, aulas y profesores.  
+![Wireframe-6](assets/images/wireframes-appweb/mobile/mi-organizacion-admin.png)
+
+**Mi organización - Cursos y Añadir cursos (Administrador)**  
+Pantallas para ver, editar o registrar cursos con sus respectivos detalles.  
+![Wireframe-7](assets/images/wireframes-appweb/mobile/cursos-admin.png)
+
+**Mi organización - Añadir periodos, asignar cursos a periodos (Administrador)**  
+Pantallas para registrar un nuevo periodo y asignarle cursos según horarios disponibles.  
+![Wireframe-8](assets/images/wireframes-appweb/mobile/periodos-admin.png)
+
+**Mi organización - Añadir Aulas (Administrador)**  
+Pantallas para crear nuevas aulas asignándolas a un periodo y código único.  
+![Wireframe-9](assets/images/wireframes-appweb/mobile/aulas-admin.png)
+
+**Mi organización - Añadir Profesor (Administrador)**  
+Pantallas donde el administrador puede agregar nuevos profesores a la academia completando un formulario con nombre, correo electrónico y cursos o aulas asignadas.  
+![Wireframe-20](assets/images/wireframes-appweb/mobile/añadir-profesor.png)
+
+
+**Panel de Control: Matrícula (Administrador)**  
+Pantalla para registrar alumnos a un aula con formulario de datos y confirmación.  
+![Wireframe-10](assets/images/wireframes-appweb/mobile/matricula.png)
+
+**Panel de Control: Historial de Matrícula (Administrador)**  
+Pantalla para ver la lista de matrículas realizadas, con filtros y búsqueda.  
+![Wireframe-11](assets/images/wireframes-appweb/mobile/historial-matricula.png)
+
+**Panel de Control: Alumnos (Administrador)**  
+Pantalla para buscar y revisar información básica de los alumnos registrados.  
+![Wireframe-12](assets/images/wireframes-appweb/mobile/alumnos-admin.png)
+
+**Panel de Control: Asistencia (Administrador)**  
+Pantalla para revisar asistencia de alumnos por aula y fecha.  
+![Wireframe-13](assets/images/wireframes-appweb/mobile/asistencia-admin.png)
+
+**Panel de Control: Pagos (Administrador)**  
+Pantalla para consultar, registrar o editar pagos realizados por los alumnos.  
+![Wireframe-14](assets/images/wireframes-appweb/mobile/pagos.png)
+
+**Panel de Control: Horarios (Administrador)**  
+Pantalla para seleccionar un aula y ver su horario de clases completo.  
+![Wireframe-15](assets/images/wireframes-appweb/mobile/horarios-admin.png)
+
+**Panel de Control: Finanzas y Reporte Financiero (Administrador)**  
+Pantalla para registrar egresos y generar reportes financieros generales o mensuales.  
+![Wireframe-16](assets/images/wireframes-appweb/mobile/finanzas.png)
+
+**Mi Organización (Profesor)**  
+Pantalla donde el profesor visualiza sus aulas y horarios asignados.  
+![Wireframe-17](assets/images/wireframes-appweb/mobile/mi-organizacion-profesor.png)
+
+**Panel de Control: Horario por Aula (Profesor)**  
+Pantalla donde el profesor ve el horario específico de cada aula en la que enseña.  
+![Wireframe-18](assets/images/wireframes-appweb/mobile/horarios-profesor.png)
+
+**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**  
+Pantalla para marcar asistencia de estudiantes y consultar sus registros anteriores.  
+![Wireframe-19](assets/images/wireframes-appweb/mobile/asistencia-profesor.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-*User goal:* Registro de cuenta
-*User persona:* Administrador de academia
-![Wireflow-1](assets/images/wireflow-register-account-admin.png)
-*Explicación del flujo:*
+**User goal:** Registro de cuenta  
+**User persona:** Administrador de academia  
+![Wireflow-1](assets/images/wireflow-register-account-admin.png)  
+**Explicación del flujo:**  
 El flujo comienza donde el usuario debe elegir si es administrador o profesor. Al seleccionar "Soy administrador", se muestra un mensaje indicando que podrá crear su academia desde cero. Luego, se presenta un formulario de registro en el que el administrador debe completar campos obligatorios como nombres y apellidos, RUC, nombre de la academia, correo electrónico y contraseña. Una vez completado el formulario y presionado el botón "Crear cuenta", el sistema valida los datos y, si todo es correcto, redirige al usuario a la sección "Mi organización", donde podrá comenzar a registrar profesores, cursos, aulas y periodos académicos.
 
-*User goal:* Registrar un curso  
-*User persona:* Administrador de academia  
+**User goal:** Registrar un curso  
+**User persona:** Administrador de academia  
 ![Wireflow-2](assets/images/wireflow-register-course-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 En flujo comienza desde la sección "Mi organización", el administrador selecciona el módulo "Cursos" para gestionar las asignaturas disponibles en su academia. Al hacer click en el botón "Agregar curso", se despliega un formulario donde debe ingresar el nombre del curso, un código identificador. Tras completar los campos requeridos y confirmar la acción con el botón "Crear Curso", el sistema agrega el curso a la lista y lo deja disponible para ser asignado posteriormente a periodos académicos.
 
-*User goal:* Crear un periodo académico  
-*User persona:* Administrador de academia  
+**User goal:** Crear un periodo académico  
+**User persona:** Administrador de academia  
 ![Wireflow-3](assets/images/wireflow-register-period-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 Desde la sección "Mi organización", el administrador accede al módulo "Periodos" donde visualiza la lista de periodos ya creados. Al presionar el botón "Agregar periodo", es dirigido a la sección "Crear periodo", que incluye una tabla tipo horario semanal. En esta interfaz, el administrador puede seleccionar los bloques de horas haciendo clic sobre las celdas correspondientes y luego presionar el botón "Seleccionar curso" para asignar uno de los cursos disponibles previamente creados. Una vez completada la asignación del horario, presiona "Guardar periodo", lo que activa un cuadro de confirmación que pregunta si está seguro de registrar el periodo. Al confirmar la acción, el sistema guarda la configuración y redirige al administrador a la lista de periodos, donde ya se visualiza el nuevo periodo registrado.
 
-*User goal:* Crear un aula  
-*User persona:* Administrador de academia  
+**User goal:** Crear un aula  
+**User persona:** Administrador de academia  
 ![Wireflow-4](assets/images/wireflow-register-classroom-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 Desde la sección "Mi organización", el administrador accede al módulo "Aulas", donde se encuentra con la lista de aulas ya creadas. Al presionar el botón "Agregar aula", se le presenta un cuadro emergente para crear una nueva aula. En este cuadro, el administrador debe asignar un código único para el aula y seleccionar uno de los periodos académicos previamente creados. Una vez completados estos campos, el administrador presiona el botón "Crear aula". El sistema valida la información y, al confirmarse, el aula se agrega a la lista de aulas disponibles, permitiendo al administrador gestionar y asignar profesores a las aulas.
 
-*User goal:* Crear un profesor  
-*User persona:* Administrador de academia  
+**User goal:** Crear un profesor  
+**User persona:** Administrador de academia  
 ![Wireflow-5](assets/images/wireflow-register-teacher-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 Desde la sección "Mi organización", el administrador accede al módulo "Profesores" y presiona el botón "Agregar profesor". Se le presenta un cuadro emergente en el que debe ingresar los datos del profesor, como su nombre completo, DNI y las aulas a las que será asignado. Para asignar un aula, el administrador debe presionar el botón "Insertar aula-curso", lo que abre una pequeña tabla con las aulas y los cursos disponibles. El administrador puede agregar múltiples aulas y cursos al profesor. Una vez completada la asignación, el administrador presiona el botón "Agregar profesor". Se muestra un cuadro de confirmación para verificar que la información es correcta. Tras confirmar, el sistema genera un cuadro con las credenciales del profesor (correo y contraseña) para acceder a la plataforma Demy. Finalmente, el profesor se agrega a la lista de profesores disponibles.
 
-*User goal:* Matricular a un alumno  
-*User persona:* Administrador de academia  
+**User goal:** Matricular a un alumno  
+**User persona:** Administrador de academia  
 ![Wireflow-6](assets/images/wireflow-enrollment-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El administrador ingresa a la sección "Panel de control" y selecciona el módulo "Matrícula". Dentro de este, se presenta un formulario donde debe llenar los datos del alumno, como su nombre, DNI y aula asignada. Al completar el formulario, el administrador presiona el botón "Guardar matrícula". Luego, aparece un cuadro de confirmación para asegurar que la información ingresada es correcta. Tras confirmar, el sistema registra la matrícula y redirige al administrador a la sección "Historial de matrícula", donde podrá ver la lista de matrículas realizadas, incluyendo la del alumno recién matriculado.
 
-*User goal:* Visualizar asistencia de un alumno o por aula  
-*User persona:* Administrador de academia  
+**User goal:** Visualizar asistencia de un alumno o por aula  
+**User persona:** Administrador de academia  
 ![Wireflow-7](assets/images/wireflow-attendance-management-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El administrador accede a la sección "Panel de control" y selecciona el módulo "Asistencia". Dentro de este módulo, tiene dos opciones: buscar por alumno o por aula. Si decide buscar por alumno, deberá ingresar el nombre o DNI del alumno. Si decide buscar por aula, tendrá que elegir el aula de la que desea ver la asistencia. Después de realizar la búsqueda, el sistema muestra una tabla con los registros de asistencia correspondientes, ya sea por alumno o por aula, y estos registros incluyen las fechas y el estado de la asistencia, basados en los registros realizadas por el profesor.
 
-*User goal:* Registrar pagos de alumnos  
-*User persona:* Administrador de academia  
+**User goal:** Registrar pagos de alumnos  
+**User persona:** Administrador de academia  
 ![Wireflow-8](assets/images/wireflow-payments-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El administrador accede a la sección "Panel de control" y luego al módulo "Pagos". Desde allí, puede buscar directamente a un alumno para visualizar su estado de pagos pendientes y registrar un nuevo pago. Una vez identificado el alumno, se completan los datos correspondientes del pago, y se presiona el botón "Guardar pago". A continuación, aparece un cuadro de confirmación para verificar si desea continuar, y tras confirmar, el pago se registra en el sistema. Alternativamente, el administrador puede acceder al "Historial de pagos", donde se muestra una tabla con los pagos pendientes. Desde ahí, también puede presionar el botón "Registrar pago" para completar los datos y realizar el registro. Cualquiera de estos caminos permite llevar un control eficiente de los pagos de los alumnos.
 
-*User goal:* Visualizar horarios de aulas  
-*User persona:* Administrador de academia  
+**User goal:** Visualizar horarios de aulas  
+**User persona:** Administrador de academia  
 ![Wireflow-9](assets/images/wireflow-schedules-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El administrador accede a la sección "Panel de control" y selecciona el módulo "Horarios". Una vez dentro, se le presenta una opción para buscar un aula específica. Tras ingresar el nombre o código del aula, el sistema muestra el horario semanal correspondiente a esa aula, heredado previamente del periodo asignado. Esta visualización permite al administrador tener un control claro sobre la distribución de cursos y bloques horarios asignados a cada aula.
 
-*User goal:* Registrar egresos y generar reportes financieros  
-*User persona:* Administrador de academia  
+**User goal:** Registrar egresos y generar reportes financieros  
+**User persona:** Administrador de academia  
 ![Wireflow-10](assets/images/wireflow-expense-report-admin.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El administrador accede a la sección "Panel de control" y selecciona el módulo "Finanzas". Para registrar un egreso, debe completar un formulario con los campos: concepto, monto, fecha y categoría, y luego presionar el botón "Registrar egreso". Además, tiene la opción de generar reportes financieros de la academia, eligiendo entre un reporte general o mensual. Una vez seleccionada la opción deseada, el sistema genera una tabla con la información correspondiente y muestra al final un resumen con el total de ingresos, egresos y el balance financiero.
 
-*User goal:* Iniciar sesión como profesor  
-*User persona:* Profesor de academia  
+**User goal:** Iniciar sesión como profesor  
+**User persona:** Profesor de academia  
 ![Wireflow-11](assets/images/wireflow-login-teacher.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 El flujo comienza en la pantalla donde el usuario debe elegir si es administrador o profesor. Al seleccionar la opción "Soy profesor", es dirigido a la pantalla de inicio de sesión. Aquí, debe ingresar las credenciales (correo y contraseña) previamente proporcionadas por el administrador al momento de registrarlo. Una vez validados los datos, el sistema permite el acceso a la plataforma y lo redirige a la sección "Mi organización", donde podrá consultar sus aulas asignadas, ver horarios y registrar asistencia.
 
-*User goal:* Visualizar horarios de aulas asignadas  
-*User persona:* Profesor de academia  
+**User goal:** Visualizar horarios de aulas asignadas  
+**User persona:** Profesor de academia  
 ![Wireflow-12](assets/images/wireflow-schedules-teacher.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 Después de iniciar sesión en la plataforma y acceder a la sección "Mi organización", el profesor procede a ingresar al "Panel de control". Dentro de esta área, selecciona la opción "Horarios", donde se le presenta un campo para escoger una de las aulas a las que ha sido asignado previamente por el administrador. Al seleccionar el aula, se muestra automáticamente el horario correspondiente, permitiéndole al docente conocer los días y horas en las que tiene clase.
 
-*User goal:* Registrar asistencia de alumnos  
-*User persona:* Profesor de academia  
+**User goal:** Registrar asistencia de alumnos  
+**User persona:** Profesor de academia  
 ![Wireflow-13](assets/images/wireflow-register-attendance-teacher.png)  
-*Explicación del flujo:*  
+**Explicación del flujo:**  
 Luego de iniciar sesión y acceder a "Mi organización", el profesor se dirige al "Panel de control" y entra en la categoría "Asistencia". Allí debe escoger una de las aulas en las que se encuentra asignado. Una vez seleccionada, se despliega una tabla con la lista de estudiantes del aula correspondiente. El docente procede a registrar la asistencia de cada alumno marcando un checkbox según corresponda. Al finalizar, hace clic en el botón "Guardar asistencia", lo que genera un cuadro de confirmación para validar si está seguro de guardar el registro. Una vez confirmado, la asistencia queda registrada correctamente.
 
 ### 4.4.3. Web Applications Mock-ups
