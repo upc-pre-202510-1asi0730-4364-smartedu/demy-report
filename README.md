@@ -528,6 +528,57 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Para optimizar la visibilidad de nuestra solución digital **Demy** en motores de búsqueda y mejorar la experiencia de navegación, se han definido un conjunto de SEO Tags y Meta Tags que serán incluidos en las principales páginas del sistema.
+Estas etiquetas contribuyen a mejorar el posicionamiento (SEO), la accesibilidad, la legibilidad de los contenidos en dispositivos móviles y la correcta codificación del texto.
+A continuación se detallan sus definiciones y las etiquetas específicas para la Landing Page y la Web Application.
+
+- **Title**: Título que se muestra en la pestaña del navegador y que también utilizan los buscadores como encabezado del resultado.
+- **Description**: Resumen breve que describe el contenido de la página.
+- **Author**: Indica quién es el autor o equipo responsable del contenido del sitio web.
+- **Viewport**: Define cómo se ajusta el contenido en diferentes tamaños de pantalla, especialmente en móviles (esencial para diseño responsivo).
+- **Charset**: Establece el sistema de codificación de caracteres. UTF-8 es el estándar moderno más usado.
+- **Keywords**: Lista de palabras clave relacionadas con el contenido del sitio, que ayuda a los buscadores a clasificar la página.
+
+#### Landing Page SEO Tags and Meta Tags
+
+- **Title**: "Demy - La forma inteligente de gestionar tu academia"
+- **Description**: "Demy es una plataforma web que digitaliza la gestión académica de academias presenciales: matrículas, pagos, asistencia y más desde un solo lugar."
+- **Author**: "Demy Team"
+- **Viewport**: Adaptable a cualquier dispositivo, permitiendo una navegación fluida en móviles, tablets y computadoras.
+- **Charset**: Se utilizará UTF-8 para asegurar compatibilidad con todos los idiomas.
+- **Keywords**: "gestión académica, software para academias, control de asistencia, matrícula online, pagos estudiantes, plataforma educativa"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demy - La forma inteligente de gestionar tu academia</title>
+  <meta name="description" content="Demy es una plataforma web que digitaliza la gestión académica de academias presenciales: matrículas, pagos, asistencia y más desde un solo lugar.">
+  <meta name="keywords" content="gestión académica, software para academias, control de asistencia, matrícula online, pagos estudiantes, plataforma educativa">
+  <meta name="author" content="Demy Team>
+</head>
+```
+
+#### Web Application SEO Tags and Meta Tags
+
+- **Title:** "Demy App - Panel de gestión para academias y docentes"
+- **Description**: "Administra tu academia desde cualquier dispositivo: registra asistencia, visualiza horarios, controla pagos y más desde un solo lugar."
+- **Author**: "Demy Team"
+- **Viewport:** Responsive para que tanto docentes como administrativos puedan operar cómodamente desde celulares, tablets y PC.
+- **Charset**: UTF-8 para soportar correctamente todos los caracteres.
+- **Keywords:** "plataforma educativa, docentes, pagos, horarios, asistencia, gestión académica, software educativo, aulas"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demy App - Panel de gestión para academias y docentes</title>
+  <meta name="description" content="Administra tu academia desde cualquier dispositivo: registra asistencia, visualiza horarios, controla pagos y más desde un solo lugar.">
+  <meta name="keywords" content="plataforma educativa, docentes, pagos, horarios, asistencia, gestión académica, software educativo, aulas">
+  <meta name="author" content="Demy Team">
+</head>
+```
+
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
