@@ -638,7 +638,7 @@ El objetivo principal de este sprint fue implementar la landing page en su total
 
 A continuación, se presenta una captura de pantalla de la herramiento de control que usamos, que fue Trello:
 ![Captura de Trello App Web](./assets/screenshots/screenshot-trello-sprint1.png)
-Link del Trello: https://trello.com/invite/b/6802d1be2540d45c0a2cab5f/ATTIc7110c899a96e25de96297cf8ec95608D9496982/aplicaciones-web-backlog
+Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860395a4f548aa20eb7bbf0bdb949AB2EADEF/apps-web
 
 | Sprint #   |                                                                  | Sprint 1       |                                       |                                                                                                                                     |                   |             |                                                                             |
 |------------|------------------------------------------------------------------|----------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------|-----------------------------------------------------------------------------|
