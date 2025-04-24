@@ -329,17 +329,17 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 #### Segmento: [Docente / Administrativo] - Entrevistado [N°]
 
-| Atributo                | Detalle |
-|-------------------------|---------|
-| **Nombre**              | [Nombre completo del entrevistado] |
-| **Edad**                | [Edad] |
-| **Sexo**                | [Masculino / Femenino] |
-| **Distrito**            | [Distrito de residencia] |
-| **Ocupación**           | [Cargo o rol en la institución educativa] |
-| **Fecha de entrevista** | [Fecha] |
-| **Duración**            | [Minutos y segundos de duración del video] |
-| **Captura**             | ![Captura](./assets/screenshots/[nombre].jpg) |
-| **Video**               | [Ver en Microsoft Stream]([link]) |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | [Nombre completo del entrevistado]                                                                                                                                                                                                                                                                                             |
+| **Edad**                | [Edad]                                                                                                                                                                                                                                                                                                                         |
+| **Sexo**                | [Masculino / Femenino]                                                                                                                                                                                                                                                                                                         |
+| **Distrito**            | [Distrito de residencia]                                                                                                                                                                                                                                                                                                       |
+| **Ocupación**           | [Cargo o rol en la institución educativa]                                                                                                                                                                                                                                                                                      |
+| **Fecha de entrevista** | [Fecha]                                                                                                                                                                                                                                                                                                                        |
+| **Duración**            | [Minutos y segundos de duración del video]                                                                                                                                                                                                                                                                                     |
+| **Captura**             | ![Captura](./assets/screenshots/[nombre].jpg)                                                                                                                                                                                                                                                                                  |
+| **Video**               | [Ver en Microsoft Stream]([link])                                                                                                                                                                                                                                                                                              |
 | **Resumen**             | [Redactar un resumen claro, en párrafo, que combine aspectos objetivos (herramientas, procesos, frecuencia de uso, dispositivos, coordinación con otros actores) y subjetivos (percepciones, dolores, expectativas, disposición a adoptar nuevas herramientas). Debe ser completo pero conciso, entre 8 y 12 líneas es ideal.] |
 
 #### Segmento: Docente - Entrevistado 2
@@ -358,6 +358,60 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
 
 ### 2.2.3. Análisis de entrevistas
+
+Las entrevistas se realizaron entre el 8 y el 11 de abril de 2025 a un total de seis participantes: tres docentes y tres administrativos/coordinadores de academias preuniversitarias en Lima e Ica.
+El objetivo fue entender sus contextos operativos, frustraciones actuales y validar hipótesis sobre posibles soluciones digitales.
+
+---
+
+#### Segmento: Docentes de academias
+
+**Total entrevistados:** 3  
+**Edades:** 21, 25, 25 años  
+**Distritos:** La Molina, Santa Anita, San Juan de Lurigancho  
+**Instituciones:** CEPRE Agraria, Círculos de estudio UNALM, Academia ADUNI  
+**Fechas:** 8 y 11 de abril de 2025
+
+##### Características objetivas
+- Usan Excel o Google Forms para registrar notas y asistencias: **3/3 (100%)**
+- Prefieren gestionar tareas desde celulares o laptops: **3/3 (100%)**
+- Los cambios de aula u horarios se gestionan por WhatsApp o encuestas improvisadas: **3/3 (100%)**
+- No utilizan plataformas centralizadas ni automatizadas: **3/3 (100%)**
+
+##### Características subjetivas
+- Encuentran incómodo el uso de Excel en celular: **2/3 (66%)**
+- Consideran que el trabajo administrativo les resta tiempo valioso de enseñanza: **3/3 (100%)**
+- Ven con buenos ojos una solución intuitiva y fácil de usar: **3/3 (100%)**
+- Quieren acceso a la plataforma desde múltiples dispositivos, especialmente celular: **3/3 (100%)**
+- Notificaciones de cambios de horario son altamente valoradas: **2/3 (66%)**
+- Disposición a adoptar nuevas herramientas si mejoran su productividad: **3/3 (100%)**
+
+---
+
+#### Segmento: Administrativos de academias
+
+**Total entrevistados:** 3  
+**Edades:** 28, 42, 58 años  
+**Distritos:** Ica (todos)  
+**Instituciones:** Enigmas, academias escolares particulares  
+**Fechas:** 9 de abril de 2025
+
+##### Características objetivas
+- Utilizan Excel y registros manuales para manejar pagos, matrículas, asistencia y horarios: **3/3 (100%)**
+- Consultan frecuentemente asistencia, notas y estado de pagos: **3/3 (100%)**
+- Dependen de múltiples hojas y archivos, dificultando la trazabilidad: **3/3 (100%)**
+
+##### Características subjetivas
+- Consideran sus métodos actuales ineficientes y repetitivos: **3/3 (100%)**
+- Señalan consecuencias negativas como pérdida de tiempo y mala atención a padres: **3/3 (100%)**
+- Alertas para pagos vencidos son altamente valoradas: **3/3 (100%)**
+- Desean funcionalidades como búsqueda rápida por nombre o DNI: **2/3 (66%)**
+- Esperan una solución intuitiva, accesible y asequible: **3/3 (100%)**
+- Disposición a adoptar nuevas plataformas si mejoran su gestión: **3/3 (100%)**
+
+---
+
+> Este análisis refleja claramente patrones de uso, frustraciones comunes y criterios clave que deben guiar el diseño del sistema. La coincidencia en prioridades entre ambos segmentos refuerza la necesidad de una plataforma centralizada, móvil, intuitiva y orientada a mejorar la eficiencia operativa diaria.
 
 ## 2.3. Needfinding
 
