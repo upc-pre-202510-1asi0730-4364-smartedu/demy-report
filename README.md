@@ -636,7 +636,7 @@ Además, la navegación entre interfaces o vistas ha sido diseñada para ofrecer
 El primer sprint estuvo dedicado exclusivamente al desarrollo de la landing page, con el objetivo de que nuestros segmentos puedan conocer más sobre Demy.<br>
 El objetivo principal de este sprint fue implementar la landing page en su totalidad.
 
-A continuación, se presenta una captura de pantalla de la herramiento de control que usamos, que fue Trello:
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
 ![Captura de Trello App Web](./assets/screenshots/screenshot-trello-sprint1.png)
 Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860395a4f548aa20eb7bbf0bdb949AB2EADEF/apps-web
 
