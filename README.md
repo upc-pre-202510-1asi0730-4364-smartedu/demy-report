@@ -628,7 +628,212 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 ### 4.4.3. Web Applications Mock-ups
-,-
+Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+
+### **Web Aplication mock-ups para Desktop Web Browser**
+#### **Mock-ups que tiene como usuario al administrador de la academia**
+
+Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+
+### **Web Aplication mock-ups para Desktop Web Browser**
+#### **Mock-ups que tiene como usuario al administrador de la academia**
+
+**Iniciar Sesión**  
+En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/3Iniciar_sesión.png)
+
+**Elegir el tipo de cuenta**  
+En la imagen el usuario, al ingresar a la plataforma, podrá elegir el tipo de cuenta por el que quiera entrar, que serán administrador y profesor  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/1Selección_del_tipo_de_usuario.png)
+
+**Crear Cuenta**  
+En la imagen el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/2Crear_cuenta.png)
+
+**Elegir un plan para la academia**  
+En la imagen el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/7Seleccionar_plan.png)
+
+**Restablecer contraseña**  
+En la imagen se muestra la ventana para restablecer la contraseña así como los datos que tiene que ingresar  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/5Reestablecer_contraseña.png)
+
+**Mi organización**  
+En la imagen se muestra la pantalla de "Mi organización" con las diversas opciones, como cursos, periodos, aulas y profesores.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/1Mi_organizacion.png)
+
+**Mi organización Cursos**  
+En la imagen se muestra la pantalla de "Mi organización Cursos" para poder ver todos los cursos creados en la academia  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/2Organización_cursos.png)
+
+**Mi organización Periodos**  
+En la imagen se muestra la cantidad de periodos que están registrados en Demy por parte del administrador y la opción de agregar más periodos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/3Organización_Periodos.png)
+
+**Mi organización Aulas**  
+En la imagen se muestra la cantidad de aulas que están registradas en Demy por parte del administrador y la opción de agregar más aulas.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/5Organización_Aulas.png)
+
+**Mi organización Profesores**  
+En la imagen se muestra la cantidad de profesores que están registrados en Demy por parte del administrador y la opción de agregar más profesores.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/6Organización_profesores.png)
+
+**Panel control Matrícula**  
+En la imagen se muestra el panel de Matrícula donde el administrador podrá ingresar los datos de un estudiante para registrar su matrícula en el sistema.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/3-Matricula/1Panel_de_control-Matrícula.png)
+
+**Panel control historial Matrícula**  
+En la imagen se muestra el historial de Matrículas en el sistema, donde se podrá editar o eliminar alguna matrícula ingresada con anterioridad.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/3-Matricula/3Panel_de_control_Historial_Matrícula.png)
+
+**Panel control Alumnos**  
+En la imagen se muestra el panel de control de alumno, donde el administrador podrá buscar los datos de algún alumno ingresando su DNI. También el sistema le mostrará el estado de pago de un alumno.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/4-Alumnos/2Panel_de_control_AlumnosSinDatos.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/4-Alumnos/1Panel_de_control_Alumnos.png)
+
+**Panel control Asistencia**  
+En la imagen se muestra el panel de control de la Asistencia donde el administrador podrá ingresar el DNI de un alumno para ver la asistencia de este por día o el código de aula de un salón para ver los alumnos y la asistencia a este salón.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/5-Asistencia/2Panel_de_control_Matrícula_Sin_datos.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/5-Asistencia/1Panel_de_control-Asistencia.png)
+
+**Panel de control Pagos**  
+En la siguiente imagen se muestra el panel de control Pagos, donde el administrador tendrá que ingresar el DNI de algún alumno para que salga su estado de pago y si requiere guardar un pago a su nombre.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/5Panel_de_control_Pagos_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/1Panel_de_control_Pagos.png)
+
+**Panel de control Historial de Pagos**  
+En la siguiente imagen se muestra el panel de control Historial de Pagos, donde el administrador verá el historial de pago de todos los alumnos y podrá seleccionar si quiere registrar el pago de algún alumno.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/8Panel_de_control_Historial_Pagos_vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/3Panel_de_control_Historial_Pagos.png)
+
+**Panel de control Horarios**  
+En la siguiente imagen se muestra la pestaña panel de horario, donde el administrador ingresará el DNI de un alumno y se mostrará sus cursos y el día de estos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/7-Horarios/2Panel_de_control_Horarios_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/7-Horarios/1Panel_de_control_Horarios.png)
+
+**Panel de control Finanzas**  
+En la siguiente imagen se muestra la pestaña panel de finanzas, donde el administrador podrá ingresar un egreso que será registrado en el sistema.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/5Panel_de_control_Finanzas_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/1Panel_de_control_Finanzas.png)
+
+**Panel de control Reporte Finanzas**  
+En la siguiente imagen se muestra la pestaña panel de reportes de finanzas, donde el administrador observará el reporte general de las finanzas y el reporte por filtros donde seleccionará opciones para un mejor reporte.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/3Panel_de_control_Finanzas_reporte_general.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/4Panel_de_control_reporte_filtros.png)
+
+#### **Mock-ups que tiene como usuario al profesor de la academia**
+#### **Mock-ups para el usuario profesor de la academia**
+
+**Panel de control - Mi Organización**  
+En la siguiente imagen se muestra la pestaña del panel de reportes "Mi Organización", donde el profesor podrá visualizar los datos de sus clases y su información personal.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/1-Organizacion/Mi_organizacion.png)
+
+**Panel de control - Horario**  
+En la siguiente imagen se muestra la pestaña del panel de "Horarios", donde el profesor podrá consultar el horario de cada uno de sus cursos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/2-Horario/Vista_profesor_Horario.png)
+
+**Panel de control - Asistencia**  
+En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", donde el profesor podrá registrar la asistencia de los alumnos ingresando el código de clase.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/Vista_profesor_Asistencia_Vacia.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/1Vista_profesor-Asistencia.png)
+
+
+### **Web Aplication mock-ups para Movil Web Browser**
+#### **Mock-ups que tiene como usuario al administrador de la academia**
+En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/4Inicio_Sesion.png)
+
+**Elegir el tipo de cuenta**  
+En la imagen, el usuario al ingresar a la plataforma podrá elegir el tipo de cuenta con el que desea entrar, que puede ser administrador o profesor.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/2Tipo_usuario_1.png)
+
+**Crear Cuenta**  
+En la imagen, el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/3Registro.png)
+
+**Elegir un plan para la academia**  
+En la imagen, el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/8Tipo_de_plan_2.png)
+
+**Restablecer contraseña**  
+En la imagen, se muestra la ventana para restablecer la contraseña, así como los datos que se deben ingresar.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/5Recuperar_Contraseña.png)
+
+**Mi organización**  
+En la imagen se muestra la pantalla de "Mi organización" con las diversas opciones, como cursos, periodos, aulas y profesores.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/2Mi_Organizacion_Perfil.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/3Mi_Organizacion_lista_opciones1.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/4Mi_Organizacion_lista_opciones2.png)
+
+**Mi organización - Cursos**  
+En la imagen se muestra la pantalla de "Mi organización - Cursos", donde se pueden ver todos los cursos creados en la academia.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/5Mi_Organizacion_Cursos.png)
+
+**Mi organización - Periodos**  
+En la imagen se muestra la cantidad de periodos que están registrados en Demy por parte del administrador y la opción de agregar más periodos.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/8Mi_Organizacion_periodos.png)
+
+**Mi organización - Aulas**  
+En la imagen se muestra la cantidad de aulas que están registradas en Demy por parte del administrador y la opción de agregar más aulas.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/11Mi_Organizacion_aulas.png)
+
+**Mi organización - Profesores**  
+En la imagen se muestra la cantidad de profesores que están registrados en Demy por parte del administrador y la opción de agregar más profesores.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/12Mi_Organizacion_profesores.png)
+
+**Panel de control - Matrícula**  
+En la imagen se muestra el panel de Matrícula, donde el administrador podrá ingresar los datos de un estudiante para registrar su matrícula en el sistema.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/1Matricula_Datos.png)
+
+**Panel de control - Historial de Matrícula**  
+En la imagen se muestra el historial de matrículas en el sistema, donde se podrá editar o eliminar alguna matrícula ingresada con anterioridad.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/3Matricula_Historial.png)
+
+**Panel de control - Alumnos**  
+En la imagen se muestra el panel de control de alumnos, donde el administrador podrá buscar los datos de algún alumno ingresando su DNI. También, el sistema le mostrará el estado de pago del alumno.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/4Alumnos/1Alumno_Buscar.png)
+
+**Panel de control - Asistencia**  
+En la imagen se muestra el panel de control de Asistencia, donde el administrador podrá ingresar el DNI de un alumno para ver su asistencia por día, o el código de aula de un salón para ver los alumnos y su asistencia.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/5Asistencia/1Asistencia.png)
+
+**Panel de control - Pagos**  
+En la siguiente imagen se muestra el panel de control de Pagos, donde el administrador tendrá que ingresar el DNI de algún alumno para ver su estado de pago y, si corresponde, registrar un nuevo pago a su nombre.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/6Pagos/1Pagos.png)
+
+**Panel de control - Historial de Pagos**  
+En la siguiente imagen se muestra el panel de control de Historial de Pagos, donde el administrador verá el historial de pagos de todos los alumnos y podrá registrar el pago de alguno de ellos.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/6Pagos/3Pagos_Historial.png)
+
+**Panel de control - Horarios**  
+En la siguiente imagen se muestra la pestaña del panel de Horarios, donde el administrador ingresará el DNI de un alumno y se mostrarán sus cursos y los días correspondientes.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/7Horarios/1Horario.png)
+
+**Panel de control - Finanzas**  
+En la siguiente imagen se muestra la pestaña del panel de Finanzas, donde el administrador podrá ingresar un egreso que será registrado en el sistema.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/1Finanzas_Egreso.png)
+
+**Panel de control - Reporte de Finanzas**  
+En la siguiente imagen se muestra la pestaña del panel de Reportes de Finanzas, donde el administrador podrá observar el reporte general de las finanzas y aplicar filtros para generar un reporte más detallado.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/2Finanzas_Reporte.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/3Finanzas_Reporte_Filtros.png)
+
+
+#### **Mock-ups que tiene como usuario al profesor de la academia**
+**Panel de control - Mi Organización**  
+En la siguiente imagen se muestra la pestaña del panel de reportes "Mi Organización", donde el profesor podrá observar los datos de sus clases y su información personal. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/1Mi_Organizacion/Profesor_Perfil.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/1Mi_Organizacion/Profesor_Cursos.png)
+
+**Panel de control - Horario**  
+En la siguiente imagen se muestra la pestaña del panel de "Horarios", donde el profesor podrá consultar el horario de cada uno de sus cursos. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/2Horario/Profesor_Horarios.png)
+
+**Panel de control - Asistencia**  
+En la siguiente imagen se muestra la pestaña del panel de "Asistencia", donde el profesor podrá registrar la asistencia de los alumnos ingresando el código de clase. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/3Asistencia/Profesor_Asistencia.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/3Asistencia/Profesor_listado_Asistencia.png)
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 Enlace para acceder al [Lucid Chart](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9|)
