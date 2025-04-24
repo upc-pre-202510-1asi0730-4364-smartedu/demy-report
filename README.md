@@ -838,13 +838,78 @@ En la siguiente imagen se muestra la pestaña del panel de "Asistencia", donde e
 ### 4.4.4. Web Applications User Flow Diagrams
 Enlace para acceder al [Lucid Chart](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9|)
 
+**UserGoal: Registrarse en Demy**  
+**User persona:** Administradores <br>
+**Explicación del flujo:** El usuario estará en la página de registro de Demy, donde deberá ingresar su nombre, el nombre de su academia, su RUC, su email institucional y la contraseña.  
+Luego de ingresar los datos deberá aceptar los términos y condiciones de Demy, al darle al botón de crear Cuenta se le redirigirá a la sección de "Planes". En esta sección el usuario tendrá que elegir entre uno de los 3 planes que ofrece Demy, al seleccionar un plan se le impondrá un pago a su institución y se le mandará a la sección "Mi organización".
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/1.Registrarse.png)
+
+<br>
+
+**UserGoal: Recuperar contraseña en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** El usuario en la sección de "Iniciar Sesión", en todo momento verá en la parte de abajo del botón "Ingresar", la opción de "Forgot my password".  
+Al darle clic a esta opción se le redirigirá a un recuadro donde se le pide un correo ya registrado en Demy para recuperar la contraseña, al darle a la opción "Enviar" y acceder por medio del código se le permitirá ingresar una nueva contraseña.  
+El usuario ingresará su nueva contraseña 2 veces y le dará a la opción "Restablecer", al hacer esto se le preguntará si ¿Está seguro? de cambiar su contraseña, si confirma el mensaje se le devolverá a "Iniciar Sesión". Ahora el usuario ya puede iniciar sesión con su nueva contraseña.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/1.2.Recuperar_Contraseña.png)
+
+<br>
+
+**UserGoal: Iniciar Sesión en Demy**  
+**User persona:** Administradores <br>  
+**Explicación del flujo:** El usuario tendrá que elegir entre 2 opciones si es "Soy Administrador" o "Soy Profesor". El usuario seleccionará la opción soy Administrador.  
+El usuario ahora está en la pestaña de Iniciar Sesión, donde ingresará sus datos como el correo electrónico y su contraseña. Cuando le dé a la opción de "Ingresar", se le redirigirá a Mi organización.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/2.Iniciar_Sesion.png)
+
+<br>
+
+**UserGoal: Agregar nuevo curso en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Cursos", llevándolo a la sección de Cursos donde verá todos los cursos registrados en Demy.  
+El usuario seleccionará la opción Agregar Curso donde se le abrirá una ventana para ingresar el "Nombre del curso" y el "Código del curso", al rellenar los datos le podrá dar en Agregar. Con esto el curso ya estaría registrado en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/15.Agregar_Curso.png)
+
+<br>
+
+**UserGoal: Agregar nuevo periodo en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Periodos", llevándolo a la sección de Periodos donde verá todos los periodos registrados en Demy.  
+El usuario seleccionará la opción Agregar Periodo donde se le redirigirá a la sección Agregar Periodo, donde verá una tabla con el horario de la Academia, si selecciona algún recuadro, se le abrirá una pestaña para elegir un curso existente. Al darle a la opción de "Confirmar".  
+Verá que en Agregar Periodo, aparece de otro color el curso agregado, el usuario en la parte de arriba podrá ponerle nombre al periodo, también en la parte de abajo de la sección estará la opción de "Guardar Periodo", al seleccionar esta opción se preguntará al usuario si ¿Está seguro?, de guardar este periodo. Si el usuario está seguro volverá a la sección "Periodos", en cambio si no está seguro se le devolverá a "Agregar periodo", para que modifique lo que le falte.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/16.Agregar_Periodo.png)
+
+<br>
+
+**UserGoal: Agregar nueva aula en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Aula", llevándolo a la sección de Aula donde verá todas las aulas registradas en Demy.  
+El usuario seleccionará la opción Agregar Aulas donde se le abrirá una ventana para ingresar el "Nombre del Aula" y elegir un periodo existente, al rellenar los datos le podrá dar en Confirmar. Con esto el aula ya estaría registrada en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/17.Agregar_Aula.png)
+
+<br>
+
+**UserGoal: Agregar nuevo profesor en Demy**  
+**User persona:** Administradores <br>
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Profesores", llevándolo a la sección de Profesores donde verá todos los profesores registrados en Demy.  
+El usuario seleccionará la opción Agregar Profesor donde se le abrirá una ventana para ingresar el "Nombre completo del Profesor", el "DNI del profesor", seleccionar un aula ya registrada con anterioridad y elegir un aula existente, al rellenar los datos le podrá dar en "Agregar Profesor". Con esto el Profesor ya estaría registrado en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/18.Agregar_Profesor.png)
+
+<br>
+
 **UserGoal: Registrar matrícula de un alumno en Demy**<br>    
 **User persona:** Administradores<br> 
 **Explicación del flujo:** El usuario en todo momento tendrá en la parte de arriba la opción de Panel de Control. Cuando presione esta opción se mostrarán las categorías de la página, al darle click a "Matrícula" se encontrará en la sección de matrícula.  
 En esta pantalla el usuario tendrá que ingresar los datos de algún alumno, al terminar de rellenar los datos la página le mostrará una pantalla donde preguntará si quiere guardar o cancelar los datos de la matrícula en el sistema. Al presionar "Guardar" el usuario será llevado a la pestaña de "Historial de matrícula", donde observará los datos ingresados y la fecha de esta en el sistema.
 ![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/3.Crear_Matricula.png)
 
-<br> 
+<br>
 
 **UserGoal: Editar matrícula de un alumno en Demy**<br>  
 **User persona:** Administradores<br>   
@@ -943,6 +1008,16 @@ Si se selecciona Confirmar se mostrará la tabla del reporte con el egreso regis
 ![imagesFlowDiagrams11](./assets/images/web_applications_user_flow_diagrams/Admin/14.Registrar_un_Egreso.png)
 
 <br> 
+
+**UserGoal: Iniciar Sesión en Demy**  
+**User persona:** Profesor  
+**Explicación del flujo:** El usuario tendrá que elegir entre 2 opciones si es "Soy Administrador" o "Soy Profesor". El usuario seleccionará la opción soy Profesor.  
+El usuario ahora está en la pestaña de Iniciar Sesión, donde ingresará sus datos como el correo electrónico y su contraseña.  
+Cuando le dé a la opción de "Ingresar", se le redirigirá a Mi organización.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Profesor/Iniciar_Sesion.png)
+
+<br>
 
 **UserGoal: Observar el horario**<br>  
 **User persona:** Profesor<br>  
