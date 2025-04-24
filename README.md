@@ -574,7 +574,11 @@ A continuación, se ilustra de manera referencial los input texts a implementar 
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
+La navegación de la landing page es vertical, es decir, el usuario puede desplazarse desde la parte superior hacia la inferior para visualizar todo el contenido de forma continua. <br>
 
+En cuanto a la aplicación web, esta cuenta con una barra de navegación (navbar) que permite al usuario cambiar entre las secciones "Mi Organización" y "Panel de Control". Al acceder al panel de control, se despliega un menú lateral ubicado en la parte izquierda de la pantalla, desde donde el usuario puede navegar entre las distintas funcionalidades del sistema.
+
+Además, la navegación entre interfaces o vistas ha sido diseñada para ofrecer siempre la posibilidad de regresar o cancelar la acción que se está por realizar, garantizando así una experiencia de usuario más intuitiva y segura.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
