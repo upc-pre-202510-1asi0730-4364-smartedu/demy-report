@@ -623,6 +623,58 @@ Además, la navegación entre interfaces o vistas ha sido diseñada para ofrecer
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
+Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
+
+**Nomeclantura General**
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS / Tailwind CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se prioriza el uso de **Tailwind CSS** sobre CSS puro para la landing page.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**JavaScript**
+
+- **camelCase** para variables y funciones.
+- **PascalCase** para clases y constructores.
+- Constantes en mayúsculas con guiones bajos (`MAX_RETRIES`).
+- Usar `const` y `let`; evitar `var`.
+- Preferencia por funciones puras y modularización.
+- Comentarios en inglés usando `//` y `/** ... */` para funciones complejas.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
+
+**C# / ASP.NET Core**
+
+- **PascalCase** para clases, métodos y propiedades.
+- **camelCase** para variables internas y parámetros.
+- Prefijo `_` para campos privados (`_userRepository`).
+- Métodos deben iniciar con verbos (`GetUser()`, `SaveChanges()`).
+- Comentarios en inglés usando `///` para documentación XML.
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
+
+
 
 ### 5.1.4. Software Deployment Configuration.
 
