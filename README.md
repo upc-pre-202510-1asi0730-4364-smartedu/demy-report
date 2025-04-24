@@ -661,14 +661,6 @@ Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`,
 - Evitar lógica compleja dentro de los templates.
 - Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
 
-**C# / ASP.NET Core**
-
-- **PascalCase** para clases, métodos y propiedades.
-- **camelCase** para variables internas y parámetros.
-- Prefijo `_` para campos privados (`_userRepository`).
-- Métodos deben iniciar con verbos (`GetUser()`, `SaveChanges()`).
-- Comentarios en inglés usando `///` para documentación XML.
-
 **Pruebas / Gherkin**
 
 En caso de usar Gherkin (para especificaciones o pruebas): <br>
