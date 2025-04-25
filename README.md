@@ -548,7 +548,7 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 ## 3.3. Impact Mapping
 En esta sección hemos elaborado nuestro Impact Mapping. Para ello, utilizamos la hipótesis desarrollada durante nuestro proceso de Lean UX. Reemplazamos los segmentos de cliente por los User Personas, los cuales fueron elaborados previamente en el capítulo II, y conectamos las funcionalidades con los objetivos, para que formen parte del Product Backlog.
 
-![ImpactMapping](./assets/images/impact-mapping.png)
+![ImpactMapping](./assets/images/Impact_Mapping.png)
 
 Dentro de nuestro Impact Mapping se puede observar cómo los segmentos objetivos están relacionados con una acción representativa de cada uno, la cual, a su vez, es parte esencial de los business goals planteados anteriormente. Tanto el administrador como el profesor de academias desempeñan un papel crucial en el cumplimiento de los objetivos propuestos por Demy.
 
