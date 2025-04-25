@@ -629,11 +629,6 @@ Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9Jq
 ### **Web Aplication mock-ups para Desktop Web Browser**
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 
-Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
-
-### **Web Aplication mock-ups para Desktop Web Browser**
-#### **Mock-ups que tiene como usuario al administrador de la academia**
-
 **Iniciar Sesión**  
 En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.  
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/3Iniciar_sesión.png)
@@ -718,7 +713,6 @@ En la siguiente imagen se muestra la pestaña panel de reportes de finanzas, don
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/4Panel_de_control_reporte_filtros.png)
 
 #### **Mock-ups que tiene como usuario al profesor de la academia**
-#### **Mock-ups para el usuario profesor de la academia**
 
 **Panel de control - Mi Organización**  
 En la siguiente imagen se muestra la pestaña del panel de reportes "Mi Organización", donde el profesor podrá visualizar los datos de sus clases y su información personal.  
@@ -733,7 +727,7 @@ En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", do
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/Vista_profesor_Asistencia_Vacia.png)  
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/1Vista_profesor-Asistencia.png)
 
-
+Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
 ### **Web Aplication mock-ups para Movil Web Browser**
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.<br>
