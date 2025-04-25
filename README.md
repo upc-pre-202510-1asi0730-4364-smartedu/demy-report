@@ -1,21 +1,24 @@
-<h1 style="text-align: center;"> Informe TB1 </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+<h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
 
-<img src="https://raw.githubusercontent.com/desarrollo-de-aplicaciones-open-source/project-open-source/refs/heads/main/assets/logos/upc_logo.png" alt="logo_upc" width="200px" style="display: block; margin-left: auto; margin-right: auto;">
+<div style="text-align: center;">
+  <img src="./assets/images/upc-logo.png" alt="UPC Logo">
+</div>
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+<h4 style="text-align: center"> Ingeniería de Software </h4>
 
-<h5 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h5>
+<h4 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h4>
 
-<h5 style="text-align: center"> Seccíón: 4304  </h5>
+<h4 style="text-align: center"> Seccíón: 4364  </h4>
 
-<h5 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h5>
+<h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h5 style="text-align: center"> Startup: SmartEdu </h5>
+<h4 style="text-align: center;"> Informe del TB1 </h4>
 
-<h5 style="text-align: center"> Producto: Demy </h5>
+<h4 style="text-align: center"> Startup: SmartEdu </h4>
 
-<h2>Team members:</h2>
+<h4 style="text-align: center"> Producto: Demy </h4>
+
+<h2 style="text-align: center">Team members:</h2>
 
 | Código     | Nombre                             |
 |------------|------------------------------------|
@@ -116,12 +119,23 @@
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5:**
+
+**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico                                                                            | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | Salim:<br>TB1: Guié al equipo en varias ocasiones durante la fase inicial para asegurar que todos tuviéramos una visión clara y compartida del proyecto, facilitando la toma de decisiones en conjunto.<br><br>Diego:<br>TB1: Fomenté un liderazgo colaborativo, promoviendo la participación activa de todos los miembros en las reuniones para la toma de decisiones.<br><br>Daniel:<br>TB1: Asumí un papel activo en la coordinación de las tareas y el seguimiento del progreso del equipo, trabajando de manera equitativa en las responsabilidades.<br><br>Rafael:<br>TB1: Aporté ideas que fueron integradas al equipo, ayudando a estructurar las tareas y metas del proyecto, y participé activamente en la toma de decisiones colectivas.<br><br>Paul:<br>TB1: Participé activamente en el seguimiento de los objetivos y la asignación de tareas, asegurando que el equipo mantuviera un liderazgo compartido y una dirección clara hacia el éxito del proyecto.                                       | Consideramos que este criterio ha sido alcanzado con éxito, ya que el equipo logró dividir responsabilidades de manera equitativa, asegurando que cada miembro tuviera un papel de liderazgo en diferentes aspectos del proyecto. El liderazgo compartido fue clave para mantener el enfoque y avanzar en conjunto hacia los objetivos establecidos. El proceso de toma de decisiones fue fluido gracias a la colaboración continua y la retroalimentación constructiva dentro del equipo.                                   |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Salim:<br>TB1: Fomenté un ambiente inclusivo donde todos los miembros se sintieran cómodos aportando ideas, además, me encargué de coordinar las tareas y definir metas claras para el equipo.<br><br>Diego:<br>TB1: Apoyé a mis compañeros en la organización y planificación del trabajo a través de herramientas como Trello, que facilitó la gestión del progreso y asignación de tareas.<br><br>Daniel:<br>TB1: Colaboré activamente en la planificación de las tareas y aseguré que se cumplieran los plazos establecidos, contribuyendo a la organización eficiente del equipo.<br><br>Rafael:<br>TB1: Contribuí al ambiente inclusivo y respetuoso del equipo, apoyando la planificación de tareas y asegurando que cada miembro estuviera alineado con los objetivos comunes.<br><br>Paul:<br>TB1: Aporté ideas y propuestas que ayudaron a definir las metas del equipo y me aseguré de que todas las tareas estuvieran bien distribuidas, contribuyendo al cumplimiento de los objetivos establecidos. | Consideramos que hemos logrado un entorno de trabajo colaborativo e inclusivo, en el que se establecieron metas claras y alcanzables para el equipo. La planificación de tareas y la asignación de responsabilidades se realizaron de manera estructurada, lo que permitió al equipo cumplir con los objetivos establecidos en cada fase del proyecto. Las herramientas de gestión como Trello fueron fundamentales para mantener el orden y la transparencia en la distribución de tareas y el seguimiento de los avances.  | 
 
 # Capítulo I: Introducción
 
@@ -419,6 +433,60 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Resumen**             | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
 
 ### 2.2.3. Análisis de entrevistas
+
+Las entrevistas se realizaron entre el 8 y el 11 de abril de 2025 a un total de seis participantes: tres docentes y tres administrativos/coordinadores de academias preuniversitarias en Lima e Ica.
+El objetivo fue entender sus contextos operativos, frustraciones actuales y validar hipótesis sobre posibles soluciones digitales.
+
+---
+
+#### Segmento: Docentes de academias
+
+**Total entrevistados:** 3  
+**Edades:** 21, 25, 25 años  
+**Distritos:** La Molina, Santa Anita, San Juan de Lurigancho  
+**Instituciones:** CEPRE Agraria, Círculos de estudio UNALM, Academia ADUNI  
+**Fechas:** 8 y 11 de abril de 2025
+
+##### Características objetivas
+- Usan Excel o Google Forms para registrar notas y asistencias: **3/3 (100%)**
+- Prefieren gestionar tareas desde celulares o laptops: **3/3 (100%)**
+- Los cambios de aula u horarios se gestionan por WhatsApp o encuestas improvisadas: **3/3 (100%)**
+- No utilizan plataformas centralizadas ni automatizadas: **3/3 (100%)**
+
+##### Características subjetivas
+- Encuentran incómodo el uso de Excel en celular: **2/3 (66%)**
+- Consideran que el trabajo administrativo les resta tiempo valioso de enseñanza: **3/3 (100%)**
+- Ven con buenos ojos una solución intuitiva y fácil de usar: **3/3 (100%)**
+- Quieren acceso a la plataforma desde múltiples dispositivos, especialmente celular: **3/3 (100%)**
+- Notificaciones de cambios de horario son altamente valoradas: **2/3 (66%)**
+- Disposición a adoptar nuevas herramientas si mejoran su productividad: **3/3 (100%)**
+
+---
+
+#### Segmento: Administrativos de academias
+
+**Total entrevistados:** 3  
+**Edades:** 28, 42, 58 años  
+**Distritos:** Ica (todos)  
+**Instituciones:** Enigmas, academias escolares particulares  
+**Fechas:** 9 de abril de 2025
+
+##### Características objetivas
+- Utilizan Excel y registros manuales para manejar pagos, matrículas, asistencia y horarios: **3/3 (100%)**
+- Consultan frecuentemente asistencia, notas y estado de pagos: **3/3 (100%)**
+- Dependen de múltiples hojas y archivos, dificultando la trazabilidad: **3/3 (100%)**
+
+##### Características subjetivas
+- Consideran sus métodos actuales ineficientes y repetitivos: **3/3 (100%)**
+- Señalan consecuencias negativas como pérdida de tiempo y mala atención a padres: **3/3 (100%)**
+- Alertas para pagos vencidos son altamente valoradas: **3/3 (100%)**
+- Desean funcionalidades como búsqueda rápida por nombre o DNI: **2/3 (66%)**
+- Esperan una solución intuitiva, accesible y asequible: **3/3 (100%)**
+- Disposición a adoptar nuevas plataformas si mejoran su gestión: **3/3 (100%)**
+
+---
+
+> Este análisis refleja claramente patrones de uso, frustraciones comunes y criterios clave que deben guiar el diseño del sistema. La coincidencia en prioridades entre ambos segmentos refuerza la necesidad de una plataforma centralizada, móvil, intuitiva y orientada a mejorar la eficiencia operativa diaria.
 
 ## 2.3. Needfinding
 
@@ -724,11 +792,212 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 ### 4.7.1. Class Diagrams
 
+Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
+Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
+
+> FALTA PONER EL DIAGRAMA
+
 ### 4.7.2. Class Dictionary
+
+#### IAM Context
+
+**UserAccount**
+
+Representa una cuenta de usuario dentro del sistema, utilizada tanto por administradores como por docentes. Gestiona sus credenciales, el rol que desempeñan y el estado actual de la cuenta.
+
+| Attribute      | Type           | Description                                                  |
+|----------------|----------------|--------------------------------------------------------------|
+| id             | UserId         | Unique identifier for the user account                       |
+| fullName       | FullName       | Full name of the user                                        |
+| email          | Email          | Email address used to log into the system                    |
+| passwordHash   | String         | Encrypted password                                           |
+| role           | Role           | User role (ADMIN or TEACHER)                                 |
+| status         | AccountStatus  | Account status (ACTIVE, INACTIVE, or BLOCKED)                |
+
+#### Enrollment Management Context
+
+**Enrollment**
+
+Representa el registro de un estudiante en una academia durante un determinado periodo. Permite verificar la pertenencia, estado y realizar operaciones sobre la inscripción.
+
+| Attribute  | Type             | Description                                            |
+|------------|------------------|--------------------------------------------------------|
+| id         | UUID             | Unique identifier for the enrollment                   |
+| student    | StudentId        | Identifier of the student being enrolled               |
+| academy    | AcademyId        | Identifier of the academy where the enrollment is made |
+| status     | EnrollmentStatus | Status of the enrollment (ACTIVE or INACTIVE)          |
+
+**Student**
+
+Representa a un estudiante que puede ser matriculado en una academia. Contiene su información básica de identificación y contacto.
+
+| Attribute  | Type       | Description                              |
+|------------|------------|------------------------------------------|
+| id         | StudentId  | Unique identifier for the student        |
+| fullName   | FullName   | Full name of the student                 |
+| email      | Email      | Contact email address of the student     |
+
+**Academy**
+
+Representa una academia educativa. Está asociada a un usuario propietario y contiene los periodos académicos que definen el calendario escolar.
+
+| Attribute   | Type                     | Description                                     |
+|-------------|--------------------------|-------------------------------------------------|
+| id          | AcademyId                | Unique identifier for the academy               |
+| userId      | UserId                   | Identifier of the user who manages the academy  |
+| periods     | List<AcademicPeriod>     | List of academic periods defined by the academy |
+| academyName | String                   | Name of the academy                             |
+
+**AcademicPeriod**
+
+Representa un intervalo de tiempo en el que se desarrolla un ciclo académico. Es utilizado como valor dentro del contexto de una academia.
+
+| Attribute | Type | Description                  |
+|-----------|------|------------------------------|
+| startDate | Date | Start date of the period     |
+| endDate   | Date | End date of the period       |
+
+#### Scheduling Management Context
+
+**WeeklySchedule**
+
+Representa el horario semanal de una academia. Contiene las entradas programadas para cada día y permite gestionar agregados, actualizaciones y validaciones de disponibilidad horaria.
+
+| Attribute   | Type               | Description                                      |
+|-------------|--------------------|--------------------------------------------------|
+| id          | UUID               | Unique identifier for the weekly schedule        |
+| academyId   | AcademyId          | Identifier of the academy that owns the schedule |
+| entries     | List<Schedule>     | List of scheduled entries (classes)              |
+
+**Schedule**
+
+Define una entrada específica dentro del horario. Contiene la información sobre el curso, aula, horario y docente asignado.
+
+| Attribute   | Type          | Description                                  |
+|-------------|---------------|----------------------------------------------|
+| id          | ScheduleId    | Unique identifier for the schedule entry     |
+| dayOfWeek   | String        | Day of the week the class takes place        |
+| timeRange   | DateTimeRange | Start and end time for the scheduled session |
+| course      | Course        | Course being taught during this schedule     |
+| room        | Room          | Room where the class is held                 |
+| userId      | UserId        | Identifier of the teacher assigned           |
+
+**Course**
+
+Representa un curso que puede ser parte de un horario. Incluye nombre y una breve descripción del contenido del curso.
+
+| Attribute   | Type   | Description                      |
+|-------------|--------|----------------------------------|
+| name        | String | Name of the course               |
+| description | String | Short description of the course  |
+
+**Room**
+
+Define un ambiente físico o virtual donde se dicta una clase. Permite identificar el aula y conocer su capacidad.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| roomCode  | String | Code or identifier of the room       |
+| capacity  | int    | Maximum number of people allowed     |
+
+#### Attendance Management Context
+
+**ClassSession**
+
+Representa una sesión de clase específica, asociada a un horario previamente programado. Permite registrar la asistencia de los estudiantes y consultar sus estados individuales.
+
+| Attribute   | Type                     | Description                                                        |
+|-------------|--------------------------|--------------------------------------------------------------------|
+| id          | UUID                     | Unique identifier for the class session                            |
+| scheduleId  | ScheduleId               | Identifier of the related schedule                                 |
+| attendance  | List<AttendanceRecord>   | List of attendance records for this session                        |
+
+**AttendanceRecord**
+
+Representa el estado de asistencia de un estudiante en una sesión específica. Se trata de un objeto inmutable que forma parte de un registro más amplio.
+
+| Attribute  | Type             | Description                                        |
+|------------|------------------|----------------------------------------------------|
+| studentId  | StudentId        | Identifier of the student                          |
+| status     | AttendanceStatus | Attendance status (PRESENT, ABSENT, or JUSTIFIED)  |
+
+#### Subscription & Billing Context
+
+**Subscription**
+
+Representa la suscripción activa de una academia a un plan del sistema. Controla el estado de la suscripción y su vigencia.
+
+| Attribute   | Type               | Description                                                    |
+|-------------|--------------------|----------------------------------------------------------------|
+| id          | UUID               | Unique identifier for the subscription                         |
+| academyId   | AcademyId          | Identifier of the academy that owns the subscription           |
+| plan        | PlanId             | Identifier of the selected plan                                |
+| status      | SubscriptionStatus | Status of the subscription (ACTIVE, EXPIRED, TRIAL, CANCELLED) |
+| period      | DateRange          | Period of validity for the subscription                        |
+
+**Plan**
+
+Representa una oferta de suscripción disponible para academias. Define los límites del servicio según cada plan.
+
+| Attribute    | Type   | Description                                    |
+|--------------|--------|------------------------------------------------|
+| id           | UUID   | Unique identifier for the plan                 |
+| name         | String | Name of the subscription plan                  |
+| price        | Money  | Monthly cost of the plan                       |
+| maxStudents  | int    | Maximum number of students allowed in the plan |
+| maxTeachers  | int    | Maximum number of teachers allowed in the plan |
+
+**Invoice**
+
+Representa una factura generada a partir de una suscripción activa. Controla el estado del pago y la fecha de vencimiento.
+
+| Attribute        | Type           | Description                                  |
+|------------------|----------------|----------------------------------------------|
+| id               | UUID           | Unique identifier for the invoice            |
+| subscriptionId   | SubscriptionId | Identifier of the related subscription       |
+| amount           | Money          | Amount to be paid for the invoice            |
+| dueDate          | Date           | Due date of the invoice                      |
+| status           | PaymentStatus  | Payment status (PENDING, PAID, or OVERDUE)   |
+
+**Payment**
+
+Representa un pago realizado por una factura. Contiene detalles del momento, método y monto abonado.
+
+| Attribute  | Type       | Description                                          |
+|------------|------------|------------------------------------------------------|
+| invoiceId  | InvoiceId  | Identifier of the associated invoice                 |
+| paidAt     | DateTime   | Date and time when the payment was completed         |
+| method     | String     | Payment method used (e.g., credit card, transfer)    |
+| amount     | Money      | Amount paid                                          |
+
+**FinancialTransaction**
+
+Representa una transacción financiera entre dos partes. Se asocia directamente a un pago específico.
+
+| Attribute  | Type       | Description                                         |
+|------------|------------|-----------------------------------------------------|
+| id         | UUID       | Unique identifier for the transaction               |
+| source     | PartyType  | Party from which the money originated               |
+| target     | PartyType  | Party receiving the money                           |
+| type       | String     | Type of transaction (e.g., payment, refund)         |
+| concept    | String     | Description of the transaction purpose              |
+| date       | DateTime   | Date and time of the transaction                    |
+| reference  | String     | External or internal reference identifier           |
+| payment    | Payment    | Payment object associated with this transaction     |
 
 ## 4.8. Database Design
 
+Esta sección presenta el diseño de la base de datos del sistema, derivado del modelo orientado a objetos y los bounded contexts definidos bajo el enfoque de Domain-Driven Design (DDD).
+El objetivo es estructurar las entidades persistentes y sus relaciones para garantizar la integridad, escalabilidad y trazabilidad de los datos.
+
+Se optó por MySQL como sistema de gestión de bases de datos por su amplio soporte en la industria, facilidad de integración y buen rendimiento en aplicaciones web escalables.
+
 ### 4.8.1. Database Diagram
+
+A continuación se muestra el diagrama entidad-relación (ERD), que representa gráficamente las tablas de la base de datos, sus atributos principales y las relaciones existentes entre ellas.
+Este diagrama fue generado a partir del modelo de clases y ajustado a una representación relacional clara y normalizada.
+
+![Database Diagram](./assets/images/database-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
@@ -759,6 +1028,7 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este primer sprint no se contempló la evidencia de documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -767,10 +1037,42 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 # Conclusiones
 
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
 ## Conclusiones y Recomendaciones
 
-## Video About-the-Team
+### Conclusiones
+
+El equipo concluyó que las academias presenciales enfrentan serias limitaciones en su gestión administrativa diaria debido al uso de herramientas no integradas, como hojas de cálculo y documentos físicos.
+Nuestro producto busca abordar estas ineficiencias mediante funcionalidades como la automatización de matrículas, control de asistencia y pagos, así como la centralización de horarios y comunicación.
+Aunque aún no se ha realizado la validación con usuarios reales, el desarrollo de la Landing Page permite comunicar efectivamente el valor de la solución, siendo un primer paso clave para atraer y educar al segmento objetivo.
+
+Las hipótesis se consideran parcialmente validadas: se identificó un fuerte interés por una plataforma centralizada, con alertas y accesibilidad desde múltiples dispositivos, lo cual respalda funcionalidades como recordatorios de pago y visualización de horarios.
+Sin embargo, aún no se ha contrastado el comportamiento real de adopción o retención por parte de los usuarios, ya que la Web Application y la API aún no se han implementado.
+A pesar de ello, los entregables desarrollados hasta el momento están enfocados en facilitar la experiencia del usuario, así como la accesibilidad e internacionalización, y aportar claridad al modelo de negocio.
+
+Se recomienda priorizar en el siguiente sprint el desarrollo de la Web Application con las funcionalidades esenciales para usuarios administrativos y docentes, como la gestión de asistencia, matrícula y pagos.
+Asimismo, se sugiere integrar la arquitectura backend junto a la API RESTful para garantizar la escalabilidad de la solución.
+
+### Recomendaciones
+
+Es crucial preparar los escenarios de validación con usuarios reales a fin de ajustar la experiencia, identificar puntos de fricción y validar hipótesis críticas como la aceptación del sistema por parte de personal con poca experiencia tecnológica.
+
+Además, se recomienda mantener la coherencia visual y de navegación entre la Landing Page y la Web Application, e implementar métricas desde el inicio para medir adopción, retención y efectividad en la automatización de tareas administrativas.
+Estas acciones permitirán optimizar el roadmap del producto y acercarse de manera sostenida a los objetivos de negocio establecidos.
+
+Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
+Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
 # Bibliografía
 
 # Anexos
+
+Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
+
+Enlace del video de exposición TB1:
+
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)
+
+Enlace a la landing page: [Abrir en el navegador](https://demy-smartedu.netlify.app/)
