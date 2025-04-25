@@ -577,6 +577,32 @@ La interfaz de nuestra aplicación debe ser clara y fácil de usar, con palabras
 ### 4.3.1. Landing Page Wireframe
 
 ### 4.3.2. Landing Page Mock-up
+**Landing Page Mock-up Desktop Web Browser**
+
+El wireframe para desktop guió la disposición de los elementos, y el mock-up finaliza con los contenidos definidos. Se usaron los colores y tipografía del Style Guidelines para asegurar coherencia visual y una navegación clara, integrando principios de diseño inclusivo y accesibilidad.
+
+![Image](assets/images/landing-page-mockup/desktop-web-browser/hero.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/about%20the%20product.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/benefits.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/testimonials.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/about%20us.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/pricing.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/hero.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/contact%20us.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/faq.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/footer.png)
+<br>
+
+
+**Landing Page Mock-up Mobile Web Browser**
+
+La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los elementos más importantes. Se mantuvieron los mismos colores y tipografía del Style Guidelines, con un enfoque que optimiza la navegación táctil y garantiza accesibilidad.
+
+![Image](assets/images/landing-page-mockup/mobile-web-browser/hero%20about%20the%20product%20benefits.png)
+<br>
+![Image](assets/images/landing-page-mockup/mobile-web-browser/testimonials,%20about%20us,%20pricing.png)
+<br>
+![Image](assets/images/landing-page-mockup/mobile-web-browser/contact%20us,%20faq,%20footer.png)
 
 ## 4.4. Web Applications UX/UI Design
 
