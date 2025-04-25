@@ -31,6 +31,19 @@
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
 # Registro de Versiones del Informe
+| Versión | Fecha      | Autor                                                                                    | Descripción de modificación                                                                                                                                                                                                                                                                 |
+|---------|------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 08/04/2025 | Salim Ramirez                                                                            | Creación inicial del documento de trabajo en formato Markdown para centralizar el desarrollo del informe final.                                                                                                                                                                             |
+| 1.1     | 10/04/2025 | Paúl Sulca                                                                               | Se agregó la carátula, tabla de contenidos y la estructura básica del informe siguiendo las pautas del curso.                                                                                                                                                                               |
+| 2.0     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo I: Introducción. Se definieron objetivos, contexto, visión general del producto.                                                                                                                                                                                    |
+| 2.1     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se agregaron los resultados de entrevistas y análisis de competidores, como parte del Capítulo II.                                                                                                                                                                                          |
+| 3.0     | 13/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo II: Requirements Elicitation & Analysis, incluyendo personas, escenarios y requerimientos iniciales.                                                                                                                                                                |
+| 3.1     | 16/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se integraron las User Stories, Landing Page Stories y Technical Stories como parte del Capítulo III.                                                                                                                                                                                       |
+| 4.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo III: Requirements Specification, detallando los criterios de aceptación y modelo de casos de uso.                                                                                                                                                                   |
+| 4.1     | 21/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadieron los style guidelines, mockups, wireframes, wireflow y userflow en el Capítulo IV: Product Design.                                                                                                                                                                              |
+| 5.0     | 23/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo IV: Product Design, incluyendo arquitectura de componentes, estructura visual y navegación.                                                                                                                                                                         |
+| 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                                                                                                                                                                                     |
+| 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.                                                                                                                                                                     |
 
 # Project Collaboration Insights
 
@@ -50,7 +63,7 @@
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)>
+    - [2.1. Competidores](#21-competidores)
         - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
         - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
@@ -109,9 +122,9 @@
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
         - [5.2.1. Sprint 1](#521-sprint-1)
             - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
-            - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-            - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
+            - [5.2.1.2. Aspect Leaders and Collaborators ](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
             - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
@@ -279,7 +292,7 @@ Esta sección tiene objetivo conocer mejor los competidores a los que se enfrent
 |-----------------------------------|-----------------------------|
 | ¿Por qué llevar acabo este análisis?| El objetivo de este análisis competitivo es saber como será nuestro posicionamiento en el mercado en comparación a otros sistema de gestión de academias y que será lo que nos hará destacar|
 
-|                     |                                                                           | SmartEdu                                                                                                                                                                                                                          | Academygest                                                                                                                                                            | Playoff                                                                                                                                                                                                                                                                                  | Quickschools                                                                                                                                                                                                                                                                                  |
+|                     |                                                                           | SmartEdu                                                                                                                                                                                                                          | ![Academygest logo](./assets/images/competidor-academygest.jpg) <br> Academygest                                                                                       | ![Logo Playoff](./assets/images/competidor-playoff.jpg) <br> Playoff                                                                                                                                                                                                                     | ![Logo Quickschools](./assets/images/competidor-quickschools.png) <br> Quickschools                                                                                                                                                                                                           |
 |---------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Perfil              | Overview                                                                  | SmartEdu ofrece a Demy, un sistema web integral que facilita la organización, carga operativa y mejora la experiencia tanto de alumnos como docentes.                                                                             | Plataforma integral que facilita la gestión de academias y centros educativos, permitiendo organizar y mantener datos de alumnos.                                      | Sistema de gestión para entidades, que una de sus opciones es un enfoque a academias, ofreciendo cosas como control de cobros y pagos junto a organización de actividades                                                                                                                | QuickSchools es una plataforma en la nube para gestionar escuelas, con funciones como calificaciones, asistencia y comunicación con padres. Está pensada para instituciones pequeñas y medianas.                                                                                              |
 |                     | Ventaja <br> competitiva <br> ¿Qué valor <br> ofrece a los <br> clientes? | Solución integral y escalable para la administración de academias, que a la vez tendrá mucha accesibilidad ofrenciendo diferentes de acuerdo a que le convenga más a la academia                                                  | Optimización de la gestión administrativa, ahorro de tiempo y mejora de la eficiencia en la administración de academias y centros educativos.                          | Mejora de la motivación y participación en programas de formación y gestión mediante dinámicas de juego personalizadas                                                                                                                                                                   | Solución accesible y flexible para la gestión administrativa y académica, con un enfoque en facilidad de uso y personalización.                                                                                                                                                               |
@@ -292,7 +305,7 @@ Esta sección tiene objetivo conocer mejor los competidores a los que se enfrent
 |                     | Debilidades                                                               | SmartEdu al ser una startup emergente no cuenta con mucho financiamiento <br/> No cuenta con una app móvil <br/>                                                                                                                  | No cuenta con una app móvil <br/> Se limite presencialmente a españa <br/> Menor reconocimiento frente a competidores globales                                         | No es una solución académica integral, más bien un complemento<br/> Requiere personalización técnica <br/>  La app móvil es solo accesible a partir de un cierto plan<br/>                                                                                                               | Puede resultar costo a gran escala si no se optimiza el uso <br/> Limitado al idioma inglés                                                                                                                                                                                                   |
 |                     | Oportunidades                                                             | Poca competencia en el segmento objetivo <br/> Aumento en el uso de la tecnología luego del COVID-19 <br/>                                                                                                                        | Ampliar su presencia a latinomerica <br/> Incorporar una app móvil para una buena complementación y accesibilidad <br/>                                                | Amplicación creciente de la gamificacíon en la actualidad<br/> Alianza con plataforams educativas para ofrecer gamificacíon integrada<br/>                                                                                                                                               | Incluir el idioma español para ser más global  <br/>  Alianzas con gobiernos o redes escolares                                                                                                                                                                                                |           
 |                     | Amenazas                                                                  | Resistencia al cambio tecnológico de parte de algunas academias <br/> Soluciones muy fuertes de otros competidores <br/> Posibles ciberataques, ya que la startup no tiene mucho conocimiento sobre la ciberseguridad actualmente | Dependencia de un solo mercado geográfico <br/> Competencia con soluciones globales más completas y flexibles                                                          | Dependencia de clientes que comprendan el valor de la gamificación<br/>                                                                                                                                                                                                                  | Compite con plataformas globables que incluye varios idiomas <br/> Riesgo de saturación en el mercado K-12                                                                                                                                                                                    |
-
+ 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 Para competir eficazmente en el mercado de plataformas de gestión para academias presenciales, SmartEdu aplicará las siguientes estrategias y tácticas preliminares, considerando sus propias fortalezas y debilidades, así como el contexto de oportunidades y amenazas en relación a sus competidores:
@@ -761,6 +774,19 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
+En Demy queremos ofrecer la mejor experiencia a nuestros usuarios, por eso nos encargamos de asegurar la usabilidad en nuestras interfaces, por ello, aplicaremos las siguientes decisiones de UI: <br>
+
+**Landing Page** <br>
+- La navegación de la Landing Page hace uso del scroll vertical, ya que es la navegación más común y cómoda en una página web. <br>
+- La Landing Page cuenta con una barra de menú superior que se mantiene siempre arriba por más que el usuario se desplaze hacia abajo, esta cuenta con enlaces que dirigen a las secciones "About", "Benefits","Plans" y "Contact".
+- La Landing Page hace uso del Call to Action en secciones como Hero, Plans y Contact mediante el botón "Get Started" y "Start today".
+
+**Web Application** <br>
+- La aplicación contará con un navbar que permite al usuario cambiar entre las secciones "Mi organización" y "Panel de control".
+- Al acceder a "Panel de control" se abrirá un side navbar que contendrá más enlaces hacia las distintas funcionalidades de Demy.
+- En la navegación entre interfaces o vistas, añadiremos la opción de siempre poder volver a la vista anterior, asegurándonos que el usuario siempre tenga control del sistema.
+
+Accesibilidad y Usabilidad: Hemos aplicado el "Responsive Design" que hace que la navegación se mantenga eficiente aunque el usuario se encuentre en otro dispositivo como un celular, en ese caso la navegación se adecua a eso mediante un ícono de 3 rayitas que abre un sidenavbar con las distintas funcionalidades.
 
 ## 4.3. Landing Page UI Design
 
@@ -1007,21 +1033,153 @@ Este diagrama fue generado a partir del modelo de clases y ajustado a una repres
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
+Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
+
+**Nomeclantura General**
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS / Tailwind CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se prioriza el uso de **Tailwind CSS** sobre CSS puro para la landing page.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**JavaScript**
+
+- **camelCase** para variables y funciones.
+- **PascalCase** para clases y constructores.
+- Constantes en mayúsculas con guiones bajos (`MAX_RETRIES`).
+- Usar `const` y `let`; evitar `var`.
+- Preferencia por funciones puras y modularización.
+- Comentarios en inglés usando `//` y `/** ... */` para funciones complejas.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
+
+
 
 ### 5.1.4. Software Deployment Configuration.
+En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
+Explicaremos cada proceso con detalle.
+
+**Despliegue de la Landing Page** <br>
+Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
+
+
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](./assets/screenshots/web-deployment-1.png)
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   ![Screenshot 2 del Deployment](./assets/screenshots/web-deployment-2.png)
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   ![Screenshot 3 del Deployment](./assets/screenshots/web-deployment-3.png)
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   ![Screenshot 4 del Deployment](./assets/screenshots/web-deployment-4.png)
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   ![Screenshot 5 del Deployment](./assets/screenshots/web-deployment-5.png)
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-smartedu".
+   ![Screenshot 6 del Deployment](./assets/screenshots/web-deployment-6.png)
+
+7. **Esperar el deploy**<br>
+   Aquí esperamos a que se termine de desplegar.
+   ![Screenshot 7 del Deployment](./assets/screenshots/web-deployment-7.png)
+
+8. **Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://demy-smartedu.netlify.app/)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+A continuación se presentará el sprint planning para esta primera entrega, donde definimos que trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-#### 5.2.1.2. Sprint Backlog 1
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning Background           |                                                                                                                                                                                                                                                                                                                                                       |
+| Date                                 | 2025/04/19                                                                                                                                                                                                                                                                                                                                            |
+| Time                                 | 2:00                                                                                                                                                                                                                                                                                                                                                  | 
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                               |
+| Prepared By                          | Salim Ramirez                                                                                                                                                                                                                                                                                                                                         |
+| Attendees <br>( to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca y Diego Vilca                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las funcionalidades y características de Demy a los visitantes <br>Creemos que esto generará una sólida primera impresión sobre qué es Demy para nuestros segmentos objetivo. <br> Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones |
+| Sprint 1 Velocity                    | 18                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of story points                  | 18                                                                                                                                                                                                                                                                                                                                                    |
+                                                                                                                                                                                                                                                                                                                                         
+#### 5.2.1.2. Aspect Leaders and Collaborators
+Ahora presentaremos nuestro LACX(Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page.
 
+| Team Member <br>  Last Name, First Name | GitHub Username | Hero Section <br> Leader (L) / <br> Collaborator (C) | About-Product<br> Leader (L) / <br> Collaborator (C | Benefits<br> Leader (L) / <br> Collaborator (C | Testimonials <br> Leader (L) / <br> Collaborator (C | About Us<br> Leader (L) / <br> Collaborator (C | Planes y precios<br> Leader (L) / <br> Collaborator (C | FAQs<br> Leader (L) / <br> Collaborator (C | Contacto<br> Leader (L) / <br> Collaborator (C | Footer<br> Leader (L) / <br> Collaborator (C |
+|-----------------------------------------|-----------------|------------------------------------------------------|-----------------------------------------------------|------------------------------------------------|-----------------------------------------------------|------------------------------------------------|--------------------------------------------------------|--------------------------------------------|------------------------------------------------|----------------------------------------------|
+| Crispin Daniel                          | danielcr04      | C                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | L                                              | L                                            |  
+| Dominguez Rafael                        | Radv2005        | C                                                    | C                                                   | C                                              | L                                                   | L                                              | C                                                      | C                                          | C                                              | C                                            | 
+| Ramirez Salim                           | salimramirez    | L                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
+| Sulca Paúl                              | Kyrubi          | C                                                    | C                                                   | C                                              | C                                                   | C                                              | L                                                      | L                                          | C                                              | C                                            | 
+| Vilca Diego                             | diesoks         | C                                                    | L                                                   | L                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
+#### 5.2.1.3. Sprint Backlog 1
+El primer sprint estuvo dedicado exclusivamente al desarrollo de la landing page, con el objetivo de que nuestros segmentos puedan conocer más sobre Demy.<br>
+El objetivo principal de este sprint fue implementar la landing page en su totalidad.
 
-#### 5.2.1.3. Development Evidence for Sprint Review
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura de Trello App Web](./assets/screenshots/screenshot-trello-sprint1.png)
+Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860395a4f548aa20eb7bbf0bdb949AB2EADEF/apps-web
 
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+| Sprint #   |                                                                  | Sprint 1       |                                       |                                                                                                                                     |                   |             |                                                                             |
+|------------|------------------------------------------------------------------|----------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------|-----------------------------------------------------------------------------|
+| User Story |                                                                  | Work-Item/Task |                                       |                                                                                                                                     |                   |             |                                                                             |
+| Id         | Title                                                            | Id             | Title                                 | Description                                                                                                                         | Estimation(Hours) | Assigned To | Status<br> (To do/ <br> In- <br> Process / <br> To- <br> Review / <br> Done |
+| LPS01      | Ver Hero section                                                 | LPS01a         | Maquetar Hero section                 | Diseñar y maquetar la estructura base del Hero <br> (título,  subtítulo, descripción , CTA) <br>con estilos del layout              | 3                 | Salim       | Done                                                                        |
+| LPS01      | Ver Hero section                                                 | LPS01b         | Aplicar contenido y responsive        | Agregar textos definitivos, aplicar estilos<br> visuales y asegurar que sea responsivo <br> en diferentes dispositivos              | 2                 | Salim       | Done                                                                        |
+| LPS02      | Ver sección About the product                                    | LPS02a         | Estructura head del about the product | Agregar el subtítulo, título, y descripción <br> del about the product                                                              | 1                 | Diego       | Done                                                                        | 
+| LPS02      | Ver sección About the product                                    | LPS02b         | Características del about the product | Agregar 4 características de Demy con <br> un ícono representativo y que sea responsivo                                             | 3                 | Diego       | Done                                                                        |
+| LPS03      | Ver sección de beneficios<br> y características                  | LPS03a         | Maquetar Beneficios                   | Agregar el título, subtítulo y descripción de <br>los beneficios y asegurar que sea responsivo                                      | 1                 | Diego       | Done                                                                        |
+| LPS03      | Ver sección de beneficios<br> y características                  | LPS03b         | Agregar los beneficios y imagen       | Agregar 3 beneficios con su título, descripción<br> e ícono y una imagen a la derecha representativa <br> y que todo sea responsivo | 3                 | Diego       | Done                                                                        |
+| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04a         | Diseño de testimonios                 | Agregar el título  y maquetar Cards de <br> testimonios con nombre, foto, descripción y ocupación                                   | 2                 | Rafael      | Done                                                                        |
+| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04b         | Mejora visual de testimonios          | Agregar puntuación de estrellas e imágenes<br> de cada  testimonio y asegurar que sea responsivo                                    | 3                 | Rafael      | Done                                                                        | 
+| LPS05      | Ver sección About us                                             | LPS05a         | Maquetar About Aus                    | Agregar el título, subtítulo, descripción e <br> imágenes del equipo                                                                | 2                 | Rafael      | Done                                                                        |
+| LPS05      | Ver sección About us                                             | LPS05b         | Estilizar y alinear                   | Aplicar la guía de estilos, alinear las imágenes y asegurar que sea responsivo                                                      | 1                 | Rafael      | Done                                                                        | 
+| LPS06      | Consultar planes y precios                                       | LPS06a         | Head de los planes                    | Agregar el título, subtítulo y descripción general <br> de los planes que ofrece Demy                                               | 1                 | Paul        | Done                                                                        |
+| LPS06      | Consultar planes y precios                                       | LPS06b         | Crear pricing cards                   | Agregar 3 cards para cada plan que ofrece Demy <br> y asegurar que sea responsivo                                                   | 3                 | Paul        | Done                                                                        |
+| LPS07      | Acceder a la sección de <br> contacto                            | LPS07a         | Formulario de contacto                | Agregar el título, subtítulo y inputs de<br> Name, Email, Phone y Message con el button <br> comienza hoy                           | 3                 | Daniel      | Done                                                                        |
+| LPS07      | Acceder a la sección de <br> contacto                            | LPS07b         | Mejora visual                         | Agregar un imagen a la derecha, aplicar la guía <br> de estilos al formulario y asegurar que sea responsivo                         | 2                 | Daniel      | Done                                                                        | 
+| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08a         | Diseñar FAQs                          | Agregar el título, subtítulo y maquetar listas <br> de preguntas frecuentes <br> con  comportamiento de expansión                   | 3                 | Paul        | Done                                                                        |
+| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08b         | Optimización responsive               | Ajustar comportamiento y animación para<br> diferentes tamaños de pantalla                                                          | 1                 | Paul        | Done                                                                        | 
+| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09a         | Estructura del footer                 | Agregar el logo de Demy y una navegación <br> secundaria con los enlaces de cada sección anterior                                   | 2                 | Daniel      | Done                                                                        | 
+| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09b         | Agregar redes sociales y responsive   | Agregar íconos de las redes sociales, <br> derechos reservados de Demy y asegurar que  <br>sea responsivo                           | 1                 | Daniel      | Done                                                                        |
+| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
+| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        | 
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
