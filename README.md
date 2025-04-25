@@ -1079,6 +1079,40 @@ Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asi
 
 
 #### 5.2.1.3. Development Evidence for Sprint Review
+Con el sprint 1 se avanzó con la creación del landing page para Demy, que incluyo estas secciones: testimonials, pricing, landing-setup, hero-setup, hero-section, footer, faq, contact, benefits, about-us y about-product.
+
+| Repository                                              | Branch        | Commit ID                          | Commit Message                                                                         | Commit Body | Committed On |
+|---------------------------------------------------------|---------------|------------------------------------|----------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | landing-setup | 5a2ee1bbfcc3f69d5f356beac8cc236555cd4d97 | feat: initialize landing page structure                                                | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 9c44dc3a12a54e4941b9f3ef10a6fa586f06d543 | feat: add hero section with i18n and layout structure                                  | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | fd91bc89e114bf54989f4f38cbac3301dc1c16f0 | feat: add responsive navbar with i18n support and custom styles                        | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 61ef07b40223ba87514f42d83fe662aa66e0d588 | Merge pull request #1 from upc-pre-202501-1asi0730-4364-smartedu/feature/landing-setup | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | footer        | b46562380a03aaf9f5c9fec458429be79984452f | feat: add footer section to landing page                                               | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | faq           | dc2dfb7eb9aa9fb932c3badc7cefedf1cb9611e8 | feat: add faq section to landing page                                                  | —           | 20/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | contact       | 46fe3d668f22deaf3e173fcdc1c72a168c5b6ea7 | feat: add contact section to landing page                                              | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | 38292e34eddd5b3e1a5e5a1e85df146bc5572170 | fix: text of description1                                                              | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | ddd4655d93a19765abbb60deb2cce6aff2623f92 | feat: add section benefits with i18n                                                   | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 15b9d86e70096fe4c91a51281a4b76e274d510f5 | fix: about-us titles                                                                   | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 595f8b4e20ad8784cde5a2ce77775d5727447b4a | fix: about-us and images                                                               | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 332c8746a75f599ad218eb2fceac9192b75db0b6 | feat: add about us section to landing page                                             | —           | 22/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-product | 5f28a5099fa38f4d365f0379895250be2eb09e7a | feat: add section about-product with i18n                                              | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | testiominals  | 71ac258bb28a0aa96c0456c702d2ffa6b2aaeb51 | feat: add testimonial section to landing page                                          | —           | 21/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | pricing       | 721b70cd2209084af90f626a86873f55fd6af493 | feat: add pricing section to landing page                                              | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | ad5396ae1083080036733d5f0e2deab2149db48d | merge: integrate feature/hero-section into develop                                     | -           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5fa6f5db79bf9cd5cbb5b61a5bbc085f7711c60c | merge: integrate feature/landing-setup into develop                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | c7e0a202b76410d74f3f63c0a172ba4ba1835869 | feat: add favicon and related icons using relative paths in head                       | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 222bb02094067c46daf9b96be100037fc98ab650 | feat: add SEO and meta tags to head                                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 708b7500ba08650ab3271e1c4bdca605b498c8c5 | merge: integrate feature/pricing into develop                                          | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 40523a7d3ac396c29d490b8910afed64a8aee0ea | merge: integrate feature/faq into develop                                              | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 58c946a7c3bd74284e7cb897aef6920a90c611d7 | merge: integrate feature/contact into develop                                          | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 3e30addcc522d153c0451c19ec99e9c63e2c052c | merge: integrate feature/footer into develop                                           | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5e0a93812dda23408552c763b3a04f5bc8aae10d | merge: integrate feature/benefits into develop                                         | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | bac7b1576abfc39da8c790d0603a90434407e336 | merge: integrate feature/about-product into develop                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f3ace2358c46d7707d2403a40473b75e94f929a3 | merge: integrate feature/testimonials into develop                                     | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f239f39a18c10bd85469d8038b14f3457fcc6a95 | merge: integrate feature/about-us into develop                                         | -           | 24/04/2025   |
+
+
+
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
