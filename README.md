@@ -106,9 +106,9 @@
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
         - [5.2.1. Sprint 1](#521-sprint-1)
             - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
-            - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-            - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
+            - [5.2.1.2. Aspect Leaders and Collaborators ](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
             - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
@@ -676,7 +676,10 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
 
 #### 5.2.1.1. Sprint Planning 1
 
-#### 5.2.1.2. Sprint Backlog 1
+                                                                                                                                                                                                                                                                                                                                        |
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+#### 5.2.1.3. Sprint Backlog 1
 El primer sprint estuvo dedicado exclusivamente al desarrollo de la landing page, con el objetivo de que nuestros segmentos puedan conocer más sobre Demy.<br>
 El objetivo principal de este sprint fue implementar la landing page en su totalidad.
 
@@ -708,18 +711,50 @@ Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860
 | LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09b         | Agregar redes sociales y responsive   | Agregar íconos de las redes sociales, <br> derechos reservados de Demy y asegurar que  <br>sea responsivo                           | 1                 | Daniel      | Done                                                                        |
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
 | LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        | 
-#### 5.2.1.3. Development Evidence for Sprint Review
-
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
+Explicaremos cada proceso con detalle.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+**Despliegue de la Landing Page** <br>
+Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
 
+
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](./assets/screenshots/web-deployment-1.png)
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   ![Screenshot 2 del Deployment](./assets/screenshots/web-deployment-2.png)
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   ![Screenshot 3 del Deployment](./assets/screenshots/web-deployment-3.png)
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   ![Screenshot 4 del Deployment](./assets/screenshots/web-deployment-4.png)
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   ![Screenshot 5 del Deployment](./assets/screenshots/web-deployment-5.png)
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-smartedu".
+   ![Screenshot 6 del Deployment](./assets/screenshots/web-deployment-6.png)
+
+7. **Esperar el deploy**<br>
+   Aquí esperamos a que se termine de desplegar.
+   ![Screenshot 7 del Deployment](./assets/screenshots/web-deployment-7.png)
+
+8. **Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
