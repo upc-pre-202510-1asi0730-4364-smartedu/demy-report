@@ -1129,6 +1129,7 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
 ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
+Link de video de presentacion sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 
