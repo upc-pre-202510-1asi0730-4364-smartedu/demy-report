@@ -1145,7 +1145,34 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente completo.
 
+1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy con texto que invite a usar la pagina y pueda ingresar a registrarse
+   ![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
+2. **About the Product**: En esta sección se mostrarán las funcionalidades que tendrá Demy en cada recuadro de la pagina.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/about_the_product.png)
+3. **Benefits**: En esta sección se describirán los beneficios que ofrece Demy frente a la competencia y como es mejor que usar herramientas antiguas como tablas de excel.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/benefits.png)
+4. **Testimonials**: En esta sección se mostrarán el testimonio de 3 usuarios y su calificacion.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
+5. **About Us**: En esta sección se verán los 5 integrantes que conforman Demy los nombres y quien es el team lider.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
+
+6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy, los beneficios de cada uno de estos y el precio que tendra.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
+
+7. **Contact**: En esta sección el usuario podrá contactarse con los miembros de Demy rellenando sus datos y enviando un mensaje.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
+
+8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y abrir una seccion con las respuestas a las preguntas.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
+9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
+
+Nuestro github del Landing page
+![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
+
+Enlace para acceder al landinng page: [Pagina](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
