@@ -38,12 +38,11 @@ URL de nuestro repositorio para el reporte del proyecto: **[link del landing pag
 
 | Integrantes                         | Tarea Asignada                                                                                                                                                                 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Crispin Ramos, Daniel Franco        | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista                                   |
-| Dominguez Vargas, Rafael Alexander  | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista                                      |
-| Ramirez Mestanza, Salim Ignacio     | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista                            |
-| Sulca Gonzales, Paúl Ferdando       | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista                                                                  |
-| Vilca Saboya, Diego Alejandro       | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista |
-
+| Crispin Ramos, Daniel Franco        | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista<br>- To-Be Scenario Mapping<br>- General Style Guidelines<br>- Searching Systems<br>-Web Applications Wireframes<br>- Web Applications Wireflow Diagramas<br>- Landing Page(Contact + Footer)<br>- Environment Configuration<br>- Source Code Management)                                   |
+| Dominguez Vargas, Rafael Alexander  | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista<br>- Impact Mapping<br>- Organization Systems<br>- Landing Page Wireframes<br>- Web applications Mock-ups<br>- Web Application User Flow Diagrams<br>- Landing Page(testimonials + About us)<br>- Development Evidence<br>- Execution Evidence<br>- Deployment Evidence<br>- Team Collaboration Insights|
+| Ramirez Mestanza, Salim Ignacio     | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- SEO Tags and Meta Tags<br>- Web Applications Prototyping<br>- Class Diagrams<br>- Class Dictionary<br>- Database Diagram<br>- Landing Page (Navbar + Hero + i18n)|
+| Sulca Gonzales, Paúl Ferdando       | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes)|
+| Vilca Saboya, Diego Alejandro       | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog|
 
 
 **Github Collaboration Insights**
@@ -75,17 +74,6 @@ A continuación se presentan los gráficos que muestran el análisis de los comm
 
 [COMMITS]
 
-**TP**
-
-[COMMITS]
-
-**TB2**
-
-[COMMITS]
-
-**TF**
-
-[COMMITS]
 
 # Contenido
 
