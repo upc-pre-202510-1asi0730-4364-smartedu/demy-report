@@ -49,6 +49,9 @@ URL de nuestro repositorio para el reporte del proyecto: **[link del landing pag
 
 En github se presenta un timeline de las ramas principales realizadas por cada integrante del equipo y procesos merge sometidos. Todas las ramas fueron creadas tomando en cuenta el diseño del **GitFlow** para una organizacion que usa un software control de versiones.
 
+Link del repositorio en Github [Repositorio](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page.git)
+
+
 Los Integrantes son:
 
 | Integrantes                          | Nombre en GitHub |
