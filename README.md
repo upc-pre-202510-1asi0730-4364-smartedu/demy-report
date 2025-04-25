@@ -1117,7 +1117,29 @@ Con el sprint 1 se avanzó con la creación del landing page para Demy, que incl
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y despliegue del landing page, la cual muestra las diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del startup. A continuación, se muestran algunas evidencias:
 
+1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy y un botón para comenzar a usarlo.
+![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
+2. **About the Product**: En esta sección se mostrarán las funcionalidades que tendrá Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/about_the_product.png)
+3. **Benefits**: En esta sección se describirán los beneficios que ofrece Demy frente a la competencia.
+![imagesExecutionEvidence](./assets/images/LandingPage/benefits.png)
+4. **Testimonials**: En esta sección se mostrarán algunos testimonios de nuestros clientes.
+![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
+5. **About Us**: En esta sección se verán los integrantes que conforman Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
+
+6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy y los beneficios de cada uno de estos.
+![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
+
+7. **Contact**: En esta sección el usuario podrá ingresar sus datos para contactarse con los miembros de Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
+
+8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y sus respectivas respuestas.
+![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
+9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
+![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
