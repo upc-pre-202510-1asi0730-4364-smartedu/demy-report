@@ -778,7 +778,198 @@ A continuación se detallan sus definiciones y las etiquetas específicas para l
 
 ### 4.7.1. Class Diagrams
 
+Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
+Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
+
+> FALTA PONER EL DIAGRAMA
+
 ### 4.7.2. Class Dictionary
+
+#### IAM Context
+
+**UserAccount**
+
+Representa una cuenta de usuario dentro del sistema, utilizada tanto por administradores como por docentes. Gestiona sus credenciales, el rol que desempeñan y el estado actual de la cuenta.
+
+| Attribute      | Type           | Description                                                  |
+|----------------|----------------|--------------------------------------------------------------|
+| id             | UserId         | Unique identifier for the user account                       |
+| fullName       | FullName       | Full name of the user                                        |
+| email          | Email          | Email address used to log into the system                    |
+| passwordHash   | String         | Encrypted password                                           |
+| role           | Role           | User role (ADMIN or TEACHER)                                 |
+| status         | AccountStatus  | Account status (ACTIVE, INACTIVE, or BLOCKED)                |
+
+#### Enrollment Management Context
+
+**Enrollment**
+
+Representa el registro de un estudiante en una academia durante un determinado periodo. Permite verificar la pertenencia, estado y realizar operaciones sobre la inscripción.
+
+| Attribute  | Type             | Description                                            |
+|------------|------------------|--------------------------------------------------------|
+| id         | UUID             | Unique identifier for the enrollment                   |
+| student    | StudentId        | Identifier of the student being enrolled               |
+| academy    | AcademyId        | Identifier of the academy where the enrollment is made |
+| status     | EnrollmentStatus | Status of the enrollment (ACTIVE or INACTIVE)          |
+
+**Student**
+
+Representa a un estudiante que puede ser matriculado en una academia. Contiene su información básica de identificación y contacto.
+
+| Attribute  | Type       | Description                              |
+|------------|------------|------------------------------------------|
+| id         | StudentId  | Unique identifier for the student        |
+| fullName   | FullName   | Full name of the student                 |
+| email      | Email      | Contact email address of the student     |
+
+**Academy**
+
+Representa una academia educativa. Está asociada a un usuario propietario y contiene los periodos académicos que definen el calendario escolar.
+
+| Attribute   | Type                     | Description                                     |
+|-------------|--------------------------|-------------------------------------------------|
+| id          | AcademyId                | Unique identifier for the academy               |
+| userId      | UserId                   | Identifier of the user who manages the academy  |
+| periods     | List<AcademicPeriod>     | List of academic periods defined by the academy |
+| academyName | String                   | Name of the academy                             |
+
+**AcademicPeriod**
+
+Representa un intervalo de tiempo en el que se desarrolla un ciclo académico. Es utilizado como valor dentro del contexto de una academia.
+
+| Attribute | Type | Description                  |
+|-----------|------|------------------------------|
+| startDate | Date | Start date of the period     |
+| endDate   | Date | End date of the period       |
+
+#### Scheduling Management Context
+
+**WeeklySchedule**
+
+Representa el horario semanal de una academia. Contiene las entradas programadas para cada día y permite gestionar agregados, actualizaciones y validaciones de disponibilidad horaria.
+
+| Attribute   | Type               | Description                                      |
+|-------------|--------------------|--------------------------------------------------|
+| id          | UUID               | Unique identifier for the weekly schedule        |
+| academyId   | AcademyId          | Identifier of the academy that owns the schedule |
+| entries     | List<Schedule>     | List of scheduled entries (classes)              |
+
+**Schedule**
+
+Define una entrada específica dentro del horario. Contiene la información sobre el curso, aula, horario y docente asignado.
+
+| Attribute   | Type          | Description                                  |
+|-------------|---------------|----------------------------------------------|
+| id          | ScheduleId    | Unique identifier for the schedule entry     |
+| dayOfWeek   | String        | Day of the week the class takes place        |
+| timeRange   | DateTimeRange | Start and end time for the scheduled session |
+| course      | Course        | Course being taught during this schedule     |
+| room        | Room          | Room where the class is held                 |
+| userId      | UserId        | Identifier of the teacher assigned           |
+
+**Course**
+
+Representa un curso que puede ser parte de un horario. Incluye nombre y una breve descripción del contenido del curso.
+
+| Attribute   | Type   | Description                      |
+|-------------|--------|----------------------------------|
+| name        | String | Name of the course               |
+| description | String | Short description of the course  |
+
+**Room**
+
+Define un ambiente físico o virtual donde se dicta una clase. Permite identificar el aula y conocer su capacidad.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| roomCode  | String | Code or identifier of the room       |
+| capacity  | int    | Maximum number of people allowed     |
+
+#### Attendance Management Context
+
+**ClassSession**
+
+Representa una sesión de clase específica, asociada a un horario previamente programado. Permite registrar la asistencia de los estudiantes y consultar sus estados individuales.
+
+| Attribute   | Type                     | Description                                                        |
+|-------------|--------------------------|--------------------------------------------------------------------|
+| id          | UUID                     | Unique identifier for the class session                            |
+| scheduleId  | ScheduleId               | Identifier of the related schedule                                 |
+| attendance  | List<AttendanceRecord>   | List of attendance records for this session                        |
+
+**AttendanceRecord**
+
+Representa el estado de asistencia de un estudiante en una sesión específica. Se trata de un objeto inmutable que forma parte de un registro más amplio.
+
+| Attribute  | Type             | Description                                        |
+|------------|------------------|----------------------------------------------------|
+| studentId  | StudentId        | Identifier of the student                          |
+| status     | AttendanceStatus | Attendance status (PRESENT, ABSENT, or JUSTIFIED)  |
+
+#### Subscription & Billing Context
+
+**Subscription**
+
+Representa la suscripción activa de una academia a un plan del sistema. Controla el estado de la suscripción y su vigencia.
+
+| Attribute   | Type               | Description                                                    |
+|-------------|--------------------|----------------------------------------------------------------|
+| id          | UUID               | Unique identifier for the subscription                         |
+| academyId   | AcademyId          | Identifier of the academy that owns the subscription           |
+| plan        | PlanId             | Identifier of the selected plan                                |
+| status      | SubscriptionStatus | Status of the subscription (ACTIVE, EXPIRED, TRIAL, CANCELLED) |
+| period      | DateRange          | Period of validity for the subscription                        |
+
+**Plan**
+
+Representa una oferta de suscripción disponible para academias. Define los límites del servicio según cada plan.
+
+| Attribute    | Type   | Description                                    |
+|--------------|--------|------------------------------------------------|
+| id           | UUID   | Unique identifier for the plan                 |
+| name         | String | Name of the subscription plan                  |
+| price        | Money  | Monthly cost of the plan                       |
+| maxStudents  | int    | Maximum number of students allowed in the plan |
+| maxTeachers  | int    | Maximum number of teachers allowed in the plan |
+
+**Invoice**
+
+Representa una factura generada a partir de una suscripción activa. Controla el estado del pago y la fecha de vencimiento.
+
+| Attribute        | Type           | Description                                  |
+|------------------|----------------|----------------------------------------------|
+| id               | UUID           | Unique identifier for the invoice            |
+| subscriptionId   | SubscriptionId | Identifier of the related subscription       |
+| amount           | Money          | Amount to be paid for the invoice            |
+| dueDate          | Date           | Due date of the invoice                      |
+| status           | PaymentStatus  | Payment status (PENDING, PAID, or OVERDUE)   |
+
+**Payment**
+
+Representa un pago realizado por una factura. Contiene detalles del momento, método y monto abonado.
+
+| Attribute  | Type       | Description                                          |
+|------------|------------|------------------------------------------------------|
+| invoiceId  | InvoiceId  | Identifier of the associated invoice                 |
+| paidAt     | DateTime   | Date and time when the payment was completed         |
+| method     | String     | Payment method used (e.g., credit card, transfer)    |
+| amount     | Money      | Amount paid                                          |
+
+**FinancialTransaction**
+
+Representa una transacción financiera entre dos partes. Se asocia directamente a un pago específico.
+
+| Attribute  | Type       | Description                                         |
+|------------|------------|-----------------------------------------------------|
+| id         | UUID       | Unique identifier for the transaction               |
+| source     | PartyType  | Party from which the money originated               |
+| target     | PartyType  | Party receiving the money                           |
+| type       | String     | Type of transaction (e.g., payment, refund)         |
+| concept    | String     | Description of the transaction purpose              |
+| date       | DateTime   | Date and time of the transaction                    |
+| reference  | String     | External or internal reference identifier           |
+| payment    | Payment    | Payment object associated with this transaction     |
 
 ## 4.8. Database Design
 
