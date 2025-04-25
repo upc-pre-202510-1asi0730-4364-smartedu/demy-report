@@ -1175,6 +1175,17 @@ Nuestro github del Landing page
 Enlace para acceder al landinng page: [Pagina](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+| Alumno                             |  Actividad                              | 
+|------------------------------------|-----------------------------------------|
+| Crispin Ramos, Daniel Franco       | contacts, footer                        |
+| Dominguez Vargas, Rafael Alexander | testimonial, about-us                   |
+| Ramirez Mestanza, Salim Ignacio    | landing-setup, Hero Section,navbar,i18n | 
+| Sulca Gonzales, Paúl Fernando      | plans & pricing,FAQs                    | 
+| Vilca Saboya, Diego Alejandro      | about-the-product,Benefits              |
+
+![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_commits.png)
+![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_contributors.png)
+
 
 # Conclusiones
 
