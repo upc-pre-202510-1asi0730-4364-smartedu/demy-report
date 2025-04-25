@@ -80,13 +80,13 @@ package "Scheduling Management Context" {
         --
         +addEntry(schedule: Schedule): void
         +removeEntry(schedule: Schedule): void
-        +updateEntry(dayOfWeek: DayOfWeek, newSchedule: Schedule): void
-        +contains(dayOfWeek: DayOfWeek, timeRange: DateTimeRange): boolean
+        +updateEntry(dayOfWeek: String, newSchedule: Schedule): void
+        +contains(dayOfWeek: String, timeRange: DateTimeRange): boolean
     }
 
     entity Schedule <<Entity>> {
         - id ScheduleId
-        - dayOfWeek: DayOfWeek
+        - dayOfWeek: String
         - timeRange: DateTimeRange
         - course: Course
         - room: Room
