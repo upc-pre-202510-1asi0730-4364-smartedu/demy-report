@@ -587,7 +587,10 @@ A continuación, se ilustra de manera referencial los input texts a implementar 
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
-La navegación de la landing page es vertical, es decir, el usuario puede desplazarse desde la parte superior hacia la inferior para visualizar todo el contenido de forma continua. <br>
+En Demy queremos ofrecer la mejor experiencia a nuestros usuarios, por eso nos encargamos de asegurar la usabilidad en nuestras interfaces, por ello, aplicaremos las siguientes decisiones de UI:
+**Landing Page** <br>
+La navegación de la Landing Page hará uso del scroll vertical, ya que es la navegación más común y cómoda en . <br>
+
 
 En cuanto a la aplicación web, esta cuenta con una barra de navegación (navbar) que permite al usuario cambiar entre las secciones "Mi Organización" y "Panel de Control". Al acceder al panel de control, se despliega un menú lateral ubicado en la parte izquierda de la pantalla, desde donde el usuario puede navegar entre las distintas funcionalidades del sistema.
 
@@ -682,6 +685,42 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
 
 
 ### 5.1.4. Software Deployment Configuration.
+En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
+Explicaremos cada proceso con detalle.
+
+**Despliegue de la Landing Page** <br>
+Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
+
+
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](./assets/screenshots/web-deployment-1.png)
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   ![Screenshot 2 del Deployment](./assets/screenshots/web-deployment-2.png)
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   ![Screenshot 3 del Deployment](./assets/screenshots/web-deployment-3.png)
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   ![Screenshot 4 del Deployment](./assets/screenshots/web-deployment-4.png)
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   ![Screenshot 5 del Deployment](./assets/screenshots/web-deployment-5.png)
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-smartedu".
+   ![Screenshot 6 del Deployment](./assets/screenshots/web-deployment-6.png)
+
+7. **Esperar el deploy**<br>
+   Aquí esperamos a que se termine de desplegar.
+   ![Screenshot 7 del Deployment](./assets/screenshots/web-deployment-7.png)
+
+8. **Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://demy-smartedu.netlify.app/)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -754,42 +793,6 @@ Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
-Explicaremos cada proceso con detalle.
-
-**Despliegue de la Landing Page** <br>
-Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
-
-
-1. **Ingresar a Netlify**<br>
-   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
-   ![Screenshot 1 del Deployment](./assets/screenshots/web-deployment-1.png)
-2. **Autorizar a Netlify** <br>
-   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
-   ![Screenshot 2 del Deployment](./assets/screenshots/web-deployment-2.png)
-3. **Escoger tu deploy** <br>
-   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
-   ![Screenshot 3 del Deployment](./assets/screenshots/web-deployment-3.png)
-4. **Escoger tu repositorio** <br>
-   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
-   ![Screenshot 4 del Deployment](./assets/screenshots/web-deployment-4.png)
-5. **Configurar el despliegue** <br>
-   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
-   ![Screenshot 5 del Deployment](./assets/screenshots/web-deployment-5.png)
-6. **Seguir configurando** <br>
-   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-smartedu".
-   ![Screenshot 6 del Deployment](./assets/screenshots/web-deployment-6.png)
-
-7. **Esperar el deploy**<br>
-   Aquí esperamos a que se termine de desplegar.
-   ![Screenshot 7 del Deployment](./assets/screenshots/web-deployment-7.png)
-
-8. **Despliegue listo** <br>
-   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
-   ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
-
-Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
-[Link de la Landing Page](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
