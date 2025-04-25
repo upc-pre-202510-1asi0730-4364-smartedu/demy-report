@@ -587,14 +587,20 @@ A continuación, se ilustra de manera referencial los input texts a implementar 
 ### 4.2.4. Searching Systems
 
 ### 4.2.5. Navigation Systems
-En Demy queremos ofrecer la mejor experiencia a nuestros usuarios, por eso nos encargamos de asegurar la usabilidad en nuestras interfaces, por ello, aplicaremos las siguientes decisiones de UI:
+En Demy queremos ofrecer la mejor experiencia a nuestros usuarios, por eso nos encargamos de asegurar la usabilidad en nuestras interfaces, por ello, aplicaremos las siguientes decisiones de UI: <br>
+
 **Landing Page** <br>
-La navegación de la Landing Page hará uso del scroll vertical, ya que es la navegación más común y cómoda en . <br>
+- La navegación de la Landing Page hace uso del scroll vertical, ya que es la navegación más común y cómoda en una página web. <br>
+- La Landing Page cuenta con una barra de menú superior que se mantiene siempre arriba por más que el usuario se desplaze hacia abajo, esta cuenta con enlaces que dirigen a las secciones "About", "Benefits","Plans" y "Contact".
+- La Landing Page hace uso del Call to Action en secciones como Hero, Plans y Contact mediante el botón "Get Started" y "Start today".
 
+**Web Application** <br>
+- La aplicación contará con un navbar que permite al usuario cambiar entre las secciones "Mi organización" y "Panel de control".
+- Al acceder a "Panel de control" se abrirá un side navbar que contendrá más enlaces hacia las distintas funcionalidades de Demy.
+- En la navegación entre interfaces o vistas, añadiremos la opción de siempre poder volver a la vista anterior, asegurándonos que el usuario siempre tenga control del sistema.
 
-En cuanto a la aplicación web, esta cuenta con una barra de navegación (navbar) que permite al usuario cambiar entre las secciones "Mi Organización" y "Panel de Control". Al acceder al panel de control, se despliega un menú lateral ubicado en la parte izquierda de la pantalla, desde donde el usuario puede navegar entre las distintas funcionalidades del sistema.
+Accesibilidad y Usabilidad: Hemos aplicado el "Responsive Design" que hace que la navegación se mantenga eficiente aunque el usuario se encuentre en otro dispositivo como un celular, en ese caso la navegación se adecua a eso mediante un ícono de 3 rayitas que abre un sidenavbar con las distintas funcionalidades.
 
-Además, la navegación entre interfaces o vistas ha sido diseñada para ofrecer siempre la posibilidad de regresar o cancelar la acción que se está por realizar, garantizando así una experiencia de usuario más intuitiva y segura.
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
