@@ -61,10 +61,13 @@ Los Integrantes son:
 
 
 Las ramas mas prominentes:
-- **main:** 
-- **develop:** 
-- **feature-product-design:** 
-- **feature-sprint1:** 
+- **main:** La rama principal donde estara el documento completo.
+- **develop:** La rama donde hacemos merge para guardar los cambios.
+- **feature/sprint1-daniel:** La rama de Daniel donde guarda sus avances del sprint1.
+- **feature/sprint1-diego:** La rama de Diego donde guarda sus avances del sprint1.
+- **feature/sprint1-paul:** La rama de Paul donde guarda sus avances del sprint1.
+- **feature/sprint1-rafael:** La rama de Rafael donde guarda sus avances del sprint1.
+- **feature/sprint1-salim:** La rama de Salim donde guarda sus avances del sprint1.
 
 [Network graph]
 
@@ -306,7 +309,7 @@ En el análisis del segmento objetivo para Demy, hemos previsto que nuestros pri
 
 ### Profesores de academias preuniversitarias
 
-Conocemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+Segun Gan@Mas(julio,2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
 
 - **Edad**: Buscamos profesores de cualquier edad
 - **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
