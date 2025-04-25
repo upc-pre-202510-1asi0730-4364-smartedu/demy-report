@@ -617,12 +617,42 @@ La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los ele
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
+En esta seccion se detallara la arquitectura basada en DDD para nuestra aplicacion frontEnd
 
 ### 4.6.1. Software Architecture Context Diagram
+Demy es una plataforma web diseñada específicamente para resolver los problemas administrativos que enfrentan las academias educativas. Tiene dos segmentos objetivos. El Coordinador es el usuario encargado de gestionar la academia. El Docente utiliza Demy para consultar los horarios y registrar la asistencia de los estudiantes. 
+
+Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
+**Attendance Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+**Enrollments Context**
+El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+**IAM Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
+<br> <br>
+![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+**Scheduling Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
+**Subscription and Billing Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
+
 
 ## 4.7. Software Object-Oriented Design
 
