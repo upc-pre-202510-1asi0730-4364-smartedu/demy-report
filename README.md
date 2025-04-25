@@ -973,7 +973,17 @@ Representa una transacción financiera entre dos partes. Se asocia directamente 
 
 ## 4.8. Database Design
 
+Esta sección presenta el diseño de la base de datos del sistema, derivado del modelo orientado a objetos y los bounded contexts definidos bajo el enfoque de Domain-Driven Design (DDD).
+El objetivo es estructurar las entidades persistentes y sus relaciones para garantizar la integridad, escalabilidad y trazabilidad de los datos.
+
+Se optó por MySQL como sistema de gestión de bases de datos por su amplio soporte en la industria, facilidad de integración y buen rendimiento en aplicaciones web escalables.
+
 ### 4.8.1. Database Diagram
+
+A continuación se muestra el diagrama entidad-relación (ERD), que representa gráficamente las tablas de la base de datos, sus atributos principales y las relaciones existentes entre ellas.
+Este diagrama fue generado a partir del modelo de clases y ajustado a una representación relacional clara y normalizada.
+
+![Database Diagram](./assets/images/database-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
