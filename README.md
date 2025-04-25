@@ -1028,6 +1028,7 @@ Este diagrama fue generado a partir del modelo de clases y ajustado a una repres
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este primer sprint no se contempló la evidencia de documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
