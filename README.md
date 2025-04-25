@@ -119,7 +119,6 @@
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -1037,9 +1036,33 @@ Este diagrama fue generado a partir del modelo de clases y ajustado a una repres
 
 # Conclusiones
 
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
 ## Conclusiones y Recomendaciones
 
-## Video About-the-Team
+### Conclusiones
+
+El equipo concluyó que las academias presenciales enfrentan serias limitaciones en su gestión administrativa diaria debido al uso de herramientas no integradas, como hojas de cálculo y documentos físicos.
+Nuestro producto busca abordar estas ineficiencias mediante funcionalidades como la automatización de matrículas, control de asistencia y pagos, así como la centralización de horarios y comunicación.
+Aunque aún no se ha realizado la validación con usuarios reales, el desarrollo de la Landing Page permite comunicar efectivamente el valor de la solución, siendo un primer paso clave para atraer y educar al segmento objetivo.
+
+Las hipótesis se consideran parcialmente validadas: se identificó un fuerte interés por una plataforma centralizada, con alertas y accesibilidad desde múltiples dispositivos, lo cual respalda funcionalidades como recordatorios de pago y visualización de horarios.
+Sin embargo, aún no se ha contrastado el comportamiento real de adopción o retención por parte de los usuarios, ya que la Web Application y la API aún no se han implementado.
+A pesar de ello, los entregables desarrollados hasta el momento están enfocados en facilitar la experiencia del usuario, así como la accesibilidad e internacionalización, y aportar claridad al modelo de negocio.
+
+Se recomienda priorizar en el siguiente sprint el desarrollo de la Web Application con las funcionalidades esenciales para usuarios administrativos y docentes, como la gestión de asistencia, matrícula y pagos.
+Asimismo, se sugiere integrar la arquitectura backend junto a la API RESTful para garantizar la escalabilidad de la solución.
+
+### Recomendaciones
+
+Es crucial preparar los escenarios de validación con usuarios reales a fin de ajustar la experiencia, identificar puntos de fricción y validar hipótesis críticas como la aceptación del sistema por parte de personal con poca experiencia tecnológica.
+
+Además, se recomienda mantener la coherencia visual y de navegación entre la Landing Page y la Web Application, e implementar métricas desde el inicio para medir adopción, retención y efectividad en la automatización de tareas administrativas.
+Estas acciones permitirán optimizar el roadmap del producto y acercarse de manera sostenida a los objetivos de negocio establecidos.
+
+Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
+Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
 # Bibliografía
 
