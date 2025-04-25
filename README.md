@@ -1,21 +1,24 @@
-<h1 style="text-align: center;"> Informe TB1 </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+<h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
 
-<img src="https://raw.githubusercontent.com/desarrollo-de-aplicaciones-open-source/project-open-source/refs/heads/main/assets/logos/upc_logo.png" alt="logo_upc" width="200px" style="display: block; margin-left: auto; margin-right: auto;">
+<div style="text-align: center;">
+  <img src="./assets/images/upc-logo.png" alt="UPC Logo">
+</div>
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+<h4 style="text-align: center"> Ingeniería de Software </h4>
 
-<h5 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h5>
+<h4 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h4>
 
-<h5 style="text-align: center"> Seccíón: 4304  </h5>
+<h4 style="text-align: center"> Seccíón: 4364  </h4>
 
-<h5 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h5>
+<h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h5 style="text-align: center"> Startup: SmartEdu </h5>
+<h4 style="text-align: center;"> Informe del TB1 </h4>
 
-<h5 style="text-align: center"> Producto: Demy </h5>
+<h4 style="text-align: center"> Startup: SmartEdu </h4>
 
-<h2>Team members:</h2>
+<h4 style="text-align: center"> Producto: Demy </h4>
+
+<h2 style="text-align: center">Team members:</h2>
 
 | Código     | Nombre                             |
 |------------|------------------------------------|
