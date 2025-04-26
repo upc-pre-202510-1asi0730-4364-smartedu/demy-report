@@ -226,6 +226,48 @@ La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+#### What?
+#### ¿Cuál es el problema?
+El problema radica en la gestión desorganizada y manual de los procesos administrativos en academias educativas presenciales. Muchas de estas instituciones utilizan hojas de Excel, documentos físicos o plataformas no integradas, lo que genera el aumento de esfuerzo, pérdida de información, errores y una ineficiente administración de los recursos y tiempo.
+#### When (Cuando)
+#### ¿Cuándo sucede el problema?
+Este problema sucede de manera constante en el día a día de las academias, especialmente al inicio de ciclos academicos, al momento de inscribir alumnos, registrar asistencia, gestionar pagos, distribuir horarios y administrar recursos. La falta de automatización y centralización de procesos es una barrera persistente que afecta la eficiencia desde el primer contacto con el alumno hasta el cierre del periodo académico.
+#### Where (Dónde)
+#### ¿A dónde se dirige?
+La solución está dirigida a academias privadas de nivel escolar, preuniversitario o técnico que buscan mejorar su gestión interna mediante tecnología accesible, amigable y diseñada para sus flujos operativos reales.
+#### ¿Dónde surge el problema?
+Surge dentro de las academias presenciales que gestionan sus operaciones de forma tradicional en todo el país. Específicamente, el problema ocurre en las áreas administrativas, académicas y de coordinación de recursos.
+#### Who (Quién)
+#### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+Los principales usuarios serán el personal administrativo (coordinadores) y los docentes (para el control de asistencia y gestión de clases)
+Estos perfiles utilizarán la plataforma para registrar matrículas, gestionar pagos, asignar horarios, monitorear asistencia, controlar inventarios, y obtener reportes para la toma de decisiones.
+#### Why (Por qué)
+#### ¿Cuál es la causa del problema?
+La causa del problema está en la falta de herramientas accesibles y especializadas que se adapten al contexto operativo de academias presenciales. Muchas instituciones no han adoptado soluciones tecnológicas por miedo al cambio, desconocimiento o falta de recursos, lo cual perpetúa el uso de métodos manuales que limitan su eficiencia y capacidad de crecimiento.
+
+### ¿Cuáles son las 2H?
+#### How (Cómo)
+#### ¿Cómo se utilizará el producto?
+La plataforma web será utilizada diariamente por el personal de la academia. A través de una interfaz amigable, podrán registrar matrículas, programar clases, marcar asistencia, ingresar pagos y gestionar inventario. Se podrá acceder desde computadoras o smartphones, permitiendo que los usuarios trabajen desde cualquier lugar con conexión a internet.
+
+#### ¿Cómo lograremos alcanzar la correcta gestión de los procesos administrativos de la academia dentro de la plataforma?
+Mediante el diseño de módulos para cada funcionalidad clave que hemos identificado:
+
+- Módulo de matrícula.
+
+- Módulo de pagos con alertas automáticas de vencimientos.
+
+- Módulo de asistencia accesible para los docentes con visualización por grupo.
+
+- Módulo de horarios que permite programar docentes, salones y materias.
+
+- Modulo de registro de alumnnos, profesores, secciones, aulas, sedes, etc.
+
+- Dashboard administrativo.
+
+#### How much (Cuánto)
+#### ¿Qué porcentaje del personal académico-administrativo se beneficiaría?
+Se estima que el sistema podría beneficiar directamente al 70% del personal de una academia promedio, incluyendo al menos 3 a 5 administrativos y entre 10 y 20 docentes, aunque todo esto dependeria del tamaño de la institución y las sedes que esta maneje.
 
 ### 1.2.2. Lean UX Process
 
@@ -508,6 +550,7 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.jpg)                                                                                                                                                                                                                                                             |
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EYqHy5GZWKpNpkI5YLn8a48B4EwLCsWONOY5sa038Y5flA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOG6Ki)                                                                                                                                                                                                                                                                                              |
 | **Resumen**             | El entrevistado es un docente con experiencia en diversas academias y actualmente dicta clases en círculos de estudio en la UNALM. En su rutina diaria, enfrenta desafíos relacionados con la gestión manual de horarios pues usa herramientas como Excel, actividades que le consumen una gran cantidad de tiempo y afectan su eficiencia. Usa principalmente su laptop y su celular para organizarse, sin herramientas digitales especializadas, lo que le complica su trabajo. Al conocer la propuesta de nuestra startup, mostró una percepción positiva ante la posibilidad de contar con una herramienta que centralice y automatice estos procesos. Reconoce que una solución tecnológica podría mejorar su organización, reducir su carga administrativa y permitirle enfocarse más en la enseñanza. Se mostró dispuesto a adoptar nuevas herramientas que respondan a sus necesidades y faciliten su trabajo diario como docente, herramientas las cuales pueda usar desde su celular o su laptop. |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
 
 #### Segmento: Docente - Entrevistado 2
 
@@ -539,6 +582,35 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                 |
 | **Resumen**             | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
 
+#### Segmento: Administrativo - Entrevistado 1
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Kevin Rodriguez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Edad**                | 28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Ocupación**           | Coordinador de Academia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Duración**            | 05:29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-coordinator1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EdMM8r4dK-5LhtPoz2W7EYcB4xFBS0U003gfDCRLW13tkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fz6inu)                                                                                                                                                                                                                                                                                                                                |
+| **Resumen**             | Kevin gestiona actualmente sus procesos administrativos con Excel y listas impresas, lo que considera poco eficiente y repetitivo. Necesita acceder con frecuencia a información como asistencias y notas, pero no siempre la tiene a la mano, lo que afecta la atención a padres, quienes consultan regularmente. Expresa el deseo de contar con un sistema automatizado que permita búsquedas rápidas por nombre o código y que envíe alertas sobre pagos. Está dispuesto a adoptar una nueva herramienta siempre que sea intuitiva, centralice la información y tenga un costo accesible. Espera mejorar la organización y el control con una solución más moderna. |
+
+#### Segmento: Administrativo - Entrevistado 2
+
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Marleni Rosa Flores                                                                                                                                                                                                                                                                                                            |
+| **Edad**                | 58                                                                                                                                                                                                                                                                                                                             |
+| **Sexo**                | Femenino                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                            |
+| **Ocupación**           | Coordinadora de Academia                                                                                                                                                                                                                                                                                                       |
+| **Fecha de entrevista** | 09 de abril de 2025                                                                                                                                                                                                                                                                                                            |
+| **Duración**            | 04:49                                                                                                                                                                                                                                                                                                                          |
+| **Captura**             | ![Captura](assets/screenshots/interview-screenshot-coordinator2.png)                                                                                                                                                                                                                                                           |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA)                                                                                                                                                                                                                                                                                              |
+| **Resumen**             | Marleni, coordinadora de una academia enfocada en estudiantes de últimos años escolares, actualmente gestiona procesos administrativos como matrículas, pagos y asistencias de manera manual. Esto le genera dificultades para llevar un control preciso de pagos, ingresos, egresos y asistencia, lo que afecta la organización y eficiencia del trabajo. Expresa interés en una herramienta que incluya registro de alumnos, control de pagos, ingresos, egresos y pagos a profesores. Considera muy útil recibir alertas para recordar pagos pendientes y prefiere un sistema simple, con funciones esenciales y fácil de usar. Está dispuesta a adoptar una nueva plataforma si mejora la gestión y organización de su trabajo. |
+
 #### Segmento: Administrativo - Entrevistado 3
 
 | Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -553,7 +625,6 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-administrator3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaQ5KVEex65KtKOix6TXG5kBVHG4dwUDkPTVICrfJOErnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kV6CSu )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Resúmen**             | John Robert, administrador de la academia Enigmas en Ica, lleva 1 año gestionando los procesos administrativos de su academia. Actualmente, utiliza Excel para manejar datos como matrículas, asistencia, pagos y horarios, lo cual le genera problemas de desorganización y falta de tiempo debido a la complejidad de navegar entre diferentes hojas de cálculo. Destaca que el estrés y los errores derivados de este método afectan la eficiencia de su trabajo. Busca una herramienta más sencilla y automatizada, que le permita acceder rápidamente a la información con solo ingresar el DNI de los estudiantes y los apoderados. Además, le gustaría contar con un registro de pagos pendientes y, lo que mejoraría su productividad. Está dispuesto a aprender a utilizar una nueva plataforma si esta resulta fácil de manejar y optimiza la gestión de la academia. |
-
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -670,8 +741,6 @@ En este User Task Matrix se detallan las tareas clave que cada tipo de usuario p
 | Diseñar las evaluaciones                      |                 sometimes                 |                    high                    |
 | Gestionar que se cumplan las normas en el aula|                  always                   |                    high                    |
 
-
-
 ### 2.3.3. User Journey Mapping
 A continuación se presentarán los User Journey Maps de cada User Persona. Estos mapas nos permitirán comprender los puntos de dolor que experimentan en cada etapa, desde que descubren nuestra app hasta que comparten su opinión sobre ella.
 
@@ -704,6 +773,14 @@ Se elaboraron los Empathy Mapping para los dos User Personas: el Administrador d
 
 ---
 ### 2.3.5. As-Is Scenario Mapping
+
+Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con nuestros futuros usuarios, buscando describir sus experiencias de forma que reflejaran sus pain points identificados en la seccion anterior . 
+
+**As-Is Scenario Mapping Coordinador**
+![Image](assets/images/as-is-scenario-mapping-coordinator.png)
+
+**As-Is Scenario Mapping Teacher**
+![Image](assets/images/as-is-scenario-mapping-teacher.png)
 
 ## 2.4. Ubiquitous Language
 
@@ -1030,6 +1107,22 @@ Vamos a usar diferentes sistemas de organización según el tipo de contenido qu
 - **Secuencial (Step-by-step):** Se usará cuando el contenido deba seguir un orden lógico para ser comprendido o completado.
 
 ### 4.2.2. Labeling Systems
+La interfaz de nuestra aplicación debe ser clara y fácil de usar, con palabras claves que sean conocidas por nuestros usuarios. Por esta razón, las etiquetas empleadas deben explicar de manera concisa su función en pocas palabras. Así, hemos creado etiquetas para la navegación principal en las dos versiones de nuestra aplicación web:
+
+***Coordinador***
+- Panel de Control: Acceso al panel principal con vistas rápidas y enlaces a todas las secciones principales de la aplicación, organizado en un estilo Bento Grid.
+- Matrícula: Acceso al registro de matrícula de alumnos, permitiendo su alta en el sistema.
+- Alumnos: Acceso a filtros de búsqueda de alumnos por DNI y muestra detalles generales como: nombres, apellidos, DNI, apoderado, fecha de matrícula, estado de matrícula y estado de pago.
+- Pagos: Acceso para registrar el pago de mensualidades de los alumnos, con opciones para actualizar el estado de pago.
+- Horarios: Acceso a un calendario semanal donde están programadas las clases, con un filtro por código de salón.
+- Asistencia: Acceso a la gestión de asistencia de los alumnos, con filtro por DNI y visualización de su historial.
+- Finanzas: Acceso al registro de egresos, balance mensual y visualización de los últimos egresos realizados.
+
+***Profesor***
+
+- Panel de Control: Acceso al panel principal con vistas rápidas y enlaces a todas las secciones principales de la aplicación, organizado en un estilo Bento Grid.
+- Horarios: Acceso a los horarios del profesor, con la programación detallada de sus clases y la asignación por día y aula.
+- Asistencia: Acceso a la gestión de asistencia, con un filtro por aula y un panel interactivo para marcar la asistencia de los alumnos durante las clases.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1135,6 +1228,32 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 ![imagesWireframe2.3](./assets/images/images-wirefranes/landing-page-movil-web-browser-3.png)
 
 ### 4.3.2. Landing Page Mock-up
+**Landing Page Mock-up Desktop Web Browser**
+
+El wireframe para desktop guió la disposición de los elementos, y el mock-up finaliza con los contenidos definidos. Se usaron los colores y tipografía del Style Guidelines para asegurar coherencia visual y una navegación clara, integrando principios de diseño inclusivo y accesibilidad.
+
+![Image](assets/images/landing-page-mockup/desktop-web-browser/hero.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/about%20the%20product.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/benefits.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/testimonials.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/about%20us.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/pricing.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/hero.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/contact%20us.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/faq.png)
+<br>![Image](assets/images/landing-page-mockup/desktop-web-browser/footer.png)
+<br>
+
+
+**Landing Page Mock-up Mobile Web Browser**
+
+La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los elementos más importantes. Se mantuvieron los mismos colores y tipografía del Style Guidelines, con un enfoque que optimiza la navegación táctil y garantiza accesibilidad.
+
+![Image](assets/images/landing-page-mockup/mobile-web-browser/hero%20about%20the%20product%20benefits.png)
+<br>
+![Image](assets/images/landing-page-mockup/mobile-web-browser/testimonials,%20about%20us,%20pricing.png)
+<br>
+![Image](assets/images/landing-page-mockup/mobile-web-browser/contact%20us,%20faq,%20footer.png)
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1808,17 +1927,45 @@ Cuando el usuario ya haya terminado de pasar asistencia y registrado la asistenc
 Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asistencia ha sido registrada exitosamente".
 ![imagesFlowDiagrams13](./assets/images/web_applications_user_flow_diagrams/Profesor/Guardar_Asitencia.png)
 
-
-
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
+En esta seccion se detallara la arquitectura basada en DDD para nuestra aplicacion frontEnd
 
 ### 4.6.1. Software Architecture Context Diagram
+Demy es una plataforma web diseñada específicamente para resolver los problemas administrativos que enfrentan las academias educativas. Tiene dos segmentos objetivos. El Coordinador es el usuario encargado de gestionar la academia. El Docente utiliza Demy para consultar los horarios y registrar la asistencia de los estudiantes. 
+
+Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
+**Attendance Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+**Enrollments Context**
+El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+**IAM Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
+<br> <br>
+![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+**Scheduling Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
+**Subscription and Billing Context**
+El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
+<br> <br>
+![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
+
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2357,7 +2504,6 @@ Con el sprint 1 se avanzó con la creación del landing page para Demy, que incl
 | upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f3ace2358c46d7707d2403a40473b75e94f929a3 | merge: integrate feature/testimonials into develop                                     | -           | 24/04/2025   |
 | upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f239f39a18c10bd85469d8038b14f3457fcc6a95 | merge: integrate feature/about-us into develop                                         | -           | 24/04/2025   |
 
-
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
@@ -2417,7 +2563,7 @@ Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente co
 Nuestro github del Landing page
 ![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
 
-Enlace para acceder al landinng page: [Pagina](https://demy-smartedu.netlify.app/)
+Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 | Alumno                             |  Actividad                              | 
