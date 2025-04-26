@@ -1,0 +1,302 @@
+@startuml
+title Demy - Class Diagram
+
+' ========= IAM CONTEXT =========
+package "IAM Context" {
+    entity UserAccount <<Aggregate Root>> {
+        - id: UserId
+        - fullName: FullName
+        - email: Email
+        - passwordHash: String
+        - role: Role
+        - status: AccountStatus
+        --
+        +activate(): void
+        +deactivate(): void
+        +block(): void
+        +changePassword(newHash: String): void
+        +updateEmail(newEmail: Email): void
+    }
+
+    enum Role {
+        ADMIN
+        TEACHER
+    }
+
+    enum AccountStatus {
+        ACTIVE
+        INACTIVE
+        BLOCKED
+    }
+}
+
+' ========= ENROLLMENT CONTEXT =========
+package "Enrollment Management Context" {
+    entity Enrollment <<Aggregate Root>> {
+        - id: UUID
+        - student: StudentId
+        - academy: AcademyId
+        - status: EnrollmentStatus
+        --
+        +confirm(): void
+        +cancel(): void
+        +edit(): void
+        +isPending(): boolean
+        +belongsTo(studentId: StudentId): boolean
+    }
+
+    entity Student <<Entity>> {
+        - id: StudentId
+        - fullName: FullName
+        - email: Email
+        --
+        +updateEmail(newEmail: Email): void
+    }
+
+    entity Academy <<Entity>> {
+        - id: AcademyId
+        - userId: UserId
+        - periods: List<AcademicPeriod>
+        - academyName: String
+    }
+
+    class AcademicPeriod <<Value Object>> {
+        - startDate: Date
+        - endDate: Date
+    }
+
+    enum EnrollmentStatus {
+        ACTIVE
+        INACTIVE
+    }
+}
+
+' ========= SCHEDULING CONTEXT =========
+package "Scheduling Management Context" {
+    entity WeeklySchedule <<Aggregate Root>> {
+        - id: UUID
+        - academyId: AcademyId
+        - entries: List<Schedule>
+        --
+        +addEntry(schedule: Schedule): void
+        +removeEntry(schedule: Schedule): void
+        +updateEntry(dayOfWeek: String, newSchedule: Schedule): void
+        +contains(dayOfWeek: String, timeRange: DateTimeRange): boolean
+    }
+
+    entity Schedule <<Entity>> {
+        - id ScheduleId
+        - dayOfWeek: String
+        - timeRange: DateTimeRange
+        - course: Course
+        - room: Room
+        - userId: UserId
+    }
+
+    class Course <<Value Object>> {
+        - name: String
+        - description: String
+    }
+
+    class Room <<Value Object>> {
+        - roomCode: String
+        - capacity: int
+    }
+}
+
+' ========= ATTENDANCE CONTEXT =========
+package "Attendance Management Context" {
+    entity ClassSession <<Aggregate Root>> {
+        - id: UUID
+        - scheduleId: ScheduleId
+        - attendance: List<AttendanceRecord>
+        --
+        +recordAttendance()
+        +hasRecorded(studentId: StudentId): boolean
+        +getAttendanceFor(studentId: StudentId): AttendanceStatus
+    }
+
+    class AttendanceRecord <<Value Object>> {
+        - studentId: StudentId
+        - status: AttendanceStatus
+    }
+
+    enum AttendanceStatus {
+        PRESENT
+        ABSENT
+        JUSTIFIED
+    }
+}
+
+' ========= SUBSCRIPTION & BILLING CONTEXT =========
+package "Subscription & Billing Context" {
+    entity Subscription <<Entity>> {
+        - id: UUID
+        - academyId: AcademyId
+        - plan: PlanId
+        - status: SubscriptionStatus
+        - period: DateRange
+        --
+        +renew(newPeriod: DateRange): void
+        +cancel(): void
+        +isActive(): boolean
+        +upgradeTo(planId: PlanId): void
+    }
+
+    entity Plan <<Entity>> {
+        - id: UUID
+        - name: String
+        - price: Money
+        - maxStudents: int
+        - maxTeachers: int
+    }
+
+    entity Invoice <<Entity>> {
+        - id: UUID
+        - subscriptionId: SubscriptionId
+        - amount: Money
+        - dueDate: Date
+        - status: PaymentStatus
+        --
+        +markAsOverdue(): void
+        +markAsPaid(): void
+        +isDue(): boolean
+        +matchesAmount(amount: Money): boolean
+    }
+
+    class Payment <<Value Object>> {
+        - invoiceId: InvoiceId
+        - paidAt: DateTime
+        - method: String
+        - amount: Money
+        --
+        +confirm(): void
+        +refund(): void
+        +isValid(): void
+        +matchesInvoice(invoiceId: InvoiceId): boolean
+    }
+
+    class FinancialTransaction <<Aggregate Root>> {
+      - id: UUID
+      - source: PartyType
+      - target: PartyType
+      - type: String
+      - concept: String
+      - date: DateTime
+      - reference: String
+      - payment: Payment
+      --
+      +isIncomingFor(party: PartyId): boolean
+      +isOutgoingFor(party: PartyId): boolean
+    }
+
+    enum PartyType {
+      STUDENT
+      TEACHER
+      ADMINISTRATOR
+      ACADEMY
+      PLATFORM
+    }
+
+    enum SubscriptionStatus {
+        ACTIVE
+        EXPIRED
+        TRIAL
+        CANCELLED
+    }
+
+    enum PaymentStatus {
+        PENDING
+        PAID
+        OVERDUE
+    }
+}
+
+' ========= SHARED =========
+package "Shared Context" {
+    class StudentId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class UserId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class FullName <<Value Object>> {
+        - firstName: String
+        - lastName: String
+    }
+
+    class AcademyId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class ScheduleId <<Value Object>> {
+        - value: UUID
+        --
+        + toString(): String
+    }
+
+    class Money <<Value Object>> {
+        - amount: BigDecimal
+        - currency: Currency
+    }
+}
+
+'Relaciones de Shared
+Student "1" o--> "1" StudentId
+Student "1" o--> "1" FullName
+Academy "1" o--> "1" UserId
+Academy "1" o--> "1" AcademyId
+
+WeeklySchedule "1" o--> "1" ScheduleId
+Schedule "1" o--> "1" ScheduleId
+
+ClassSession "1" o--> "1" ScheduleId
+AttendanceRecord "1" o--> "1" StudentId
+
+UserAccount "1" o--> "1" UserId
+UserAccount "1" o--> "1" FullName
+
+Subscription "1" o--> "1" AcademyId
+FinancialTransaction "1" ..> "1" PartyType
+
+'Relaciones de IAM
+UserAccount "1" ..> "1" Role
+UserAccount "1" ..> "1" AccountStatus
+
+'Relaciones de Enrollment
+Academy "1" *--> "1" AcademicPeriod
+Enrollment "1" ..> "1" Student
+Enrollment "1" ..> "1" EnrollmentStatus
+Enrollment "1" ..> "1" Academy
+
+'Relaciones de Schedule
+Schedule "1" o--> "1" Course
+Schedule "1" o--> "1" Room
+Schedule "1" o--> "1" UserId
+WeeklySchedule "1" o--> "1" AcademyId
+WeeklySchedule "1" *--> "many" Schedule
+
+'Relaciones de Attendance
+AttendanceRecord "1" ..> "1" AttendanceStatus
+ClassSession "1" *--> "many" AttendanceRecord
+
+'Relaciones de Subscription
+FinancialTransaction ..> Payment
+Subscription ..> SubscriptionStatus
+Subscription "1" ..> "1" Plan
+Invoice ..> PaymentStatus
+Invoice "1" ..> "1" Subscription
+Invoice "1" o--> "1" Money
+Payment "1" ..> "1" Invoice
+Payment "1" o--> "1" Money
+Plan "1" o--> "1" Money
+
+@enduml
