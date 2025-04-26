@@ -48,7 +48,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: [*Ver en GitHub*](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)
+Enlace para acceder al repositorio para el reporte del proyecto: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -407,7 +407,7 @@ A continuación, se presenta el Lean UX Canvas elaborado en la herramienta *Miro
 
 ![Lean UX Canvas](./assets/images/lean-ux-canvas.jpg)
 
-**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023)
+**Enlace al Lean UX Canvas:** https://miro.com/app/board/uXjVIGPrhA0=/?share_link_id=155958536023
 
 ## 1.3. Segmentos objetivo
 
@@ -577,9 +577,10 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista**   | 8 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Duración**              | 12:16 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Captura**               | ![Captura](./assets/screenshots/interview-screenshot-teacher1.jpg)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Video**                 | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EYqHy5GZWKpNpkI5YLn8a48B4EwLCsWONOY5sa038Y5flA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOG6Ki)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Resumen**               | El entrevistado es un docente con experiencia en diversas academias y actualmente dicta clases en círculos de estudio en la UNALM. En su rutina diaria, enfrenta desafíos relacionados con la gestión manual de horarios pues usa herramientas como Excel, actividades que le consumen una gran cantidad de tiempo y afectan su eficiencia. Usa principalmente su laptop y su celular para organizarse, sin herramientas digitales especializadas, lo que le complica su trabajo. Al conocer la propuesta de nuestra startup, mostró una percepción positiva ante la posibilidad de contar con una herramienta que centralice y automatice estos procesos. Reconoce que una solución tecnológica podría mejorar su organización, reducir su carga administrativa y permitirle enfocarse más en la enseñanza. Se mostró dispuesto a adoptar nuevas herramientas que respondan a sus necesidades y faciliten su trabajo diario como docente, herramientas las cuales pueda usar desde su celular o su laptop. |
 | Atributo                  | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EYqHy5GZWKpNpkI5YLn8a48B4EwLCsWONOY5sa038Y5flA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOG6Ki
 
 #### Segmento: Docente - Entrevistado 2
 
@@ -593,8 +594,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Duración**            | 14:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9
 
 #### Segmento: Docente - Entrevistado 3
 
@@ -608,8 +610,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista**  | 11 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Duración**             | 4:28 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Captura**              | ![Captura](./assets/screenshots/interview-screenshot-teacher3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Video**                | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Resumen**              | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def
 
 #### Segmento: Administrativo - Entrevistado 1
 
@@ -623,8 +626,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista**   | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Duración**              | 05:29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Captura**               | ![Captura](./assets/screenshots/interview-screenshot-coordinator1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Video**                 | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EdMM8r4dK-5LhtPoz2W7EYcB4xFBS0U003gfDCRLW13tkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fz6inu)                                                                                                                                                                                                                                                                                                                 |
 | **Resumen**               | Kevin gestiona actualmente sus procesos administrativos con Excel y listas impresas, lo que considera poco eficiente y repetitivo. Necesita acceder con frecuencia a información como asistencias y notas, pero no siempre la tiene a la mano, lo que afecta la atención a padres, quienes consultan regularmente. Expresa el deseo de contar con un sistema automatizado que permita búsquedas rápidas por nombre o código y que envíe alertas sobre pagos. Está dispuesto a adoptar una nueva herramienta siempre que sea intuitiva, centralice la información y tenga un costo accesible. Espera mejorar la organización y el control con una solución más moderna. |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EdMM8r4dK-5LhtPoz2W7EYcB4xFBS0U003gfDCRLW13tkQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fz6inu
 
 #### Segmento: Administrativo - Entrevistado 2
 
@@ -638,8 +642,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista**  | 09 de abril de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Duración**             | 04:49                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Captura**              | ![Captura](assets/screenshots/interview-screenshot-coordinator2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Video**                | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA)                                                                                                                                                                                                                                                                                                                                                                              |
 | **Resumen**              | Marleni, coordinadora de una academia enfocada en estudiantes de últimos años escolares, actualmente gestiona procesos administrativos como matrículas, pagos y asistencias de manera manual. Esto le genera dificultades para llevar un control preciso de pagos, ingresos, egresos y asistencia, lo que afecta la organización y eficiencia del trabajo. Expresa interés en una herramienta que incluya registro de alumnos, control de pagos, ingresos, egresos y pagos a profesores. Considera muy útil recibir alertas para recordar pagos pendientes y prefiere un sistema simple, con funciones esenciales y fácil de usar. Está dispuesta a adoptar una nueva plataforma si mejora la gestión y organización de su trabajo. |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA
 
 #### Segmento: Administrativo - Entrevistado 3
 
@@ -653,8 +658,9 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Fecha de entrevista**  | 09 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Duración**             | 8:27 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Captura**              | ![Captura](./assets/screenshots/interview-screenshot-administrator3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Video**                | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaQ5KVEex65KtKOix6TXG5kBVHG4dwUDkPTVICrfJOErnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kV6CSu )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Resúmen**              | John Robert, administrador de la academia Enigmas en Ica, lleva 1 año gestionando los procesos administrativos de su academia. Actualmente, utiliza Excel para manejar datos como matrículas, asistencia, pagos y horarios, lo cual le genera problemas de desorganización y falta de tiempo debido a la complejidad de navegar entre diferentes hojas de cálculo. Destaca que el estrés y los errores derivados de este método afectan la eficiencia de su trabajo. Busca una herramienta más sencilla y automatizada, que le permita acceder rápidamente a la información con solo ingresar el DNI de los estudiantes y los apoderados. Además, le gustaría contar con un registro de pagos pendientes y, lo que mejoraría su productividad. Está dispuesto a aprender a utilizar una nueva plataforma si esta resulta fácil de manejar y optimiza la gestión de la academia. |
+
+Enlace a la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaQ5KVEex65KtKOix6TXG5kBVHG4dwUDkPTVICrfJOErnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kV6CSu
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -775,12 +781,12 @@ A continuación se presentarán los User Journey Maps de cada User Persona. Esto
 
 * User Journey Map de Luis Mendoza:
 ![User Journey Map del User Persona Luis Mendoza](./assets/images/user-journey-map-luis-mendoza.png)
-[Ver Imagen detallada aquí](https://drive.google.com/file/d/1ZwP-W8qpUPP0yI6UFXMareIiCiphqNrr/view?usp=sharing)
+Ver Imagen detallada aquí https://drive.google.com/file/d/1ZwP-W8qpUPP0yI6UFXMareIiCiphqNrr/view?usp=sharing
 
 
 * User Journey Map de Carmen Gutiérrez:
 ![User Journey Map del User Persona Carmen Gutiérrez](./assets/images/user-journey-map-carmen-gutiérrez.png)
-[Ver Imagen detallada aquí](https://drive.google.com/file/d/1oGSadSkVdSIzf-MeaMGnYL06wVVFKkJG/view?usp=sharing)
+Ver Imagen detallada aquí https://drive.google.com/file/d/1oGSadSkVdSIzf-MeaMGnYL06wVVFKkJG/view?usp=sharing
 
 ### 2.3.4. Empathy Mapping
 
@@ -1020,7 +1026,7 @@ Para llevar un correcto orden del Product Backlog, se utilizó la herramienta de
 
 ![Product Backlog](./assets/images/backlog-pivotal.jpg)
 
-**Enlace al Pivotal Tracker:** [*Ver en Pivotal Tracker*](https://www.pivotaltracker.com/n/projects/2740485)
+**Enlace al Pivotal Tracker:** https://www.pivotaltracker.com/n/projects/2740485
 
 # Capítulo IV: Product Design
 
@@ -1241,7 +1247,7 @@ Accesibilidad y Usabilidad: Hemos aplicado el "Responsive Design" que hace que l
 
 **Landing Page para Desktop Web Browser**
 
-**Enlace al Figma de la Landing Page:** [*Ver en Figma*](https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2838&t=fPaUWZvSa0cyZDby-1)
+**Enlace al Figma de la Landing Page:** https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2838&t=fPaUWZvSa0cyZDby-1
 
 A continuación, se muestra la landing page tal como se visualiza desde un navegador web en su versión para escritorio. Esta página incluye diversas secciones importantes para el usuario, donde se detallan los beneficios que ofrece el producto, las opciones de planes de pago, los perfiles del equipo de trabajo. Además, se incluye un apartado dedicado a resolver las preguntas frecuentes de los usuarios.
 ![imagesWireframe1](./assets/images/images-wirefranes/landing-page-destop-web-browser-1.png)
@@ -1256,7 +1262,7 @@ A continuación, se muestra la landing page tal como se visualiza desde un naveg
 
 **Landing Page para Mobile Web Browser**
 
-**Enlace al Figma de la Landing Page en versión Mobile:** [*Ver en Figma*](https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2343&t=fPaUWZvSa0cyZDby-1)
+**Enlace al Figma de la Landing Page en versión Mobile:** https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2343&t=fPaUWZvSa0cyZDby-1
 
 A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil. Esta versión contiene los mismos elementos que el diseño para escritorio, pero está adaptada a las dimensiones y características de los móviles.
 
@@ -1268,7 +1274,7 @@ A continuación, se muestra la landing page visualizada desde un navegador web e
 
 **Landing Page Mock-up Desktop Web Browser**
 
-**Enlace al Figma de la Landing Page en versión Desktop:** [*Ver en Figma*](https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2838&t=fPaUWZvSa0cyZDby-1)
+**Enlace al Figma de la Landing Page en versión Desktop:** https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2838&t=fPaUWZvSa0cyZDby-1
 
 El wireframe para desktop guió la disposición de los elementos, y el mock-up finaliza con los contenidos definidos. Se usaron los colores y tipografía del Style Guidelines para asegurar coherencia visual y una navegación clara, integrando principios de diseño inclusivo y accesibilidad.
 
@@ -1286,7 +1292,7 @@ El wireframe para desktop guió la disposición de los elementos, y el mock-up f
 
 **Landing Page Mock-up Mobile Web Browser**
 
-**Enlace al Figma de la Landing Page en versión Mobile:** [*Ver en Figma*](https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2343&t=fPaUWZvSa0cyZDby-1)
+**Enlace al Figma de la Landing Page en versión Mobile:** https://www.figma.com/design/mxsrTkcq8odESCE4VdIT58/Landing-Page?node-id=18-2343&t=fPaUWZvSa0cyZDby-1
 
 La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los elementos más importantes. Se mantuvieron los mismos colores y tipografía del Style Guidelines, con un enfoque que optimiza la navegación táctil y garantiza accesibilidad.
 
@@ -1302,7 +1308,7 @@ La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los ele
 
 #### Web Application Wireframes para Desktop Web Browser
 
-**Enlace al Figma de la Web Application versión Desktop:** [*Ver en Figma*](https://www.figma.com/design/G89xa0vOPulgEfmCtDMupS/Producto?node-id=58-591&t=UpiocT2j9eRqjWjq-1)
+**Enlace al Figma de la Web Application versión Desktop:** https://www.figma.com/design/G89xa0vOPulgEfmCtDMupS/Producto?node-id=58-591&t=UpiocT2j9eRqjWjq-1
 
 **Selección tipo de usuario**
 Pantalla inicial de la aplicación web donde se solicita al visitante seleccionar su rol como "Administrador" o "Profesor", decisión fundamental que determinará el flujo de navegación y las funcionalidades disponibles según el tipo de usuario elegido.
@@ -1407,7 +1413,7 @@ Pantalla donde el profesor puede registrar la asistencia de los estudiantes en s
 
 #### Web Application Wireframes para Mobile Web Browser
 
-**Enlace al Figma de la Web Application versión Mobile:** [*Ver en Figma*](https://www.figma.com/design/G89xa0vOPulgEfmCtDMupS/Producto?node-id=217-4809&t=UpiocT2j9eRqjWjq-1)
+**Enlace al Figma de la Web Application versión Mobile:** https://www.figma.com/design/G89xa0vOPulgEfmCtDMupS/Producto?node-id=217-4809&t=UpiocT2j9eRqjWjq-1
 
 **Selección tipo de usuario**  
 Pantalla inicial donde se elige si se ingresará como "Administrador" o "Profesor", lo que define el acceso a funciones específicas.  
@@ -1491,9 +1497,9 @@ Pantalla para marcar asistencia de estudiantes y consultar sus registros anterio
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-**Enlace al Lucidchart de los Web Application Wireflow 1:** [*Ver en Lucidchart*](https://lucid.app/lucidchart/dc62c656-47ca-4421-a712-0eedd29917aa/edit?invitationId=inv_bb16034b-1368-435e-be1c-228f3b1829f3)
+**Enlace al Lucidchart de los Web Application Wireflow 1:** https://lucid.app/lucidchart/dc62c656-47ca-4421-a712-0eedd29917aa/edit?invitationId=inv_bb16034b-1368-435e-be1c-228f3b1829f3
 
-**Enlace al Lucidchart de los Web Application Wireflow 2:** [*Ver en Lucidchart*](https://lucid.app/lucidchart/07532b98-64b8-4102-bb2e-31f6b078993d/edit?invitationId=inv_4f77558d-d2cb-4438-b08b-e320fc824638)
+**Enlace al Lucidchart de los Web Application Wireflow 2:** https://lucid.app/lucidchart/07532b98-64b8-4102-bb2e-31f6b078993d/edit?invitationId=inv_4f77558d-d2cb-4438-b08b-e320fc824638
 
 **User goal:** Registro de cuenta  
 **User persona:** Administrador de academia  
@@ -1577,7 +1583,7 @@ Luego de iniciar sesión y acceder a "Mi organización", el profesor se dirige a
 
 ### **Web Application mock-ups para Desktop Web Browser**
 
-**Enlace al Figma de la Web Application versión Desktop:** [*Ver en Figma*](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+**Enlace al Figma de la Web Application versión Desktop:** https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1
 
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 
@@ -1681,7 +1687,7 @@ En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", do
 
 ### **Web Application mock-ups para Mobile Web Browser**
 
-**Enlace al Figma de la Web Application versión Mobile:** [*Ver en Figma*](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=121-2121&t=KhwP2rIpU1KA7avM-1)
+**Enlace al Figma de la Web Application versión Mobile:** https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=121-2121&t=KhwP2rIpU1KA7avM-1
 
 #### **Mock-ups que tiene como usuario al administrador de la academia**
 
@@ -1781,7 +1787,7 @@ En la siguiente imagen se muestra la pestaña del panel de "Asistencia", donde e
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-**Enlace al Lucidchart de los Web Application User Flow Diagrams:** [*Ver en Lucidchart*](https://lucid.app/lucidchart/aeb9aa17-6966-46be-b760-687cf1fdd331/edit?invitationId=inv_87dbf3f7-9dee-47e2-a29e-5d085bc620fe)
+**Enlace al Lucidchart de los Web Application User Flow Diagrams:** https://lucid.app/lucidchart/aeb9aa17-6966-46be-b760-687cf1fdd331/edit?invitationId=inv_87dbf3f7-9dee-47e2-a29e-5d085bc620fe
 
 **UserGoal: Registrarse en Demy**  
 **User persona:** Administradores <br>
@@ -1985,9 +1991,9 @@ Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asi
 Esta sección tiene como objetivo describir los posibles flujos de usuario (User Flows) que se han diseñado para la aplicación web tanto en versión de escritorio como en dispositivos móviles. A través de prototipos interactivos, se pretende ilustrar los caminos de interacción del usuario, mostrando cómo los diferentes tipos de usuarios (profesor, administrativo) navegan por la plataforma para realizar sus actividades.
 A continuación, se incluyen los enlaces a los videos explicativos que detallan los flujos de usuario correspondientes:
 
-Enlace para ver la explicación del prototipado de la aplicación web en versión de escritorio y versión móvil. [Web Applications Prototyping](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b)
+Enlace para ver la explicación del prototipado de la aplicación web en versión de escritorio y versión móvil. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b
 
-Enlace para acceder al [Flujo en figma](https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1)
+Enlace para acceder al Flujo en figma https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -2468,7 +2474,8 @@ Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta 
    ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
 
 Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
-[Link de la Landing Page](https://demy-smartedu.netlify.app/)
+
+Link de la Landing Page: https://demy-smartedu.netlify.app/
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -2521,6 +2528,7 @@ El objetivo principal de este sprint fue implementar la landing page en su total
 
 A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
 ![Captura de Trello App Web](./assets/screenshots/screenshot-trello-sprint1.png)
+
 Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860395a4f548aa20eb7bbf0bdb949AB2EADEF/apps-web
 
 <div style="font-size:80%; overflow-x:auto;">
@@ -2811,7 +2819,7 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
 ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Link de video de presentacion sobre la Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
+Link de video de presentacion sobre la Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2843,7 +2851,7 @@ Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente co
 Nuestro github del Landing page
 ![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
 
-Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/)
+Enlace para acceder al landing page: https://demy-smartedu.netlify.app/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2894,11 +2902,11 @@ Gan@Más. (2014, julio 24). Docentes usan hasta el 29% de su tiempo en las tarea
 
 # Anexos
 
-Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
+Enlace de los videos de las entrevistas para needfinding: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih
 
-Enlace del video de exposición TB1: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWdD5IfcqUVCs0SpFXO__twBdB6F8eom5OqukHaUnwY22w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DcXuHu)
+Enlace del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWdD5IfcqUVCs0SpFXO__twBdB6F8eom5OqukHaUnwY22w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DcXuHu
 
-Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)
+Enlace del repositorio en Github: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
 
-Enlace a la landing page: [Abrir en el navegador](https://demy-smartedu.netlify.app/)
+Enlace a la landing page: https://demy-smartedu.netlify.app/
 
