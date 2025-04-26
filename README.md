@@ -1,21 +1,24 @@
-<h1 style="text-align: center;"> Informe TB1 </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+<h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
 
-<img src="https://raw.githubusercontent.com/desarrollo-de-aplicaciones-open-source/project-open-source/refs/heads/main/assets/logos/upc_logo.png" alt="logo_upc" width="200px" style="display: block; margin-left: auto; margin-right: auto;">
+<div style="text-align: center;">
+  <img src="./assets/images/upc-logo.png" alt="UPC Logo">
+</div>
 
-<h5 style="text-align: center"> Ingeniería de Software </h5>
+<h4 style="text-align: center"> Ingeniería de Software </h4>
 
-<h5 style="text-align: center"> 1ASI0729 - Desarrollo de Aplicaciones Open Source </h5>
+<h4 style="text-align: center"> 1ASI0729 - Aplicaciones Web</h4>
 
-<h5 style="text-align: center"> Seccíón: 4304  </h5>
+<h4 style="text-align: center"> Seccíón: 4364  </h4>
 
-<h5 style="text-align: center"> Docente: Efraín Ricardo Bautista Ubillús </h5>
+<h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h5 style="text-align: center"> Startup: SmartEdu </h5>
+<h4 style="text-align: center;"> Informe del TB1 </h4>
 
-<h5 style="text-align: center"> Producto: Demy </h5>
+<h4 style="text-align: center"> Startup: SmartEdu </h4>
 
-<h2>Team members:</h2>
+<h4 style="text-align: center"> Producto: Demy </h4>
+
+<h2 style="text-align: center">Team members:</h2>
 
 | Código     | Nombre                             |
 |------------|------------------------------------|
@@ -28,8 +31,71 @@
 <h5 style="text-align: center"> Ciclo 2025-01 </h5>
 
 # Registro de Versiones del Informe
+| Versión | Fecha      | Autor                                                                                    | Descripción de modificación                                                                                                                                                                                                                                                                 |
+|---------|------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0     | 08/04/2025 | Salim Ramirez                                                                            | Creación inicial del documento de trabajo en formato Markdown para centralizar el desarrollo del informe final.                                                                                                                                                                             |
+| 1.1     | 10/04/2025 | Paúl Sulca                                                                               | Se agregó la carátula, tabla de contenidos y la estructura básica del informe siguiendo las pautas del curso.                                                                                                                                                                               |
+| 2.0     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo I: Introducción. Se definieron objetivos, contexto, visión general del producto.                                                                                                                                                                                    |
+| 2.1     | 12/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se agregaron los resultados de entrevistas y análisis de competidores, como parte del Capítulo II.                                                                                                                                                                                          |
+| 3.0     | 13/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo II: Requirements Elicitation & Analysis, incluyendo personas, escenarios y requerimientos iniciales.                                                                                                                                                                |
+| 3.1     | 16/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se integraron las User Stories, Landing Page Stories y Technical Stories como parte del Capítulo III.                                                                                                                                                                                       |
+| 4.0     | 18/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo III: Requirements Specification, detallando los criterios de aceptación y modelo de casos de uso.                                                                                                                                                                   |
+| 4.1     | 21/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se añadieron los style guidelines, mockups, wireframes, wireflow y userflow en el Capítulo IV: Product Design.                                                                                                                                                                              |
+| 5.0     | 23/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo IV: Product Design, incluyendo arquitectura de componentes, estructura visual y navegación.                                                                                                                                                                         |
+| 5.1     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                                                                                                                                                                                     |
+| 6.0     | 25/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.                                                                                                                                                                     |
 
 # Project Collaboration Insights
+
+URL de nuestro repositorio para el reporte del proyecto: **[link del landing page]**
+
+**TB1**
+<br>Para el desarrollo del TB1 cada participantes del equipo realizo las siguientes tareas:
+
+| Integrantes                         | Tarea Asignada                                                                                                                                                                 |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco        | - Startup Profile<br>- Perfiles del equipo<br>- Empathy Mapping<br>- Ubiquitous Language<br>- Diseño, ejecución y análisis de una entrevista<br>- To-Be Scenario Mapping<br>- General Style Guidelines<br>- Searching Systems<br>-Web Applications Wireframes<br>- Web Applications Wireflow Diagramas<br>- Landing Page(Contact + Footer)<br>- Environment Configuration<br>- Source Code Management)                                   |
+| Dominguez Vargas, Rafael Alexander  | - Project Report Collaboration Insights<br>- Segmentos objetivo<br>- User Task Matrix<br>- Diseño, ejecución y análisis de una entrevista<br>- Impact Mapping<br>- Organization Systems<br>- Landing Page Wireframes<br>- Web applications Mock-ups<br>- Web Application User Flow Diagrams<br>- Landing Page(testimonials + About us)<br>- Development Evidence<br>- Execution Evidence<br>- Deployment Evidence<br>- Team Collaboration Insights|
+| Ramirez Mestanza, Salim Ignacio     | - Registro de Versiones del Informe<br>- Lean UX Process completo (4 partes)<br>- User Personas<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- SEO Tags and Meta Tags<br>- Web Applications Prototyping<br>- Class Diagrams<br>- Class Dictionary<br>- Database Diagram<br>- Landing Page (Navbar + Hero + i18n)|
+| Sulca Gonzales, Paúl Ferdando       | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes)|
+| Vilca Saboya, Diego Alejandro       | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog|
+
+
+**Github Collaboration Insights**
+
+En github se presenta un timeline de las ramas principales realizadas por cada integrante del equipo y procesos merge sometidos. Todas las ramas fueron creadas tomando en cuenta el diseño del **GitFlow** para una organizacion que usa un software control de versiones.
+
+Link del repositorio en Github [Repositorio](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page.git)
+
+
+Los Integrantes son:
+
+| Integrantes                          | Nombre en GitHub |
+|--------------------------------------|------------------|
+| Crispin Ramos, Daniel Franco         | danielcr04       |
+| Dominguez Vargas, Rafael Alexander   | Radv2005         |
+| Ramirez Mestanza, Salim Ignacio      | salimramirez     |
+| Sulca Gonzales, Paúl Ferdando        | Kyrubi           |
+| Vilca Saboya, Diego Alejandro        | diegovilcasaboya |
+
+
+Las ramas mas prominentes:
+- **main:** La rama principal donde estara el documento completo.
+- **develop:** La rama donde hacemos merge para guardar los cambios.
+- **feature/sprint1-daniel:** La rama de Daniel donde guarda sus avances del sprint1.
+- **feature/sprint1-diego:** La rama de Diego donde guarda sus avances del sprint1.
+- **feature/sprint1-paul:** La rama de Paul donde guarda sus avances del sprint1.
+- **feature/sprint1-rafael:** La rama de Rafael donde guarda sus avances del sprint1.
+- **feature/sprint1-salim:** La rama de Salim donde guarda sus avances del sprint1.
+
+[Network graph]
+
+A continuación se presentan los gráficos que muestran el análisis de los commits en el repositorio del informe. En estos gráficos se detalla la cantidad de líneas de código añadidas por cada miembro del equipo.
+
+**TB1**
+
+[COMMITS]
+
 
 # Contenido
 
@@ -106,9 +172,9 @@
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
         - [5.2.1. Sprint 1](#521-sprint-1)
             - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
-            - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-            - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
+            - [5.2.1.2. Aspect Leaders and Collaborators ](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
             - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
@@ -116,12 +182,23 @@
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5:**
+
+**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio específico                                                                            | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | Salim:<br>TB1: Guié al equipo en varias ocasiones durante la fase inicial para asegurar que todos tuviéramos una visión clara y compartida del proyecto, facilitando la toma de decisiones en conjunto.<br><br>Diego:<br>TB1: Fomenté un liderazgo colaborativo, promoviendo la participación activa de todos los miembros en las reuniones para la toma de decisiones.<br><br>Daniel:<br>TB1: Asumí un papel activo en la coordinación de las tareas y el seguimiento del progreso del equipo, trabajando de manera equitativa en las responsabilidades.<br><br>Rafael:<br>TB1: Aporté ideas que fueron integradas al equipo, ayudando a estructurar las tareas y metas del proyecto, y participé activamente en la toma de decisiones colectivas.<br><br>Paul:<br>TB1: Participé activamente en el seguimiento de los objetivos y la asignación de tareas, asegurando que el equipo mantuviera un liderazgo compartido y una dirección clara hacia el éxito del proyecto.                                       | Consideramos que este criterio ha sido alcanzado con éxito, ya que el equipo logró dividir responsabilidades de manera equitativa, asegurando que cada miembro tuviera un papel de liderazgo en diferentes aspectos del proyecto. El liderazgo compartido fue clave para mantener el enfoque y avanzar en conjunto hacia los objetivos establecidos. El proceso de toma de decisiones fue fluido gracias a la colaboración continua y la retroalimentación constructiva dentro del equipo.                                   |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Salim:<br>TB1: Fomenté un ambiente inclusivo donde todos los miembros se sintieran cómodos aportando ideas, además, me encargué de coordinar las tareas y definir metas claras para el equipo.<br><br>Diego:<br>TB1: Apoyé a mis compañeros en la organización y planificación del trabajo a través de herramientas como Trello, que facilitó la gestión del progreso y asignación de tareas.<br><br>Daniel:<br>TB1: Colaboré activamente en la planificación de las tareas y aseguré que se cumplieran los plazos establecidos, contribuyendo a la organización eficiente del equipo.<br><br>Rafael:<br>TB1: Contribuí al ambiente inclusivo y respetuoso del equipo, apoyando la planificación de tareas y asegurando que cada miembro estuviera alineado con los objetivos comunes.<br><br>Paul:<br>TB1: Aporté ideas y propuestas que ayudaron a definir las metas del equipo y me aseguré de que todas las tareas estuvieran bien distribuidas, contribuyendo al cumplimiento de los objetivos establecidos. | Consideramos que hemos logrado un entorno de trabajo colaborativo e inclusivo, en el que se establecieron metas claras y alcanzables para el equipo. La planificación de tareas y la asignación de responsabilidades se realizaron de manera estructurada, lo que permitió al equipo cumplir con los objetivos establecidos en cada fase del proyecto. Las herramientas de gestión como Trello fueron fundamentales para mantener el orden y la transparencia en la distribución de tareas y el seguimiento de los avances.  | 
 
 # Capítulo I: Introducción
 
@@ -129,7 +206,22 @@
 
 ### 1.1.1. Descripción de la Startup
 
+La startup **SmartEdu**, conformada por estudiantes de la carrera de Ingeniería de Software, tiene como objetivo ofrecer una solución tecnológica para optimizar la gestión administrativa de academias educativas en el Perú. A través de nuestra plataforma web **Demy**, buscamos agilizar y mejorar los procesos fundamentales dentro de las academias, como la matrícula de alumnos, la gestión de asistencia, la asignación de horarios, y la administración de inventarios. Además, se incorpora el seguimiento de pagos tanto para estudiantes como para docentes, todo a través de un sistema centralizado y de fácil acceso.
+
+**Misión**: Revolucionar la gestión administrativa de las academias educativas en el Perú, ofreciendo una plataforma que optimice procesos clave de matrícula, asistencia, asignación de horarios, control de inventarios y pagos.
+
+**Visión**: Convertirnos en líderes en la transformación digital de la gestión administrativa de academias educativas presenciales en el Perú, asegurando la eficiencia, transparencia y accesibilidad de sus procesos internos mediante soluciones tecnológicas innovadoras.
+
+
 ### 1.1.2. Perfiles de los integrantes del equipo
+
+| **Foto**         | **Nombre**                            | **Código** | **Carrera**            | **Resumen de Conocimientos Técnicos y Habilidades**                                                                                        |
+|------------------|---------------------------------------|------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Foto_Daniel]() | **Daniel Franco Crispin Ramos**       | U20221G120 | Ingeniería de Software | Conocimiento en bases de datos y gestión de proyectos. Experiencia en interfaces de usuario y soluciones para la administración educativa. |
+| ![Foto_Paul]()   | **Paul Fernando Sulca Gonzales**      | U20221C486 | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Salim]()  | **Salim Ignacio Ramirez Mestanza**    | U20201E843 | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Diego]()  | **Diego Alejandro Vilca Saboya**      | U20231A778 | Ingeniería de Software |                                                                                                                                            |
+| ![Foto_Rafael]() | **Rafael Alexander Dominguez Vargas** | U202312318 | Ingeniería de Software |                                                                                                                                            |
 
 ## 1.2. Solution Profile
 
@@ -295,13 +387,88 @@ A continuación se presenta el Lean UX Canvas elaborado en la herramienta Miro.
 
 ## 1.3. Segmentos objetivo
 
+En el análisis del segmento objetivo para Demy, hemos previsto que nuestros principales usuarios de nuestra startup serían profesores y personal administrativo de academias preuniversitarias.
+
+### Profesores de academias preuniversitarias
+
+Según la revista Gan@Mas(24 de julio,2014), sabemos que diversos docentes usan hasta el **29% de su tiempo en tareas administrativas**, las cuales no deberían estar ligadas a profesionales de la educación. La gran demanda en estas academias preuniversitarias no permite a los profesores dedicar su tiempo laboral a ejercer plenamente su labor de docente.
+
+- **Edad**: Buscamos profesores de cualquier edad
+- **Necesidad clave**: Reducir la carga administrativa y optimizar su tiempo para centrarse en la enseñanza y mejorar su eficiencia en las aulas.
+
+### Administradores de las academias preuniversitarias
+
+Suelen enfrentarse a una gran carga de trabajo relacionada con la **planificación de horarios, gestión de pagos y matrículas**. Este segmento busca soluciones tecnológicas que optimicen el manejo de información y mejoren la experiencia educativa de los alumnos.
+
+- **Edad**: Buscamos personal administrativo de cualquier edad
+- **Necesidad clave**: Contar con una solución tecnológica que facilite la gestión, mejore la eficiencia operativa y brinde una experiencia más fluida tanto para el personal como para los alumnos y padres.
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+Esta sección tiene objetivo conocer mejor los competidores a los que se enfrentará SmartEDU y poder así comparar nuestros beneficios.
+
+|**Competitive Analysis Landscape** |                             |                   
+|-----------------------------------|-----------------------------|
+| ¿Por qué llevar acabo este análisis?| El objetivo de este análisis competitivo es saber como será nuestro posicionamiento en el mercado en comparación a otros sistema de gestión de academias y que será lo que nos hará destacar|
+
+|                     |                                                                           | SmartEdu                                                                                                                                                                                                                          | ![Academygest logo](./assets/images/competidor-academygest.jpg) <br> Academygest                                                                                       | ![Logo Playoff](./assets/images/competidor-playoff.jpg) <br> Playoff                                                                                                                                                                                                                     | ![Logo Quickschools](./assets/images/competidor-quickschools.png) <br> Quickschools                                                                                                                                                                                                           |
+|---------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Perfil              | Overview                                                                  | SmartEdu ofrece a Demy, un sistema web integral que facilita la organización, carga operativa y mejora la experiencia tanto de alumnos como docentes.                                                                             | Plataforma integral que facilita la gestión de academias y centros educativos, permitiendo organizar y mantener datos de alumnos.                                      | Sistema de gestión para entidades, que una de sus opciones es un enfoque a academias, ofreciendo cosas como control de cobros y pagos junto a organización de actividades                                                                                                                | QuickSchools es una plataforma en la nube para gestionar escuelas, con funciones como calificaciones, asistencia y comunicación con padres. Está pensada para instituciones pequeñas y medianas.                                                                                              |
+|                     | Ventaja <br> competitiva <br> ¿Qué valor <br> ofrece a los <br> clientes? | Solución integral y escalable para la administración de academias, que a la vez tendrá mucha accesibilidad ofrenciendo diferentes de acuerdo a que le convenga más a la academia                                                  | Optimización de la gestión administrativa, ahorro de tiempo y mejora de la eficiencia en la administración de academias y centros educativos.                          | Mejora de la motivación y participación en programas de formación y gestión mediante dinámicas de juego personalizadas                                                                                                                                                                   | Solución accesible y flexible para la gestión administrativa y académica, con un enfoque en facilidad de uso y personalización.                                                                                                                                                               |
+| Perfil de marketing | Mercado objetivo                                                          | Academia presenciales preuniversitarias ( con una sede o varias sedes)                                                                                                                                                            | Academias y centros de formación en España, enfocados en cursos profesionales o empresariales, que requieren control académico, administrativo y financiero.           | Playoff está dirigido a entidades educativas, corporativas y de formación que buscan aumentar la motivación y participación mediante gamificación.                                                                                                                                       | Escuelas pequeñas y medianas a nivel global (como colegios K-12 y privados) que necesitan una solución simple y flexible para gestionar procesos académicos.                                                                                                                                  |
+|                     | Estrategias de Marketing                                                  | Ofrece anuncios en la televesión, junto a redes sociales como tiktok,instagram o facebook.                                                                                                                                        | Campañas en línea enfocadas en instituciones educativas que buscan soluciones de gestión                                                                               | Publica artículos,estudios de caso y guías sobre la implementación efectiva de estrategia de gamificación en empresas <br> Muestra casos de uso de como la gamificación                                                                                                                  | Ofrece guías para atraer y retener clientes potenciales interesados en su mejora de procesos educativos                                                                                                                                                                                       |
+| Perfil de producto  | Productos & Servicios                                                     | Registro y matrícula de alumnos <br> Automatizacíon de gestión de pagos y suscripciones <br> Toma de asistencia <br> Gestión de inventario                                                                                        | Control de asistencia de alumnos <br> Gestión de pagos como cobros y finanzas <br> Gestión de informes  <br> Envío de SMS  a los alumnos                               | Plataforma de gamificación <br> Gamificación educativa <br> Análisis y reportes de la participacíon y el progreso <br> Customización de experiencias:personalizacíon de la plataforma según la entidad, ya sea Academias o empresas                                                      | Herramientas para siempre mantener informado a los padres y estudiantes <br> Un gradebook personalizado <br> Horario de clases inteligente <br>                                                                                                                                               |
+|                     | Precios y Costos                                                          | Plan Básico:  \$50 / mes , dirigido a pequeñas academias ( 1 sede). <br> Plan Intermedio: $100 /mes , dirigido a academias medianas (2 sedes) <br> Plan Premium: \$200, dirigido a academias grandes ( varias sedes)              | 25€  /mes, que incluye :<br/>- Sin instalaciones <br/>- 24 horas del día disponible <br> -Alumnos y cursos ilimitados <br> -Asistencia de Alumnos <br> Soporte técnico | Incluye 15 días de prueba gratuita, por otro lado los planes son:<br/> Plan Base( 34,95€), para los que empiezan <br/> Plan pro (49,95€), para los que llevan poco<br/> Plan Top ( 69,95€) para los veteranos<br/> Plan Premium ( tarifa personalizada), acuerdo a tratar con la empresa | Gaia Plan ( \$0.99) por estudiante por mes<br/> Apollo Plan ( $1.49) por estudiante por mes <br/> Athena plan (\$2.99) por estudiante por mes <br/> Todos los planes incluyen una prueba gratuita de 30 días, <br/>además puedes ponerte en contacto con quickschools para un Enterprise Plan |
+|                     | Canales de distribución <br> Web o móvil                                  | Demy actualmente solo se distribuye exclusivamente en Web                                                                                                                                                                         | Solo disponible a través de navegadores web                                                                                                                            | Se distribuye de manera web pero con el Plan Pro tendrás acceso a la app móvil.                                                                                                                                                                                                          | Se distribuye de manera web y móvil.                                                                                                                                                                                                                                                          |
+| Análisis Swot       | Fortalezas                                                                | Incluye varios planes de acuerdo al alcance de la academia <br/> Producto especializado en academias preuniversitarias<br/>                                                                                                       | Plataforma integral especializada en academias pequeñas y medianas. <br> Interfaz intuitiva y en idioma español <br> Cobertura de funciones básicas de gestión         | Especialización en gamificación, un campo en crecimiento <br/> Altamante adaptable a distintos sectores ( Academias, RRHH, ventas) <br/>                                                                                                                                                 | Plataforma madura, flexible y con planes escalables <br/> Soporte al cliente efectivo <br/>                                                                                                                                                                                                   |
+|                     | Debilidades                                                               | SmartEdu al ser una startup emergente no cuenta con mucho financiamiento <br/> No cuenta con una app móvil <br/>                                                                                                                  | No cuenta con una app móvil <br/> Se limite presencialmente a españa <br/> Menor reconocimiento frente a competidores globales                                         | No es una solución académica integral, más bien un complemento<br/> Requiere personalización técnica <br/>  La app móvil es solo accesible a partir de un cierto plan<br/>                                                                                                               | Puede resultar costo a gran escala si no se optimiza el uso <br/> Limitado al idioma inglés                                                                                                                                                                                                   |
+|                     | Oportunidades                                                             | Poca competencia en el segmento objetivo <br/> Aumento en el uso de la tecnología luego del COVID-19 <br/>                                                                                                                        | Ampliar su presencia a latinomerica <br/> Incorporar una app móvil para una buena complementación y accesibilidad <br/>                                                | Amplicación creciente de la gamificacíon en la actualidad<br/> Alianza con plataforams educativas para ofrecer gamificacíon integrada<br/>                                                                                                                                               | Incluir el idioma español para ser más global  <br/>  Alianzas con gobiernos o redes escolares                                                                                                                                                                                                |           
+|                     | Amenazas                                                                  | Resistencia al cambio tecnológico de parte de algunas academias <br/> Soluciones muy fuertes de otros competidores <br/> Posibles ciberataques, ya que la startup no tiene mucho conocimiento sobre la ciberseguridad actualmente | Dependencia de un solo mercado geográfico <br/> Competencia con soluciones globales más completas y flexibles                                                          | Dependencia de clientes que comprendan el valor de la gamificación<br/>                                                                                                                                                                                                                  | Compite con plataformas globables que incluye varios idiomas <br/> Riesgo de saturación en el mercado K-12                                                                                                                                                                                    |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+Para competir eficazmente en el mercado de plataformas de gestión para academias presenciales, SmartEdu aplicará las siguientes estrategias y tácticas preliminares, considerando sus propias fortalezas y debilidades, así como el contexto de oportunidades y amenazas en relación a sus competidores:
+
+* Diferenciación por enfoque especializado <br>
+  **Estrategia**: Posicionar a Demy como la plataforma especializada en academias preuniversitarias presenciales, a diferencia de otros competidores que ofrecen soluciones más genéricas o centradas en colegios o empresas.
+  <br>
+  **Tácticas**:Desarrollar funcionalidades específicas para academias preuniversitarias, como módulos de simulacros, cronogramas de preparación para exámenes de admisión
+
+<br>
+
+* Modelo de precios escalables
+  <br>
+  **Estrategia**:Mantener un esquema de precios accesible, con planes diferenciados según el tamaño de la academia, y con mejor relación calidad-precio frente a competidores como QuickSchools o Playoff.
+  <br>
+  **Tácticas**: Evaluar una prueba gratuita de n días , Ofrecer descuentos cada cierto tiempo o evaluar una contratación anual incluida con descuento
+
+<br>
+
+* Mejora progresiva del producto y adaptabilidad
+  <br>
+  **Estrategia**:Competir frente a soluciones más maduras (como QuickSchools) con un enfoque ágil y adaptable, incorporando mejoras constantes con base en la retroalimentación directa de los usuarios.
+  <br>
+  **Tácticas**: Lanzamientos de mejoras mensuales (por sprints) , futura implementación de la versión móvil.
+
+<br>
+
+*  Seguridad y confianza
+   <br>
+   **Estrategia**:  Reducir la percepción de riesgo en torno a ciberseguridad, una amenaza para startups, generando confianza desde etapas tempranas.
+   <br>
+   **Táctica**:Contratar un servicio externo para auditorías de seguridad básicas.
+
+<br>
+
+* Aprovechamiento del contexto post-pandemia
+  <br>
+  **Estrategia**: Capitalizar el aumento de la digitalización en la educación tras el COVID-19 para incentivar la transformación digital de academias tradicionales
+  <br>
+  **Tácticas**: Ofrecer workshops gratuitos virtuales sobre “Digitaliza tu academia en 3 pasos con Demy”. Enseñar casos de éxito que muestren cómo academias presenciales mejoraron su eficiencia tras usar la plataforma.
+
+
 
 ## 2.2. Entrevistas
 
@@ -369,6 +536,52 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 ### 2.2.2. Registro de entrevistas
 
+#### Segmento: Docente - Entrevistado 1
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Luis de la Cruz Herrera                                                                                                                                                                                                                                                                                                        |
+| **Edad**                | 25                                                                                                                                                                                                                                                                                                                             |
+| **Sexo**                | Maculino                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**            | La Molina                                                                                                                                                                                                                                                                                                                      |
+| **Ocupación**           | Docente de Circulos de estudio en la universidad Agraria                                                                                                                                                                                                                                                                       |
+| **Fecha de entrevista** | 8 de abril del 2025                                                                                                                                                                                                                                                                                                            |
+| **Duración**            | 12:16 minutos                                                                                                                                                                                                                                                                                                                  |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.jpg)                                                                                                                                                                                                                                                             |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EYqHy5GZWKpNpkI5YLn8a48B4EwLCsWONOY5sa038Y5flA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOG6Ki)                                                                                                                                                                                                                                                                                              |
+| **Resumen**             | El entrevistado es un docente con experiencia en diversas academias y actualmente dicta clases en círculos de estudio en la UNALM. En su rutina diaria, enfrenta desafíos relacionados con la gestión manual de horarios pues usa herramientas como Excel, actividades que le consumen una gran cantidad de tiempo y afectan su eficiencia. Usa principalmente su laptop y su celular para organizarse, sin herramientas digitales especializadas, lo que le complica su trabajo. Al conocer la propuesta de nuestra startup, mostró una percepción positiva ante la posibilidad de contar con una herramienta que centralice y automatice estos procesos. Reconoce que una solución tecnológica podría mejorar su organización, reducir su carga administrativa y permitirle enfocarse más en la enseñanza. Se mostró dispuesto a adoptar nuevas herramientas que respondan a sus necesidades y faciliten su trabajo diario como docente, herramientas las cuales pueda usar desde su celular o su laptop. |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
+
+#### Segmento: Docente - Entrevistado 2
+
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jean Paul Benezú                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad**                | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Distrito**            | Santa Anita                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Ocupación**           | Docente en CEPRE Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Duración**            | 14:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
+
+#### Segmento: Docente - Entrevistado 3
+
+| Atributo                | Detalle                                                                     |
+|-------------------------|-----------------------------------------------------------------------------|
+| **Nombre**              | Jeff Aylas Quispe Vergara                                                   |
+| **Edad**                | 25                                                                          |
+| **Sexo**                | Masculino                                                                   |
+| **Distrito**            | San Juan de Lurigancho                                                      |
+| **Ocupación**           | Docente en Academia ADUNI                                                   |
+| **Fecha de entrevista** | 11 de abril del 2025                                                        |
+| **Duración**            | 4:28 minutos                                                                |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher3.png)          |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/personal/u20201e843_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201e843%5Fupc%5Fedu%5Fpe%2FDocuments%2FDemy%2FEntrevistas%2Fvideo%2Dentrevista%2Ddocente3%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E6dbf826d%2Dd312%2D4e22%2Dadea%2D45cb75a98def)                                                 |
+| **Resumen**             | El docente entrevistado, que además es estudiante, utiliza principalmente herramientas como hojas de Excel o cuadernos para registrar asistencia y notas, aunque reconoce que no siempre son prácticas ni eficientes. La coordinación con el personal administrativo se da por canales informales como WhatsApp o correo, lo que a veces genera demoras y falta de claridad. El acceso a la información de clases o alumnos no está centralizado, lo que le obliga a recurrir a sus apuntes o hacer consultas adicionales. Los cambios de aula o horario suelen comunicarse de manera improvisada, lo que puede causar confusión. Valora la posibilidad de contar con una herramienta digital que integre funciones clave como registro de asistencia, horarios, notas y observaciones, accesible desde cualquier dispositivo, especialmente el celular. Considera fundamental que la plataforma sea fácil de usar e intuitiva, ya que si es compleja, volvería a sus métodos tradicionales. Además, percibe como muy útil recibir alertas sobre incidencias o comportamientos irregulares. Está dispuesto a adoptar una nueva herramienta siempre que le facilite la gestión y no represente una carga adicional de aprendizaje. |
+
 #### Segmento: Administrativo - Entrevistado 1
 
 | Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -386,7 +599,6 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 
 #### Segmento: Administrativo - Entrevistado 2
 
-| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                        |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Nombre**              | Marleni Rosa Flores                                                                                                                                                                                                                                                                                                            |
 | **Edad**                | 58                                                                                                                                                                                                                                                                                                                             |
@@ -399,26 +611,76 @@ Las preguntas buscaban obtener tanto información objetiva (como el contexto de 
 | **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ebs_BIAxG4JMrmCJ6LwJa_YBYvTTFdvZmgIrZxrulP_vhg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lyN4UA)                                                                                                                                                                                                                                                                                              |
 | **Resumen**             | Marleni, coordinadora de una academia enfocada en estudiantes de últimos años escolares, actualmente gestiona procesos administrativos como matrículas, pagos y asistencias de manera manual. Esto le genera dificultades para llevar un control preciso de pagos, ingresos, egresos y asistencia, lo que afecta la organización y eficiencia del trabajo. Expresa interés en una herramienta que incluya registro de alumnos, control de pagos, ingresos, egresos y pagos a profesores. Considera muy útil recibir alertas para recordar pagos pendientes y prefiere un sistema simple, con funciones esenciales y fácil de usar. Está dispuesta a adoptar una nueva plataforma si mejora la gestión y organización de su trabajo. |
 
+#### Segmento: Administrativo - Entrevistado 3
 
-#### Segmento: Docente - Entrevistado 2
-
-| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre**              | Jean Paul Benezú                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Edad**                | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| **Distrito**            | Santa Anita                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Ocupación**           | Docente en CEPRE Agraria                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Duración**            | 14:46 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-teacher1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Resumen**             | El entrevistado enseña en una academia preuniversitaria y usa Excel para registrar notas y asistencia, además de Google Forms en algunos casos. Si bien la comunicación con el personal administrativo es buena, ha experimentado dificultades al reprogramar clases debido a la baja asistencia en días especiales, por lo que realiza encuestas para reagendar. Considera fundamental contar con una herramienta centralizada que le permita registrar notas y asistencia de forma ordenada. Valora altamente que la plataforma sea intuitiva, visualmente simple y accesible desde su celular. También sugiere que padres o tutores puedan acceder a la información. Aunque no le interesa recibir alertas por notas o asistencia, considera clave recibir notificaciones por cambios de horario. Está dispuesto a aprender a usar nuevas herramientas si percibe una mejora real en su productividad. |
+| Atributo                | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombre**              | Jhon Robert Candioti                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Edad**                | 42 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sexo**                | Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**            | Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Ocupación**           | Dueño y administrativo de la academia Enigmas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Fecha de entrevista** | 09 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Duración**            | 8:27 minutos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Captura**             | ![Captura](./assets/screenshots/interview-screenshot-administrator3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Video**               | [Ver en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaQ5KVEex65KtKOix6TXG5kBVHG4dwUDkPTVICrfJOErnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kV6CSu )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Resúmen**             | John Robert, administrador de la academia Enigmas en Ica, lleva 1 año gestionando los procesos administrativos de su academia. Actualmente, utiliza Excel para manejar datos como matrículas, asistencia, pagos y horarios, lo cual le genera problemas de desorganización y falta de tiempo debido a la complejidad de navegar entre diferentes hojas de cálculo. Destaca que el estrés y los errores derivados de este método afectan la eficiencia de su trabajo. Busca una herramienta más sencilla y automatizada, que le permita acceder rápidamente a la información con solo ingresar el DNI de los estudiantes y los apoderados. Además, le gustaría contar con un registro de pagos pendientes y, lo que mejoraría su productividad. Está dispuesto a aprender a utilizar una nueva plataforma si esta resulta fácil de manejar y optimiza la gestión de la academia. |
 
 ### 2.2.3. Análisis de entrevistas
-**Segmento de coordinadores de academias**
 
-En primer lugar, el 100% de los entrevistados ocupa el cargo de coordinador administrativo en una academia y se encuentra directamente involucrado en los procesos de matrícula, asistencia, pagos, horarios e ingresos/egresos. Asimismo, el 100% gestiona estos procesos de forma manual, utilizando principalmente hojas de cálculo en Excel, lo cual genera dificultades en la organización y control de la información. De igual manera, la totalidad de los entrevistados considera que los procesos administrativos actuales resultan tediosos y repetitivos, ya que deben realizarse constantemente sin el apoyo de un sistema automatizado. A su vez, el 100% de los entrevistados señala que existen errores y consecuencias debido a esta gestión manual, como la imposibilidad de verificar con precisión los pagos de los alumnos, olvidos en el registro de información, o dificultades para acceder rápidamente a datos solicitados por los padres de familia. Además, el 100% de los entrevistados expresa su interés en contar con una herramienta digital que les permita registrar alumnos, controlar pagos, gestionar ingresos y egresos, y llevar un mejor seguimiento de asistencias. También consideran fundamental que el sistema incluya alertas automáticas que les ayuden a recordar tareas o pagos pendientes, y coinciden en que prefieren una herramienta fácil de usar, que contenga solo las funciones necesarias, aunque uno de ellos (50%) considera que podría tener funciones variadas siempre que sea intuitiva. Finalmente, el 100% de los entrevistados está dispuesto a adoptar una nueva plataforma de gestión, reconociendo que ello traería consigo beneficios como una mejor organización, control financiero, y mayor eficiencia en los procesos administrativos, siendo el costo un factor a considerar para su implementación.
+Las entrevistas se realizaron entre el 8 y el 11 de abril de 2025 a un total de seis participantes: tres docentes y tres administrativos/coordinadores de academias preuniversitarias en Lima e Ica.
+El objetivo fue entender sus contextos operativos, frustraciones actuales y validar hipótesis sobre posibles soluciones digitales.
+
+---
+
+#### Segmento: Docentes de academias
+
+**Total entrevistados:** 3  
+**Edades:** 21, 25, 25 años  
+**Distritos:** La Molina, Santa Anita, San Juan de Lurigancho  
+**Instituciones:** CEPRE Agraria, Círculos de estudio UNALM, Academia ADUNI  
+**Fechas:** 8 y 11 de abril de 2025
+
+##### Características objetivas
+- Usan Excel o Google Forms para registrar notas y asistencias: **3/3 (100%)**
+- Prefieren gestionar tareas desde celulares o laptops: **3/3 (100%)**
+- Los cambios de aula u horarios se gestionan por WhatsApp o encuestas improvisadas: **3/3 (100%)**
+- No utilizan plataformas centralizadas ni automatizadas: **3/3 (100%)**
+
+##### Características subjetivas
+- Encuentran incómodo el uso de Excel en celular: **2/3 (66%)**
+- Consideran que el trabajo administrativo les resta tiempo valioso de enseñanza: **3/3 (100%)**
+- Ven con buenos ojos una solución intuitiva y fácil de usar: **3/3 (100%)**
+- Quieren acceso a la plataforma desde múltiples dispositivos, especialmente celular: **3/3 (100%)**
+- Notificaciones de cambios de horario son altamente valoradas: **2/3 (66%)**
+- Disposición a adoptar nuevas herramientas si mejoran su productividad: **3/3 (100%)**
+
+---
+
+#### Segmento: Administrativos de academias
+
+**Total entrevistados:** 3  
+**Edades:** 28, 42, 58 años  
+**Distritos:** Ica (todos)  
+**Instituciones:** Enigmas, academias escolares particulares  
+**Fechas:** 9 de abril de 2025
+
+##### Características objetivas
+- Utilizan Excel y registros manuales para manejar pagos, matrículas, asistencia y horarios: **3/3 (100%)**
+- Consultan frecuentemente asistencia, notas y estado de pagos: **3/3 (100%)**
+- Dependen de múltiples hojas y archivos, dificultando la trazabilidad: **3/3 (100%)**
+
+##### Características subjetivas
+- Consideran sus métodos actuales ineficientes y repetitivos: **3/3 (100%)**
+- Señalan consecuencias negativas como pérdida de tiempo y mala atención a padres: **3/3 (100%)**
+- Alertas para pagos vencidos son altamente valoradas: **3/3 (100%)**
+- Desean funcionalidades como búsqueda rápida por nombre o DNI: **2/3 (66%)**
+- Esperan una solución intuitiva, accesible y asequible: **3/3 (100%)**
+- Disposición a adoptar nuevas plataformas si mejoran su gestión: **3/3 (100%)**
+
+---
+
+> Este análisis refleja claramente patrones de uso, frustraciones comunes y criterios clave que deben guiar el diseño del sistema. La coincidencia en prioridades entre ambos segmentos refuerza la necesidad de una plataforma centralizada, móvil, intuitiva y orientada a mejorar la eficiencia operativa diaria.
 
 ## 2.3. Needfinding
 
@@ -453,11 +715,63 @@ Valora la movilidad y odia perder tiempo con tareas repetitivas.
 ---
 
 ### 2.3.2. User Task Matrix
+En este User Task Matrix se detallan las tareas clave que cada tipo de usuario puede realizar dentro del sistema académico
+
+| **TAREA**                                              |  **Carmen Gutierrez.(Administrador) - Frecuencia**  |  **Carmen Gutierrez.(Administrador) - Importancia**  |
+|--------------------------------------------------------|:---------------------------------------------------:|:----------------------------------------------------:|
+| Registrar matrícula de estudiantes                     |                       always                        |                         high                         |
+| Gestionar los horarios de docentes y estudiantes       |                      sometimes                      |                         high                         |
+| Controlar los pagos de estudiantes                     |                      sometimes                      |                         high                         |
+| Visualizar la información académica                    |                        never                        |                        medium                        |
+| Ver la información financiera de los estudiantes       |                      sometimes                      |                         high                         |
+| Coordinar con los docentes para la gestión             |                      sometimes                      |                        medium                        |
+| Gestionar reportes para estudiantes y profesores       |                      sometimes                      |                         high                         |
+| Gestionar cambios en la asignación de aulas y horarios |                      sometimes                      |                         high                         |
+| Supervisar los procesos administrativos                |                       always                        |                         high                         |
+
+| **TAREA**                                     |  **Luis Mendoza(Profesor) - Frecuencia**  |  **Luis Mendoza(Profesor) - Importancia**  |
+|-----------------------------------------------|:-----------------------------------------:|:------------------------------------------:|
+| Registrar asistencia de estudiantes           |                 sometimes                 |                    high                    |
+| Revisar y gestionar horarios de clases        |                 sometimes                 |                   medium                   |
+| Registrar calificaciones                      |                  always                   |                    high                    |
+| Acceder a información de los estudiantes      |                 sometimes                 |                 sometimes                  |
+| Coordinar con el personal administrativo      |                 sometimes                 |                   medium                   |
+| Comunicar incidencias en horario regular      |                   never                   |                    high                    |
+| Preparar los materiales para las clases       |                  always                   |                    high                    |
+| Diseñar las evaluaciones                      |                 sometimes                 |                    high                    |
+| Gestionar que se cumplan las normas en el aula|                  always                   |                    high                    |
 
 ### 2.3.3. User Journey Mapping
+A continuación se presentarán los User Journey Maps de cada User Persona. Estos mapas nos permitirán comprender los puntos de dolor que experimentan en cada etapa, desde que descubren nuestra app hasta que comparten su opinión sobre ella.
+
+* User Journey Map de Luis Mendoza:
+![User Journey Map del User Persona Luis Mendoza](./assets/images/user-journey-map-luis-mendoza.png)
+[Ver Imagen detallada aquí](https://drive.google.com/file/d/1ZwP-W8qpUPP0yI6UFXMareIiCiphqNrr/view?usp=sharing)
+
+
+* User Journey Map de Carmen Gutiérrez:
+![User Journey Map del User Persona Carmen Gutiérrez](./assets/images/user-journey-map-carmen-gutiérrez.png)
+[Ver Imagen detallada aquí](https://drive.google.com/file/d/1oGSadSkVdSIzf-MeaMGnYL06wVVFKkJG/view?usp=sharing)
 
 ### 2.3.4. Empathy Mapping
 
+Se elaboraron los Empathy Mapping para los dos User Personas: el Administrador de la academia y el Profesor. Este proceso permitió comprender mejor lo que dicen, piensan, hacen y sienten en su día a día, identificando sus principales pains y gains para diseñar una solución que realmente se adapte a sus necesidades.
+
+---
+
+#### Administrador de academia
+
+![Empathy Mapping – Administrator](./assets/images/empathy-mapping-admin.png)
+**Figura x.** Empathy Mapping del user persona *Administrador*.
+
+---
+
+#### Docente de academia
+
+![Empathy Mapping – Teacher](./assets/images/empathy-mapping-teacher.png)
+**Figura x.** Empathy Mapping del user persona *Docente*.
+
+---
 ### 2.3.5. As-Is Scenario Mapping
 
 Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con nuestros futuros usuarios, buscando describir sus experiencias de forma que reflejaran sus pain points identificados en la seccion anterior . 
@@ -468,79 +782,329 @@ Para elaborar el As-Is Scenario Mapping, como grupo es importante empatizar con 
 **As-Is Scenario Mapping Teacher**
 ![Image](assets/images/as-is-scenario-mapping-teacher.png)
 
-
 ## 2.4. Ubiquitous Language
+
+---
+
+**Teacher** (Docente)  
+Persona encargada de impartir clases, evaluar a los estudiantes y registrar información académica como notas y asistencias.
+
+---
+
+**Student** (Estudiante)  
+Persona inscrita en la academia para recibir formación académica y participar en actividades educativas.
+
+---
+
+**Administrative Coordinator** (Coordinador administrativo)  
+Persona responsable de organizar y gestionar los procesos administrativos como matrículas, pagos, horarios y seguimiento académico.
+
+---
+
+**Enrollment** (Matrícula)  
+Proceso mediante el cual un estudiante se inscribe formalmente en la academia para participar en sus clases.
+
+---
+
+**Attendance** (Asistencia)  
+Registro que indica si el estudiante estuvo presente o ausente en cada clase.
+
+---
+
+**Tuition Payment** (Pago de matrícula)  
+Pago realizado por el estudiante o su tutor para acceder a los servicios educativos de la academia.
+
+---
+
+**Outstanding Balance** (Deuda pendiente)  
+Monto que un estudiante aún no ha pagado por concepto de matrícula u otros compromisos financieros.
+
+---
+
+**Student Record** (Ficha del estudiante)  
+Conjunto de datos personales, académicos y administrativos de un estudiante, como notas, asistencia y pagos realizados.
+
+---
+
+**Academic Schedule** (Horario académico)  
+Distribución de clases a lo largo de la semana, especificando días, horas y asignaturas correspondientes.
+
+---
+
+**Payment Control** (Control de pagos)  
+Supervisión del cumplimiento de los pagos realizados por los estudiantes, con el fin de mantener actualizada la situación financiera.
+
+---
+
+**Manual Management** (Gestión manual)  
+Organización de la información y ejecución de procesos administrativos utilizando medios no automatizados como hojas de Excel o listas impresas.
+
+---
+
+**Information Centralization** (Centralización de información)  
+Proceso de integrar todos los datos administrativos y académicos en un único sistema para facilitar el acceso y la gestión.
+
+---
+
+**Reminder Alert** (Alerta de recordatorio)  
+Notificación automática que recuerda tareas o eventos importantes, como vencimientos de pagos o cambios de horario.
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
 
+Para el desarrollo del To-be Scenario Mapping, el equipo planteó cómo mejorarían las actividades de los administradores y docentes tras implementar Demy. Este flujo proyectado soluciona los problemas detectados en el As-is Scenario, con procesos más ágiles, automatizados y centrados en una mejor gestión y comunicación.
+
+**To-Be Scenario Mapping Coordinator**
+![Image](assets/images/to-be-scenario-mapping-coordinator.jpg)
+
+**To-Be Scenario Mapping Teacher**
+![Image](assets/images/to-be-scenario-mapping-teacher.jpg)
+
 ## 3.2. User Stories
 
 Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático (LPS) para el sistema Demy, siguiendo buenas prácticas como INVEST. Estas historias reflejan necesidades reales de los usuarios y están organizadas por épicas, cada una con sus respectivos criterios de aceptación.
 
-| Epic / Story ID | Título                                                     | Descripción                                                                                                                                                                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Relacionado con (Epic ID) |
-|-----------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| EP01            | Gestión de usuarios y autenticación                        | Login, gestión de sesiones y control de acceso a funcionalidades según el rol del usuario.                                                                                                                                                                                       | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP02            | Gestión de matrículas                                      | Funcionalidades para registrar, editar y consultar matrículas de estudiantes.                                                                                                                                                                                                    | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP03            | Control de asistencia y rendimiento                        | Registro de asistencia por parte del docente y consulta del estado por parte del administrativo.                                                                                                                                                                                 | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP04            | Gestión financiera y alertas de pago                       | Control de pagos realizados por estudiantes, alertas de morosidad y registro básico de egresos.                                                                                                                                                                                  | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP05            | Gestión de horarios y asignaciones                         | Asignación y reprogramación de horarios, salones y docentes según disponibilidad o cambios imprevistos.                                                                                                                                                                          | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP06            | Accesos desde Landing Page por segmento                    | Redirecciones desde la landing page hacia vistas específicas según el tipo de visitante.                                                                                                                                                                                         | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| EP07            | Servicios técnicos y APIs REST                             | Implementación y documentación de endpoints RESTful, configuración del backend y aspectos técnicos.                                                                                                                                                                              | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | —                         |
-| US01            | Iniciar sesión como usuario del sistema                    | Como usuario registrado, quiero iniciar sesión en el sistema, para acceder a mis funcionalidades según mi rol.                                                                                                                                                                   | Given el formulario de login está disponible<br>When el usuario ingresa credenciales válidas<br>Then se muestra la pantalla de inicio correspondiente a su rol<br>And se almacena un token de sesión válido                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP01                      |
-| US02            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US03            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US04            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US05            | Registrar matrícula de un estudiante                       | Como coordinador de academia, quiero registrar alumnos en la aplicación web, para que se almacenen sus datos y se pueda acceder a las funcionalidades adicionales                                                                                                                | **Registro exitoso de Matrícula** <br> Given el formulario de matrícula está disponible y visible en la aplicación web, <br> And todos los campos obligatorios están claramente indicados, <br> When el coordinador ingresa los datos del alumno, <br> And ingresa el monto pagado como un número válido, <br> And selecciona un periodo de estudios disponible de la lista de opciones, <br> Then el sistema valida que todos los campos requeridos están completos y correctos, <br> And registra los datos del alumno en la base de datos del sistema, <br> And se muestra en pantalla un mensaje de "Registro exitoso". <br> <br> **Registro no exitoso de Matrícula** <br>Given el formulario de matrícula está disponible en la aplicación web, <br> When el coordinador ingresa los datos del alumno, <br> And el monto pagado  es inválido, <br> And el coordinador no selecciona un periodo de estudios, <br> Then el sistema muestra un mensaje de error indicando los problemas encontrados. <br> And el sistema no guarda ningún dato del alumno hasta que todos los campos sean corregidos. <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |                           |
-| US06            | Consultar historial de matrículas por estudiante           | Como coordinador de academia, quiero consultar el historial de matrículas de un estudiante en la aplicación web, para poder verificar su estado académico y los pagos realizados, y tomar decisiones informadas sobre su situación académica o administrativa.                   | **Consulta exitosa del historial** <br> Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador busca a un estudiante por DNI, ID o número de matrícula, <br> And selecciona al estudiante de la lista, <br> Then el sistema muestra el historial completo de matrículas del estudiante, <br> And el historial incluye los períodos académicos, cursos o asignaturas matriculadas, montos pagados, y estado de la matrícula (activa, cancelada, etc.).  <br> <br> **Historial vacío o no encontrado:** <br> Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador busca un estudiante que no tiene matrículas registradas en el sistema, <br> Then el sistema muestra un mensaje indicando que no hay historial disponible para este estudiante, <br> And el coordinador puede regresar a la página principal de matrícula. <br> <br> **Validación de acceso a historial** <br> Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador intenta acceder al historial de un estudiante, <br> Then el sistema verifica que el coordinador tenga los permisos adecuados para visualizar la información, <br> And si no tiene permisos, el sistema muestra un mensaje indicando que no tiene acceso al historial de matrículas de este estudiante. <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                           |
-| US07            | Editar datos de una matrícula existente                    | Como coordinador de academia, quiero poder editar los datos de una matrícula existente en la aplicación web, para poder actualizar la información de los estudiantes, como cambios en el monto pagado, curso, o periodo de estudio, y mantener el registro académico actualizado | **Edición exitosa de matrícula** <br> Given el coordinador está en la página de edición de matrícula, <br> When el coordinador selecciona una matrícula existente para editar, <br> And modifica los campos requeridos (como monto pagado, curso o periodo de estudio), <br> And ordena "Guardar cambios", <br> Then el sistema valida que los datos sean correctos y actualiza la matrícula en la base de datos, <br> And se muestra un mensaje de "Edición exitosa" en pantalla, <br> And el sistema redirige al coordinador a la pantalla de consulta de matrículas o al listado de estudiantes registrados.  <br> <br> **Edición con datos inválidos** Given el coordinador está en la página de edición de matrícula, <br> When el coordinador modifica un campo con datos inválidos (por ejemplo, monto pagado negativo o periodo de estudio no disponible), <br> Then el sistema muestra un mensaje de error indicando que los datos son inválidos, <br> And el coordinador permanece en la página de edición para corregir los errores.  <br> <br> **Campos requeridos incompletos en la edición** Given el coordinador está en la página de edición de matrícula, <br> When el coordinador omite un campo obligatorio (como nombre del estudiante o periodo de estudio), <br> Then el sistema muestra un mensaje de error indicando que los campos obligatorios no se han completado, <br> And el coordinador permanece en la página de edición para completar los campos faltantes.  <br> <br>  **Confirmación antes de realizar cambios** Given el coordinador está editando la matrícula de un estudiante, <br> When el coordinador cambia el monto pagado o el curso del estudiante, <br> Then el sistema muestra un mensaje de confirmación para asegurarse de que los cambios son correctos, <br> And el coordinador debe confirmar antes de guardar los cambios. <br>                                  |                           |
-| US08            | Cancelar una matrícula registrada                          | Como coordinador de academia, quiero cancelar una matrícula registrada en la aplicación web, para eliminar la inscripción de un estudiante que ya no va a continuar con sus estudios o que ha solicitado la cancelación de su matrícula.                                         | **Cancelación exitosa de matrícula** <br> Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador selecciona una matrícula registrada para cancelar, <br> And confirma la cancelación de la matrícula, <br> Then el sistema actualiza el estado de la matrícula a "cancelada" en la base de datos, <br> And se muestra un mensaje de "Matrícula cancelada exitosamente" en pantalla, <br> And el coordinador es redirigido a la página de consulta de matrículas o al listado de estudiantes registrados. <br> <br> **Confirmación de cancelación** Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador selecciona la opción de cancelar una matrícula, <br> Then el sistema muestra una ventana emergente de confirmación preguntando si está seguro de cancelar la matrícula, <br> And el coordinador debe confirmar la cancelación antes de que el sistema realice cualquier cambio. <br> <br> **Cancelación de matrícula con pagos pendientes** Given el coordinador está cancelando una matrícula, <br> When el sistema detecta que la matrícula tiene pagos pendientes o no completados, <br> Then el sistema muestra un mensaje de advertencia indicando que la matrícula tiene pagos pendientes, <br> And el coordinador puede proceder con la cancelación o solicitar que el estudiante regularice los pagos antes de proceder. <br> <br> **Cancelación no permitida en matrícula activa** Given el coordinador está en la página de consulta de matrículas, <br> When el coordinador intenta cancelar una matrícula que no ha sido registrada como activa o que ya ha sido cancelada previamente, <br> Then el sistema muestra un mensaje de error indicando que la matrícula ya está en estado cancelado o no es válida para ser cancelada, <br> And el coordinador permanece en la página de consulta sin realizar cambios. <br> |                           |
-| US09            | Visualizar resumen de estudiantes matriculados por periodo | Como coordinador de academia, quiero visualizar un resumen de los estudiantes matriculados por periodo en la aplicación web, para poder obtener una visión clara del número de estudiantes y sus matrículas en cada periodo académico.                                           | **Visualización exitosa del resumen de estudiantes matriculados por periodo** Given el coordinador está en la página de resumen de matrículas por periodo, <br> When el coordinador selecciona un periodo académico específico, <br> Then el sistema muestra el resumen de todos los estudiantes matriculados en ese periodo, <br> And el resumen incluye el nombre de los estudiantes, los cursos o asignaturas matriculadas y el estado de la matrícula (activa o cancelada), <br> And el sistema muestra el número total de estudiantes matriculados en el periodo seleccionado. <br> <br> **Filtrado por estado de matrícula** <br> Given el coordinador está en la página de resumen de matrículas por periodo, <br> When el coordinador aplica un filtro por estado de matrícula (activa, cancelada), <br> Then el sistema muestra solo los estudiantes que tengan el estado de matrícula seleccionado, <br> And el número total de estudiantes se ajusta según el estado filtrado. <br> <br> **Visualización de detalles adicionales del estudiante** <br> Given el coordinador está visualizando el resumen de estudiantes matriculados por periodo, <br> When el coordinador hace clic en el nombre de un estudiante en el resumen, <br> Then el sistema muestra una ventana emergente o redirige a una página con los detalles completos de la matrícula del estudiante, <br> And los detalles incluyen los cursos o asignaturas matriculadas, pagos realizados, y el estado de la matrícula. <br>                                                                                                                                                                                                                                                                                                                                                                                                           |                           |
-| US10            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US11            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US12            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US13            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US14            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US15            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US16            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US17            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US18            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US19            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US20            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US21            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| US22            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS01           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS02           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS03           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS04           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS05           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS06           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS07           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS08           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS09           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| LPS10           |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| TS01            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| TS02            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| TS03            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| TS04            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
-| TS05            |                                                            |                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |
+| Epic / Story ID | Título                                                                                  | Descripción                                                                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Relacionado con (Epic ID)                                                                                                            |
+|-----------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| EP01            | Gestión de usuarios y autenticación                                                     | Como usuario del sistema,<br>quiero iniciar sesión, cerrar sesión y acceder según mi rol,<br>para utilizar solo las funcionalidades que me corresponden y proteger el acceso a la plataforma.          | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | US01<br>US02<br>US03<br>US04<br>US05                                                                                                 |
+| EP02            | Gestión de matrículas                                                                   | Como administrativo,<br>quiero registrar, editar y consultar matrículas de estudiantes,<br>para asegurar el control y trazabilidad de las inscripciones académicas.                                    | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | US06<br>US07<br>US08<br>US09<br>US10                                                                                                 |
+| EP03            | Control de asistencia                                                                   | Como profesor o administrativo,<br>quiero registrar y consultar la asistencia de los estudiantes,<br>para monitorear su participación y generar alertas o reportes cuando sea necesario.               | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | US11<br>US12<br>US13                                                                                                                 |
+| EP04            | Gestión financiera y alertas de pago                                                    | Como administrativo,<br>quiero registrar pagos, emitir alertas por morosidad y controlar egresos,<br>para mantener las finanzas de la academia organizadas y al día.                                   | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | US14<br>US15<br>US16<br>US17<br>US18                                                                                                 |
+| EP05            | Gestión de horarios y asignaciones                                                      | Como administrativo,<br>quiero asignar horarios, salones y docentes a los cursos,<br>para estructurar la carga académica de forma ordenada y gestionar imprevistos.                                    | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | US19<br>US20<br>US21<br>US22<br>US23                                                                                                 |
+| EP06            | Accesos desde Landing Page por segmento                                                 | Como visitante del sitio,<br>quiero ser redirigido desde la landing page a la vista correspondiente según mi perfil,<br>para acceder fácilmente a la información o funcionalidades relevantes para mí. | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | LPS01<br>LPS02<br>LPS03<br>LPS04<br>LPS05<br>LPS06<br>LPS07<br>LPS08<br>LPS09<br>LPS10                                               |
+| EP07            | Servicios técnicos y APIs REST                                                          | Como equipo de desarrollo,<br>quiero exponer endpoints REST bien documentados y seguros,<br>para facilitar la integración, el mantenimiento y la escalabilidad del sistema.                            | — *(Epica, no aplica)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | TS01<br>TS02<br>TS03<br>TS04<br>TS05<br>TS06<br>TS07<br>TS08<br>TS09<br>TS10<br>TS11<br>TS12<br>TS13<br>TS14<br>TS15<br>TS16<br>TS17 |
+| US01            | Iniciar sesión como usuario autenticado                                                 | Como usuario del sistema,<br>quiero iniciar sesión con mis credenciales,<br>para acceder a las funcionalidades permitidas por mi rol.                                                                  | **Scenario 1: Inicio de sesión exitoso**<br>Given un usuario con credenciales válidas<br>When intenta iniciar sesión<br>Then el sistema le permite el acceso a la plataforma según su rol asignado<br><br>**Scenario 2: Inicio de sesión con credenciales inválidas**<br>Given un usuario con credenciales incorrectas<br>When intenta iniciar sesión<br>Then se le informa que las credenciales son inválidas y no se permite el acceso                                                                                                                                                                                                                                                                                                                                                                                                                                | EP01                                                                                                                                 |
+| US02            | Cerrar sesión de forma segura                                                           | Como usuario autenticado,<br>quiero cerrar sesión de forma segura,<br>para evitar el uso indebido de mi cuenta.                                                                                        | **Scenario 1: Cierre de sesión voluntario**<br>Given un usuario autenticado<br>When decide cerrar sesión<br>Then el sistema finaliza su sesión y revoca el acceso a funcionalidades protegidas<br><br>**Scenario 2: Cierre de sesión por inactividad**<br>Given un usuario inactivo por un periodo prolongado<br>When se cumple el tiempo límite<br>Then el sistema cierra la sesión automáticamente por seguridad                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP01                                                                                                                                 |
+| US03            | Acceder con permisos según el rol                                                       | Como usuario del sistema,<br>quiero que mis permisos de acceso estén definidos por mi rol,<br>para interactuar únicamente con lo que me corresponde.                                                   | **Scenario 1: Usuario con rol administrador**<br>Given un usuario autenticado con rol de administrador<br>When accede al sistema<br>Then puede acceder a funcionalidades de gestión global como matrículas o pagos<br><br>**Scenario 2: Usuario con rol docente**<br>Given un usuario autenticado con rol de docente<br>When accede al sistema<br>Then puede gestionar asistencia y horarios asignados                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP01                                                                                                                                 |
+| US04            | Recuperar acceso mediante correo                                                        | Como usuario que ha perdido el acceso,<br>quiero recuperar mi contraseña mediante correo electrónico,<br>para restablecer mi cuenta de forma segura.                                                   | **Scenario 1: Solicitud de recuperación exitosa**<br>Given un usuario registrado que olvidó su contraseña<br>When solicita la recuperación e ingresa su correo asociado<br>Then el sistema le envía un enlace temporal para crear una nueva contraseña<br><br>**Scenario 2: Solicitud con correo no registrado**<br>Given un usuario que ingresa un correo no asociado<br>When solicita recuperación<br>Then se le informa que no existe una cuenta vinculada a ese correo                                                                                                                                                                                                                                                                                                                                                                                              | EP01                                                                                                                                 |
+| US05            | Registrarse como usuario en la plataforma                                               | Como usuario interesado en la plataforma,<br>quiero registrarme creando una cuenta,<br>para acceder a las funcionalidades de la plataforma según mi rol.                                               | **Scenario 1: Registro exitoso como usuario administrativo**<br>Given un visitante ingresa al formulario de registro<br>When elige la opción de registrarse como administrativo<br>And proporciona su información de contacto, nombre de la academia y correo<br>Then el sistema crea una cuenta administrativa<br><br>**Scenario 2: Registro exitoso como docente**<br>Given un visitante ingresa al formulario de registro<br>When elige la opción de registrarse como docente<br>And proporciona su información de contacto, nombre de la academia y correo<br>Then el sistema crea una cuenta con el rol de docente<br><br>**Scenario 3: Registro con datos incompletos**<br>Given un visitante que omite datos obligatorios (nombre, correo, etc.)<br>When intenta registrarse<br>Then el sistema muestra los campos faltantes y solicita completar la información | EP01                                                                                                                                 |
+| US06            | Registrar matrícula de un estudiante                                                    | Como administrativo,<br>quiero registrar alumnos en la aplicación web,<br>para que se almacenen sus datos y se pueda acceder a las funcionalidades adicionales.                                        | **Scenario 1: Registro exitoso de matrícula**<br>Given el formulario de matrícula está disponible<br>And todos los campos obligatorios están indicados<br>When el coordinador ingresa los datos correctamente<br>Then el sistema guarda la matrícula y muestra mensaje de "Registro exitoso"<br><br>**Scenario 2: Registro fallido por datos inválidos**<br>Given el formulario está visible<br>When se ingresa un monto no válido o no se selecciona un periodo<br>Then el sistema muestra errores y no guarda datos hasta que se corrijan                                                                                                                                                                                                                                                                                                                             | EP02                                                                                                                                 |
+| US07            | Consultar historial de matrículas por estudiante                                        | Como administrativo,<br>quiero consultar el historial de matrículas de un estudiante en la aplicación web,<br>para verificar su estado académico y tomar decisiones informadas.                        | **Scenario 1: Consulta exitosa del historial**<br>Given que el coordinador accede a la página de consulta<br>When busca un estudiante válido<br>Then el sistema muestra su historial de matrículas y detalles como cursos, pagos, y estado<br><br>**Scenario 2: Estudiante sin historial**<br>Given que no hay matrículas para ese estudiante<br>When el coordinador hace la búsqueda<br>Then el sistema muestra mensaje indicando historial vacío<br><br>**Scenario 3: Verificación de permisos**<br>Given que el coordinador no tiene permisos<br>When intenta consultar el historial<br>Then el sistema deniega acceso con un mensaje de error                                                                                                                                                                                                                       | EP02                                                                                                                                 |
+| US08            | Editar datos de una matrícula existente                                                 | Como administrativo,<br>quiero poder editar los datos de una matrícula existente en la aplicación web,<br>para actualizar información y mantener el registro académico al día.                         | **Scenario 1: Edición exitosa**<br>Given que el coordinador accede a la edición<br>When realiza cambios válidos y guarda<br>Then el sistema actualiza la matrícula y muestra mensaje de éxito<br><br>**Scenario 2: Datos inválidos**<br>Given que el coordinador modifica un campo erróneo<br>When guarda los cambios<br>Then el sistema muestra errores y no actualiza la matrícula<br><br>**Scenario 3: Campos requeridos incompletos**<br>Given que omite campos obligatorios<br>When intenta guardar<br>Then el sistema muestra errores y permanece en la página<br><br>**Scenario 4: Confirmación antes de cambios**<br>Given que se modifican campos clave como monto o curso<br>When intenta guardar<br>Then el sistema solicita confirmación del cambio                                                                                                         | EP02                                                                                                                                 |
+| US09            | Cancelar una matrícula registrada                                                       | Como administrativo,<br>quiero cancelar una matrícula registrada en la aplicación web,<br>para gestionar solicitudes de retiro o deserción de estudiantes.                                             | **Scenario 1: Cancelación exitosa**<br>Given que se selecciona una matrícula activa<br>When el coordinador confirma la cancelación<br>Then el estado cambia a "cancelada" y se muestra mensaje de éxito<br><br>**Scenario 2: Confirmación de cancelación**<br>Given que se intenta cancelar una matrícula<br>When el sistema solicita confirmación<br>Then la cancelación se realiza solo si se confirma<br><br>**Scenario 3: Matrícula con pagos pendientes**<br>Given que la matrícula tiene pagos incompletos<br>When se intenta cancelar<br>Then el sistema advierte al coordinador antes de continuar<br><br>**Scenario 4: Cancelación no permitida**<br>Given que la matrícula ya está cancelada<br>When se intenta cancelar de nuevo<br>Then el sistema muestra error y no realiza cambios                                                                       | EP02                                                                                                                                 |
+| US10            | Visualizar resumen de estudiantes matriculados por periodo                              | Como administrativo,<br>quiero visualizar un resumen de los estudiantes matriculados por periodo,<br>para tener una visión clara del número de alumnos por ciclo académico.                            | **Scenario 1: Visualización exitosa**<br>Given que el coordinador selecciona un periodo<br>When consulta el resumen<br>Then el sistema muestra nombres, cursos, estados y total de matriculados<br><br>**Scenario 2: Filtrado por estado**<br>Given que se aplica un filtro (activa, cancelada)<br>When se consulta el resumen<br>Then se muestran solo los estudiantes con ese estado<br><br>**Scenario 3: Detalle individual del estudiante**<br>Given que se hace clic en un nombre del listado<br>When se accede a los detalles<br>Then se muestra información completa de esa matrícula                                                                                                                                                                                                                                                                            | EP02                                                                                                                                 |
+| US11            | Registrar asistencia de estudiantes por clase                                           | Como profesor,<br>quiero poder registrar la asistencia de los estudiantes,<br>para tener un registro de los estudiantes que faltaron y los que asistieron.                                             | **Scenario 1: Registro de asistencia exitoso**<br>Given que el usuario ha accedido al módulo de asistencia<br>When selecciona una clase y marca un estudiante como presente o ausente<br>Then el sistema registra correctamente la asistencia del estudiante<br><br>**Scenario 2: Registro sin selección de estudiante**<br>Given que el usuario abre el módulo de asistencia<br>When no selecciona ningún estudiante<br>Then el sistema no permite guardar la asistencia y muestra un mensaje de advertencia                                                                                                                                                                                                                                                                                                                                                           | EP03                                                                                                                                 |
+| US12            | Consultar asistencia de un estudiante en un periodo                                     | Como usuario,<br>quiero consultar la asistencia de un estudiante en el periodo escogido,<br>para observar su desempeño en los cursos.                                                                  | **Scenario 1: Consulta exitosa de asistencia**<br>Given que el usuario accede a la sección de estudiantes<br>When selecciona un estudiante y un periodo determinado<br>Then el sistema muestra las fechas y estados de asistencia (presente/ausente)<br><br>**Scenario 2: Estudiante sin registros en el periodo**<br>Given que el usuario consulta un periodo sin datos<br>When el sistema busca asistencia<br>Then muestra mensaje indicando que no hay registros para ese periodo                                                                                                                                                                                                                                                                                                                                                                                    | EP03                                                                                                                                 |
+| US13            | Enviar alertas sobre inasistencias                                                      | Como usuario,<br>quiero enviar alertas sobre inasistencias,<br>para informar a los demás usuarios sobre la cantidad de inasistencias que está cometiendo un alumno.                                    | **Scenario 1: Envío exitoso de alerta de inasistencia**<br>Given que la función de alerta está habilitada<br>When el usuario selecciona un estudiante con inasistencias<br>And activa la opción de alerta<br>Then el sistema registra y notifica a los usuarios responsables<br><br>**Scenario 2: Intento de alerta sin selección de alumno**<br>Given que el usuario accede al módulo de alertas<br>When no selecciona a ningún alumno<br>Then el sistema no permite emitir una alerta y muestra advertencia                                                                                                                                                                                                                                                                                                                                                           | EP03                                                                                                                                 |
+| US14            | Registrar pago de un estudiante                                                         | Como administrativo,<br>quiero registrar el pago de un estudiante,<br>para llevar un control preciso de su estado financiero.                                                                          | **Scenario 1: Registrar pago de un estudiante**<br>Given el administrador está en el perfil del estudiante<br>When selecciona la opción “Registrar pago” y elige el período de pago (1 mes, 2 meses, o ciclo completo)<br>Then el sistema muestra el monto correspondiente y actualiza el estado de cuenta<br><br>**Scenario 2: Registrar pago con descuento**<br>Given el administrador ingresa un monto con descuento<br>When selecciona la opción correspondiente<br>Then el sistema calcula el monto final y lo refleja en el estado de cuenta                                                                                                                                                                                                                                                                                                                      | EP04                                                                                                                                 |
+| US15            | Consultar estado de cuenta de un estudiante                                             | Como administrativo,<br>quiero consultar el estado de cuenta de un estudiante,<br>para tener visibilidad de sus pagos realizados, deudas pendientes y fechas de vencimiento.                           | **Scenario 1: Ver estado de cuenta completo**<br>Given el administrador accede al perfil del estudiante<br>When selecciona “Estado de cuenta”<br>Then el sistema muestra historial de pagos, deudas y fechas de vencimiento<br><br>**Scenario 2: Ver estado de cuenta con alerta de deuda**<br>Given que existe una deuda pendiente o vencida<br>When se visualiza el estado<br>Then el sistema muestra una alerta destacada al respecto                                                                                                                                                                                                                                                                                                                                                                                                                                | EP04                                                                                                                                 |
+| US16            | Enviar alertas automáticas por pagos vencidos                                           | Como administrativo,<br>quiero que el sistema envíe alertas automáticas sobre el estado de los pagos,<br>para mantener informados a los apoderados y asegurar una mejor gestión financiera.            | **Scenario 1: Alerta automática por pago vencido**<br>Given que un estudiante tiene una deuda vencida<br>When se cumple la fecha límite sin pago<br>Then el sistema envía una notificación automática al apoderado (correo o WhatsApp)<br><br>**Scenario 2: Alerta de pago completado**<br>Given que el pago ha sido registrado<br>When se confirma el pago<br>Then el sistema envía una notificación de confirmación al apoderado                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP04                                                                                                                                 |
+| US17            | Registrar egresos                                                                       | Como administrativo,<br>quiero registrar los egresos financieros del centro educativo,<br>para mantener un control actualizado de los gastos y generar reportes precisos.                              | **Scenario 1: Registrar egreso básico**<br>Given que el administrador está en el módulo financiero<br>When selecciona “Nuevo egreso” e ingresa concepto, monto y fecha<br>Then el sistema registra el egreso y actualiza el balance<br><br>**Scenario 2: Registrar egreso con categoría**<br>Given que se especifica una categoría (ej. “Pago Docentes”, “Materiales”, “Servicios”)<br>When se guarda el egreso<br>Then el sistema lo agrupa bajo esa categoría en el resumen financiero                                                                                                                                                                                                                                                                                                                                                                                | EP04                                                                                                                                 |
+| US18            | Generar reporte financiero mensual                                                      | Como administrativo,<br>quiero generar reportes financieros,<br>para visualizar el estado económico del centro educativo y tomar decisiones informadas.                                                | **Scenario 1: Generar reporte mensual estándar**<br>Given que se selecciona un mes y año<br>When el administrador hace clic en “Generar reporte”<br>Then el sistema muestra ingresos, egresos y balance del mes<br><br>**Scenario 2: Reporte con filtros personalizados**<br>Given que el administrador aplica filtros (categoría, tipo de ingreso/egreso)<br>When genera el reporte<br>Then el sistema muestra la información detallada según los filtros                                                                                                                                                                                                                                                                                                                                                                                                              | EP04                                                                                                                                 |
+| US19            | Crear materias por periodo de estudio                                                   | Como administrativo,<br>quiero crear materias por periodo de estudio,<br>para mantener un control claro del contenido académico en cada ciclo.                                                         | **Scenario 1: Creación de materia exitosa**<br>Given que el usuario tiene rol administrativo<br>When ingresa a su organización<br>And navega a "Periodos" > "Gestión de materias"<br>And completa los datos de una nueva materia<br>Then el sistema guarda la materia y muestra un mensaje de confirmación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP05                                                                                                                                 |
+| US20            | Asignar horarios a los docentes y cursos                                                | Como administrativo,<br>quiero asignar horarios a los docentes y cursos,<br>para evitar conflictos de disponibilidad.                                                                                  | **Scenario 1: Asignación de horario exitosa**<br>Given que el usuario tiene rol administrativo<br>And existe una materia registrada en el periodo<br>When selecciona un horario disponible y un docente<br>Then el sistema guarda la asignación y muestra un mensaje de confirmación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP05                                                                                                                                 |
+| US21            | Consultar disponibilidad de salones                                                     | Como administrativo,<br>quiero consultar la disponibilidad de salones,<br>para asignar clases de manera eficiente.                                                                                     | **Scenario 1: Consulta de disponibilidad**<br>Given que el usuario tiene rol administrativo<br>And accede a la gestión de salones<br>When selecciona un rango horario<br>Then el sistema muestra una lista de salones disponibles para ese rango                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP05                                                                                                                                 |
+| US22            | Reprogramar clase por cambio de horario                                                 | Como profesor,<br>quiero reprogramar una clase por cambio de horario,<br>para garantizar el aprendizaje de mis alumnos sin retrasos.                                                                   | **Scenario 1: Reprogramación exitosa**<br>Given que el usuario tiene rol docente<br>And accede a la gestión de clases<br>And selecciona "Reprogramar clase"<br>And indica la nueva hora<br>And el sistema le muestra los salones disponibles<br>When el docente selecciona uno<br>Then el sistema guarda la nueva programación y muestra mensaje de confirmación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP05                                                                                                                                 |
+| US23            | Actualizar calendario del docente                                                       | Como profesor,<br>quiero visualizar automáticamente la reprogramación de la clase en mi horario,<br>para estar siempre al tanto de ello.                                                               | **Scenario 1: Visualización de reprogramación**<br>Given que el usuario tiene rol docente<br>And tiene una clase reprogramada registrada<br>When accede a su calendario<br>Then el sistema muestra el horario actualizado incluyendo la reprogramación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP05                                                                                                                                 |
+| LPS01           | Ver Hero Section                                                                        | Como visitante,<br>quiero visualizar una sección inicial llamativa,<br>para entender rápidamente qué ofrece la plataforma Demy.                                                                        | **Scenario 1: Visualización inicial**<br>Given accedo al sitio desde cualquier dispositivo<br>When se carga la página<br>Then se muestra el nombre del producto, slogan y botón de acción con diseño atractivo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP06                                                                                                                                 |
+| LPS02           | Ver sección "About the product"                                                         | Como visitante,<br>quiero conocer en qué consiste Demy,<br>para entender cómo puede ayudar a academias como la mía.                                                                                    | **Scenario 1: Ver detalles del producto**<br>Given estoy navegando por la landing<br>When hago scroll o clic en "¿Qué es Demy?"<br>Then se despliega una descripción clara del producto y su propósito                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP06                                                                                                                                 |
+| LPS03           | Ver sección de beneficios y características                                             | Como visitante,<br>quiero conocer los beneficios clave del sistema,<br>para identificar si resuelve mis necesidades.                                                                                   | **Scenario 1: Visualización de beneficios**<br>Given estoy en la sección de beneficios<br>When la sección está visible<br>Then se muestran íconos o bullets con características destacadas como gestión, automatización, accesibilidad, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP06                                                                                                                                 |
+| LPS04           | Ver testimonios de usuarios reales                                                      | Como visitante,<br>quiero leer opiniones de usuarios actuales,<br>para confiar más en la solución antes de probarla.                                                                                   | **Scenario 1: Mostrar testimonios**<br>Given la sección de testimonios está disponible<br>When accedo a ella<br>Then se muestran citas o perfiles reales con sus experiencias positivas con Demy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP06                                                                                                                                 |
+| LPS05           | Ver sección "About us"                                                                  | Como visitante,<br>quiero saber quién está detrás de Demy,<br>para confiar en la propuesta y su respaldo profesional.                                                                                  | **Scenario 1: Mostrar información del equipo**<br>Given accedo al pie o sección dedicada<br>When consulto "Sobre nosotros"<br>Then se muestra el equipo, misión y valores de la empresa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP06                                                                                                                                 |
+| LPS06           | Consultar planes y precios                                                              | Como visitante,<br>quiero ver los planes y precios disponibles,<br>para elegir el que mejor se adapte a mi academia.                                                                                   | **Scenario 1: Visualización de precios**<br>Given accedo a la sección de precios<br>When hago clic en "Ver planes"<br>Then se muestran claramente los tres planes (Essentials, Pro, Elite) con sus respectivos precios y beneficios                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP06                                                                                                                                 |
+| LPS07           | Acceder a sección de contacto                                                           | Como visitante,<br>quiero tener acceso rápido a medios de contacto,<br>para resolver dudas antes de registrarme.                                                                                       | **Scenario 1: Acceso a contacto<br>**Given accedo a la sección "Contacto"<br>When deseo comunicarme<br>Then se muestra formulario o datos (email, teléfono, redes) para contacto directo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP06                                                                                                                                 |
+| LPS08           | Consultar preguntas frecuentes                                                          | Como visitante,<br>quiero resolver dudas comunes de forma autónoma,<br>para entender mejor el uso de la plataforma.                                                                                    | **Scenario 1: Expandir preguntas**<br>Given accedo a la sección de preguntas frecuentes<br>When hago clic en una pregunta<br>Then se expande la respuesta correspondiente                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP06                                                                                                                                 |                     
+| LPS09           | Ver sección Footer con enlaces útiles                                                   | Como visitante,<br>quiero ver al pie de página enlaces legales y de navegación rápida,<br>para ubicar información adicional.                                                                           | **Scenario 1: Visualización de footer**<br>Given estoy en el final de la página<br>When visualizo el footer<br>Then se muestran enlaces a Términos y condiciones, política de privacidad y navegación interna                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP06                                                                                                                                 |                    
+| LPS10           | Ver sitio en varios idiomas (internacionalización)                                      | Como visitante,<br>quiero cambiar el idioma de la landing page,<br>para entender el contenido en mi idioma preferido.                                                                                  | **Scenario 1: Cambiar idioma**<br>Given el sitio tiene opción de idiomas<br>When selecciono otro idioma desde el menú<br>Then todo el contenido visible cambia automáticamente al idioma seleccionado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP06                                                                                                                                 |                      
+| TS01            | Implementar endpoint para registrar nueva matrícula (`POST /enrollments`)               | Como developer,<br>quiero implementar un endpoint para registrar una matrícula,<br>para que los administradores puedan matricular estudiantes en cursos específicos.                                   | **Scenario 1:** Registro exitoso<br>Given que el usuario es un administrador autenticado<br>When envía una solicitud POST con datos válidos<br>Then se responde con status 201 Created<br><br>**Scenario 2:** Datos incompletos<br>Given que falta un dato requerido<br>When se realiza la solicitud<br>Then se responde con 400 Bad Request<br><br>**Scenario 3:** Matrícula duplicada<br>Given que el estudiante ya está matriculado<br>When se intenta registrar<br>Then se responde con 409 Conflict                                                                                                                                                                                                                                                                                                                                                                | EP07                                                                                                                                 |
+| TS02            | Implementar endpoint para consultar matrícula por ID (`GET /enrollments/{id}`)          | Como developer,<br>quiero exponer un endpoint que devuelva una matrícula por su ID,<br>para que los usuarios puedan obtener sus detalles.                                                              | **Scenario 1:** Matrícula encontrada<br>Given que el ID existe<br>When se consulta el endpoint<br>Then se retorna status 200 OK<br><br>**Scenario 2:** Matrícula no encontrada<br>Given que el ID no existe<br>When se consulta el endpoint<br>Then se retorna 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP07                                                                                                                                 | 
+| TS03            | Implementar endpoint para listar matrículas filtradas (`GET /enrollments`)              | Como developer,<br>quiero listar matrículas con opción de filtros y paginación,<br>para que los usuarios puedan consultar según criterios.                                                             | **Scenario 1:** Sin filtros<br>Given que se realiza una solicitud simple<br>When se consulta el endpoint<br>Then se retorna el listado completo<br><br>**Scenario 2:** Con filtros<br>Given que se aplican parámetros de búsqueda<br>When se consulta el endpoint<br>Then se devuelven solo coincidencias<br><br>**Scenario 3:** Con paginación<br>Given que se usan `page` y `limit`<br>When se hace la consulta<br>Then se retorna un subset con metadatos                                                                                                                                                                                                                                                                                                                                                                                                            | EP07                                                                                                                                 |
+| TS04            | Implementar endpoint para registrar asistencia (`POST /attendances`)                    | Como developer,<br>quiero exponer un endpoint para registrar asistencia por clase,<br>para que los docentes puedan reportar a sus estudiantes.                                                         | **Scenario 1:** Registro exitoso<br>Given que el docente está autenticado<br>When envía datos válidos<br>Then se retorna 201 Created<br><br>**Scenario 2:** Datos incompletos<br>Given que falta información<br>When se intenta registrar<br>Then se responde con 400 Bad Request<br><br>**Scenario 3:** Duplicado<br>Given que ya existe el registro<br>When se vuelve a enviar<br>Then se responde con 409 Conflict                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP07                                                                                                                                 |
+| TS05            | Generar y enviar alertas automáticas de morosidad (`POST /payment-alerts`)              | Como developer,<br>quiero crear un endpoint que dispare alertas automáticas por morosidad,<br>para notificar a estudiantes con pagos vencidos.                                                         | **Scenario 1:** Morosos detectados<br>Given que existen pagos vencidos<br>When se ejecuta el endpoint<br>Then se envían las notificaciones<br><br>**Scenario 2:** Sin morosos<br>Given que no hay morosidad<br>When se ejecuta<br>Then se responde con 204 No Content<br><br>**Scenario 3:** Error parcial<br>Given que ocurre una falla<br>When se procesan alertas<br>Then se responde con 207 Multi-Status                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP07                                                                                                                                 |
+| TS06            | Exponer endpoint para consultar horarios por docente (`GET /schedules`)                 | Como developer,<br>quiero mostrar los horarios de clase de un docente,<br>para que se pueda visualizar su agenda.                                                                                      | **Scenario 1:** Consulta propia<br>Given que el docente accede<br>When hace la solicitud<br>Then se retorna su horario con status 200<br><br>**Scenario 2:** Consulta como admin<br>Given que el admin envía `teacherId`<br>When consulta<br>Then se retorna el horario del docente<br><br>**Scenario 3:** Sin horarios<br>Given que no existen horarios<br>When se consulta<br>Then se retorna lista vacía                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP07                                                                                                                                 |
+| TS07            | Documentar todos los endpoints usando Swagger y OpenAPI                                 | Como developer,<br>quiero documentar todos los endpoints REST generados,<br>para facilitar la consulta e integración con el sistema.                                                                   | **Scenario 1:** Documentación navegable<br>Given que la documentación está publicada<br>When accedo a Swagger UI<br>Then visualizo todos los endpoints<br><br>**Scenario 2:** Especificaciones correctas<br>Given que se revisan métodos y respuestas<br>When comparo con la API<br>Then todo debe coincidir<br><br>**Scenario 3:** Acceso restringido (opcional)<br>Given que se quiere proteger Swagger<br>When un usuario sin permisos accede<br>Then recibe 403 o redirección                                                                                                                                                                                                                                                                                                                                                                                       | EP07                                                                                                                                 |
+| TS08            | Configurar autenticación y autorización basado en roles (admin/docente)                 | Como developer,<br>quiero aplicar control de acceso por roles en los endpoints,<br>para proteger la lógica sensible del sistema.                                                                       | **Scenario 1:** Usuario autorizado<br>Given que tiene el rol adecuado<br>When accede al endpoint<br>Then recibe 200 OK<br><br>**Scenario 2:** Usuario con rol incorrecto<br>Given que no tiene permisos<br>When accede<br>Then recibe 403 Forbidden<br><br>**Scenario 3:** Usuario no autenticado<br>Given que no inicia sesión<br>When accede<br>Then recibe 401 Unauthorized                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP07                                                                                                                                 |
+| TS09            | Exponer endpoint para consultar dashboard financiero (`GET /finance/summary`)           | Como developer,<br>quiero mostrar un resumen financiero a los administradores,<br>para que puedan tener control de ingresos y egresos.                                                                 | **Scenario 1:** Acceso correcto<br>Given que el usuario es admin<br>When accede al dashboard<br>Then recibe datos con 200 OK<br><br>**Scenario 2:** Usuario no autorizado<br>Given que no tiene rol adecuado<br>When accede<br>Then recibe 403 Forbidden<br><br>**Scenario 3:** Sin datos financieros<br>Given que no se han registrado datos<br>When consulta<br>Then se devuelven valores en cero                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP07                                                                                                                                 |
+| TS10            | Implementar lógica de búsqueda y paginación por nombre o código                         | Como developer,<br>quiero permitir búsquedas eficientes y paginación,<br>para optimizar la navegación por grandes volúmenes de datos.                                                                  | **Scenario 1:** Búsqueda exitosa<br>Given que se usa `query` válido<br>When se hace la solicitud<br>Then se retorna lista con coincidencias<br><br>**Scenario 2:** Sin coincidencias<br>Given que no se encuentra resultado<br>When se consulta<br>Then retorna lista vacía<br><br>**Scenario 3:** Paginación<br>Given que se usan `page` y `limit`<br>When se realiza la solicitud<br>Then se incluyen metadatos de paginación                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP07                                                                                                                                 |
+| TS11            | Aplicar control de errores estandarizado y manejo global de excepciones                 | Como developer,<br>quiero centralizar el manejo de errores de la API,<br>para brindar respuestas consistentes y fáciles de interpretar.                                                                | **Scenario 1:** Validación de entrada<br>Given que los datos son inválidos<br>When se procesa<br>Then retorna 400 con detalles del error<br><br>**Scenario 2:** Recurso inexistente<br>Given que el ID no existe<br>When se accede<br>Then retorna 404 Not Found<br><br>**Scenario 3:** Error inesperado<br>Given que ocurre una excepción<br>When se lanza<br>Then retorna 500 Internal Server Error                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP07                                                                                                                                 |
+| TS12            | Implementar estrategia de versionamiento de la API (ej. `api/v1/`)                      | Como developer,<br>quiero versionar los endpoints,<br>para mantener compatibilidad cuando cambien.                                                                                                     | **Scenario 1:** Acceso por versión<br>Given que uso `/api/v1`<br>When accedo a un endpoint<br>Then debe funcionar como esperado<br><br>**Scenario 2:** Versiones futuras<br>Given que se lanza `/v2`<br>When accede un cliente viejo<br>Then `/v1` sigue operando<br><br>**Scenario 3:** Consistencia<br>Given que se define una versión<br>When se agregan rutas<br>Then todas deben seguir el patrón `/api/v{n}/...`                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP07                                                                                                                                 |
+| TS13            | Implementar endpoints para crear y gestionar usuarios (`POST`, `PUT`, `DELETE /users`)  | Como developer,<br>quiero permitir crear, editar y eliminar usuarios desde el backend,<br>para que los administradores puedan gestionar accesos.                                                       | **Scenario 1:** Crear usuario<br>Given que el admin envía datos válidos<br>When ejecuta POST<br>Then se crea y retorna 201<br><br>**Scenario 2:** Editar usuario<br>Given que el usuario existe<br>When ejecuta PUT<br>Then actualiza con 200 OK<br><br>**Scenario 3:** Eliminar usuario<br>Given que se quiere dar de baja<br>When ejecuta DELETE<br>Then se marca como inactivo<br><br>**Scenario 4:** Datos inválidos<br>Given que falta información<br>When se envía<br>Then retorna 400 Bad Request                                                                                                                                                                                                                                                                                                                                                                | EP07                                                                                                                                 |
+| TS14            | Exponer endpoint para consultar límites de uso por plan (`GET /academy/:id/limits`)     | Como developer,<br>quiero permitir que los usuarios consulten los límites de su plan,<br>para ayudarles a conocer su capacidad activa.                                                                 | **Scenario 1:** Consulta exitosa<br>Given que el plan está activo<br>When se consulta el endpoint<br>Then retorna límites con 200 OK<br><br>**Scenario 2:** Academia sin plan<br>Given que no hay plan asignado<br>When consulta<br>Then responde con 204 No Content<br><br>**Scenario 3:** Academia inexistente<br>Given que el ID no existe<br>When se consulta<br>Then responde con 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP07                                                                                                                                 |
+| TS15            | Exponer endpoint para consultar perfil del docente (`GET /users/:id/profile`)           | Como developer,<br>quiero exponer la información académica de un docente,<br>para mostrar sus cursos asignados y horarios.                                                                             | **Scenario 1:** Perfil disponible<br>Given que el ID corresponde a un docente<br>When consulta el perfil<br>Then retorna info con 200 OK<br><br>**Scenario 2:** Usuario no es docente<br>Given que el rol no aplica<br>When accede<br>Then retorna 403 Forbidden<br><br>**Scenario 3:** ID inválido<br>Given que el ID no existe<br>When consulta<br>Then retorna 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | EP07                                                                                                                                 |
+| TS16            | Exponer endpoint para listar alumnos por curso (`GET /courses/:id/students`)            | Como developer,<br>quiero permitir consultar los estudiantes inscritos por curso,<br>para mostrar esta información a los docentes.                                                                     | **Scenario 1:** Listado exitoso<br>Given que el curso tiene inscritos<br>When se consulta<br>Then retorna lista con 200 OK<br><br>**Scenario 2:** Curso vacío<br>Given que no hay alumnos<br>When se consulta<br>Then retorna lista vacía<br><br>**Scenario 3:** Curso inexistente<br>Given que el ID no existe<br>When consulta<br>Then retorna 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | EP07                                                                                                                                 |
+| TS17            | Implementar encriptación de contraseñas y validación segura (`BCrypt`, JWT, etc.)       | Como developer,<br>quiero encriptar contraseñas y validar credenciales,<br>para proteger los accesos al sistema.                                                                                       | **Scenario 1:** Contraseña encriptada<br>Given que se crea un usuario<br>When se guarda<br>Then se usa `BCrypt` para encriptar<br><br>**Scenario 2:** Validación en login<br>Given que se inicia sesión<br>When se compara la contraseña<br>Then se verifica con `BCrypt.compare`<br><br>**Scenario 3:** Generar JWT<br>Given que el login es válido<br>When se autentica<br>Then se genera un token con info mínima                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP07                                                                                                                                 |
 
 ## 3.3. Impact Mapping
+En esta sección hemos elaborado nuestro Impact Mapping. Para ello, utilizamos la hipótesis desarrollada durante nuestro proceso de Lean UX. Reemplazamos los segmentos de cliente por los User Personas, los cuales fueron elaborados previamente en el capítulo II, y conectamos las funcionalidades con los objetivos, para que formen parte del Product Backlog.
+
+![ImpactMapping](./assets/images/Impact_Mapping.png)
+
+Dentro de nuestro Impact Mapping se puede observar cómo los segmentos objetivos están relacionados con una acción representativa de cada uno, la cual, a su vez, es parte esencial de los business goals planteados anteriormente. Tanto el administrador como el profesor de academias desempeñan un papel crucial en el cumplimiento de los objetivos propuestos por Demy.
 
 ## 3.4. Product Backlog
+
+Para elaborar el Product Backlog se identificaron y priorizaron las funcionalidades clave del sistema, organizándolas en historias que guían el desarrollo y permiten una planificación ágil y centrada en el usuario.
+
+| # Orden | User Story Id | Título                                                                                 | Descripción                                                                                                                                                                                 | Story Points |
+|---------|---------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | LPS01         | Ver Hero Section                                                                       | Como visitante,<br>quiero visualizar una sección inicial llamativa,<br>para entender rápidamente qué ofrece la plataforma Demy.                                                             | 2            |
+| 2       | LPS02         | Ver sección "About the product"                                                        | Como visitante,<br>quiero conocer en qué consiste Demy,<br>para entender cómo puede ayudar a academias como la mía.                                                                         | 1            |
+| 3       | LPS03         | Ver sección de beneficios y características                                            | Como visitante,<br>quiero conocer los beneficios clave del sistema,<br>para identificar si resuelve mis necesidades.                                                                        | 2            |
+| 4       | LPS06         | Consultar planes y precios                                                             | Como visitante,<br>quiero ver los planes y precios disponibles,<br>para elegir el que mejor se adapte a mi academia.                                                                        | 2            |
+| 5       | LPS07         | Acceder a sección de contacto                                                          | Como visitante,<br>quiero tener acceso rápido a medios de contacto,<br>para resolver dudas antes de registrarme.                                                                            | 2            |
+| 6       | LPS08         | Consultar preguntas frecuentes                                                         | Como visitante,<br>quiero resolver dudas comunes de forma autónoma,<br>para entender mejor el uso de la plataforma.                                                                         | 1            |
+| 7       | LPS04         | Ver testimonios de usuarios reales                                                     | Como visitante,<br>quiero leer opiniones de usuarios actuales,<br>para confiar más en la solución antes de probarla.                                                                        | 2            |
+| 8       | LPS10         | Ver sitio en varios idiomas (internacionalización)                                     | Como visitante,<br>quiero cambiar el idioma de la landing page,<br>para entender el contenido en mi idioma preferido.                                                                       | 3            |
+| 9       | LPS05         | Ver sección "About us"                                                                 | Como visitante,<br>quiero saber quién está detrás de Demy,<br>para confiar en la propuesta y su respaldo profesional.                                                                       | 2            |
+| 10      | LPS09         | Ver sección Footer con enlaces útiles                                                  | Como visitante,<br>quiero ver al pie de página enlaces legales y de navegación rápida,<br>para ubicar información adicional.                                                                | 1            |
+| 11      | US05          | Registrarse como usuario en la plataforma                                              | Como usuario interesado en la plataforma,<br>quiero registrarme creando una cuenta,<br>para acceder a las funcionalidades de la plataforma según mi rol.                                    | 3            |
+| 12      | US01          | Iniciar sesión como usuario autenticado                                                | Como usuario del sistema,<br>quiero iniciar sesión con mis credenciales,<br>para acceder a las funcionalidades permitidas por mi rol.                                                       | 2            |
+| 13      | US03          | Acceder con permisos según el rol                                                      | Como usuario del sistema,<br>quiero que mis permisos de acceso estén definidos por mi rol,<br>para interactuar únicamente con lo que me corresponde.                                        | 3            |
+| 14      | US02          | Cerrar sesión de forma segura                                                          | Como usuario autenticado,<br>quiero cerrar sesión de forma segura,<br>para evitar el uso indebido de mi cuenta.                                                                             | 1            |
+| 15      | US19          | Crear cursos/materias por periodo de estudio                                           | Como administrativo,<br>quiero crear materias por periodo de estudio,<br>para mantener un control claro del contenido académico en cada ciclo.                                              | 3            |
+| 16      | US20          | Asignar horarios a docentes y cursos                                                   | Como administrativo,<br>quiero asignar horarios a los docentes y cursos,<br>para evitar conflictos de disponibilidad.                                                                       | 2            | 
+| 17      | US06          | Registrar matrícula de un estudiante                                                   | Como administrativo,<br>quiero registrar alumnos en la aplicación web,<br>para que se almacenen sus datos y se pueda acceder a las funcionalidades adicionales.                             | 5            |
+| 18      | US11          | Registrar asistencia de estudiantes por clase                                          | Como profesor,<br>quiero poder registrar la asistencia de los estudiantes,<br>para tener un registro de los estudiantes que faltaron y los que asistieron.                                  | 2            |
+| 19      | US14          | Registrar pago de un estudiante                                                        | Como administrativo,<br>quiero registrar el pago de un estudiante,<br>para llevar un control preciso de su estado financiero.                                                               | 2            |
+| 20      | US17          | Registrar egresos (pagos a docentes, local, y otros)                                   | Como administrativo,<br>quiero registrar los egresos financieros del centro educativo,<br>para mantener un control actualizado de los gastos y generar reportes precisos.                   | 3            |
+| 21      | US16          | Enviar alertas automáticas por pagos vencidos                                          | Como administrativo,<br>quiero que el sistema envíe alertas automáticas sobre el estado de los pagos,<br>para mantener informados a los apoderados y asegurar una mejor gestión financiera. | 2            |
+| 22      | US09          | Cancelar una matrícula registrada                                                      | Como administrativo,<br>quiero cancelar una matrícula registrada en la aplicación web,<br>para gestionar solicitudes de retiro o deserción de estudiantes.                                  | 2            |
+| 23      | US08          | Editar datos de una matrícula existente                                                | Como administrativo,<br>quiero poder editar los datos de una matrícula existente en la aplicación web,<br>para actualizar información y mantener el registro académico al día.              | 2            |
+| 24      | US12          | Consultar asistencia de un estudiante en un periodo                                    | Como usuario,<br>quiero consultar la asistencia de un estudiante en el periodo escogido,<br>para observar su desempeño en los cursos.                                                       | 3            | 
+| 25      | US13          | Enviar alertas sobre inasistencias                                                     | Como usuario,<br>quiero enviar alertas sobre inasistencias,<br>para informar a los demás usuarios sobre la cantidad de inasistencias que está cometiendo un alumno.                         | 3            |
+| 26      | US15          | Consultar estado de cuenta de un estudiante                                            | Como administrativo,<br>quiero consultar el estado de cuenta de un estudiante,<br>para tener visibilidad de sus pagos realizados, deudas pendientes y fechas de vencimiento.                | 3            |
+| 27      | US21          | Consultar disponibilidad de salones                                                    | Como administrativo,<br>quiero consultar la disponibilidad de salones,<br>para asignar clases de manera eficiente.                                                                          | 2            |
+| 28      | US10          | Visualizar resumen de estudiantes matriculados por periodo                             | Como administrativo,<br>quiero visualizar un resumen de los estudiantes matriculados por periodo,<br>para tener una visión clara del número de alumnos por ciclo académico.                 | 3            |
+| 29      | US22          | Reprogramar clase por cambio de horario                                                | Como profesor,<br>quiero reprogramar una clase por cambio de horario,<br>para garantizar el aprendizaje de mis alumnos sin retrasos.                                                        | 3            |
+| 30      | US18          | Generar reporte financiero mensual                                                     | Como administrativo,<br>quiero generar reportes financieros,<br>para visualizar el estado económico del centro educativo y tomar decisiones informadas.                                     | 5            |
+| 31      | US07          | Consultar historial de matrículas por estudiante                                       | Como administrativo,<br>quiero consultar el historial de matrículas de un estudiante en la aplicación web,<br>para verificar su estado académico y tomar decisiones informadas.             | 3            |
+| 32      | US23          | Recibir alertas sobre cambios de horarios realizados                                   | Como profesor,<br>quiero visualizar automáticamente la reprogramación de la clase en mi horario,<br>para estar siempre al tanto de ello.                                                    | 2            |
+| 33      | US04          | Recuperar contraseña mediante correo electrónico                                       | Como usuario que ha perdido el acceso,<br>quiero recuperar mi contraseña mediante correo electrónico,<br>para restablecer mi cuenta de forma segura.                                        | 3            |
+| 34      | TS01          | Implementar endpoint para registrar nueva matrícula (`POST /enrollments`)              | Como developer,<br>quiero implementar un endpoint para registrar una matrícula,<br>para que los administradores puedan matricular estudiantes en cursos específicos.                        | 3            |
+| 35      | TS02          | Implementar endpoint para consultar matrícula por ID (`GET /enrollments/{id}`)         | Como developer,<br>quiero exponer un endpoint que devuelva una matrícula por su ID,<br>para que los usuarios puedan obtener sus detalles.                                                   | 2            |
+| 36      | TS03          | Implementar endpoint para listar matrículas filtradas (`GET /enrollments`)             | Como developer,<br>quiero listar matrículas con opción de filtros y paginación,<br>para que los usuarios puedan consultar según criterios.                                                  | 2            |
+| 37      | TS04          | Implementar endpoint para registrar asistencia (`POST /attendances`)                   | Como developer,<br>quiero exponer un endpoint para registrar asistencia por clase,<br>para que los docentes puedan reportar a sus estudiantes.                                              | 3            |
+| 38      | TS05          | Generar y enviar alertas automáticas de morosidad (`POST /payment-alerts`)             | Como developer,<br>quiero crear un endpoint que dispare alertas automáticas por morosidad,<br>para notificar a estudiantes con pagos vencidos.                                              | 3            |
+| 39      | TS06          | Exponer endpoint para consultar horarios por docente (`GET /schedules`)                | Como developer,<br>quiero mostrar los horarios de clase de un docente,<br>para que se pueda visualizar su agenda.                                                                           | 1            |
+| 40      | TS07          | Documentar todos los endpoints usando Swagger y OpenAPI                                | Como developer,<br>quiero documentar todos los endpoints REST generados,<br>para facilitar la consulta e integración con el sistema.                                                        | 1            |
+| 41      | TS08          | Configurar autenticación y autorización basado en roles (admin/docente)                | Como developer,<br>quiero aplicar control de acceso por roles en los endpoints,<br>para proteger la lógica sensible del sistema.                                                            | 2            |
+| 42      | TS09          | Exponer endpoint para consultar dashboard financiero (`GET /finance/summary`)          | Como developer,<br>quiero mostrar un resumen financiero a los administradores,<br>para que puedan tener control de ingresos y egresos.                                                      | 3            |
+| 43      | TS10          | Implementar lógica de búsqueda y paginación por nombre o código                        | Como developer,<br>quiero permitir búsquedas eficientes y paginación,<br>para optimizar la navegación por grandes volúmenes de datos.                                                       | 2            |
+| 44      | TS11          | Aplicar control de errores estandarizado y manejo global de excepciones                | Como developer,<br>quiero centralizar el manejo de errores de la API,<br>para brindar respuestas consistentes y fáciles de interpretar.                                                     | 2            |
+| 45      | TS12          | Implementar estrategia de versionamiento de la API (ej. `api/v1/`)                     | Como developer,<br>quiero versionar los endpoints,<br>para mantener compatibilidad cuando cambien.                                                                                          | 1            |
+| 46      | TS13          | Implementar endpoints para crear y gestionar usuarios (`POST`, `PUT`, `DELETE /users`) | Como developer,<br>quiero permitir crear, editar y eliminar usuarios desde el backend,<br>para que los administradores puedan gestionar accesos.                                            | 5            |
+| 47      | TS14          | Exponer endpoint para consultar límites de uso por plan (`GET /academy/:id/limits`)    | Como developer,<br>quiero permitir que los usuarios consulten los límites de su plan,<br>para ayudarles a conocer su capacidad activa.                                                      | 3            |
+| 48      | TS15          | Exponer endpoint para consultar perfil del docente (`GET /users/:id/profile`)          | Como developer,<br>quiero exponer la información académica de un docente,<br>para mostrar sus cursos asignados y horarios.                                                                  | 2            |
+| 49      | TS16          | Exponer endpoint para listar alumnos por curso (`GET /courses/:id/students`)           | Como developer,<br>quiero permitir consultar los estudiantes inscritos por curso,<br>para mostrar esta información a los docentes.                                                          | 2            |
+| 50      | TS17          | Implementar encriptación de contraseñas y validación segura (`BCrypt`, JWT, etc.)      | Como developer,<br>quiero encriptar contraseñas y validar credenciales,<br>para proteger los accesos al sistema.                                                                            | 3            |
 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
+La identidad visual de **Demy** ha sido diseñada para transmitir cercanía, confianza y profesionalismo, cualidades esenciales en una herramienta dirigida a academias educativas que buscan modernizar su gestión financiera y de pagos. El estilo visual se basa en principios de simplicidad, accesibilidad y consistencia, permitiendo que los usuarios, incluso aquellos con poca experiencia digital, puedan interactuar con facilidad tanto en la versión web como en móvil.
+
+---
+
+#### Branding Overview
+
+**Demy** es una aplicación desarrollada por la startup SmartEdu, cuyo objetivo es brindar soluciones digitales inclusivas y eficientes para academias educativas presenciales. Demy responde a la necesidad de mejorar la eficiencia operativa de las academias presenciales mediante soluciones digitales centradas en el usuario, con enfoque inclusivo y adaptable a instituciones de todos los tamaños.
+
+---
+
+#### Misión
+
+Revolucionar la gestión administrativa de las academias educativas en el Perú, ofreciendo una plataforma que optimice procesos clave de matrícula, asistencia, asignación de horarios, control de inventarios y pagos.
+
+---
+
+#### Visión
+
+Convertirnos en líderes en la transformación digital de la gestión administrativa de academias educativas presenciales en el Perú, asegurando la eficiencia, transparencia y accesibilidad de sus procesos internos mediante soluciones tecnológicas innovadoras.
+
+---
+
+#### Producto
+
+**Demy** es una plataforma web que automatiza la gestión diaria de academias educativas. Permite controlar matrículas, horarios, asistencia, pagos e inventarios desde una interfaz accesible y fácil de usar. Está pensada para ser adoptada por usuarios con poca experiencia digital y reemplaza herramientas fragmentadas como hojas de cálculo o registros físicos.
+
+---
+
+#### Nombre del producto
+
+**Demy** fue elegido como nombre por su cercanía fonética con “Academy” y su simplicidad. Refleja el enfoque educativo de la herramienta y su propósito principal: **unificar y facilitar la gestión académica y administrativa**. Su pronunciación amigable y breve lo convierte en un nombre fácil de recordar para usuarios de todas las edades y niveles digitales.
+
+#### Logo
+
+![Logo Demy](assets/images/demy-logo.png)
+
+El logo de **Demy** utiliza una tipografía sans-serif moderna y limpia en color azul oscuro, lo que transmite profesionalismo, confianza y estabilidad. A la izquierda del nombre se encuentra un símbolo gráfico distintivo que representa de forma abstracta las letras “D” y “m”, iniciales del producto. Este símbolo ha sido diseñado con líneas suaves y formas geométricas, evocando dinamismo, estructura y tecnología.
+
+El conjunto tipográfico y gráfico busca reflejar la identidad de Demy como una plataforma confiable, accesible y moderna para la gestión educativa. Además, el diseño ha sido pensado para adaptarse con facilidad a distintos formatos, desde pantallas digitales hasta materiales impresos, asegurando siempre su legibilidad y reconocimiento.
+
+#### Color
+
+![Color-theme](assets/images/figma-colors.png)
+
+Los colores juegan un papel clave en la primera impresión que los usuarios tienen de Demy, por lo que se seleccionaron con base en la psicología del color para transmitir confianza, profesionalismo y accesibilidad. El azul oscuro, como color principal, simboliza estabilidad y seguridad (#093D77), mientras que el azul claro agrega frescura y hace la interfaz más amigable y fácil de navegar (#3A7CA5).
+
+Los colores secundarios, como el azul verdoso (#80C5C6) y el beige claro (#F2E0CF), añaden versatilidad y suavizan la paleta, mejorando la legibilidad y creando un ambiente acogedor. Estos tonos también guían la atención del usuario hacia áreas clave sin interrumpir su experiencia.
+
+En cuanto a los wireframes, se utilizó una escala de grises para proporcionar una base neutra y funcional. Los colores para alertas y notificaciones están claramente diferenciados: el azul para enlaces (#0397D3), el verde para éxitos (#38C976), el amarillo para advertencias (#FFB84D) y el rojo para errores (#FE5050), permitiendo que cada alerta sea fácilmente identificable.
+
+En resumen, los colores de Demy están diseñados para proporcionar una experiencia visual profesional, accesible y eficiente, asegurando una navegación intuitiva y clara para los usuarios.
+
+#### Tipografía
+
+![Tipografía-demy](assets/images/figma-typography.png)
+
+La tipografía seleccionada para **Demy** es **Inter**, una fuente sans-serif moderna, limpia y legible. Su diseño balancea perfectamente la formalidad con la accesibilidad, lo que la hace ideal para una plataforma educativa dirigida a distintos perfiles de usuarios. Inter destaca por su neutralidad y adaptabilidad, permitiendo mantener una identidad visual clara y coherente en todos los entornos.
+
+#### Tono de comunicación
+
+Para mantener un tono **profesional y claro**, se emplean estilos en **negrita y tamaños grandes** en los encabezados, ayudando a resaltar información clave y generar jerarquías visuales claras. En contraste, los textos secundarios o explicativos se presentan en tamaños regulares, lo que genera una experiencia de lectura accesible y ordenada.
+
+Además, **Inter** permite ajustarse a otros tonos según el contexto, como uno más **casual**, al variar pesos y tamaños. Esta flexibilidad permite adaptar el mensaje sin perder la coherencia visual ni el profesionalismo que se busca transmitir con Demy. Esto es clave para una plataforma de gestión educativa que debe ser clara, funcional y cercana a su público.
 
 ### 4.1.2. Web Style Guidelines
+
+En esta sección explicaremos y mostraremos de manera **referencial** las decisiones sobre los estándares visuales y de interacción aplicados a las interfaces web responsivas, desarrolladas con Vue.js y la biblioteca de componentes PrimeVue 
+<br> 
+
+Las decisiones tomadas buscan garantizar una experiencia de usuario coherente, accesible y visualmente armónica en todos los dispositivos. Además, sacaremos provecho de los componentes que nos ofrece Primevue, entre ellos los que más destacamos son:
+<br>
+
+
+* **Buttons**: Para los botones de acción dentro de la aplicación se utilizarán los componentes Buttons de PrimeVue, con sus diferentes variantes las cuales no permitirá usar en muchas secciones. <br> 
+A continuación, se ilustra el estilo visual de manera referencial que tendrá en la aplicación web.
+![Buttons de la documentación de PrimeVue](./assets/screenshots/buttons-primevue-reference.png)
+
+
+* **Cards**: Para presentar información agrupada de manera visual, se utilizarán los componentes Card, los cuales permiten incluir títulos, subtítulos, imágenes y acciones dentro de un contenedor estilizado.<br>
+Haremos uso de ellas en varias vistas como la de los planes mensuales que ofrece la aplicación <br>
+A continuación, se ilustra de manera referencial los cards a implementar en la aplicación web sacado de la documentación oficial de PrimeVue.
+![Cards de la documentación de PrimeVue](./assets/screenshots/card-primevue-reference.png)
+
+
+* **Forms**: Los formularios no pueden faltar en ninguna aplicación web, se usa tanto para el logueo de la app o rellenar cualquier campo de información necesario como el registro de una materia para tal periodo académico.<br>
+Para ello, haremos uso de componentes como InputText, TextArea, CascadaSelect, etc. <br>
+A continuación, se ilustra de manera referencial los input texts a implementar en la aplicación web sacado de la documentación oficial de PrimeVue.
+![InputText de la documentación de PrimeVue](./assets/screenshots/inputtext-primevue-reference.png)
+
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
+Vamos a usar diferentes sistemas de organización según el tipo de contenido que se presente, con el objetivo de facilitar la comprensión, la navegación y la interacción por parte del usuario.
+
+**Organización visual del contenido**
+
+- **Jerárquica (Visual Hierarchy):**  
+  Utilizaremos una jerarquía visual cuando queramos destacar un mensaje principal, como un título. Este tipo de organización guía la mirada del usuario desde lo más importante (títulos en negrita o grandes) hasta los detalles secundarios (texto descriptivo o botones).
+
+- **Matriz (Matricial/Grid):**  
+  Aplicaremos una organización matricial cuando se presenten múltiples elementos similares, como tarjetas de contenido, productos o servicios. Esto permite al usuario comparar visualmente la información de forma equitativa y acceder a ella sin necesidad de seguir un orden lineal.
+
+**Esquemas de categorización de contenido**
+
+- **Por tópicos:** Se utilizará cuando el contenido pueda agruparse por temas o categorías, facilitando así que el usuario encuentre información relacionada o explore según sus intereses.
+
+- **Según audiencia (grupos de usuarios):** Este esquema se aplicará en casos donde el contenido esté dirigido a distintos tipos de usuarios.
+
+- **Secuencial (Step-by-step):** Se usará cuando el contenido deba seguir un orden lógico para ser comprendido o completado.
 
 ### 4.2.2. Labeling Systems
 La interfaz de nuestra aplicación debe ser clara y fácil de usar, con palabras claves que sean conocidas por nuestros usuarios. Por esta razón, las etiquetas empleadas deben explicar de manera concisa su función en pocas palabras. Así, hemos creado etiquetas para la navegación principal en las dos versiones de nuestra aplicación web:
@@ -562,13 +1126,106 @@ La interfaz de nuestra aplicación debe ser clara y fácil de usar, con palabras
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+Para optimizar la visibilidad de nuestra solución digital **Demy** en motores de búsqueda y mejorar la experiencia de navegación, se han definido un conjunto de SEO Tags y Meta Tags que serán incluidos en las principales páginas del sistema.
+Estas etiquetas contribuyen a mejorar el posicionamiento (SEO), la accesibilidad, la legibilidad de los contenidos en dispositivos móviles y la correcta codificación del texto.
+A continuación se detallan sus definiciones y las etiquetas específicas para la Landing Page y la Web Application.
+
+- **Title**: Título que se muestra en la pestaña del navegador y que también utilizan los buscadores como encabezado del resultado.
+- **Description**: Resumen breve que describe el contenido de la página.
+- **Author**: Indica quién es el autor o equipo responsable del contenido del sitio web.
+- **Viewport**: Define cómo se ajusta el contenido en diferentes tamaños de pantalla, especialmente en móviles (esencial para diseño responsivo).
+- **Charset**: Establece el sistema de codificación de caracteres. UTF-8 es el estándar moderno más usado.
+- **Keywords**: Lista de palabras clave relacionadas con el contenido del sitio, que ayuda a los buscadores a clasificar la página.
+
+#### Landing Page SEO Tags and Meta Tags
+
+- **Title**: "Demy - La forma inteligente de gestionar tu academia"
+- **Description**: "Demy es una plataforma web que digitaliza la gestión académica de academias presenciales: matrículas, pagos, asistencia y más desde un solo lugar."
+- **Author**: "Demy Team"
+- **Viewport**: Adaptable a cualquier dispositivo, permitiendo una navegación fluida en móviles, tablets y computadoras.
+- **Charset**: Se utilizará UTF-8 para asegurar compatibilidad con todos los idiomas.
+- **Keywords**: "gestión académica, software para academias, control de asistencia, matrícula online, pagos estudiantes, plataforma educativa"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demy - La forma inteligente de gestionar tu academia</title>
+  <meta name="description" content="Demy es una plataforma web que digitaliza la gestión académica de academias presenciales: matrículas, pagos, asistencia y más desde un solo lugar.">
+  <meta name="keywords" content="gestión académica, software para academias, control de asistencia, matrícula online, pagos estudiantes, plataforma educativa">
+  <meta name="author" content="Demy Team>
+</head>
+```
+
+#### Web Application SEO Tags and Meta Tags
+
+- **Title:** "Demy App - Panel de gestión para academias y docentes"
+- **Description**: "Administra tu academia desde cualquier dispositivo: registra asistencia, visualiza horarios, controla pagos y más desde un solo lugar."
+- **Author**: "Demy Team"
+- **Viewport:** Responsive para que tanto docentes como administrativos puedan operar cómodamente desde celulares, tablets y PC.
+- **Charset**: UTF-8 para soportar correctamente todos los caracteres.
+- **Keywords:** "plataforma educativa, docentes, pagos, horarios, asistencia, gestión académica, software educativo, aulas"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demy App - Panel de gestión para academias y docentes</title>
+  <meta name="description" content="Administra tu academia desde cualquier dispositivo: registra asistencia, visualiza horarios, controla pagos y más desde un solo lugar.">
+  <meta name="keywords" content="plataforma educativa, docentes, pagos, horarios, asistencia, gestión académica, software educativo, aulas">
+  <meta name="author" content="Demy Team">
+</head>
+```
+
 ### 4.2.4. Searching Systems
+A medida que se incrementa la cantidad de información almacenada en nuestra plataforma, resulta esencial brindar herramientas que ayuden a los usuarios a encontrar lo que necesitan de forma ágil y precisa. Para evitar que se sientan abrumados, hemos integrado diferentes mecanismos de búsqueda y filtrado que se adaptan a distintos contextos dentro del sistema.
+
+#### Búsqueda por palabra clave
+En secciones como la de estudiantes o aulas, el usuario podrá ingresar términos específicos, como el **DNI del estudiante** o el **código del aula**, dentro de un buscador con el clásico ícono de lupa. El sistema mostrará coincidencias inmediatas, facilitando la navegación sin necesidad de recorrer listas extensas.
+
+#### Filtros desplegables por categoría y fecha
+Para consultar información detallada o generar reportes, los usuarios contarán con filtros como **tipo de ciclo**, **categoría**, **año** y **mes**. Estos se presentan en menús desplegables con una flecha hacia abajo, permitiendo seleccionar la opción deseada de forma rápida y sin errores.
+
+#### Selector de tipo de reporte
+En el módulo financiero, los usuarios tendrán la posibilidad de elegir entre **generar un reporte mensual** o **visualizar el historial completo** de movimientos. Esta acción se realiza mediante botones de selección simple, que adaptan dinámicamente el contenido mostrado en pantalla según la opción elegida.
 
 ### 4.2.5. Navigation Systems
+En Demy queremos ofrecer la mejor experiencia a nuestros usuarios, por eso nos encargamos de asegurar la usabilidad en nuestras interfaces, por ello, aplicaremos las siguientes decisiones de UI: <br>
+
+**Landing Page** <br>
+- La navegación de la Landing Page hace uso del scroll vertical, ya que es la navegación más común y cómoda en una página web. <br>
+- La Landing Page cuenta con una barra de menú superior que se mantiene siempre arriba por más que el usuario se desplaze hacia abajo, esta cuenta con enlaces que dirigen a las secciones "About", "Benefits","Plans" y "Contact".
+- La Landing Page hace uso del Call to Action en secciones como Hero, Plans y Contact mediante el botón "Get Started" y "Start today".
+
+**Web Application** <br>
+- La aplicación contará con un navbar que permite al usuario cambiar entre las secciones "Mi organización" y "Panel de control".
+- Al acceder a "Panel de control" se abrirá un side navbar que contendrá más enlaces hacia las distintas funcionalidades de Demy.
+- En la navegación entre interfaces o vistas, añadiremos la opción de siempre poder volver a la vista anterior, asegurándonos que el usuario siempre tenga control del sistema.
+
+Accesibilidad y Usabilidad: Hemos aplicado el "Responsive Design" que hace que la navegación se mantenga eficiente aunque el usuario se encuentre en otro dispositivo como un celular, en ese caso la navegación se adecua a eso mediante un ícono de 3 rayitas que abre un sidenavbar con las distintas funcionalidades.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+**Landing Page para Desktop Web Browser**
+
+A continuación, se muestra la landing page tal como se visualiza desde un navegador web en su versión para escritorio. Esta página incluye diversas secciones importantes para el usuario, donde se detallan los beneficios que ofrece el producto, las opciones de planes de pago, los perfiles del equipo de trabajo. Además, se incluye un apartado dedicado a resolver las preguntas frecuentes de los usuarios.
+![imagesWireframe1](./assets/images/images-wirefranes/landing-page-destop-web-browser-1.png)
+![imagesWireframe2](./assets/images/images-wirefranes/landing-page-destop-web-browser-2.png)
+![imagesWireframe3](./assets/images/images-wirefranes/landing-page-destop-web-browser-3.png)
+![imagesWireframe4](./assets/images/images-wirefranes/landing-page-destop-web-browser-4.png)
+![imagesWireframe5](./assets/images/images-wirefranes/landing-page-destop-web-browser-5.png)
+![imagesWireframe6](./assets/images/images-wirefranes/landing-page-destop-web-browser-6.png)
+![imagesWireframe7](./assets/images/images-wirefranes/landing-page-destop-web-browser-7.png)
+![imagesWireframe8](./assets/images/images-wirefranes/landing-page-destop-web-browser-8.png)
+![imagesWireframe9](./assets/images/images-wirefranes/landing-page-destop-web-browser-9.png)
+**Landing Page para Movil Web Browser**
+
+A continuación, se muestra la landing page visualizada desde un navegador web en un dispositivo móvil. Esta versión contiene los mismos elementos que el diseño para escritorio, pero está adaptada a las dimensiones y características de los móviles.
+
+![imagesWireframe2.1](./assets/images/images-wirefranes/landing-page-movil-web-browser-1.png)
+![imagesWireframe2.2](./assets/images/images-wirefranes/landing-page-movil-web-browser-2.png)
+![imagesWireframe2.3](./assets/images/images-wirefranes/landing-page-movil-web-browser-3.png)
 
 ### 4.3.2. Landing Page Mock-up
 **Landing Page Mock-up Desktop Web Browser**
@@ -601,12 +1258,674 @@ La versión mobile adaptó el diseño a pantallas pequeñas, priorizando los ele
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+#### Web Application Wireframes para Desktop Web Browser
+**Selección tipo de usuario**
+Pantalla inicial de la aplicación web donde se solicita al visitante seleccionar su rol como "Administrador" o "Profesor", decisión fundamental que determinará el flujo de navegación y las funcionalidades disponibles según el tipo de usuario elegido.
+![Wireframe-1](assets/images/wireframes-appweb/desktop/Selección-tipo-usuario.png)
+
+**Crear cuenta**  
+Pantalla donde el usuario, tras haber seleccionado el rol de "Administrador", accede a un formulario de registro en el que debe ingresar información obligatoria como nombres y apellidos, número de RUC, nombre de la academia, correo electrónico y contraseña, datos esenciales para crear una cuenta institucional y acceder a la plataforma como administrador.  
+![Wireframe-2](assets/images/wireframes-appweb/desktop/Crear-cuenta.png)
+
+
+**Iniciar sesión**  
+Pantalla donde tanto administradores como profesores pueden ingresar, para acceder a la plataforma, permitiendo el ingreso seguro a sus respectivos espacios según el rol previamente registrado.  
+![Wireframe-3](assets/images/wireframes-appweb/desktop/Iniciar-sesión.png)
+
+**Recuperar contraseña**  
+Pantallas donde administradores pueden solicitar la recuperación de su contraseña ingresando su correo electrónico registrado; tras ello, el sistema enviará un código de verificación para restablecerla y así recuperar el acceso a la plataforma.  
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Recuperar-contraseña.png)
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Reestablecer-contraseña.png)
+![Wireframe-5](assets/images/wireframes-appweb/desktop/Confirmacion-reestablecer-contraseña.png)
+
+**Seleccionar plan**  
+Pantalla presentada luego del registro del administrador, donde se le solicita elegir entre diferentes planes disponibles para su academia, cada uno con características y beneficios específicos que determinarán el alcance y funcionalidades habilitadas dentro de la plataforma.  
+![Wireframe-4](assets/images/wireframes-appweb/desktop/Seleccionar-plan.png)
+
+**Mi organización (Administrador)**  
+Pantalla principal que ve el administrador tras iniciar sesión, donde accede a la gestión interna de su academia con módulos clave como Periodos, Cursos, Aulas y Profesores, permitiéndole registrar, editar y visualizar la información esencial para el funcionamiento académico.  
+![Wireframe-6](assets/images/wireframes-appweb/desktop/Mi-organizacion-admin.png)
+
+**Mi organización - Cursos y Añadir cursos (Administrador)**  
+Pantallas dentro del módulo "Mis cursos" donde el administrador puede visualizar la lista de cursos registrados, y acceder al botón "Añadir curso", el cual despliega un formulario emergente que solicita el nombre del curso, área temática, duración y código del curso, permitiéndole registrar nuevos cursos que podrán ser asignados posteriormente a profesores y aulas.  
+![Wireframe-7](assets/images/wireframes-appweb/desktop/Organización-cursos.png)
+![Wireframe-7](assets/images/wireframes-appweb/desktop/Organización-añadir-cursos.png)
+
+**Mi organización - Añadir periodos, asignar cursos a periodos (Administrador)**  
+Pantallas dentro del módulo "Mis periodos" donde el administrador puede crear un nuevo periodo académico, eligiendo un bloque horario en una tabla de horarios semanales. Después de seleccionar el bloque, puede asignar un curso a dicho bloque mediante el botón "Seleccionar curso", eligiendo entre los cursos previamente registrados. Una vez completada la asignación de todos los cursos a los bloques correspondientes, el administrador puede guardar el periodo, el cual quedará disponible en la lista de periodos.  
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-Periodos.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-crear-periodo.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-seleccionar-cursos%20-periodos.png)
+![Wireframe-8](assets/images/wireframes-appweb/desktop/Organización-guardar%20periodo.png)
+
+**Mi organización - Añadir Aulas (Administrador)**  
+Pantalla dentro del módulo "Mi organización" donde el administrador puede crear nuevas aulas para la academia. En esta pantalla, se solicita ingresar un código único para el aula y seleccionar el periodo académico al que pertenece. Después de completar los campos, el administrador puede presionar el botón "Crear aula" para guardar la nueva aula, que se añadirá automáticamente a la lista de aulas.  
+![Wireframe-9](assets/images/wireframes-appweb/desktop/Organización-Aulas.png)
+![Wireframe-9](assets/images/wireframes-appweb/desktop/Organización-añadir-aulas.png)
+
+**Mi organización - Añadir Profesor (Administrador)**  
+Pantalla donde el administrador puede registrar un nuevo profesor ingresando datos como nombres, correo y asignarle aulas o cursos.  
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organización-profesores.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-Agregar-profesor.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-Agregar-profesor-confirmacion.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Organizacion-credenciales-profesor.png)
+
+
+**Panel de Control: Matrícula (Administrador)**  
+Pantalla dentro del panel de control donde el administrador puede gestionar la matrícula de los alumnos. En esta sección, se presenta un formulario donde el administrador debe ingresar los datos del alumno y asignarles un aula correspondiente. Al completar el formulario, puede presionar el botón "Guardar matrícula", lo que mostrará un cuadro de confirmación para asegurar que la matrícula se ha realizado correctamente. Luego, el alumno se agregará al historial de matrículas de la academia.  
+![Wireframe-10](assets/images/wireframes-appweb/desktop/Panel-control-Matrícula.png)
+![Wireframe-10](assets/images/wireframes-appweb/desktop/Panel-control-Matricula-Confirmacion.png)
+
+**Panel de Control: Historial de Matrícula (Administrador)**  
+Pantalla dentro del panel de control donde el administrador puede visualizar todas las matrículas realizadas. Se presenta una tabla con la lista de estudiantes matriculados, incluyendo información como el nombre del alumno, aula asignada y estado de la matrícula. Desde aquí, el administrador puede buscar, filtrar y revisar las matrículas anteriores, asegurando un seguimiento adecuado de los registros de los estudiantes.  
+![Wireframe-11](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Matrícula.png)
+![Wireframe-11](assets/images/wireframes-appweb/desktop/Panel-control-Editar-Matrícula.png)
+
+**Panel de Control: Alumnos (Administrador)**  
+Pantalla donde el administrador puede buscar y visualizar los datos de los alumnos, como nombre, matrícula, y estado de pago.  
+![Wireframe-13](assets/images/wireframes-appweb/desktop/Panel-control-Alumnos.png)
+
+**Panel de Control: Asistencia (Administrador)**  
+Pantalla donde el administrador puede seleccionar el aula y alumno para visualizar los dias asistidos.  
+![Wireframe-14](assets/images/wireframes-appweb/desktop/Panel-control-Asistencia.png)
+
+**Panel de Control: Pagos (Administrador)**  
+Pantallas donde el administrador puede buscar un alumno para ver su estado de pago, registrar un nuevo pago o acceder al historial de pagos, completando los datos necesarios y confirmando la acción.  
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Pagos.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Registrar-Pagos-confirmacion.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Pagos.png)
+![Wireframe-15](assets/images/wireframes-appweb/desktop/Panel-control-Historial-Pagos-registrar-pago-confirmacion.png)
+
+**Panel de Control: Horarios (Administrador)**  
+Pantalla donde el administrador puede buscar un aula específica y visualizar su horario correspondiente, permitiéndole revisar la programación de clases y bloques horarios asignados.  
+![Wireframe-16](assets/images/wireframes-appweb/desktop/Panel-control-Horarios.png)
+
+**Panel de Control: Finanzas y Reporte Financiero (Administrador)**  
+Pantalla donde el administrador puede registrar nuevos egresos, completando detalles como concepto, monto, fecha y categoría, así como generar reportes financieros de la academia, seleccionando entre opciones generales o mensuales, y visualizando un resumen de ingresos, egresos y balance final.  
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-registrar%20egreso-confirmacion.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-reporte-general.png)
+![Wireframe-17](assets/images/wireframes-appweb/desktop/Panel-control-Finanzas-reporte-filtros.png)
+
+**Mi Organización (Profesor)**  
+Pantalla donde el profesor accede a la sección "Mi Organización", pudiendo visualizar la información relacionada con las aulas en las que está asignado y los horarios en que enseña, todo ello gestionado por el administrador de la academia.  
+![Wireframe-18](assets/images/wireframes-appweb/desktop/Mi-organizacion-vistaprofesor.png)
+![Wireframe-18](assets/images/wireframes-appweb/desktop/Organización-vistaprofesor-Aulas.png)
+
+**Panel de Control: Horario por Aula (Profesor)**  
+Pantalla donde el profesor puede visualizar el horario detallado de las aulas en las que está asignado, permitiéndole conocer los bloques de tiempo y las clases correspondientes a cada aula que le fue asignada.  
+![Wireframe-19](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Horario-por-aula.png)
+
+**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**  
+Pantalla donde el profesor puede registrar la asistencia de los estudiantes en su aula, seleccionando los estudiantes presentes mediante una casilla de verificación. También tiene la opción de consultar la lista completa de estudiantes.  
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Asistencia.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-Asistencia-confirmacion.png)
+![Wireframe-20](assets/images/wireframes-appweb/desktop/Panel-control-vistaprofesor-lista-alumnos.png)
+
+#### Web Application Wireframes para Mobile Web Browser
+**Selección tipo de usuario**  
+Pantalla inicial donde se elige si se ingresará como "Administrador" o "Profesor", lo que define el acceso a funciones específicas.  
+![Wireframe-1](assets/images/wireframes-appweb/mobile/seleccion-usuario.png)
+
+**Crear cuenta**  
+Pantalla de registro exclusivo para administradores, con campos como nombre, RUC, correo y contraseña.  
+![Wireframe-2](assets/images/wireframes-appweb/mobile/crear-cuenta.png)
+
+**Iniciar sesión**  
+Pantalla para que administradores o profesores ingresen a la plataforma con sus credenciales.  
+![Wireframe-3](assets/images/wireframes-appweb/mobile/iniciar-sesion.png)
+
+**Recuperar contraseña**  
+Pantallas para ingresar el correo registrado y recibir un código para recuperar la contraseña.  
+![Wireframe-4](assets/images/wireframes-appweb/mobile/recuperar-contrasena.png)
+
+**Seleccionar plan**  
+Pantalla donde el administrador elige el plan de la academia tras registrarse.  
+![Wireframe-5](assets/images/wireframes-appweb/mobile/seleccionar-plan.png)
+
+**Mi organización (Administrador)**  
+Pantalla principal del administrador con acceso a módulos como cursos, periodos, aulas y profesores.  
+![Wireframe-6](assets/images/wireframes-appweb/mobile/mi-organizacion-admin.png)
+
+**Mi organización - Cursos y Añadir cursos (Administrador)**  
+Pantallas para ver, editar o registrar cursos con sus respectivos detalles.  
+![Wireframe-7](assets/images/wireframes-appweb/mobile/cursos-admin.png)
+
+**Mi organización - Añadir periodos, asignar cursos a periodos (Administrador)**  
+Pantallas para registrar un nuevo periodo y asignarle cursos según horarios disponibles.  
+![Wireframe-8](assets/images/wireframes-appweb/mobile/periodos-admin.png)
+
+**Mi organización - Añadir Aulas (Administrador)**  
+Pantallas para crear nuevas aulas asignándolas a un periodo y código único.  
+![Wireframe-9](assets/images/wireframes-appweb/mobile/aulas-admin.png)
+
+**Mi organización - Añadir Profesor (Administrador)**  
+Pantallas donde el administrador puede agregar nuevos profesores a la academia completando un formulario con nombre, correo electrónico y cursos o aulas asignadas.  
+![Wireframe-20](assets/images/wireframes-appweb/mobile/añadir-profesor.png)
+
+
+**Panel de Control: Matrícula (Administrador)**  
+Pantalla para registrar alumnos a un aula con formulario de datos y confirmación.  
+![Wireframe-10](assets/images/wireframes-appweb/mobile/matricula.png)
+
+**Panel de Control: Historial de Matrícula (Administrador)**  
+Pantalla para ver la lista de matrículas realizadas, con filtros y búsqueda.  
+![Wireframe-11](assets/images/wireframes-appweb/mobile/historial-matricula.png)
+
+**Panel de Control: Alumnos (Administrador)**  
+Pantalla para buscar y revisar información básica de los alumnos registrados.  
+![Wireframe-12](assets/images/wireframes-appweb/mobile/alumnos-admin.png)
+
+**Panel de Control: Asistencia (Administrador)**  
+Pantalla para revisar asistencia de alumnos por aula y fecha.  
+![Wireframe-13](assets/images/wireframes-appweb/mobile/asistencia-admin.png)
+
+**Panel de Control: Pagos (Administrador)**  
+Pantalla para consultar, registrar o editar pagos realizados por los alumnos.  
+![Wireframe-14](assets/images/wireframes-appweb/mobile/pagos.png)
+
+**Panel de Control: Horarios (Administrador)**  
+Pantalla para seleccionar un aula y ver su horario de clases completo.  
+![Wireframe-15](assets/images/wireframes-appweb/mobile/horarios-admin.png)
+
+**Panel de Control: Finanzas y Reporte Financiero (Administrador)**  
+Pantalla para registrar egresos y generar reportes financieros generales o mensuales.  
+![Wireframe-16](assets/images/wireframes-appweb/mobile/finanzas.png)
+
+**Mi Organización (Profesor)**  
+Pantalla donde el profesor visualiza sus aulas y horarios asignados.  
+![Wireframe-17](assets/images/wireframes-appweb/mobile/mi-organizacion-profesor.png)
+
+**Panel de Control: Horario por Aula (Profesor)**  
+Pantalla donde el profesor ve el horario específico de cada aula en la que enseña.  
+![Wireframe-18](assets/images/wireframes-appweb/mobile/horarios-profesor.png)
+
+**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**  
+Pantalla para marcar asistencia de estudiantes y consultar sus registros anteriores.  
+![Wireframe-19](assets/images/wireframes-appweb/mobile/asistencia-profesor.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+**User goal:** Registro de cuenta  
+**User persona:** Administrador de academia  
+![Wireflow-1](assets/images/wireflow-register-account-admin.png)  
+**Explicación del flujo:**  
+El flujo comienza donde el usuario debe elegir si es administrador o profesor. Al seleccionar "Soy administrador", se muestra un mensaje indicando que podrá crear su academia desde cero. Luego, se presenta un formulario de registro en el que el administrador debe completar campos obligatorios como nombres y apellidos, RUC, nombre de la academia, correo electrónico y contraseña. Una vez completado el formulario y presionado el botón "Crear cuenta", el sistema valida los datos y, si todo es correcto, redirige al usuario a la sección "Mi organización", donde podrá comenzar a registrar profesores, cursos, aulas y periodos académicos.
+
+**User goal:** Registrar un curso  
+**User persona:** Administrador de academia  
+![Wireflow-2](assets/images/wireflow-register-course-admin.png)  
+**Explicación del flujo:**  
+En flujo comienza desde la sección "Mi organización", el administrador selecciona el módulo "Cursos" para gestionar las asignaturas disponibles en su academia. Al hacer click en el botón "Agregar curso", se despliega un formulario donde debe ingresar el nombre del curso, un código identificador. Tras completar los campos requeridos y confirmar la acción con el botón "Crear Curso", el sistema agrega el curso a la lista y lo deja disponible para ser asignado posteriormente a periodos académicos.
+
+**User goal:** Crear un periodo académico  
+**User persona:** Administrador de academia  
+![Wireflow-3](assets/images/wireflow-register-period-admin.png)  
+**Explicación del flujo:**  
+Desde la sección "Mi organización", el administrador accede al módulo "Periodos" donde visualiza la lista de periodos ya creados. Al presionar el botón "Agregar periodo", es dirigido a la sección "Crear periodo", que incluye una tabla tipo horario semanal. En esta interfaz, el administrador puede seleccionar los bloques de horas haciendo clic sobre las celdas correspondientes y luego presionar el botón "Seleccionar curso" para asignar uno de los cursos disponibles previamente creados. Una vez completada la asignación del horario, presiona "Guardar periodo", lo que activa un cuadro de confirmación que pregunta si está seguro de registrar el periodo. Al confirmar la acción, el sistema guarda la configuración y redirige al administrador a la lista de periodos, donde ya se visualiza el nuevo periodo registrado.
+
+**User goal:** Crear un aula  
+**User persona:** Administrador de academia  
+![Wireflow-4](assets/images/wireflow-register-classroom-admin.png)  
+**Explicación del flujo:**  
+Desde la sección "Mi organización", el administrador accede al módulo "Aulas", donde se encuentra con la lista de aulas ya creadas. Al presionar el botón "Agregar aula", se le presenta un cuadro emergente para crear una nueva aula. En este cuadro, el administrador debe asignar un código único para el aula y seleccionar uno de los periodos académicos previamente creados. Una vez completados estos campos, el administrador presiona el botón "Crear aula". El sistema valida la información y, al confirmarse, el aula se agrega a la lista de aulas disponibles, permitiendo al administrador gestionar y asignar profesores a las aulas.
+
+**User goal:** Crear un profesor  
+**User persona:** Administrador de academia  
+![Wireflow-5](assets/images/wireflow-register-teacher-admin.png)  
+**Explicación del flujo:**  
+Desde la sección "Mi organización", el administrador accede al módulo "Profesores" y presiona el botón "Agregar profesor". Se le presenta un cuadro emergente en el que debe ingresar los datos del profesor, como su nombre completo, DNI y las aulas a las que será asignado. Para asignar un aula, el administrador debe presionar el botón "Insertar aula-curso", lo que abre una pequeña tabla con las aulas y los cursos disponibles. El administrador puede agregar múltiples aulas y cursos al profesor. Una vez completada la asignación, el administrador presiona el botón "Agregar profesor". Se muestra un cuadro de confirmación para verificar que la información es correcta. Tras confirmar, el sistema genera un cuadro con las credenciales del profesor (correo y contraseña) para acceder a la plataforma Demy. Finalmente, el profesor se agrega a la lista de profesores disponibles.
+
+**User goal:** Matricular a un alumno  
+**User persona:** Administrador de academia  
+![Wireflow-6](assets/images/wireflow-enrollment-admin.png)  
+**Explicación del flujo:**  
+El administrador ingresa a la sección "Panel de control" y selecciona el módulo "Matrícula". Dentro de este, se presenta un formulario donde debe llenar los datos del alumno, como su nombre, DNI y aula asignada. Al completar el formulario, el administrador presiona el botón "Guardar matrícula". Luego, aparece un cuadro de confirmación para asegurar que la información ingresada es correcta. Tras confirmar, el sistema registra la matrícula y redirige al administrador a la sección "Historial de matrícula", donde podrá ver la lista de matrículas realizadas, incluyendo la del alumno recién matriculado.
+
+**User goal:** Visualizar asistencia de un alumno o por aula  
+**User persona:** Administrador de academia  
+![Wireflow-7](assets/images/wireflow-attendance-management-admin.png)  
+**Explicación del flujo:**  
+El administrador accede a la sección "Panel de control" y selecciona el módulo "Asistencia". Dentro de este módulo, tiene dos opciones: buscar por alumno o por aula. Si decide buscar por alumno, deberá ingresar el nombre o DNI del alumno. Si decide buscar por aula, tendrá que elegir el aula de la que desea ver la asistencia. Después de realizar la búsqueda, el sistema muestra una tabla con los registros de asistencia correspondientes, ya sea por alumno o por aula, y estos registros incluyen las fechas y el estado de la asistencia, basados en los registros realizadas por el profesor.
+
+**User goal:** Registrar pagos de alumnos  
+**User persona:** Administrador de academia  
+![Wireflow-8](assets/images/wireflow-payments-admin.png)  
+**Explicación del flujo:**  
+El administrador accede a la sección "Panel de control" y luego al módulo "Pagos". Desde allí, puede buscar directamente a un alumno para visualizar su estado de pagos pendientes y registrar un nuevo pago. Una vez identificado el alumno, se completan los datos correspondientes del pago, y se presiona el botón "Guardar pago". A continuación, aparece un cuadro de confirmación para verificar si desea continuar, y tras confirmar, el pago se registra en el sistema. Alternativamente, el administrador puede acceder al "Historial de pagos", donde se muestra una tabla con los pagos pendientes. Desde ahí, también puede presionar el botón "Registrar pago" para completar los datos y realizar el registro. Cualquiera de estos caminos permite llevar un control eficiente de los pagos de los alumnos.
+
+**User goal:** Visualizar horarios de aulas  
+**User persona:** Administrador de academia  
+![Wireflow-9](assets/images/wireflow-schedules-admin.png)  
+**Explicación del flujo:**  
+El administrador accede a la sección "Panel de control" y selecciona el módulo "Horarios". Una vez dentro, se le presenta una opción para buscar un aula específica. Tras ingresar el nombre o código del aula, el sistema muestra el horario semanal correspondiente a esa aula, heredado previamente del periodo asignado. Esta visualización permite al administrador tener un control claro sobre la distribución de cursos y bloques horarios asignados a cada aula.
+
+**User goal:** Registrar egresos y generar reportes financieros  
+**User persona:** Administrador de academia  
+![Wireflow-10](assets/images/wireflow-expense-report-admin.png)  
+**Explicación del flujo:**  
+El administrador accede a la sección "Panel de control" y selecciona el módulo "Finanzas". Para registrar un egreso, debe completar un formulario con los campos: concepto, monto, fecha y categoría, y luego presionar el botón "Registrar egreso". Además, tiene la opción de generar reportes financieros de la academia, eligiendo entre un reporte general o mensual. Una vez seleccionada la opción deseada, el sistema genera una tabla con la información correspondiente y muestra al final un resumen con el total de ingresos, egresos y el balance financiero.
+
+**User goal:** Iniciar sesión como profesor  
+**User persona:** Profesor de academia  
+![Wireflow-11](assets/images/wireflow-login-teacher.png)  
+**Explicación del flujo:**  
+El flujo comienza en la pantalla donde el usuario debe elegir si es administrador o profesor. Al seleccionar la opción "Soy profesor", es dirigido a la pantalla de inicio de sesión. Aquí, debe ingresar las credenciales (correo y contraseña) previamente proporcionadas por el administrador al momento de registrarlo. Una vez validados los datos, el sistema permite el acceso a la plataforma y lo redirige a la sección "Mi organización", donde podrá consultar sus aulas asignadas, ver horarios y registrar asistencia.
+
+**User goal:** Visualizar horarios de aulas asignadas  
+**User persona:** Profesor de academia  
+![Wireflow-12](assets/images/wireflow-schedules-teacher.png)  
+**Explicación del flujo:**  
+Después de iniciar sesión en la plataforma y acceder a la sección "Mi organización", el profesor procede a ingresar al "Panel de control". Dentro de esta área, selecciona la opción "Horarios", donde se le presenta un campo para escoger una de las aulas a las que ha sido asignado previamente por el administrador. Al seleccionar el aula, se muestra automáticamente el horario correspondiente, permitiéndole al docente conocer los días y horas en las que tiene clase.
+
+**User goal:** Registrar asistencia de alumnos  
+**User persona:** Profesor de academia  
+![Wireflow-13](assets/images/wireflow-register-attendance-teacher.png)  
+**Explicación del flujo:**  
+Luego de iniciar sesión y acceder a "Mi organización", el profesor se dirige al "Panel de control" y entra en la categoría "Asistencia". Allí debe escoger una de las aulas en las que se encuentra asignado. Una vez seleccionada, se despliega una tabla con la lista de estudiantes del aula correspondiente. El docente procede a registrar la asistencia de cada alumno marcando un checkbox según corresponda. Al finalizar, hace clic en el botón "Guardar asistencia", lo que genera un cuadro de confirmación para validar si está seguro de guardar el registro. Una vez confirmado, la asistencia queda registrada correctamente.
 
 ### 4.4.3. Web Applications Mock-ups
+Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+
+### **Web Aplication mock-ups para Desktop Web Browser**
+#### **Mock-ups que tiene como usuario al administrador de la academia**
+
+**Iniciar Sesión**  
+En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/3Iniciar_sesión.png)
+
+**Elegir el tipo de cuenta**  
+En la imagen el usuario, al ingresar a la plataforma, podrá elegir el tipo de cuenta por el que quiera entrar, que serán administrador y profesor  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/1Selección_del_tipo_de_usuario.png)
+
+**Crear Cuenta**  
+En la imagen el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/2Crear_cuenta.png)
+
+**Elegir un plan para la academia**  
+En la imagen el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/7Seleccionar_plan.png)
+
+**Restablecer contraseña**  
+En la imagen se muestra la ventana para restablecer la contraseña así como los datos que tiene que ingresar  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/1-Creacion_de_cuenta/5Reestablecer_contraseña.png)
+
+**Mi organización**  
+En la imagen se muestra la pantalla de "Mi organización" con las diversas opciones, como cursos, periodos, aulas y profesores.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/1Mi_organizacion.png)
+
+**Mi organización Cursos**  
+En la imagen se muestra la pantalla de "Mi organización Cursos" para poder ver todos los cursos creados en la academia  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/2Organización_cursos.png)
+
+**Mi organización Periodos**  
+En la imagen se muestra la cantidad de periodos que están registrados en Demy por parte del administrador y la opción de agregar más periodos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/3Organización_Periodos.png)
+
+**Mi organización Aulas**  
+En la imagen se muestra la cantidad de aulas que están registradas en Demy por parte del administrador y la opción de agregar más aulas.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/5Organización_Aulas.png)
+
+**Mi organización Profesores**  
+En la imagen se muestra la cantidad de profesores que están registrados en Demy por parte del administrador y la opción de agregar más profesores.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/2-Mi_organizacion/6Organización_profesores.png)
+
+**Panel control Matrícula**  
+En la imagen se muestra el panel de Matrícula donde el administrador podrá ingresar los datos de un estudiante para registrar su matrícula en el sistema.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/3-Matricula/1Panel_de_control-Matrícula.png)
+
+**Panel control historial Matrícula**  
+En la imagen se muestra el historial de Matrículas en el sistema, donde se podrá editar o eliminar alguna matrícula ingresada con anterioridad.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/3-Matricula/3Panel_de_control_Historial_Matrícula.png)
+
+**Panel control Alumnos**  
+En la imagen se muestra el panel de control de alumno, donde el administrador podrá buscar los datos de algún alumno ingresando su DNI. También el sistema le mostrará el estado de pago de un alumno.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/4-Alumnos/2Panel_de_control_AlumnosSinDatos.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/4-Alumnos/1Panel_de_control_Alumnos.png)
+
+**Panel control Asistencia**  
+En la imagen se muestra el panel de control de la Asistencia donde el administrador podrá ingresar el DNI de un alumno para ver la asistencia de este por día o el código de aula de un salón para ver los alumnos y la asistencia a este salón.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/5-Asistencia/2Panel_de_control_Matrícula_Sin_datos.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/5-Asistencia/1Panel_de_control-Asistencia.png)
+
+**Panel de control Pagos**  
+En la siguiente imagen se muestra el panel de control Pagos, donde el administrador tendrá que ingresar el DNI de algún alumno para que salga su estado de pago y si requiere guardar un pago a su nombre.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/5Panel_de_control_Pagos_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/1Panel_de_control_Pagos.png)
+
+**Panel de control Historial de Pagos**  
+En la siguiente imagen se muestra el panel de control Historial de Pagos, donde el administrador verá el historial de pago de todos los alumnos y podrá seleccionar si quiere registrar el pago de algún alumno.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/8Panel_de_control_Historial_Pagos_vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/6-Pagos/3Panel_de_control_Historial_Pagos.png)
+
+**Panel de control Horarios**  
+En la siguiente imagen se muestra la pestaña panel de horario, donde el administrador ingresará el DNI de un alumno y se mostrará sus cursos y el día de estos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/7-Horarios/2Panel_de_control_Horarios_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/7-Horarios/1Panel_de_control_Horarios.png)
+
+**Panel de control Finanzas**  
+En la siguiente imagen se muestra la pestaña panel de finanzas, donde el administrador podrá ingresar un egreso que será registrado en el sistema.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/5Panel_de_control_Finanzas_Vacio.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/1Panel_de_control_Finanzas.png)
+
+**Panel de control Reporte Finanzas**  
+En la siguiente imagen se muestra la pestaña panel de reportes de finanzas, donde el administrador observará el reporte general de las finanzas y el reporte por filtros donde seleccionará opciones para un mejor reporte.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/3Panel_de_control_Finanzas_reporte_general.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Administradores-pagina/8-Finanzas/4Panel_de_control_reporte_filtros.png)
+
+#### **Mock-ups que tiene como usuario al profesor de la academia**
+
+**Panel de control - Mi Organización**  
+En la siguiente imagen se muestra la pestaña del panel de reportes "Mi Organización", donde el profesor podrá visualizar los datos de sus clases y su información personal.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/1-Organizacion/Mi_organizacion.png)
+
+**Panel de control - Horario**  
+En la siguiente imagen se muestra la pestaña del panel de "Horarios", donde el profesor podrá consultar el horario de cada uno de sus cursos.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/2-Horario/Vista_profesor_Horario.png)
+
+**Panel de control - Asistencia**  
+En las siguientes imágenes se muestra la pestaña del panel de "Asistencia", donde el profesor podrá registrar la asistencia de los alumnos ingresando el código de clase.  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/Vista_profesor_Asistencia_Vacia.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Desktop_Web_Browser/Profesores-Pagina/3-Asistencia/1Vista_profesor-Asistencia.png)
+
+Enlace para acceder al [Figma](https://www.figma.com/design/IBULvwLcn9jdOYaUj9JqsP/Mock-ups?node-id=101-2884&t=go5YlT5s8AHAzlLO-1)
+### **Web Aplication mock-ups para Movil Web Browser**
+#### **Mock-ups que tiene como usuario al administrador de la academia**
+En la imagen se muestra la pantalla de inicio de sesión de Demy, así como las opciones para rellenar sus datos, solo si el usuario ya tiene una cuenta creada con anterioridad.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/4Inicio_Sesion.png)
+
+**Elegir el tipo de cuenta**  
+En la imagen, el usuario al ingresar a la plataforma podrá elegir el tipo de cuenta con el que desea entrar, que puede ser administrador o profesor.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/2Tipo_usuario_1.png)
+
+**Crear Cuenta**  
+En la imagen, el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/3Registro.png)
+
+**Elegir un plan para la academia**  
+En la imagen, el usuario podrá ingresar sus datos para crear la cuenta de su academia y registrarse en Demy.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/8Tipo_de_plan_2.png)
+
+**Restablecer contraseña**  
+En la imagen, se muestra la ventana para restablecer la contraseña, así como los datos que se deben ingresar.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/1Registro/5Recuperar_Contraseña.png)
+
+**Mi organización**  
+En la imagen se muestra la pantalla de "Mi organización" con las diversas opciones, como cursos, periodos, aulas y profesores.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/2Mi_Organizacion_Perfil.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/3Mi_Organizacion_lista_opciones1.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/4Mi_Organizacion_lista_opciones2.png)
+
+**Mi organización - Cursos**  
+En la imagen se muestra la pantalla de "Mi organización - Cursos", donde se pueden ver todos los cursos creados en la academia.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/5Mi_Organizacion_Cursos.png)
+
+**Mi organización - Periodos**  
+En la imagen se muestra la cantidad de periodos que están registrados en Demy por parte del administrador y la opción de agregar más periodos.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/8Mi_Organizacion_periodos.png)
+
+**Mi organización - Aulas**  
+En la imagen se muestra la cantidad de aulas que están registradas en Demy por parte del administrador y la opción de agregar más aulas.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/11Mi_Organizacion_aulas.png)
+
+**Mi organización - Profesores**  
+En la imagen se muestra la cantidad de profesores que están registrados en Demy por parte del administrador y la opción de agregar más profesores.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/2Mi_Organizacion/12Mi_Organizacion_profesores.png)
+
+**Panel de control - Matrícula**  
+En la imagen se muestra el panel de Matrícula, donde el administrador podrá ingresar los datos de un estudiante para registrar su matrícula en el sistema.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/1Matricula_Datos.png)
+
+**Panel de control - Historial de Matrícula**  
+En la imagen se muestra el historial de matrículas en el sistema, donde se podrá editar o eliminar alguna matrícula ingresada con anterioridad.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/3Matricula_Historial.png)
+
+**Panel de control - Alumnos**  
+En la imagen se muestra el panel de control de alumnos, donde el administrador podrá buscar los datos de algún alumno ingresando su DNI. También, el sistema le mostrará el estado de pago del alumno.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/4Alumnos/1Alumno_Buscar.png)
+
+**Panel de control - Asistencia**  
+En la imagen se muestra el panel de control de Asistencia, donde el administrador podrá ingresar el DNI de un alumno para ver su asistencia por día, o el código de aula de un salón para ver los alumnos y su asistencia.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/5Asistencia/1Asistencia.png)
+
+**Panel de control - Pagos**  
+En la siguiente imagen se muestra el panel de control de Pagos, donde el administrador tendrá que ingresar el DNI de algún alumno para ver su estado de pago y, si corresponde, registrar un nuevo pago a su nombre.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/6Pagos/1Pagos.png)
+
+**Panel de control - Historial de Pagos**  
+En la siguiente imagen se muestra el panel de control de Historial de Pagos, donde el administrador verá el historial de pagos de todos los alumnos y podrá registrar el pago de alguno de ellos.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/6Pagos/3Pagos_Historial.png)
+
+**Panel de control - Horarios**  
+En la siguiente imagen se muestra la pestaña del panel de Horarios, donde el administrador ingresará el DNI de un alumno y se mostrarán sus cursos y los días correspondientes.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/7Horarios/1Horario.png)
+
+**Panel de control - Finanzas**  
+En la siguiente imagen se muestra la pestaña del panel de Finanzas, donde el administrador podrá ingresar un egreso que será registrado en el sistema.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/1Finanzas_Egreso.png)
+
+**Panel de control - Reporte de Finanzas**  
+En la siguiente imagen se muestra la pestaña del panel de Reportes de Finanzas, donde el administrador podrá observar el reporte general de las finanzas y aplicar filtros para generar un reporte más detallado.<br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/2Finanzas_Reporte.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/3Finanzas_Reporte_Filtros.png)
+
+
+#### **Mock-ups que tiene como usuario al profesor de la academia**
+**Panel de control - Mi Organización**  
+En la siguiente imagen se muestra la pestaña del panel de reportes "Mi Organización", donde el profesor podrá observar los datos de sus clases y su información personal. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/1Mi_Organizacion/Profesor_Perfil.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/1Mi_Organizacion/Profesor_Cursos.png)
+
+**Panel de control - Horario**  
+En la siguiente imagen se muestra la pestaña del panel de "Horarios", donde el profesor podrá consultar el horario de cada uno de sus cursos. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/2Horario/Profesor_Horarios.png)
+
+**Panel de control - Asistencia**  
+En la siguiente imagen se muestra la pestaña del panel de "Asistencia", donde el profesor podrá registrar la asistencia de los alumnos ingresando el código de clase. <br>
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/3Asistencia/Profesor_Asistencia.png)  
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/Profesores/3Asistencia/Profesor_listado_Asistencia.png)
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
+Enlace para acceder al [Lucid Chart](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWQAxTMJq4tJpIHJ90rbWfYBCZKPnkxth6JTmDrxSy7_1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FIc2F9|)
+
+**UserGoal: Registrarse en Demy**  
+**User persona:** Administradores <br>
+**Explicación del flujo:** El usuario estará en la página de registro de Demy, donde deberá ingresar su nombre, el nombre de su academia, su RUC, su email institucional y la contraseña.  
+Luego de ingresar los datos deberá aceptar los términos y condiciones de Demy, al darle al botón de crear Cuenta se le redirigirá a la sección de "Planes". En esta sección el usuario tendrá que elegir entre uno de los 3 planes que ofrece Demy, al seleccionar un plan se le impondrá un pago a su institución y se le mandará a la sección "Mi organización".
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/1.Registrarse.png)
+
+<br>
+
+**UserGoal: Recuperar contraseña en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** El usuario en la sección de "Iniciar Sesión", en todo momento verá en la parte de abajo del botón "Ingresar", la opción de "Forgot my password".  
+Al darle clic a esta opción se le redirigirá a un recuadro donde se le pide un correo ya registrado en Demy para recuperar la contraseña, al darle a la opción "Enviar" y acceder por medio del código se le permitirá ingresar una nueva contraseña.  
+El usuario ingresará su nueva contraseña 2 veces y le dará a la opción "Restablecer", al hacer esto se le preguntará si ¿Está seguro? de cambiar su contraseña, si confirma el mensaje se le devolverá a "Iniciar Sesión". Ahora el usuario ya puede iniciar sesión con su nueva contraseña.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/1.2.Recuperar_Contraseña.png)
+
+<br>
+
+**UserGoal: Iniciar Sesión en Demy**  
+**User persona:** Administradores <br>  
+**Explicación del flujo:** El usuario tendrá que elegir entre 2 opciones si es "Soy Administrador" o "Soy Profesor". El usuario seleccionará la opción soy Administrador.  
+El usuario ahora está en la pestaña de Iniciar Sesión, donde ingresará sus datos como el correo electrónico y su contraseña. Cuando le dé a la opción de "Ingresar", se le redirigirá a Mi organización.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/2.Iniciar_Sesion.png)
+
+<br>
+
+**UserGoal: Agregar nuevo curso en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Cursos", llevándolo a la sección de Cursos donde verá todos los cursos registrados en Demy.  
+El usuario seleccionará la opción Agregar Curso donde se le abrirá una ventana para ingresar el "Nombre del curso" y el "Código del curso", al rellenar los datos le podrá dar en Agregar. Con esto el curso ya estaría registrado en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/15.Agregar_Curso.png)
+
+<br>
+
+**UserGoal: Agregar nuevo periodo en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Periodos", llevándolo a la sección de Periodos donde verá todos los periodos registrados en Demy.  
+El usuario seleccionará la opción Agregar Periodo donde se le redirigirá a la sección Agregar Periodo, donde verá una tabla con el horario de la Academia, si selecciona algún recuadro, se le abrirá una pestaña para elegir un curso existente. Al darle a la opción de "Confirmar".  
+Verá que en Agregar Periodo, aparece de otro color el curso agregado, el usuario en la parte de arriba podrá ponerle nombre al periodo, también en la parte de abajo de la sección estará la opción de "Guardar Periodo", al seleccionar esta opción se preguntará al usuario si ¿Está seguro?, de guardar este periodo. Si el usuario está seguro volverá a la sección "Periodos", en cambio si no está seguro se le devolverá a "Agregar periodo", para que modifique lo que le falte.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/16.Agregar_Periodo.png)
+
+<br>
+
+**UserGoal: Agregar nueva aula en Demy**  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Aula", llevándolo a la sección de Aula donde verá todas las aulas registradas en Demy.  
+El usuario seleccionará la opción Agregar Aulas donde se le abrirá una ventana para ingresar el "Nombre del Aula" y elegir un periodo existente, al rellenar los datos le podrá dar en Confirmar. Con esto el aula ya estaría registrada en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/17.Agregar_Aula.png)
+
+<br>
+
+**UserGoal: Agregar nuevo profesor en Demy**  
+**User persona:** Administradores <br>
+**Explicación del flujo:** En "Mi organización" el usuario verá en todo momento 5 recuadros. El usuario selecciona "Profesores", llevándolo a la sección de Profesores donde verá todos los profesores registrados en Demy.  
+El usuario seleccionará la opción Agregar Profesor donde se le abrirá una ventana para ingresar el "Nombre completo del Profesor", el "DNI del profesor", seleccionar un aula ya registrada con anterioridad y elegir un aula existente, al rellenar los datos le podrá dar en "Agregar Profesor". Con esto el Profesor ya estaría registrado en el sistema.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/18.Agregar_Profesor.png)
+
+<br>
+
+**UserGoal: Registrar matrícula de un alumno en Demy**<br>    
+**User persona:** Administradores<br> 
+**Explicación del flujo:** El usuario en todo momento tendrá en la parte de arriba la opción de Panel de Control. Cuando presione esta opción se mostrarán las categorías de la página, al darle click a "Matrícula" se encontrará en la sección de matrícula.  
+En esta pantalla el usuario tendrá que ingresar los datos de algún alumno, al terminar de rellenar los datos la página le mostrará una pantalla donde preguntará si quiere guardar o cancelar los datos de la matrícula en el sistema. Al presionar "Guardar" el usuario será llevado a la pestaña de "Historial de matrícula", donde observará los datos ingresados y la fecha de esta en el sistema.
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Admin/3.Crear_Matricula.png)
+
+<br>
+
+**UserGoal: Editar matrícula de un alumno en Demy**<br>  
+**User persona:** Administradores<br>   
+**Explicación del flujo:** El usuario al estar en la pantalla de Matrícula, encontrará en la parte superior derecha la opción "Ver historial de Matrícula", al darle click se mostrará el historial de todas las matrículas.  
+Si el usuario selecciona alguna Matrícula en la tabla, los datos de abajo se actualizarán con la información de la matrícula. En la parte de abajo están 2 botones los cuales son: si se selecciona el botón de "Editar Matrícula", aparecerán lápices al lado de cada recuadro que permitirán actualizar los datos.  
+Luego de cambiar los datos, se selecciona la opción de "Guardar Matrícula" y se actualizarán los datos en el sistema, caso contrario Demy devolverá al usuario a Historial de Matrículas.
+![imagesFlowDiagrams2](./assets/images/web_applications_user_flow_diagrams/Admin/4.Editar_Matricula.png)
+
+<br> 
+
+**UserGoal: Eliminar la Matrícula de un alumno en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** El usuario al estar en la pantalla de Matrícula, encontrará en la parte superior derecha la opción "Ver historial de matrícula", al seleccionar la opción se mostrará el historial de matrículas.  
+Al seleccionar algún registro se verá en la parte de abajo la opción de "Eliminar Matrícula", si se selecciona la opción aparecerá una advertencia, se le preguntará al usuario si quiere Eliminar o Cancelar la acción.  
+Si se selecciona "Eliminar" se eliminará la matrícula del historial, caso contrario se devolverá al usuario a "Historial de Matrículas".
+![imagesFlowDiagrams3](./assets/images/web_applications_user_flow_diagrams/Admin/5.Eliminar_Matricula.png)
+
+
+<br> 
+
+**UserGoal: Ver la información de alumnos en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Alumnos", se redirigirá al usuario a la categoría Alumnos, donde observará los datos y el estado de pago de los alumnos.  
+El usuario podrá ingresar el DNI de algún alumno, al ingresar el dato, se mostrará la información básica del alumno y su estado de pago, si el DNI ingresado no está registrado en el sistema se le mostrará una pantalla al usuario diciendo que el DNI no existe.
+![imagesFlowDiagrams4](./assets/images/web_applications_user_flow_diagrams/Admin/7.Buscar_Estado_de_Pago_Alumno.png)
+
+<br> 
+
+**UserGoal: Registrar el pago de un alumno por DNI en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Pagos", se redirigirá al usuario a la categoría Pagos, donde observará un buscador que pide el DNI de un estudiante.  
+Si el usuario ingresa un DNI se mostrará en la tabla los datos básicos del alumno así como el estado de pago y la fecha de vencimiento, en caso que no exista el DNI en el registro de Demy aparecerá una pestaña que dice que no existe el alumno.  
+El usuario observa los datos que se agregan automáticamente a los recuadros y selecciona la opción de guardar pago, el sistema le avisará al usuario si quiere guardar el pago con la opción de "Confirmar" y "Cancelar", si se selecciona la opción de "Confirmar", se redirigirá al usuario a Historial de Pagos.  
+En historial de Pagos el usuario podrá observar en la tabla que se registró satisfactoriamente el pago del alumno.
+![imagesFlowDiagrams5](./assets/images/web_applications_user_flow_diagrams/Admin/8.Registrar_Pago_Alumno_por_Busqueda.png)
+
+<br> 
+
+**UserGoal: Registrar el pago de un alumno por medio del historial de pagos en Demy**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Pagos", se redirigirá al usuario a la categoría Pagos, donde observará un buscador que pide el DNI de un estudiante.  
+El usuario en la parte superior derecha verá la opción "Ver historial de pagos", cuando seleccione esta opción el sistema le mostrará una tabla con todos los alumnos y el estado de pago.  
+En la tabla existe la opción de "Registrar Pago", cuando el usuario seleccione esta opción, en la parte de abajo se rellenará los datos del alumno y se podrá clickear la opción "Guardar Pago".  
+Cuando se seleccione esta opción el sistema le preguntará al usuario si quiere registrar el pago, si se elige la opción de guardar se mostrará el pago realizado en la tabla.
+![imagesFlowDiagrams6](./assets/images/web_applications_user_flow_diagrams/Admin/9.Registrar_Pago_Alumno_por_Historial_de_Pago.png)
+
+<br> 
+
+**UserGoal: Ver el horario de un salón con el código**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Horarios", se redirigirá al usuario a la categoría Horarios, donde observará un buscador que pide el código de aula.  
+Cuando se ingrese el código del aula se mostrará el horario del aula con una tabla, en caso no exista o no esté registrado en el sistema se mostrará una pantalla que dice El aula no existe.
+![imagesFlowDiagrams7](./assets/images/web_applications_user_flow_diagrams/Admin/10.Buscar_Horario_Aulas.png)
+
+<br> 
+
+**UserGoal: Ver la asistencia de un alumno**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Asistencia", se redirigirá al usuario a la categoría Asistencia, donde observará un buscador que pide el DNI de un alumno y otro que pide el código de aula.  
+Cuando se ingrese un DNI se mostrará la asistencia del alumno a la academia, si no existe el DNI o no está registrado en el sistema se mostrará una pestaña donde dirá que el "Alumno no existe".
+![imagesFlowDiagrams8](./assets/images/web_applications_user_flow_diagrams/Admin/12.Asistencia_Alumno_Buscar.png)
+
+<br> 
+
+**UserGoal: Ver la asistencia de varios alumnos a un Aula**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Asistencia", se redirigirá al usuario a la categoría Asistencia, donde observará un buscador que pide el DNI de un alumno y otro que pide el código de aula.  
+Cuando se ingrese un código de aula se mostrarán todos los alumnos y su asistencia en los diferentes días del mes así como la opción de ver más días o alumnos, si no existe o no está registrado el código de aula el sistema lo dirá que "El aula no existe".
+![imagesFlowDiagrams9](./assets/images/web_applications_user_flow_diagrams/Admin/12.Asistencia_Aula_Buscar.png)
+
+<br> 
+
+**UserGoal: Generar el reporte financiero**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.  
+En la parte de arriba a la derecha se verá la opción de "Generar reportes financiero", cuando el usuario selecciona esta opción, verá una tabla con el reporte financiero y podrá elegir entre el reporte "Completo" o el "Mensual", por defecto está en "Completo".  
+Si se selecciona la opción "Mensual" el usuario podrá elegir el año, la categoría y el mes del reporte financiero.  
+Si cambia alguna opción la tabla se actualizará.
+![imagesFlowDiagrams10](./assets/images/web_applications_user_flow_diagrams/Admin/13.Mirar_El_Reporte_Financiero.png)
+
+<br> 
+
+**UserGoal: Registrar un Egreso**<br>    
+**User persona:** Administradores<br>    
+**Explicación del flujo:** En la parte de arriba se observa la opción "Panel de control", cuando se clickea se muestra por defecto la categoría Matrícula.  
+En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.  
+Cuando el usuario haya completado los datos podrá darle a la opción de "Confirmar", el sistema le preguntará si quiere confirmar el Egreso.  
+Si se selecciona Confirmar se mostrará la tabla del reporte con el egreso registrado, caso contrario se redirigirá de nuevo a la categoría Finanzas con sus datos sin cambiar.
+![imagesFlowDiagrams11](./assets/images/web_applications_user_flow_diagrams/Admin/14.Registrar_un_Egreso.png)
+
+<br> 
+
+**UserGoal: Iniciar Sesión en Demy**  
+**User persona:** Profesor  
+**Explicación del flujo:** El usuario tendrá que elegir entre 2 opciones si es "Soy Administrador" o "Soy Profesor". El usuario seleccionará la opción soy Profesor.  
+El usuario ahora está en la pestaña de Iniciar Sesión, donde ingresará sus datos como el correo electrónico y su contraseña.  
+Cuando le dé a la opción de "Ingresar", se le redirigirá a Mi organización.
+
+![imagesFlowDiagrams](./assets/images/web_applications_user_flow_diagrams/Profesor/Iniciar_Sesion.png)
+
+<br>
+
+**UserGoal: Observar el horario**<br>  
+**User persona:** Profesor<br>  
+**Explicación del flujo:** En la parte de arriba se observa la opción de "Panel de control", cuando el usuario seleccione esta opción, se mostrará la categoría horario por defecto.  
+En horario el usuario podrá ver los cursos que tiene y qué día le toca cada curso.
+![imagesFlowDiagrams12](./assets/images/web_applications_user_flow_diagrams/Profesor/Ver_Horario_de_Clases.png)
+
+<br> 
+
+**UserGoal: Registrar Asistencia**<br>    
+**User persona:** Profesor <br>   
+**Explicación del flujo:** En la parte de arriba se observa la opción de "Panel de control", cuando el usuario seleccione esta opción, se mostrará la categoría horario por defecto.  
+En la parte de la derecha se muestran las categorías que hay en Demy, el usuario podrá ver la opción "Asistencia", cuando seleccione esta opción se mostrará una tabla y casillas, donde se podrá elegir la fecha y el número de salón.  
+Si existe el código de alumno se mostrará en la tabla el DNI y el nombre de cada alumno con una casilla para seleccionar si está presente o no, caso no exista el código se mostrará una pestaña que dice "El aula no existe".  
+Cuando el usuario ya haya terminado de pasar asistencia y registrado la asistencia en el sistema, podrá darle a la opción de guardar asistencia. Al seleccionarlo se mostrará una pestaña que pregunta si desea guardar la asistencia con las opciones de "Guardar" y "Cancelar".  
+Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asistencia ha sido registrada exitosamente".
+![imagesFlowDiagrams13](./assets/images/web_applications_user_flow_diagrams/Profesor/Guardar_Asitencia.png)
 
 ## 4.5. Web Applications Prototyping
 
@@ -652,53 +1971,651 @@ El flujo comienza con el AppComponent, que organiza la aplicación. El Subscript
 
 ### 4.7.1. Class Diagrams
 
+Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
+Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
+
+> FALTA PONER EL DIAGRAMA
+
 ### 4.7.2. Class Dictionary
+
+#### IAM Context
+
+**UserAccount**
+
+Representa una cuenta de usuario dentro del sistema, utilizada tanto por administradores como por docentes. Gestiona sus credenciales, el rol que desempeñan y el estado actual de la cuenta.
+
+| Attribute      | Type           | Description                                                  |
+|----------------|----------------|--------------------------------------------------------------|
+| id             | UserId         | Unique identifier for the user account                       |
+| fullName       | FullName       | Full name of the user                                        |
+| email          | Email          | Email address used to log into the system                    |
+| passwordHash   | String         | Encrypted password                                           |
+| role           | Role           | User role (ADMIN or TEACHER)                                 |
+| status         | AccountStatus  | Account status (ACTIVE, INACTIVE, or BLOCKED)                |
+
+#### Enrollment Management Context
+
+**Enrollment**
+
+Representa el registro de un estudiante en una academia durante un determinado periodo. Permite verificar la pertenencia, estado y realizar operaciones sobre la inscripción.
+
+| Attribute  | Type             | Description                                            |
+|------------|------------------|--------------------------------------------------------|
+| id         | UUID             | Unique identifier for the enrollment                   |
+| student    | StudentId        | Identifier of the student being enrolled               |
+| academy    | AcademyId        | Identifier of the academy where the enrollment is made |
+| status     | EnrollmentStatus | Status of the enrollment (ACTIVE or INACTIVE)          |
+
+**Student**
+
+Representa a un estudiante que puede ser matriculado en una academia. Contiene su información básica de identificación y contacto.
+
+| Attribute  | Type       | Description                              |
+|------------|------------|------------------------------------------|
+| id         | StudentId  | Unique identifier for the student        |
+| fullName   | FullName   | Full name of the student                 |
+| email      | Email      | Contact email address of the student     |
+
+**Academy**
+
+Representa una academia educativa. Está asociada a un usuario propietario y contiene los periodos académicos que definen el calendario escolar.
+
+| Attribute   | Type                     | Description                                     |
+|-------------|--------------------------|-------------------------------------------------|
+| id          | AcademyId                | Unique identifier for the academy               |
+| userId      | UserId                   | Identifier of the user who manages the academy  |
+| periods     | List<AcademicPeriod>     | List of academic periods defined by the academy |
+| academyName | String                   | Name of the academy                             |
+
+**AcademicPeriod**
+
+Representa un intervalo de tiempo en el que se desarrolla un ciclo académico. Es utilizado como valor dentro del contexto de una academia.
+
+| Attribute | Type | Description                  |
+|-----------|------|------------------------------|
+| startDate | Date | Start date of the period     |
+| endDate   | Date | End date of the period       |
+
+#### Scheduling Management Context
+
+**WeeklySchedule**
+
+Representa el horario semanal de una academia. Contiene las entradas programadas para cada día y permite gestionar agregados, actualizaciones y validaciones de disponibilidad horaria.
+
+| Attribute   | Type               | Description                                      |
+|-------------|--------------------|--------------------------------------------------|
+| id          | UUID               | Unique identifier for the weekly schedule        |
+| academyId   | AcademyId          | Identifier of the academy that owns the schedule |
+| entries     | List<Schedule>     | List of scheduled entries (classes)              |
+
+**Schedule**
+
+Define una entrada específica dentro del horario. Contiene la información sobre el curso, aula, horario y docente asignado.
+
+| Attribute   | Type          | Description                                  |
+|-------------|---------------|----------------------------------------------|
+| id          | ScheduleId    | Unique identifier for the schedule entry     |
+| dayOfWeek   | String        | Day of the week the class takes place        |
+| timeRange   | DateTimeRange | Start and end time for the scheduled session |
+| course      | Course        | Course being taught during this schedule     |
+| room        | Room          | Room where the class is held                 |
+| userId      | UserId        | Identifier of the teacher assigned           |
+
+**Course**
+
+Representa un curso que puede ser parte de un horario. Incluye nombre y una breve descripción del contenido del curso.
+
+| Attribute   | Type   | Description                      |
+|-------------|--------|----------------------------------|
+| name        | String | Name of the course               |
+| description | String | Short description of the course  |
+
+**Room**
+
+Define un ambiente físico o virtual donde se dicta una clase. Permite identificar el aula y conocer su capacidad.
+
+| Attribute | Type   | Description                          |
+|-----------|--------|--------------------------------------|
+| roomCode  | String | Code or identifier of the room       |
+| capacity  | int    | Maximum number of people allowed     |
+
+#### Attendance Management Context
+
+**ClassSession**
+
+Representa una sesión de clase específica, asociada a un horario previamente programado. Permite registrar la asistencia de los estudiantes y consultar sus estados individuales.
+
+| Attribute   | Type                     | Description                                                        |
+|-------------|--------------------------|--------------------------------------------------------------------|
+| id          | UUID                     | Unique identifier for the class session                            |
+| scheduleId  | ScheduleId               | Identifier of the related schedule                                 |
+| attendance  | List<AttendanceRecord>   | List of attendance records for this session                        |
+
+**AttendanceRecord**
+
+Representa el estado de asistencia de un estudiante en una sesión específica. Se trata de un objeto inmutable que forma parte de un registro más amplio.
+
+| Attribute  | Type             | Description                                        |
+|------------|------------------|----------------------------------------------------|
+| studentId  | StudentId        | Identifier of the student                          |
+| status     | AttendanceStatus | Attendance status (PRESENT, ABSENT, or JUSTIFIED)  |
+
+#### Subscription & Billing Context
+
+**Subscription**
+
+Representa la suscripción activa de una academia a un plan del sistema. Controla el estado de la suscripción y su vigencia.
+
+| Attribute   | Type               | Description                                                    |
+|-------------|--------------------|----------------------------------------------------------------|
+| id          | UUID               | Unique identifier for the subscription                         |
+| academyId   | AcademyId          | Identifier of the academy that owns the subscription           |
+| plan        | PlanId             | Identifier of the selected plan                                |
+| status      | SubscriptionStatus | Status of the subscription (ACTIVE, EXPIRED, TRIAL, CANCELLED) |
+| period      | DateRange          | Period of validity for the subscription                        |
+
+**Plan**
+
+Representa una oferta de suscripción disponible para academias. Define los límites del servicio según cada plan.
+
+| Attribute    | Type   | Description                                    |
+|--------------|--------|------------------------------------------------|
+| id           | UUID   | Unique identifier for the plan                 |
+| name         | String | Name of the subscription plan                  |
+| price        | Money  | Monthly cost of the plan                       |
+| maxStudents  | int    | Maximum number of students allowed in the plan |
+| maxTeachers  | int    | Maximum number of teachers allowed in the plan |
+
+**Invoice**
+
+Representa una factura generada a partir de una suscripción activa. Controla el estado del pago y la fecha de vencimiento.
+
+| Attribute        | Type           | Description                                  |
+|------------------|----------------|----------------------------------------------|
+| id               | UUID           | Unique identifier for the invoice            |
+| subscriptionId   | SubscriptionId | Identifier of the related subscription       |
+| amount           | Money          | Amount to be paid for the invoice            |
+| dueDate          | Date           | Due date of the invoice                      |
+| status           | PaymentStatus  | Payment status (PENDING, PAID, or OVERDUE)   |
+
+**Payment**
+
+Representa un pago realizado por una factura. Contiene detalles del momento, método y monto abonado.
+
+| Attribute  | Type       | Description                                          |
+|------------|------------|------------------------------------------------------|
+| invoiceId  | InvoiceId  | Identifier of the associated invoice                 |
+| paidAt     | DateTime   | Date and time when the payment was completed         |
+| method     | String     | Payment method used (e.g., credit card, transfer)    |
+| amount     | Money      | Amount paid                                          |
+
+**FinancialTransaction**
+
+Representa una transacción financiera entre dos partes. Se asocia directamente a un pago específico.
+
+| Attribute  | Type       | Description                                         |
+|------------|------------|-----------------------------------------------------|
+| id         | UUID       | Unique identifier for the transaction               |
+| source     | PartyType  | Party from which the money originated               |
+| target     | PartyType  | Party receiving the money                           |
+| type       | String     | Type of transaction (e.g., payment, refund)         |
+| concept    | String     | Description of the transaction purpose              |
+| date       | DateTime   | Date and time of the transaction                    |
+| reference  | String     | External or internal reference identifier           |
+| payment    | Payment    | Payment object associated with this transaction     |
 
 ## 4.8. Database Design
 
+Esta sección presenta el diseño de la base de datos del sistema, derivado del modelo orientado a objetos y los bounded contexts definidos bajo el enfoque de Domain-Driven Design (DDD).
+El objetivo es estructurar las entidades persistentes y sus relaciones para garantizar la integridad, escalabilidad y trazabilidad de los datos.
+
+Se optó por MySQL como sistema de gestión de bases de datos por su amplio soporte en la industria, facilidad de integración y buen rendimiento en aplicaciones web escalables.
+
 ### 4.8.1. Database Diagram
+
+A continuación se muestra el diagrama entidad-relación (ERD), que representa gráficamente las tablas de la base de datos, sus atributos principales y las relaciones existentes entre ellas.
+Este diagrama fue generado a partir del modelo de clases y ajustado a una representación relacional clara y normalizada.
+
+![Database Diagram](./assets/images/database-diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
 
+A continuación se presentan los productos de software seleccionados para apoyar cada etapa del ciclo de vida del producto digital. Se detallan sus nombres, propósitos específicos dentro del proyecto y enlaces para su acceso o descarga, diferenciando entre soluciones SaaS y software instalable.
+
+---
+
+
+- **Project Management**
+
+| **Herramienta**        | **Propósito**                                                                                   | **Enlace / Ruta de Acceso**                              |
+|------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Trello**             | Gestión ágil de tareas y tableros para organizar entregables, tareas individuales y por módulo. | [https://trello.com](https://trello.com)                 |
+| **Pivotal Tracker**    | Control de proyectos basado en historias de usuario, con métricas de velocidad y predicción.    | [https://pivotaltracker.com](https://pivotaltracker.com) |
+
+---
+
+- **Requirements Management**
+
+| **Herramienta**   | **Propósito**                                                                                      | **Enlace / Ruta de Acceso**                           |
+|-------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| **UXPressia**     | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.                              | [https://uxpressia.com](https://uxpressia.com)         |
+| **Miro**          | Elaboración de As-Is y To-Be Scenario Maps.                                                       | [https://miro.com](https://miro.com)                   |
+
+---
+
+- **Product UX/UI Design**
+
+| **Herramienta**     | **Propósito**                                                                                                   | **Enlace / Ruta de Acceso**                             |
+|----------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Figma**            | Diseño colaborativo de wireframes, mockups y prototipos interactivos.                                          | [https://figma.com](https://figma.com)                   |
+| **Lucidchart**       | Creación de wireflows, user flows y diagramas de arquitectura o procesos.                                      | [https://lucidchart.com](https://lucidchart.com)         |
+| **UXPressia**        | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps.                                        | [https://uxpressia.com](https://uxpressia.com)           |
+| **Miro**             | Diseño de mapas de experiencia (As-Is y To-Be Scenario Maps), colaboración visual en tiempo real.              | [https://miro.com](https://miro.com)                     |
+
+---
+
+- **Software Testing**
+
+| **Herramienta**   | **Propósito**                                                                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gherkin**       | Lenguaje utilizado para escribir los criterios de aceptación de las **User Stories** de manera estructurada y comprensible para todos los miembros del equipo. |
+
+---
+
+- **Software Development**
+
+| **Herramienta / Tecnología** | **Propósito**                                                                                                             | **Enlace / Ruta de Descarga**                              |
+|------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| **WebStorm**                 | Desarrollo de la landing page del proyecto utilizando HTML5, CSS3, JavaScript y Tailwind CSS.                             | [https://www.jetbrains.com/webstorm](https://www.jetbrains.com/webstorm) |
+| **JetBrains Rider**          | Elaboración y edición del archivo README.md para documentación técnica del proyecto.                                      | [https://www.jetbrains.com/rider](https://www.jetbrains.com/rider)       |
+| **Tailwind CSS**             | Framework de estilos CSS utilizado para construir visualmente la landing page de manera eficiente.                        | [https://tailwindcss.com](https://tailwindcss.com)          |
+| **HTML5**                    | Lenguaje de marcado utilizado para definir la estructura semántica del contenido en la landing page.                      | [https://developer.mozilla.org/docs/Web/HTML](https://developer.mozilla.org/docs/Web/HTML) |
+| **CSS3**                     | Lenguaje de estilos utilizado para definir la apariencia visual en la landing page.                                       | [https://developer.mozilla.org/docs/Web/CSS](https://developer.mozilla.org/docs/Web/CSS)   |
+| **JavaScript**               | Lenguaje de programación usado para manipular el DOM y permitir la internacionalización del contenido en la landing page. | [https://developer.mozilla.org/docs/Web/JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) |
+
+---
+
+- **Software Architecture Design**
+
+| **Herramienta**      | **Propósito**                                                                                      | **Enlace / Ruta de Acceso**                                |
+|----------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| **Structurizr DSL**  | Elaboración de diagramas de arquitectura siguiendo el C4 Model mediante código (Diagrams-as-Code). | [https://structurizr.com/dsl](https://structurizr.com/dsl) |
+| **PlantUML**         | Creación de diagramas UML utilizando sintaxis de texto.                                            | [https://plantuml.com](https://plantuml.com)               |
+| **Vertabelo**        | Diseño estructurado de bases de datos relacionales de forma visual.                                | [https://vertabelo.com](https://vertabelo.com)             |
+
+---
+
+- **Software Deployment**
+
+| **Herramienta / Plataforma** | **Propósito**                                                                                      | **Enlace / Ruta de Acceso**                             |
+|------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Netlify**                  | Plataforma utilizada para el despliegue automático y gratuito de la landing page.                   | [https://www.netlify.com](https://www.netlify.com)       |
+
+---
+
+- **Software Documentation**
+
+| **Herramienta / Recurso**   | **Propósito**                                                                                                     | **Enlace / Ruta de Acceso**                                                                                        |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **JetBrains Rider**         | Herramientas utilizadas para redactar y editar el archivo README.md, relacionada a la documentación del proyecto. | [https://www.jetbrains.com](https://www.jetbrains.com)                                                             |
+| **GitHub**                  | Repositorio con control de versiones que también sirve como canal de documentación técnica en issues y PRs.       | [https://github.com](https://github.com)                                                                           |
+| **Git**                     | Sistema de control de versiones distribuido utilizado para gestionar el código fuente del proyecto.               | [https://git-scm.com](https://git-scm.com)                                                                         |
+| **GitFlow Workflow**        | Estrategia de ramificación utilizada para mantener la documentación y el código bien organizados.                 | [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model) |
+| **Conventional Commits**    | Estándar de nombres de commits que ayuda a generar changelogs y mantener trazabilidad.                            | [https://www.conventionalcommits.org](https://www.conventionalcommits.org)                                         |
+
 ### 5.1.2. Source Code Management
 
+El equipo utilizará **GitHub** como plataforma de alojamiento y **Git** como control de versiones para todos los productos del proyecto **Demy**, aplicando la estrategia de ramificación **GitFlow Workflow**, con estándares de versionado **Semantic Versioning** y mensajes estructurados mediante **Conventional Commits**.
+
+**Repositorios del Proyecto**
+
+| **Producto**              | **Repositorio GitHub**                                                                                                                                   |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organización SmartEdu** | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu](https://github.com/upc-pre-202501-1asi0730-4364-smartedu)                                     |
+| **Landing Page**          | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page) |
+| **Report**                | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)             |
+
+**GitFlow Workflow**
+
+![gitflow](assets/images/gitflow-example.png)
+
+Se seguirá el modelo propuesto por Vincent Driessen, el cual define las siguientes ramas principales:
+
+- **main**: Rama principal, contiene las versiones estables en producción.
+- **develop**: Rama de desarrollo, donde se integran nuevas funcionalidades antes de pasar a producción.
+
+**Branches usados en GitFlow**
+
+| **Tipo de rama**   | **Propósito**                                         | **Convención de nombres**        | **Ejemplo**               |
+|--------------------|--------------------------------------------------------|----------------------------------|---------------------------|
+| **feature**        | Desarrollo de nuevas funcionalidades.                  | `feature/<nombre-descriptivo>`  | `feature/sprint1-salim`   |
+| **release**        | Preparación de una nueva versión de producción.        | `release/vX.Y.Z`                 | `release/v1.0.0`          |
+| **hotfix**         | Corrección urgente en producción.                      | `hotfix/<problema>`              | `hotfix/fix-crash-navbar` |
+
+**Semantic Versioning**
+
+Se aplicará el esquema de **versionado semántico 2.0.0**, con el siguiente formato:
+
+`vMAJOR.MINOR.PATCH`
+
+- **MAJOR**: Cambios incompatibles con versiones anteriores.
+- **MINOR**: Nuevas funcionalidades compatibles con versiones anteriores.
+- **PATCH**: Correcciones de errores o mejoras menores.
+
+**Conventional Commits**
+
+Para los mensajes de commit, se utilizará el estándar **Conventional Commits**, que permite mayor trazabilidad y generación automática de changelogs.
+
+**Formato usado**:
+
+`<tipo>(opcional-scope): descripción breve`
+
+**Tipos a usar**:
+- `feat`: una nueva funcionalidad
+- `fix`: corrección de errores
+- `docs`: cambios en documentación
+- `style`: formato (espacios, punto y coma, etc.)
+- `refactor`: cambios de código que no corrigen errores ni agregan funciones
+- `test`: agregar o modificar pruebas
+- `chore`: tareas generales o mantenimiento
+- 
 ### 5.1.3. Source Code Style Guide & Conventions
+Con el fin de asegurar un código limpio, mantenible y coherente entre todos los miembros del equipo, se han adoptado las siguientes convenciones de estilo y nomenclatura. Todas las variables, funciones, clases, archivos y elementos seguirán una **nomenclatura en inglés**.
+
+**Nomeclantura General**
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS / Tailwind CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se prioriza el uso de **Tailwind CSS** sobre CSS puro para la landing page.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**JavaScript**
+
+- **camelCase** para variables y funciones.
+- **PascalCase** para clases y constructores.
+- Constantes en mayúsculas con guiones bajos (`MAX_RETRIES`).
+- Usar `const` y `let`; evitar `var`.
+- Preferencia por funciones puras y modularización.
+- Comentarios en inglés usando `//` y `/** ... */` para funciones complejas.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
+
+
 
 ### 5.1.4. Software Deployment Configuration.
+En esta sección, detallaremos todos los procesos necesarios para desplegar efectivamente nuestra landing page.
+Explicaremos cada proceso con detalle.
+
+**Despliegue de la Landing Page** <br>
+Para el despliegue tuvimos que cumplir requisitos previos como tener una cuenta vinculada entre GitHub y Netlify. Además, debemos tener un repositorio de Github donde los archivos deben estar bien organizados.
+
+
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   ![Screenshot 1 del Deployment](./assets/screenshots/web-deployment-1.png)
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   ![Screenshot 2 del Deployment](./assets/screenshots/web-deployment-2.png)
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   ![Screenshot 3 del Deployment](./assets/screenshots/web-deployment-3.png)
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   ![Screenshot 4 del Deployment](./assets/screenshots/web-deployment-4.png)
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   ![Screenshot 5 del Deployment](./assets/screenshots/web-deployment-5.png)
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-smartedu".
+   ![Screenshot 6 del Deployment](./assets/screenshots/web-deployment-6.png)
+
+7. **Esperar el deploy**<br>
+   Aquí esperamos a que se termine de desplegar.
+   ![Screenshot 7 del Deployment](./assets/screenshots/web-deployment-7.png)
+
+8. **Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   ![Screenshot 8 del Deployment](./assets/screenshots/web-deployment-8.png)
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://demy-smartedu.netlify.app/)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
+A continuación se presentará el sprint planning para esta primera entrega, donde definimos que trabajo se va a realizar para el próximo sprint y cómo se va a lograr.
 
-#### 5.2.1.2. Sprint Backlog 1
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning Background           |                                                                                                                                                                                                                                                                                                                                                       |
+| Date                                 | 2025/04/19                                                                                                                                                                                                                                                                                                                                            |
+| Time                                 | 2:00                                                                                                                                                                                                                                                                                                                                                  | 
+| Location                             | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                               |
+| Prepared By                          | Salim Ramirez                                                                                                                                                                                                                                                                                                                                         |
+| Attendees <br>( to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca y Diego Vilca                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 1 Goal                        | Nuestro enfoque está en presentar una landing page que muestre todas las funcionalidades y características de Demy a los visitantes <br>Creemos que esto generará una sólida primera impresión sobre qué es Demy para nuestros segmentos objetivo. <br> Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones |
+| Sprint 1 Velocity                    | 18                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of story points                  | 18                                                                                                                                                                                                                                                                                                                                                    |
+                                                                                                                                                                                                                                                                                                                                         
+#### 5.2.1.2. Aspect Leaders and Collaborators
+Ahora presentaremos nuestro LACX(Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.<br>
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page.
 
+| Team Member <br>  Last Name, First Name | GitHub Username | Hero Section <br> Leader (L) / <br> Collaborator (C) | About-Product<br> Leader (L) / <br> Collaborator (C | Benefits<br> Leader (L) / <br> Collaborator (C | Testimonials <br> Leader (L) / <br> Collaborator (C | About Us<br> Leader (L) / <br> Collaborator (C | Planes y precios<br> Leader (L) / <br> Collaborator (C | FAQs<br> Leader (L) / <br> Collaborator (C | Contacto<br> Leader (L) / <br> Collaborator (C | Footer<br> Leader (L) / <br> Collaborator (C |
+|-----------------------------------------|-----------------|------------------------------------------------------|-----------------------------------------------------|------------------------------------------------|-----------------------------------------------------|------------------------------------------------|--------------------------------------------------------|--------------------------------------------|------------------------------------------------|----------------------------------------------|
+| Crispin Daniel                          | danielcr04      | C                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | L                                              | L                                            |  
+| Dominguez Rafael                        | Radv2005        | C                                                    | C                                                   | C                                              | L                                                   | L                                              | C                                                      | C                                          | C                                              | C                                            | 
+| Ramirez Salim                           | salimramirez    | L                                                    | C                                                   | C                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
+| Sulca Paúl                              | Kyrubi          | C                                                    | C                                                   | C                                              | C                                                   | C                                              | L                                                      | L                                          | C                                              | C                                            | 
+| Vilca Diego                             | diesoks         | C                                                    | L                                                   | L                                              | C                                                   | C                                              | C                                                      | C                                          | C                                              | C                                            | 
+
+#### 5.2.1.3. Sprint Backlog 1
+El primer sprint estuvo dedicado exclusivamente al desarrollo de la landing page, con el objetivo de que nuestros segmentos puedan conocer más sobre Demy.<br>
+El objetivo principal de este sprint fue implementar la landing page en su totalidad.
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura de Trello App Web](./assets/screenshots/screenshot-trello-sprint1.png)
+Link del Trello: https://trello.com/invite/b/67ef09844184355864d6fec0/ATTIeaa860395a4f548aa20eb7bbf0bdb949AB2EADEF/apps-web
+
+| Sprint #   |                                                                  | Sprint 1       |                                       |                                                                                                                                     |                   |             |                                                                             |
+|------------|------------------------------------------------------------------|----------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------------|-----------------------------------------------------------------------------|
+| User Story |                                                                  | Work-Item/Task |                                       |                                                                                                                                     |                   |             |                                                                             |
+| Id         | Title                                                            | Id             | Title                                 | Description                                                                                                                         | Estimation(Hours) | Assigned To | Status<br> (To do/ <br> In- <br> Process / <br> To- <br> Review / <br> Done |
+| LPS01      | Ver Hero section                                                 | LPS01a         | Maquetar Hero section                 | Diseñar y maquetar la estructura base del Hero <br> (título,  subtítulo, descripción , CTA) <br>con estilos del layout              | 3                 | Salim       | Done                                                                        |
+| LPS01      | Ver Hero section                                                 | LPS01b         | Aplicar contenido y responsive        | Agregar textos definitivos, aplicar estilos<br> visuales y asegurar que sea responsivo <br> en diferentes dispositivos              | 2                 | Salim       | Done                                                                        |
+| LPS02      | Ver sección About the product                                    | LPS02a         | Estructura head del about the product | Agregar el subtítulo, título, y descripción <br> del about the product                                                              | 1                 | Diego       | Done                                                                        | 
+| LPS02      | Ver sección About the product                                    | LPS02b         | Características del about the product | Agregar 4 características de Demy con <br> un ícono representativo y que sea responsivo                                             | 3                 | Diego       | Done                                                                        |
+| LPS03      | Ver sección de beneficios<br> y características                  | LPS03a         | Maquetar Beneficios                   | Agregar el título, subtítulo y descripción de <br>los beneficios y asegurar que sea responsivo                                      | 1                 | Diego       | Done                                                                        |
+| LPS03      | Ver sección de beneficios<br> y características                  | LPS03b         | Agregar los beneficios y imagen       | Agregar 3 beneficios con su título, descripción<br> e ícono y una imagen a la derecha representativa <br> y que todo sea responsivo | 3                 | Diego       | Done                                                                        |
+| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04a         | Diseño de testimonios                 | Agregar el título  y maquetar Cards de <br> testimonios con nombre, foto, descripción y ocupación                                   | 2                 | Rafael      | Done                                                                        |
+| LPS04      | Ver testimonios de usuarios <br> reales                          | LPS04b         | Mejora visual de testimonios          | Agregar puntuación de estrellas e imágenes<br> de cada  testimonio y asegurar que sea responsivo                                    | 3                 | Rafael      | Done                                                                        | 
+| LPS05      | Ver sección About us                                             | LPS05a         | Maquetar About Aus                    | Agregar el título, subtítulo, descripción e <br> imágenes del equipo                                                                | 2                 | Rafael      | Done                                                                        |
+| LPS05      | Ver sección About us                                             | LPS05b         | Estilizar y alinear                   | Aplicar la guía de estilos, alinear las imágenes y asegurar que sea responsivo                                                      | 1                 | Rafael      | Done                                                                        | 
+| LPS06      | Consultar planes y precios                                       | LPS06a         | Head de los planes                    | Agregar el título, subtítulo y descripción general <br> de los planes que ofrece Demy                                               | 1                 | Paul        | Done                                                                        |
+| LPS06      | Consultar planes y precios                                       | LPS06b         | Crear pricing cards                   | Agregar 3 cards para cada plan que ofrece Demy <br> y asegurar que sea responsivo                                                   | 3                 | Paul        | Done                                                                        |
+| LPS07      | Acceder a la sección de <br> contacto                            | LPS07a         | Formulario de contacto                | Agregar el título, subtítulo y inputs de<br> Name, Email, Phone y Message con el button <br> comienza hoy                           | 3                 | Daniel      | Done                                                                        |
+| LPS07      | Acceder a la sección de <br> contacto                            | LPS07b         | Mejora visual                         | Agregar un imagen a la derecha, aplicar la guía <br> de estilos al formulario y asegurar que sea responsivo                         | 2                 | Daniel      | Done                                                                        | 
+| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08a         | Diseñar FAQs                          | Agregar el título, subtítulo y maquetar listas <br> de preguntas frecuentes <br> con  comportamiento de expansión                   | 3                 | Paul        | Done                                                                        |
+| LPS08      | Consultar preguntas <br> frecuentes                              | LPS08b         | Optimización responsive               | Ajustar comportamiento y animación para<br> diferentes tamaños de pantalla                                                          | 1                 | Paul        | Done                                                                        | 
+| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09a         | Estructura del footer                 | Agregar el logo de Demy y una navegación <br> secundaria con los enlaces de cada sección anterior                                   | 2                 | Daniel      | Done                                                                        | 
+| LPS09      | Ver sección Footer <br> con enlaces útiles                       | LPS09b         | Agregar redes sociales y responsive   | Agregar íconos de las redes sociales, <br> derechos reservados de Demy y asegurar que  <br>sea responsivo                           | 1                 | Daniel      | Done                                                                        |
+| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10a         | Configurar sistema i18n               | Implementar soporte multilenguaje con <br> archivos JSON y función de cambio                                                        | 3                 | Salim       | Done                                                                        | 
+| LPS10      | Ver sitio en varios <br> idiomas <br> ( internacionalización)    | LPS10b         | Aplicar traducciones                  | Implementar las traducciones  de cada sección de <br> la landing page  en el formato JSON                                           | 1                 | Todos       | Done                                                                        |
 
 #### 5.2.1.3. Development Evidence for Sprint Review
+Con el sprint 1 se avanzó con la creación del landing page para Demy, que incluyo estas secciones: testimonials, pricing, landing-setup, hero-setup, hero-section, footer, faq, contact, benefits, about-us y about-product.
 
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+| Repository                                              | Branch        | Commit ID                          | Commit Message                                                                         | Commit Body | Committed On |
+|---------------------------------------------------------|---------------|------------------------------------|----------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | landing-setup | 5a2ee1bbfcc3f69d5f356beac8cc236555cd4d97 | feat: initialize landing page structure                                                | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 9c44dc3a12a54e4941b9f3ef10a6fa586f06d543 | feat: add hero section with i18n and layout structure                                  | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | fd91bc89e114bf54989f4f38cbac3301dc1c16f0 | feat: add responsive navbar with i18n support and custom styles                        | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hero-section  | 61ef07b40223ba87514f42d83fe662aa66e0d588 | Merge pull request #1 from upc-pre-202501-1asi0730-4364-smartedu/feature/landing-setup | —           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | footer        | b46562380a03aaf9f5c9fec458429be79984452f | feat: add footer section to landing page                                               | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | faq           | dc2dfb7eb9aa9fb932c3badc7cefedf1cb9611e8 | feat: add faq section to landing page                                                  | —           | 20/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | contact       | 46fe3d668f22deaf3e173fcdc1c72a168c5b6ea7 | feat: add contact section to landing page                                              | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | 38292e34eddd5b3e1a5e5a1e85df146bc5572170 | fix: text of description1                                                              | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | benefits      | ddd4655d93a19765abbb60deb2cce6aff2623f92 | feat: add section benefits with i18n                                                   | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 15b9d86e70096fe4c91a51281a4b76e274d510f5 | fix: about-us titles                                                                   | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 595f8b4e20ad8784cde5a2ce77775d5727447b4a | fix: about-us and images                                                               | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-us      | 332c8746a75f599ad218eb2fceac9192b75db0b6 | feat: add about us section to landing page                                             | —           | 22/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | about-product | 5f28a5099fa38f4d365f0379895250be2eb09e7a | feat: add section about-product with i18n                                              | —           | 23/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | testiominals  | 71ac258bb28a0aa96c0456c702d2ffa6b2aaeb51 | feat: add testimonial section to landing page                                          | —           | 21/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | pricing       | 721b70cd2209084af90f626a86873f55fd6af493 | feat: add pricing section to landing page                                              | —           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | ad5396ae1083080036733d5f0e2deab2149db48d | merge: integrate feature/hero-section into develop                                     | -           | 19/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5fa6f5db79bf9cd5cbb5b61a5bbc085f7711c60c | merge: integrate feature/landing-setup into develop                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | c7e0a202b76410d74f3f63c0a172ba4ba1835869 | feat: add favicon and related icons using relative paths in head                       | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 222bb02094067c46daf9b96be100037fc98ab650 | feat: add SEO and meta tags to head                                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 708b7500ba08650ab3271e1c4bdca605b498c8c5 | merge: integrate feature/pricing into develop                                          | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 40523a7d3ac396c29d490b8910afed64a8aee0ea | merge: integrate feature/faq into develop                                              | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 58c946a7c3bd74284e7cb897aef6920a90c611d7 | merge: integrate feature/contact into develop                                          | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 3e30addcc522d153c0451c19ec99e9c63e2c052c | merge: integrate feature/footer into develop                                           | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | 5e0a93812dda23408552c763b3a04f5bc8aae10d | merge: integrate feature/benefits into develop                                         | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | bac7b1576abfc39da8c790d0603a90434407e336 | merge: integrate feature/about-product into develop                                    | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f3ace2358c46d7707d2403a40473b75e94f929a3 | merge: integrate feature/testimonials into develop                                     | -           | 24/04/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | develop       | f239f39a18c10bd85469d8038b14f3457fcc6a95 | merge: integrate feature/about-us into develop                                         | -           | 24/04/2025   |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y despliegue del landing page, la cual muestra las diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del startup. A continuación, se muestran algunas evidencias:
 
+1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy y un botón para comenzar a usarlo.
+![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
+2. **About the Product**: En esta sección se mostrarán las funcionalidades que tendrá Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/about_the_product.png)
+3. **Benefits**: En esta sección se describirán los beneficios que ofrece Demy frente a la competencia.
+![imagesExecutionEvidence](./assets/images/LandingPage/benefits.png)
+4. **Testimonials**: En esta sección se mostrarán algunos testimonios de nuestros clientes.
+![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
+5. **About Us**: En esta sección se verán los integrantes que conforman Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
+6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy y los beneficios de cada uno de estos.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
 
+7. **Contact**: En esta sección el usuario podrá ingresar sus datos para contactarse con los miembros de Demy.
+![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
+
+8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y sus respectivas respuestas.
+![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
+9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
+![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
+
+Link de video de presentacion sobre el Landing Page [VideoPresentacion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En este primer sprint no se contempló la evidencia de documentación de servicios.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Para esta entrega del sprint 1, se desplego nuestro landing page parcialmente completo.
 
+1. **Hero Section**: En esta sección el usuario podrá visualizar una breve descripción de Demy con texto que invite a usar la pagina y pueda ingresar a registrarse
+   ![imagesExecutionEvidence](./assets/images/LandingPage/Hero_Section.png)
+2. **About the Product**: En esta sección se mostrarán las funcionalidades que tendrá Demy en cada recuadro de la pagina.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/about_the_product.png)
+3. **Benefits**: En esta sección se describirán los beneficios que ofrece Demy frente a la competencia y como es mejor que usar herramientas antiguas como tablas de excel.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/benefits.png)
+4. **Testimonials**: En esta sección se mostrarán el testimonio de 3 usuarios y su calificacion.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/testimonials.png)
+5. **About Us**: En esta sección se verán los 5 integrantes que conforman Demy los nombres y quien es el team lider.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/about-us.png)
+
+6. **Plans & Pricing**: En esta sección se mostrarán los 3 planes que ofrecemos como Demy, los beneficios de cada uno de estos y el precio que tendra.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/plans&pricing.png)
+
+7. **Contact**: En esta sección el usuario podrá contactarse con los miembros de Demy rellenando sus datos y enviando un mensaje.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/contact.png)
+
+8. **FAQs**: En esta sección se mostrarán las preguntas frecuentes sobre Demy y abrir una seccion con las respuestas a las preguntas.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/faqs.png)
+9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
+   ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
+
+Nuestro github del Landing page
+![imagesExecutionEvidence](./assets/images/LandingPage/git_aplicaciones_web.png)
+
+Enlace para acceder al landing page: [Pagina](https://demy-smartedu.netlify.app/)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+| Alumno                             |  Actividad                              | 
+|------------------------------------|-----------------------------------------|
+| Crispin Ramos, Daniel Franco       | contacts, footer                        |
+| Dominguez Vargas, Rafael Alexander | testimonial, about-us                   |
+| Ramirez Mestanza, Salim Ignacio    | landing-setup, Hero Section,navbar,i18n | 
+| Sulca Gonzales, Paúl Fernando      | plans & pricing,FAQs                    | 
+| Vilca Saboya, Diego Alejandro      | about-the-product,Benefits              |
+
+![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_commits.png)
+![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_contributors.png)
+
 
 # Conclusiones
 
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
 ## Conclusiones y Recomendaciones
 
-## Video About-the-Team
+### Conclusiones
+
+El equipo concluyó que las academias presenciales enfrentan serias limitaciones en su gestión administrativa diaria debido al uso de herramientas no integradas, como hojas de cálculo y documentos físicos.
+Nuestro producto busca abordar estas ineficiencias mediante funcionalidades como la automatización de matrículas, control de asistencia y pagos, así como la centralización de horarios y comunicación.
+Aunque aún no se ha realizado la validación con usuarios reales, el desarrollo de la Landing Page permite comunicar efectivamente el valor de la solución, siendo un primer paso clave para atraer y educar al segmento objetivo.
+
+Las hipótesis se consideran parcialmente validadas: se identificó un fuerte interés por una plataforma centralizada, con alertas y accesibilidad desde múltiples dispositivos, lo cual respalda funcionalidades como recordatorios de pago y visualización de horarios.
+Sin embargo, aún no se ha contrastado el comportamiento real de adopción o retención por parte de los usuarios, ya que la Web Application y la API aún no se han implementado.
+A pesar de ello, los entregables desarrollados hasta el momento están enfocados en facilitar la experiencia del usuario, así como la accesibilidad e internacionalización, y aportar claridad al modelo de negocio.
+
+Se recomienda priorizar en el siguiente sprint el desarrollo de la Web Application con las funcionalidades esenciales para usuarios administrativos y docentes, como la gestión de asistencia, matrícula y pagos.
+Asimismo, se sugiere integrar la arquitectura backend junto a la API RESTful para garantizar la escalabilidad de la solución.
+
+### Recomendaciones
+
+Es crucial preparar los escenarios de validación con usuarios reales a fin de ajustar la experiencia, identificar puntos de fricción y validar hipótesis críticas como la aceptación del sistema por parte de personal con poca experiencia tecnológica.
+
+Además, se recomienda mantener la coherencia visual y de navegación entre la Landing Page y la Web Application, e implementar métricas desde el inicio para medir adopción, retención y efectividad en la automatización de tareas administrativas.
+Estas acciones permitirán optimizar el roadmap del producto y acercarse de manera sostenida a los objetivos de negocio establecidos.
+
+Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
+Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
 # Bibliografía
 
 # Anexos
+
+Enlace de los videos de las entrevistas para needfinding: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20201e843_upc_edu_pe/EhwhfGx_OFdBu7-XPK4vTsgBhmUXGhotfgopq1ffVoEavQ?e=RJFMih)
+
+Enlace del video de exposición TB1:
+
+Enlace del repositorio en Github: [Ver en Github](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)
+
+Enlace a la landing page: [Abrir en el navegador](https://demy-smartedu.netlify.app/)
