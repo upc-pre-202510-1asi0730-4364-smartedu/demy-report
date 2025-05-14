@@ -1491,9 +1491,35 @@ Pantalla donde el profesor visualiza sus aulas y horarios asignados.
 Pantalla donde el profesor ve el horario específico de cada aula en la que enseña.  
 ![Wireframe-18](assets/images/wireframes-appweb/mobile/horarios-profesor.png)
 
-**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**  
+**Panel de Control: Asistencia e Historial de Alumnos (Profesor)**
 Pantalla para marcar asistencia de estudiantes y consultar sus registros anteriores.  
 ![Wireframe-19](assets/images/wireframes-appweb/mobile/asistencia-profesor.png)
+
+**Mi organización: Bandeja de entrada (Administrador):**
+Pantalla que muestra la bandeja de notificaciones 
+
+![Wireframe-20](assets/images/wireframes-appweb/mobile/bandeja-notificaciones.png)
+
+**Mi organización: Alumnos(Administrador):**
+Pantalla que muestra un error al registrar un alumno
+
+![Wireframe-21](assets/images/wireframes-appweb/mobile/error-datos-alumno.png)
+
+**Mi organización: Alumnos(Administrador):**
+Pantalla que muestra el error señalado en el campo de datos del alumno 
+
+![Wireframe-22](assets/images/wireframes-appweb/mobile/error-señalado-alumno.png)
+
+**Mi organización: Matrícula(Administrador):**
+Pantalla que muestra un error al registrar una matrícula
+
+![Wireframe-23](assets/images/wireframes-appweb/mobile/error-datos-matrícula.png)
+
+**Mi organización: Matrícula(Administrador):*
+Pantalla que muestra el error señalado en el campo de datos de la matrícula
+
+![Wireframe-24](assets/images/wireframes-appweb/mobile/error-señalado-matrícula.png)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -1768,6 +1794,33 @@ En la siguiente imagen se muestra la pestaña del panel de Finanzas, donde el ad
 En la siguiente imagen se muestra la pestaña del panel de Reportes de Finanzas, donde el administrador podrá observar el reporte general de las finanzas y aplicar filtros para generar un reporte más detallado.<br>
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/2Finanzas_Reporte.png)  
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/3Finanzas_Reporte_Filtros.png)
+
+
+**Mi organización - Bandeja de notificaciones**
+En la siguiente imagen se muestra la ventana de bandeja de notificaciones
+
+![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/9Notificaciones/mobil-bandeja-notis.png)
+
+**Panel de control - Alumnos**
+En la siguiente imagen se muestra una ventana de error al registrar un alumno
+
+![imagesFlowDiagrams](/assets/images/Muck_ups/Movil_Web_Browser/ADMIN/4Alumnos/mobile-error-alumno.png)
+
+**Panel de control - Alumnos**
+En la siguiente imagen se señala el error en un campo de dato del alumno
+
+![imagesFlowDiagrams](/assets/images/Muck_ups/Movil_Web_Browser/ADMIN/4Alumnos/mobile-error-señalado-alumnos.png)
+
+**Panel de control - Matrícula**
+En la siguiente imagen se muestra una ventana de error al registrar una matrícula
+
+![imagesFlowDiagrams](/assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/mobile-error-matricula.png)
+
+**Panel de control - Matrícula**
+En la siguiente imagen se señala el error en un campo de dato de la matrícula
+
+![imagesFlowDiagrams](/assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/mobile-error-seañalado-matricula.png)
+
 
 #### **Mock-ups que tiene como usuario al profesor de la academia**
 
