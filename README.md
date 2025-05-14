@@ -91,24 +91,46 @@ Las principales ramas del repositorio son las siguientes:
 
 - **main:** Rama principal que contiene la versión estable y consolidada del documento.
 - **develop:** Rama de integración utilizada para fusionar los cambios realizados en las ramas de características.
-- **feature/sprint1-daniel:** Rama utilizada por Daniel para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-diego:** Rama utilizada por Diego para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-paul:** Rama utilizada por Paul para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-rafael:** Rama utilizada por Rafael para el desarrollo de las tareas correspondientes al Sprint 1.
-- **feature/sprint1-salim:** Rama utilizada por Salim para el desarrollo de las tareas correspondientes al Sprint 1.
-- **release/1.0.0:** Rama creada para preparar versiones candidatas al reporte final, siguiendo *Semantic Versioning 2.0.0*. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
+- **feature/sprintX-daniel:** Rama utilizada por Daniel para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-diego:** Rama utilizada por Diego para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-paul:** Rama utilizada por Paul para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-rafael:** Rama utilizada por Rafael para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **feature/sprintX-salim:** Rama utilizada por Salim para el desarrollo de las tareas correspondientes a un determinado sprint.
+- **release/vX.X.X:** Rama creada para preparar versiones candidatas al reporte final, siguiendo *Semantic Versioning 2.0.0*. En esta rama se realizan ajustes finales como correcciones menores y revisiones antes de integrarla a `main`.
 - **hotfix/urgent-fix:** Rama utilizada para aplicar correcciones críticas directamente sobre `main`, asegurando la estabilidad de la versión publicada.
+
+**TB1**
+
+*Github network graph TB1:*
 
 ![Insights - Network Graph](./assets/images/insights-network-graph.png)
 
 A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
 Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
 
+*Github contributors TB1:*
+
 ![Insights - Contributors](./assets/images/insights-contributors.png)
 
 El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
 
+*Github commits TB1:*
+
 ![Insights - Commits](./assets/images/insights-commits.png)
+
+**TP**
+
+*Github network graph TP:*
+
+![Insights - Network Graph](./assets/images/insights-network-graph-tp.png)
+
+*Github insights contributors TP:*
+
+![Insights - Contributors](./assets/images/insights-contributors-tp.png)
+
+*Github commits TP:*
+
+![Insights - Commits](./assets/images/insights-commits-tp.png)
 
 # Contenido
 
