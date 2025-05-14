@@ -2866,6 +2866,105 @@ Enlace para acceder al landing page: https://demy-smartedu.netlify.app/
 ![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_commits.png)
 ![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_contributors.png)
 
+### 5.2.2. Sprint 2
+
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el sprint 2 se alcanzó un desarrollo parcial del frontend y backend de la web application. La cuela muestra nuestras vistas relevantes acerca del producto
+
+- US05: Registrarse como usuario en la plataforma <br>
+  ![imagesExecutionEvidence01](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US05.png)
+
+- US07: Consultar historial de matrículas por estudiante <br>
+  ![imagesExecutionEvidence02](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US07.png)
+
+
+- US18: Generar reporte financiero mensual
+  ![imagesExecutionEvidence07](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US18.png)
+
+
+- US19: Crear materias por periodo de estudio
+  ![imagesExecutionEvidence08](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US19.png)
+
+
+- US20: Asignar horarios
+  ![imagesExecutionEvidence09](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US20.png)
+
+
+
+- US27: Agregar profesores
+  ![imagesExecutionEvidence11](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US27.png)
+
+
+- US28: Agregar Aula
+  ![imagesExecutionEvidence12](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Open_Source/US28.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/Ea7gFctr63VAvRvFOkxpftoBv0Ml-ZnjM6NFgTr4TnPgxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nswcrP)
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+Los pasos para la connexion del netlify con el github.
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_1.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_2.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_3.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_4.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_5.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_6.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_7.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/netlify_8.jpg)
+
+
+
+Capturas de pantalla del Web Applications
+1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/login.png)
+
+2. SignUp: Vista donde el usuario registra las credenciales que desee tener en la pagina.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/sign-up.png)
+
+3. select-plan: Vista donde están los planes de Demy a escoger
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/select-plan.png)
+
+4. Organization: Vista donde están las funcionalidades de demy
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/organization.png)
+
+5. Organization/Courses: Vista donde se puede agregar, editar o eliminar un Cursos.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/organization-course.png)
+
+6. Organization/Periods: Vista donde se puede agregar, editar o eliminar un Periodo.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/organization-periods.png)
+
+7. Organization/Rooms: Vista donde se puede agregar, editar o eliminar una Clase.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/organization-rooms.png)
+
+8. Organization/Teacher: Vista donde se puede agregar, editar o eliminar un Profesor.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/organization-teacher.png)
+
+9. Matrícula: Vista donde se puede registrar una matrícula, luego de ingresar el nombre del estudiante, el periodo academico, la fecha de la matrícula, el monto, el estado de la matrícula y el estado de pago.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/enrollment-management.png)
+
+10. Alumnos: Vista donde se puede agregar un nuevo estudiante por medio del dni, su nombre, apellido, sexo, fecha, direccion y telefono.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/student.png)
+
+11. Pagos: Vista donde se podra buscar a un alumno por su dni y se mostrara los pagos realizados.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/payments.png)
+
+12. Horarios: Vista donde se podra buscar un horario por medio de un periodo, al momento de buscar por periodo se mostara una tabla con el horario asignado.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/search-weekly.png)
+
+13. Asistencia: Vista donde se podra marcar la asistencia de los estudiantes dependiendo de la fecha y la clase ingresada.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/attendance.png)
+
+14. Finanzas: Vista donde se podra registrar un egreso en el sistema, dependiendo de la categoria, el monto, el concepto y la fecha ingresada.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Open_Source/finance.png)
+
+
+
 # Conclusiones
 
 En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
