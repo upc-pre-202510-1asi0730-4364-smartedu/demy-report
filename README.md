@@ -2918,7 +2918,7 @@ Los pasos para la connexion del netlify con el github.
 
 ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_9.jpg)
 
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_10.jpg)
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_11.jpg)
 
 
 Capturas de pantalla del Web Applications
