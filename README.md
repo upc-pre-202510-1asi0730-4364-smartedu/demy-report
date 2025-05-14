@@ -45,7 +45,7 @@
 | 5.0     | 23/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se completó el Capítulo IV: Product Design, incluyendo arquitectura de componentes, estructura visual y navegación.          |
 | 5.1     | 25/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se desarrolló la sección de Software Configuration Management. Se añadió la planificación del Sprint 1.                      |
 | 6.0     | 25/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se completó el Capítulo V: Product Implementation, incluyendo evidencias de avance en el desarrollo de la Landing Page.      |
-| 6.1     | 02/04/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se corrigió errores ortográficos, tablas y detalles de otros artefactos                                                      |
+| 6.1     | 02/05/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se corrigió errores ortográficos, tablas y detalles de otros artefactos                                                      |
 | 7.0     | 14/05/25   | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca     | Se agrego toda la sección del Sprint 2 y se levanto observaciones de la TB1 anterior                                         |
 
 # Project Report Collaboration Insights
