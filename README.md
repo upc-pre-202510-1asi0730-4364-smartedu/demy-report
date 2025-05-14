@@ -1988,12 +1988,20 @@ Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asi
 
 ## 4.5. Web Applications Prototyping
 
-Esta sección tiene como objetivo describir los posibles flujos de usuario (User Flows) que se han diseñado para la aplicación web tanto en versión de escritorio como en dispositivos móviles. A través de prototipos interactivos, se pretende ilustrar los caminos de interacción del usuario, mostrando cómo los diferentes tipos de usuarios (profesor, administrativo) navegan por la plataforma para realizar sus actividades.
-A continuación, se incluyen los enlaces a los videos explicativos que detallan los flujos de usuario correspondientes:
+Esta sección tiene como objetivo describir los posibles flujos de usuario diseñados para la aplicación web, tanto en su versión de escritorio como en dispositivos móviles. Mediante el uso de prototipos interactivos, se ilustra la navegación y las rutas que siguen los diferentes tipos de usuarios al interactuar con la plataforma para cumplir sus respectivas tareas.
 
-Enlace para ver la explicación del prototipado de la aplicación web en versión de escritorio y versión móvil. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b
+A continuación, se presentan los enlaces al video explicativo y a los prototipos interactivos:
 
-Enlace para acceder al Flujo en figma https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1
+- **Video - Web Applications Prototyping**  
+  Explicación en video de los flujos de usuario en la aplicación web (desktop y mobile):  
+  [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b)
+
+- **Prototype Desktop**  
+  [Ver prototipo en Figma](https://www.figma.com/proto/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=2-5914&t=0TiBqa9fHgytAp1n-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A13470&show-proto-sidebar=1)
+
+- **Prototype Mobile**  
+  [Ver prototipo en Figma](https://www.figma.com/proto/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=2-6623&t=RmBjbv7xDjcHej7j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A13470&show-proto-sidebar=1)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
