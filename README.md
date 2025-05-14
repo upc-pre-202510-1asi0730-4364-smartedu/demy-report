@@ -61,6 +61,17 @@ Enlace para acceder al repositorio para el reporte del proyecto: https://github.
 | Sulca Gonzales, Paúl Fernando      | - Antecedentes y problemática<br>- As-is Scenario Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- Product Backlog<br>- Labeling Systems<br>- Landing Page Mock-up<br>- Web Applications Wireframes<br>- Web Applications Prototyping<br>- Software Architecture Context Diagram<br>- Software Architecture Container Diagrams<br>- Software Architecture Container Diagrams<br>- Software Architecture Components Diagrams<br>- Database Diagram<br>- Landing Page (Planes y precios + preguntas frecuentes) |
 | Vilca Saboya, Diego Alejandro      | - Carátula<br>- Tabla de contenidos<br>- Student outcome<br>- Análisis competitivo y estrategias<br>- User Journey Mapping<br>- Diseño, ejecución y análisis de una entrevista<br>- User Stories<br>- Web Style Guidelines<br>- Navigation Systems<br>- Web Applications Mock-ups<br>- Landing Page (About the product + Beneficios y características)<br>- Style Guide & Conventions<br>- Deployment Configuration<br>- Sprint Planning<br>- Aspect Leaders and Collaborators<br>- Sprint Backlog                            |
 
+**TP**
+<br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
+
+| Integrantes                        | Tarea Asignada                                                                                                                                                              |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crispin Ramos, Daniel Franco       | - Scheduling context<br>- Creación de entidades de scheduling<br>- Creación de servicios de scheduling<br>- Ubiquitous Language<br>- Development Evidence for Sprint Review |
+| Dominguez Vargas, Rafael Alexander | - IAM Context<br>- Creación de entidades de IAM<br>- Creación de servicios de IAM<br>- Execution and Deployment Evidence for Sprint Review                                  |
+| Ramirez Mestanza, Salim Ignacio    | - Billing context<br>- Creación de entidades de Billing (4 partes)<br>- Creación de servicios de billing<br>- Sprint Planning & Aspect Leaders and Collaborators            |
+| Sulca Gonzales, Paúl Fernando      | - Enrollment Context<br>- Creación de entidades de Enrollment<br>- Creación de servicios de enrollment<br>- Development Evidence for Sprint Review                          |
+| Vilca Saboya, Diego Alejandro      | - Attendance Context<br>- Creación de entidades de Attendance<br>- Creación de servicios de attendance<br>- Sprint Backlog 2 & Services Documentation for Sprint Review     |
+
 **GitHub Collaboration Insights**
 
 En GitHub se presenta un timeline de las principales ramas creadas por cada integrante del equipo, así como los procesos de *merge* realizados.  
