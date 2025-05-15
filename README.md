@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h4 style="text-align: center;"> Informe del TB1 </h4>
+<h4 style="text-align: center;"> Informe del Trabajo Parcial </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
