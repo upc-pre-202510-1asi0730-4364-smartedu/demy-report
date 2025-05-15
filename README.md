@@ -956,10 +956,10 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 | US10            | Visualizar resumen de estudiantes matriculados por periodo                             | Como administrativo,<br>quiero visualizar un resumen de los estudiantes matriculados por periodo,<br>para tener una visión clara del número de alumnos por ciclo académico.                            | **Scenario 1: Visualización exitosa**<br>Given que el coordinador selecciona un periodo<br>When consulta el resumen<br>Then el sistema muestra nombres, cursos, estados y total de matriculados<br><br>**Scenario 2: Filtrado por estado**<br>Given que se aplica un filtro (activa, cancelada)<br>When se consulta el resumen<br>Then se muestran solo los estudiantes con ese estado<br><br>**Scenario 3: Detalle individual del estudiante**<br>Given que se hace clic en un nombre del listado<br>When se accede a los detalles<br>Then se muestra información completa de esa matrícula                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | EP02                                                                                                                                 |
 | US11            | Registrar asistencia de estudiantes por clase                                          | Como profesor,<br>quiero poder registrar la asistencia de los estudiantes,<br>para tener un registro de los estudiantes que faltaron y los que asistieron.                                             | **Scenario 1: Registro de asistencia exitoso**<br>Given que el usuario ha accedido al módulo de asistencia<br>When selecciona una clase y marca un estudiante como presente o ausente<br>Then el sistema registra correctamente la asistencia del estudiante<br><br>**Scenario 2: Registro sin selección de estudiante**<br>Given que el usuario abre el módulo de asistencia<br>When no selecciona ningún estudiante<br>Then el sistema no permite guardar la asistencia y muestra un mensaje de advertencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP03                                                                                                                                 |
 | US12            | Consultar asistencia de un estudiante en un periodo                                    | Como usuario,<br>quiero consultar la asistencia de un estudiante en el periodo escogido,<br>para observar su desempeño en los cursos.                                                                  | **Scenario 1: Consulta exitosa de asistencia**<br>Given que el usuario accede a la sección de estudiantes<br>When selecciona un estudiante y un periodo determinado<br>Then el sistema muestra las fechas y estados de asistencia (presente/ausente)<br><br>**Scenario 2: Estudiante sin registros en el periodo**<br>Given que el usuario consulta un periodo sin datos<br>When el sistema busca asistencia<br>Then muestra mensaje indicando que no hay registros para ese periodo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP03                                                                                                                                 |
-| US13            | Enviar alertas sobre inasistencias                                                     | Como usuario,<br>quiero enviar alertas sobre inasistencias,<br>para informar a los demás usuarios sobre la cantidad de inasistencias que está cometiendo un alumno.                                    | **Scenario 1: Envío exitoso de alerta de inasistencia**<br>Given que la función de alerta está habilitada<br>When el usuario selecciona un estudiante con inasistencias<br>And activa la opción de alerta<br>Then el sistema registra y notifica a los usuarios responsables<br><br>**Scenario 2: Intento de alerta sin selección de alumno**<br>Given que el usuario accede al módulo de alertas<br>When no selecciona a ningún alumno<br>Then el sistema no permite emitir una alerta y muestra advertencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP09                                                                                                                                 |
+| US13            | Enviar alertas sobre inasistencias                                                     | Como usuario,<br>quiero enviar alertas sobre inasistencias,<br>para informar a los demás usuarios sobre la cantidad de inasistencias que está cometiendo un alumno.                                    | **Scenario 1: Envío exitoso de alerta de inasistencia**<br>Given que la función de alerta está habilitada<br>When el usuario selecciona un estudiante con inasistencias<br>And activa la opción de alerta<br>Then el sistema registra y notifica a los usuarios responsables<br><br>**Scenario 2: Intento de alerta sin selección de alumno**<br>Given que el usuario accede al módulo de alertas<br>When no selecciona a ningún alumno<br>Then el sistema no permite emitir una alerta y muestra advertencia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP03                                                                                                                                 |
 | US14            | Registrar pago de un estudiante                                                        | Como administrativo,<br>quiero registrar el pago de un estudiante,<br>para llevar un control preciso de su estado financiero.                                                                          | **Scenario 1: Registrar pago de un estudiante**<br>Given el administrador está en el perfil del estudiante<br>When selecciona la opción “Registrar pago” y elige el período de pago (1 mes, 2 meses, o ciclo completo)<br>Then el sistema muestra el monto correspondiente y actualiza el estado de cuenta<br><br>**Scenario 2: Registrar pago con descuento**<br>Given el administrador ingresa un monto con descuento<br>When selecciona la opción correspondiente<br>Then el sistema calcula el monto final y lo refleja en el estado de cuenta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP04                                                                                                                                 |
 | US15            | Consultar estado de cuenta de un estudiante                                            | Como administrativo,<br>quiero consultar el estado de cuenta de un estudiante,<br>para tener visibilidad de sus pagos realizados, deudas pendientes y fechas de vencimiento.                           | **Scenario 1: Ver estado de cuenta completo**<br>Given el administrador accede al perfil del estudiante<br>When selecciona “Estado de cuenta”<br>Then el sistema muestra historial de pagos, deudas y fechas de vencimiento<br><br>**Scenario 2: Ver estado de cuenta con alerta de deuda**<br>Given que existe una deuda pendiente o vencida<br>When se visualiza el estado<br>Then el sistema muestra una alerta destacada al respecto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP04                                                                                                                                 |
-| US16            | Enviar alertas automáticas por pagos vencidos                                          | Como administrativo,<br>quiero que el sistema envíe alertas automáticas sobre el estado de los pagos,<br>para mantener informados a los apoderados y asegurar una mejor gestión financiera.            | **Scenario 1: Alerta automática por pago vencido**<br>Given que un estudiante tiene una deuda vencida<br>When se cumple la fecha límite sin pago<br>Then el sistema envía una notificación automática al apoderado (correo o WhatsApp)<br><br>**Scenario 2: Alerta de pago completado**<br>Given que el pago ha sido registrado<br>When se confirma el pago<br>Then el sistema envía una notificación de confirmación al apoderado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP09                                                                                                                                 |
+| US16            | Enviar alertas automáticas por pagos vencidos                                          | Como administrativo,<br>quiero que el sistema envíe alertas automáticas sobre el estado de los pagos,<br>para mantener informados a los apoderados y asegurar una mejor gestión financiera.            | **Scenario 1: Alerta automática por pago vencido**<br>Given que un estudiante tiene una deuda vencida<br>When se cumple la fecha límite sin pago<br>Then el sistema envía una notificación automática al apoderado (correo o WhatsApp)<br><br>**Scenario 2: Alerta de pago completado**<br>Given que el pago ha sido registrado<br>When se confirma el pago<br>Then el sistema envía una notificación de confirmación al apoderado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | EP04                                                                                                                                 |
 | US17            | Registrar egresos                                                                      | Como administrativo,<br>quiero registrar los egresos financieros del centro educativo,<br>para mantener un control actualizado de los gastos y generar reportes precisos.                              | **Scenario 1: Registrar egreso básico**<br>Given que el administrador está en el módulo financiero<br>When selecciona “Nuevo egreso” e ingresa concepto, monto y fecha<br>Then el sistema registra el egreso y actualiza el balance<br><br>**Scenario 2: Registrar egreso con categoría**<br>Given que se especifica una categoría (ej. “Pago Docentes”, “Materiales”, “Servicios”)<br>When se guarda el egreso<br>Then el sistema lo agrupa bajo esa categoría en el resumen financiero                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | EP04                                                                                                                                 |
 | US18            | Generar reporte financiero mensual                                                     | Como administrativo,<br>quiero generar reportes financieros,<br>para visualizar el estado económico del centro educativo y tomar decisiones informadas.                                                | **Scenario 1: Generar reporte mensual estándar**<br>Given que se selecciona un mes y año<br>When el administrador hace clic en “Generar reporte”<br>Then el sistema muestra ingresos, egresos y balance del mes<br><br>**Scenario 2: Reporte con filtros personalizados**<br>Given que el administrador aplica filtros (categoría, tipo de ingreso/egreso)<br>When genera el reporte<br>Then el sistema muestra la información detallada según los filtros                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP04                                                                                                                                 |
 | US19            | Crear materias por periodo de estudio                                                  | Como administrativo,<br>quiero crear materias por periodo de estudio,<br>para mantener un control claro del contenido académico en cada ciclo.                                                         | **Scenario 1: Creación de materia exitosa**<br>Given que el usuario tiene rol administrativo<br>When ingresa a su organización<br>And navega a "Periodos" > "Gestión de materias"<br>And completa los datos de una nueva materia<br>Then el sistema guarda la materia y muestra un mensaje de confirmación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP05                                                                                                                                 |
@@ -2605,12 +2605,12 @@ Los aspectos que tomamos en cuenta para este primer sprint fueron los features d
 <div style="font-size:70%;">
 
 | **Team Member** <br> Last Name, First Name | **GitHub Username** | **Hero** <br> L/C | **About** <br> L/C | **Benefits** <br> L/C | **Testimonials** <br> L/C | **About Us** <br> L/C | **Plans** <br> L/C | **FAQs** <br> L/C | **Contact** <br> L/C | **Footer** <br> L/C |
-|:------------------------------------------:|:-------------------:|:-----------------:|:-----------------:|:------------------:|:----------------------:|:-----------------:|:-----------------:|:----------------:|:----------------:|:----------------:|
-| **Crispin Daniel**                         | danielcr04           | C                 | C                 | C                  | C                      | C                 | C                 | C                | L                | L                |
-| **Dominguez Rafael**                       | Radv2005             | C                 | C                 | C                  | L                      | L                 | C                 | C                | C                | C                |
-| **Ramirez Salim**                          | salimramirez         | L                 | C                 | C                  | C                      | C                 | C                 | C                | C                | C                |
-| **Sulca Paúl**                             | Kyrubi               | C                 | C                 | C                  | C                      | C                 | L                 | L                | C                | C                |
-| **Vilca Diego**                            | diesoks              | C                 | L                 | L                  | C                      | C                 | C                 | C                | C                | C                |
+|:------------------------------------------:|:-------------------:|:-----------------:|:------------------:|:---------------------:|:-------------------------:|:---------------------:|:------------------:|:-----------------:|:--------------------:|:-------------------:|
+|               **Crispin Daniel**           |     danielcr04      |         C         |         C          |           C           |             C             |           C           |         C          |         C         |          L           |          L          |
+|            **Dominguez Rafael**            |      Radv2005       |         C         |         C          |           C           |             L             |           L           |         C          |         C         |          C           |          C          |
+|             **Ramirez Salim**              |    salimramirez     |         L         |         C          |           C           |             C             |           C           |         C          |         C         |          C           |          C          |
+|               **Sulca Paúl**               |       Kyrubi        |         C         |         C          |           C           |             C             |           C           |         L          |         L         |          C           |          C          |
+|              **Vilca Diego**               |       diesoks       |         C         |         L          |           L           |             C             |           C           |         C          |         C         |          C           |          C          |
 
 </div>
 
@@ -2896,83 +2896,6 @@ Con el sprint 1 se avanzó con la creación del landing page para Demy, que incl
 
 </div>
 
-En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Aplicaciones Web y Servicios Web. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo. 
-
-| Repository                                               | Branch                        | Commit ID                                | Commit Message                                                                                                          | Commit Body | Committed On |
-|----------------------------------------------------------|-------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------|--------------|
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | d987ce1ecaec828326af1b563f4ef141d89ca5f0 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                                                                                   | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | d9dc9a465fb175cb509c4b65597c004a7bf6d9d7 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | e6d35437054ab68378a93be1b7bd457ee2b80144 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | 8fb21360e3f3a1d6c77ea986f07881d788d87442 | fix: fixes routes in toolbar buttons                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | eb682933b87e35856cbd1dd41ff4b373e76a943a | fix: fixes routes in toolbar buttons                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page  | hotfix/fix-app-route          | 33d71df8db0becce14a97bec96cb700462ae865b | fix: route fix in log in and sign up button                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | main                          | 456a0d2892d9c0934685cc3140f8a22c81eff5e7 | fix: fix routes in public directory                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | hotfix/routes-fix             | 9ca3b4e2fe2cd85ed88cece4bfdab64e4ad02ad6 | fix: routes fixes                                                                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | release/v.1.0.0               | e9cc4b1e4037f9f827ce2914dc34d896388d8d02 | merge: integrate release/v1.0.0 into main                                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | develop                       | 444602af46c405a47a05c60123367cd697fb8cda | chore: prepare to deploy                                                                                                | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | c741a06def88c4617640248cb8cd76bf57169f9c | Merge branch 'develop' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-web-app into develop            | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | e0c8b2e4e13b59b7ac752763f999150b88fecd6f | chore: integrate enrollment-management into develop                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 4368f6cea2b1125a2ca2a91f5f67b94ffcb04fdd | chore: integrate enrollment-management into develop                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | e5098554c7b95a512e7dffb09bf97b430618f2a8 | merge: integrate branch 'develop' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-web-app into develop | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 8ba47358189cfc8fc06d77eb515d266bf6bdde7c | chore: integrate scheduling-management into develop                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | c9dbdbb80d67b0597a2d827bb3b3030f1a0dda5c | chore: integrate scheduling-management into develop                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 47ba92b523540681dacaf0fda49a54a27a7b0222 | styles(student): fix styles bug                                                                                         | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | c1d61692ba1b8e47db46883470b3a81cff5fa847 | chore: integrate attendance-management into develop                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | fa98882cff9015988fadedce2691e885a02fcc0f | fix(attendance): correction of mockapi integration                                                                      | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 0a7f0c07bd73464abc3f57b39e03fa370abbcda3 | feat: add i18n in scheduling section                                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | b3c30c327d4993f1ba8a0fae78eea3109496949e | feat: add weekly schedule modal and overview                                                                            | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 838ae231bb250a0fbb198208fd6c402c7688f48e | feat: add weekly schedule service and entity                                                                            | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | df4029af8553f7cd3b71d2b64c5179e52d6c1801 | feat: add user account entity and teacher service                                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | d719737baf62c4646c0ba156223f9088885d5790 | feat: add schedule entity                                                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 5807d2d6ccab4b1fbe81b9ba590535df70bb39cb | feat: add classrooom-overview to view all registered                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 2c81d5d401a9af5b59087ef73053bdb59b8eaf54 | feat: add classrooom-modal to add,edit and delete                                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 0167213a6af0d78de9b53a0dc2fc7a508357858d | feat: add classrooom entity adn service                                                                                 | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/scheduling-management | 1a8e827401cf16c7f6b345886242a2bf7e15aba6 | feat: update course service                                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 92c527b1c56fb7cade6d37d2ab08f0eaf9d75de2 | feat(main): update main js file                                                                                         | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 836dabc764ed64b8cf0f8356accfdcab96347b71 | feat(students): update student components                                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | e523c9e86fe1fff8371500f9f08c2f588eb55959 | feat(academic-periods): update enrollment components                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | 891cf5acfe1b9cff266c25d0cb60d0903d6270d5 | merge: integrate feature/iam-user into develop                                                                          | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 6c867554472e28334045ac0e72715a8cfe868e9e | feat(academic-periods): update academic periods components                                                              | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 8797c5cff187343ac2554497e48ccf65131dbe1e | feat(environment): update environment variables                                                                         | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 31d92e20500677226d89c073a800bbe18f07d3ea | feat(i18n): update internationalization dictionary                                                                      | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | ff65e10d9db8fa5c3f963838d302eb061b97d326 | feat(in-app-navigation): update in-app navigation routes.                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | ba171eb8697c04c0bf701c44696ab2a3628b57df | feat(login): add responsive                                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | faf4f511d2a82034932dedab6b656c711ffda550 | feat: update path organization                                                                                          | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 65caf2bf901cd3899ed1f3967ea9cc2ace6eba92 | feat: save attendance in endpoint                                                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | e4b5f6ca8017e3a1bf68f04414104e257ea1fbaa | feat(teacher): fix delete message traduction                                                                            | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | ee872c3f426bf1a278fca0cfc7fa88d646920bc8 | feat(teacher): fix itemsPerPage traduction                                                                              | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | 4045ea6b985029550a3983d2ad3fe3be0dfece71 | feat(plan-select): add plan-select page                                                                                 | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | e1252e5add40d58870255147e6db830e70d32767 | feat(in-app-navigation): update in-app navigation routes.                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 44e9454210e7804ba178a8e6f51bca9b3b90a17a | chore: configure environment variables                                                                                  | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 5924ba7c89f9c10ed897b4347f7acd4bea062814 | feat: update i18n                                                                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 4b1cabdae7a72ad8b1085648e5ba087dcb17a362 | feat(i18n): configure internationalization.                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 5fe227da2e48f4a463bdd480947c5b8870de97c3 | feat: add attendance page component                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 7c55260d1f02bb44a4dc0dc41b7c5d5adb9543e4 | feat(enrollments): add enrollment service.                                                                              | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 2e21d3b0ffaaaa09ac06c60d4ed562e110c53694 | feat: add attendance save button component                                                                              | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 674897a6acdb1c181f6b77c9083a4a3b0755fd93 | feat(academic periods): add academic period service.                                                                    | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | b7fe30b9fe53d8f0c090f2aa9f94a882e52a7224 | feat: add attendance student list component                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 84d26d64e988fb6e14f77bbcf6d9d6e9caec4f20 | feat: add attendance date component                                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/attendance-management | 9a3da9e555534694dbf6d846a57d3d0efa76f5eb | feat: add attendance class select component                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | cce6d270199daa133e4cb304b6ad3d730f9a1f42 | feat(enrollments): add enrollment management component.                                                                 | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | b062ac6612d70acd044ecb7cc975b6c1e2f7dfa4 | feat(enrollments): add enrollment create and edit component.                                                            | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 61c80c284954cff7b462dac44bf9f6db1f3378fa | feat(students): add students management component.                                                                      | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 0e5f4d8e92b2450a69982c65ef689d8504b5533a | feat(academic-periods): add academic period management component.                                                       | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | b8eb8dade30a77df1a7c21b4131da69dc810c710 | feat(academic-periods): add academic period create and edit component.                                                  | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/billing-management    | 981cb4dc0364005f57ef455d12c1369454da6ed9 | merge: integrate feature/billing-management into develop                                                                | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | 4db23b31b44c40ea7ab1c8139dc6404883c312c7 | fix(iam): correction of mockapi integration                                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | d3e69ef9d4af24f5a7357762458991892aa05186 | feat(iam): update login form component with api integration                                                             | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/iam-user              | 41b8cc5e5723faf5dbcb932330388b496bb22fa9 | chore: integrate feature/iam-user into develop                                                                          | —                                                  | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/billing-management    | 547c1ac90fd6574c86d75b744aeffa06fd739d8e | merge: integrate feature/billing-management into develop                                                                | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/billing-management    | 7975e07e6fcc8c17684f5498e22b170f57f6532f | feat(billing): update payments and invoice endpoint with mockapi                                                        | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/billing-management    | 57a022da8ddba55e6fc2f463b85c5063795ef5b1 | feat(billing): update expenses page with logic                                                                          | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 2db2d8fbfba68252574d9bdcda380f640475d37d | chore: move info to entities folder                                                                                     | —                                                  | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | 0f5a1e6f9b55dc858aa7c5c2036076e7e4915d7c | feat(academic-periods): add academic period entity.                                                                     | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/enrollment-management | d3def363045b540ca2c31e11ad5ea82a486b35bc | feat(enrollments): add enrollment entity.                                                                               | —           | 14/05/2025   |
-| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app       | feature/billing-management    | 88e0f0b2774a82debaf807df7657014a6bb3eff1 | feat(billing): update billing models                                                                                    | —           | 14/05/2025   |
-
-
-
-
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y despliegue del landing page, la cual muestra las diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del startup. A continuación, se muestran algunas evidencias:
@@ -2996,7 +2919,7 @@ En el Sprint 1 alcanzamos el desarrollo parcial de la implementación y desplieg
 9. **Footer**: En esta sección se mostrarán las secciones de la página y nuestras redes sociales.
 ![imagesExecutionEvidence](./assets/images/LandingPage/footer.png)
 
-Link de video de presentacion sobre la Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW
+Link de video de presentación sobre la Landing Page: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EbGUPtmgEAJBvhH1xK76s3gBTQGoCg3cPYxXa1mHx1tljw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1Jg2NW
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3042,146 +2965,6 @@ Enlace para acceder al landing page: https://demy-smartedu.netlify.app/
 
 ![imagesTeamCollaborations](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_commits.png)
 ![imagesExecutionEvidence](./assets/images/Team_Collaboration_Insights_during_Sprint_Aplicaciones_web/Insight_contributors.png)
-
-### 5.2.2. Sprint 2
-
-
-
-#### 5.2.2.5. Execution Evidence for Sprint Review
-
-En el sprint 2 se alcanzó un desarrollo parcial de la Aplicacion Web. La cual muestra nuestras vistas relevantes acerca del producto
-
-- US05: Registrarse como usuario en la plataforma <br>
-  ![imagesExecutionEvidence01](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US05.png)
-
-- US07: Consultar historial de matrículas por estudiante <br>
-  ![imagesExecutionEvidence02](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US07.png)
-
-- US18: Generar reporte financiero mensual
-  ![imagesExecutionEvidence07](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US18.png)
-
-- US19: Crear materias por periodo de estudio
-  ![imagesExecutionEvidence08](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US19.png)
-
-- US27: Agregar profesores
-  ![imagesExecutionEvidence11](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US27.png)
-
-- US28: Agregar Aula
-  ![imagesExecutionEvidence12](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US28.png)
-
-Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaFzwW2bXipMs_39hoRFRkcBTISfZsP-VfKcSn1bQvX3tA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9DNEY)
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
-Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
-
-Los pasos para la connexion del netlify con el github.
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_1.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_2.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_3.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_4.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_5.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_6.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_7.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_8.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_9.jpg)
-
-![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_11.jpg)
-
-Capturas de pantalla del Web Applications
-1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/login.png)
-
-2. SignUp: Vista donde el usuario registra las credenciales que desee tener en la pagina.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/sign-up.png)
-
-3. select-plan: Vista donde están los planes de Demy a escoger.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/select-plan.png)
-
-4. Organization: Vista donde están las funcionalidades de demy.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization.png)
-
-5. Organization/Courses: Vista donde se puede agregar, editar o eliminar un Cursos.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-course.png)
-
-6. Organization/Periods: Vista donde se puede agregar, editar o eliminar un Periodo.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-periods.png)
-
-7. Organization/Rooms: Vista donde se puede agregar, editar o eliminar una Clase.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-rooms.png)
-
-8. Organization/Teacher: Vista donde se puede agregar, editar o eliminar un Profesor.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-teacher.png)
-
-9. Matrícula: Vista donde se puede registrar una matrícula, luego de ingresar el nombre del estudiante, el periodo academico, la fecha de la matrícula, el monto, el estado de la matrícula y el estado de pago.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/enrollment-management.png)
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/enrollment-management_2.png)
-
-10. Alumnos: Vista donde se puede agregar un nuevo estudiante por medio del dni, su nombre, apellido, sexo, fecha, direccion y telefono.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/student.png)
-
-11. Pagos: Vista donde se podra buscar a un alumno por su dni y se mostrara los pagos realizados.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/payments.png)
-
-12. Asistencia: Vista donde se podra marcar la asistencia de los estudiantes dependiendo de la fecha y la clase ingresada.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/attendance.png)
-
-13. Finanzas: Vista donde se podra registrar un egreso en el sistema, dependiendo de la categoria, el monto, el concepto y la fecha ingresada.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/finance.png)
-
-
-
-
-
-
-
-
-
-
-| Repository                                         | Branch                        | Commit ID                                 | Commit Message                                                      | Commit Body | Committed On |
-|----------------------------------------------------|-------------------------------|-------------------------------------------|---------------------------------------------------------------------|-------------|--------------|
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 54634638d23137cd843fe864735b5e6d0165bdd7  | feat(plan-select): add plan-select page                             | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 9e630abc53683debf5db1190d8c6ec9d6a29f08c  | feat(teacher): add teacher page                                     | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | d3a50f84bf2e1a5f6b8a6e714684bb278d1253bf  | feat: add sign-up and login css                                     | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | a8cd93802cc7274706dcb52979fd02ff355e6a23  | feat(sign-up): add sign-up components and logic                     | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 8e94b77603fa953cfb3a02b367242fdac86d4225  | feat(login): add login components and logic                         | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/scheduling-management | b92438eca819883d51a26aa4b61c13e77b58e1c6  | feat: add course entity, service and components                     | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 1ea457279f5551b9d137cdf216aae28966a17f60  | merge: integrate feature/billing-management into develop            | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 416c610f6cb2fb96dd9627fa49ebd4de3ac780d8  | feat(billing): add payment i18n                                     | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | ed8bd47d569a197879479c76b828ded90734a2ba  | feat(api): edit db.json                                             | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 58a84ae9b392e50e880bb6cf502a733f917f9cfd  | styles: add custom preset to primevue theme                         | —           | 12/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 923087a5ec202a38202b2fb47b0192e6668f4d59  | merge: integrate feature/billing-management into develop            | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | dc97610d594433a0d12bcfd4296ab26e360c20d6  | feat(billing): add fake api logic to register payment for a student | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 28c0b389e024609b88aef465658d57aa2ef31629  | merge: integrate feature/project-setup into develop                 | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 23153242eb7bcb8c130ddbf4a60c28678fe5d9a4  | feat(billing): add payments page logic                              | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | ba7dfae810c018e65710a66326579ce53b62d866  | feat(workspace): add organization page                              | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/enrollment-management | 30ff00ae47a3330753d106b70f547b6d2272a14a  | feat(enrollments): add http instance logic                          | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/enrollment-management | 0641264fb397b1d4f62b39ad4eeaacb56c327cb5  | feat(enrollments): add students logic                               | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | d3e0ca76d433e99b2a527d5e1ffbc1be5b164867  | feat(billing): add payment logic                                    | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | deec41c3746b8af66b282c5b6a677359a9d826cf  | feat(billing): add invoice logic                                    | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 4c644935ecd9845ff9cb00078af352e384086f69  | feat(billing): add financial transaction logic                      | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | c9c0f1b89e01c3e9a2933f948c153f3f3952414d  | feat: add routes logic                                              | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 3f1c9bd4ab1755a439547c340b5e544b53927b5e  | feat: add layout components and main-layout                         | —           | 11/05/2025   |
-| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 9faccb64b447f90f054a40444b122955f2863b15  | chore: initial commit                                               | —           | 05/05/2025   |
-
-
-
-
-
-
-
-
-
-
 
 ### 5.2.2. Sprint 2
 
@@ -3285,11 +3068,135 @@ Link del Trello: https://trello.com/invite/b/6819755e077e95c6b3682a8b/ATTIea8660
 </table>
 </div>
 
-#### 5.2.2.4 Development Evidence for Sprint Review.
+#### 5.2.2.4   Development Evidence for Sprint Review.
+
+<div style="font-size:60%;">
+
+En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Aplicaciones Web y Servicios Web. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
+
+| Repository                                              | Branch                        | Commit ID                                | Commit Message                                                                                                          | Commit Body | Committed On |
+|---------------------------------------------------------|-------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | d987ce1ecaec828326af1b563f4ef141d89ca5f0 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | d9dc9a465fb175cb509c4b65597c004a7bf6d9d7 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | e6d35437054ab68378a93be1b7bd457ee2b80144 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | 8fb21360e3f3a1d6c77ea986f07881d788d87442 | fix: fixes routes in toolbar buttons                                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | eb682933b87e35856cbd1dd41ff4b373e76a943a | fix: fixes routes in toolbar buttons                                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page | hotfix/fix-app-route          | 33d71df8db0becce14a97bec96cb700462ae865b | fix: route fix in log in and sign up button                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | main                          | 456a0d2892d9c0934685cc3140f8a22c81eff5e7 | fix: fix routes in public directory                                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | hotfix/routes-fix             | 9ca3b4e2fe2cd85ed88cece4bfdab64e4ad02ad6 | fix: routes fixes                                                                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | release/v.1.0.0               | e9cc4b1e4037f9f827ce2914dc34d896388d8d02 | merge: integrate release/v1.0.0 into main                                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | develop                       | 444602af46c405a47a05c60123367cd697fb8cda | chore: prepare to deploy                                                                                                | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | c741a06def88c4617640248cb8cd76bf57169f9c | Merge branch 'develop' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-web-app into develop            | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | e0c8b2e4e13b59b7ac752763f999150b88fecd6f | chore: integrate enrollment-management into develop                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 4368f6cea2b1125a2ca2a91f5f67b94ffcb04fdd | chore: integrate enrollment-management into develop                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | e5098554c7b95a512e7dffb09bf97b430618f2a8 | merge: integrate branch 'develop' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-web-app into develop | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 8ba47358189cfc8fc06d77eb515d266bf6bdde7c | chore: integrate scheduling-management into develop                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | c9dbdbb80d67b0597a2d827bb3b3030f1a0dda5c | chore: integrate scheduling-management into develop                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 47ba92b523540681dacaf0fda49a54a27a7b0222 | styles(student): fix styles bug                                                                                         | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | c1d61692ba1b8e47db46883470b3a81cff5fa847 | chore: integrate attendance-management into develop                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | fa98882cff9015988fadedce2691e885a02fcc0f | fix(attendance): correction of mockapi integration                                                                      | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 0a7f0c07bd73464abc3f57b39e03fa370abbcda3 | feat: add i18n in scheduling section                                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | b3c30c327d4993f1ba8a0fae78eea3109496949e | feat: add weekly schedule modal and overview                                                                            | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 838ae231bb250a0fbb198208fd6c402c7688f48e | feat: add weekly schedule service and entity                                                                            | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | df4029af8553f7cd3b71d2b64c5179e52d6c1801 | feat: add user account entity and teacher service                                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | d719737baf62c4646c0ba156223f9088885d5790 | feat: add schedule entity                                                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 5807d2d6ccab4b1fbe81b9ba590535df70bb39cb | feat: add classrooom-overview to view all registered                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 2c81d5d401a9af5b59087ef73053bdb59b8eaf54 | feat: add classrooom-modal to add,edit and delete                                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 0167213a6af0d78de9b53a0dc2fc7a508357858d | feat: add classrooom entity adn service                                                                                 | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | 1a8e827401cf16c7f6b345886242a2bf7e15aba6 | feat: update course service                                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 92c527b1c56fb7cade6d37d2ab08f0eaf9d75de2 | feat(main): update main js file                                                                                         | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 836dabc764ed64b8cf0f8356accfdcab96347b71 | feat(students): update student components                                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | e523c9e86fe1fff8371500f9f08c2f588eb55959 | feat(academic-periods): update enrollment components                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 891cf5acfe1b9cff266c25d0cb60d0903d6270d5 | merge: integrate feature/iam-user into develop                                                                          | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 6c867554472e28334045ac0e72715a8cfe868e9e | feat(academic-periods): update academic periods components                                                              | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 8797c5cff187343ac2554497e48ccf65131dbe1e | feat(environment): update environment variables                                                                         | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 31d92e20500677226d89c073a800bbe18f07d3ea | feat(i18n): update internationalization dictionary                                                                      | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | ff65e10d9db8fa5c3f963838d302eb061b97d326 | feat(in-app-navigation): update in-app navigation routes.                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | ba171eb8697c04c0bf701c44696ab2a3628b57df | feat(login): add responsive                                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | faf4f511d2a82034932dedab6b656c711ffda550 | feat: update path organization                                                                                          | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 65caf2bf901cd3899ed1f3967ea9cc2ace6eba92 | feat: save attendance in endpoint                                                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | e4b5f6ca8017e3a1bf68f04414104e257ea1fbaa | feat(teacher): fix delete message traduction                                                                            | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | ee872c3f426bf1a278fca0cfc7fa88d646920bc8 | feat(teacher): fix itemsPerPage traduction                                                                              | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 4045ea6b985029550a3983d2ad3fe3be0dfece71 | feat(plan-select): add plan-select page                                                                                 | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | e1252e5add40d58870255147e6db830e70d32767 | feat(in-app-navigation): update in-app navigation routes.                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 44e9454210e7804ba178a8e6f51bca9b3b90a17a | chore: configure environment variables                                                                                  | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 5924ba7c89f9c10ed897b4347f7acd4bea062814 | feat: update i18n                                                                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 4b1cabdae7a72ad8b1085648e5ba087dcb17a362 | feat(i18n): configure internationalization.                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 5fe227da2e48f4a463bdd480947c5b8870de97c3 | feat: add attendance page component                                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 7c55260d1f02bb44a4dc0dc41b7c5d5adb9543e4 | feat(enrollments): add enrollment service.                                                                              | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 2e21d3b0ffaaaa09ac06c60d4ed562e110c53694 | feat: add attendance save button component                                                                              | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 674897a6acdb1c181f6b77c9083a4a3b0755fd93 | feat(academic periods): add academic period service.                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | b7fe30b9fe53d8f0c090f2aa9f94a882e52a7224 | feat: add attendance student list component                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 84d26d64e988fb6e14f77bbcf6d9d6e9caec4f20 | feat: add attendance date component                                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/attendance-management | 9a3da9e555534694dbf6d846a57d3d0efa76f5eb | feat: add attendance class select component                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | cce6d270199daa133e4cb304b6ad3d730f9a1f42 | feat(enrollments): add enrollment management component.                                                                 | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | b062ac6612d70acd044ecb7cc975b6c1e2f7dfa4 | feat(enrollments): add enrollment create and edit component.                                                            | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 61c80c284954cff7b462dac44bf9f6db1f3378fa | feat(students): add students management component.                                                                      | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 0e5f4d8e92b2450a69982c65ef689d8504b5533a | feat(academic-periods): add academic period management component.                                                       | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | b8eb8dade30a77df1a7c21b4131da69dc810c710 | feat(academic-periods): add academic period create and edit component.                                                  | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 981cb4dc0364005f57ef455d12c1369454da6ed9 | merge: integrate feature/billing-management into develop                                                                | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 4db23b31b44c40ea7ab1c8139dc6404883c312c7 | fix(iam): correction of mockapi integration                                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | d3e69ef9d4af24f5a7357762458991892aa05186 | feat(iam): update login form component with api integration                                                             | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 41b8cc5e5723faf5dbcb932330388b496bb22fa9 | chore: integrate feature/iam-user into develop                                                                          | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 547c1ac90fd6574c86d75b744aeffa06fd739d8e | merge: integrate feature/billing-management into develop                                                                | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 7975e07e6fcc8c17684f5498e22b170f57f6532f | feat(billing): update payments and invoice endpoint with mockapi                                                        | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 57a022da8ddba55e6fc2f463b85c5063795ef5b1 | feat(billing): update expenses page with logic                                                                          | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 2db2d8fbfba68252574d9bdcda380f640475d37d | chore: move info to entities folder                                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 0f5a1e6f9b55dc858aa7c5c2036076e7e4915d7c | feat(academic-periods): add academic period entity.                                                                     | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | d3def363045b540ca2c31e11ad5ea82a486b35bc | feat(enrollments): add enrollment entity.                                                                               | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 88e0f0b2774a82debaf807df7657014a6bb3eff1 | feat(billing): update billing models                                                                                    | —           | 14/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 54634638d23137cd843fe864735b5e6d0165bdd7 | feat(plan-select): add plan-select page                                                                                 | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 9e630abc53683debf5db1190d8c6ec9d6a29f08c | feat(teacher): add teacher page                                                                                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | d3a50f84bf2e1a5f6b8a6e714684bb278d1253bf | feat: add sign-up and login css                                                                                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | a8cd93802cc7274706dcb52979fd02ff355e6a23 | feat(sign-up): add sign-up components and logic                                                                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/iam-user              | 8e94b77603fa953cfb3a02b367242fdac86d4225 | feat(login): add login components and logic                                                                             | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/scheduling-management | b92438eca819883d51a26aa4b61c13e77b58e1c6 | feat: add course entity, service and components                                                                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 1ea457279f5551b9d137cdf216aae28966a17f60 | merge: integrate feature/billing-management into develop                                                                | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 416c610f6cb2fb96dd9627fa49ebd4de3ac780d8 | feat(billing): add payment i18n                                                                                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | ed8bd47d569a197879479c76b828ded90734a2ba | feat(api): edit db.json                                                                                                 | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 58a84ae9b392e50e880bb6cf502a733f917f9cfd | styles: add custom preset to primevue theme                                                                             | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | develop                       | 923087a5ec202a38202b2fb47b0192e6668f4d59 | merge: integrate feature/billing-management into develop                                                                | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | dc97610d594433a0d12bcfd4296ab26e360c20d6 | feat(billing): add fake api logic to register payment for a student                                                     | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | develop                       | 28c0b389e024609b88aef465658d57aa2ef31629 | merge: integrate feature/project-setup into develop                                                                     | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 23153242eb7bcb8c130ddbf4a60c28678fe5d9a4 | feat(billing): add payments page logic                                                                                  | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | ba7dfae810c018e65710a66326579ce53b62d866 | feat(workspace): add organization page                                                                                  | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 30ff00ae47a3330753d106b70f547b6d2272a14a | feat(enrollments): add http instance logic                                                                              | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/enrollment-management | 0641264fb397b1d4f62b39ad4eeaacb56c327cb5 | feat(enrollments): add students logic                                                                                   | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | d3e0ca76d433e99b2a527d5e1ffbc1be5b164867 | feat(billing): add payment logic                                                                                        | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | deec41c3746b8af66b282c5b6a677359a9d826cf | feat(billing): add invoice logic                                                                                        | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 4c644935ecd9845ff9cb00078af352e384086f69 | feat(billing): add financial transaction logic                                                                          | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | c9c0f1b89e01c3e9a2933f948c153f3f3952414d | feat: add routes logic                                                                                                  | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | feature/billing-management    | 3f1c9bd4ab1755a439547c340b5e544b53927b5e | feat: add layout components and main-layout                                                                             | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4364-smartedu/demy-web-app      | develop                       | 9faccb64b447f90f054a40444b122955f2863b15 | chore: initial commit                                                                                                   | —           | 05/05/2025   |
+
+</div>
 
 #### 5.2.2.5.  Execution Evidence for Sprint Review.
 
+En el sprint 2 se alcanzó un desarrollo parcial de la Aplicación Web. La cual muestra nuestras vistas relevantes acerca del producto
+
+- US05: Registrarse como usuario en la plataforma <br>
+  ![imagesExecutionEvidence01](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US05.png)
+
+- US07: Consultar historial de matrículas por estudiante <br>
+  ![imagesExecutionEvidence02](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US07.png)
+
+- US18: Generar reporte financiero mensual
+  ![imagesExecutionEvidence07](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US18.png)
+
+- US19: Crear materias por periodo de estudio
+  ![imagesExecutionEvidence08](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US19.png)
+
+- US27: Agregar profesores
+  ![imagesExecutionEvidence11](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US27.png)
+
+- US28: Agregar Aula
+  ![imagesExecutionEvidence12](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_web/US28.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EaFzwW2bXipMs_39hoRFRkcBTISfZsP-VfKcSn1bQvX3tA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N9DNEY)
+
 #### 5.2.2.6.  Services Documentation Evidence for Sprint Review.
+
 Para este sprint 2 como solo nos enfocamos en el desarrollo de nuestro Frontend, tuvimos que apoyarnos de una herramienta que nos permitió simular un Backend falso.
 
 Por ello, el equipo decidió optar por comprar un plan en MockAPI, fue muy útil debido a que a comparación de JSON server, cualquier dato que mandemos se guarda en su nube.
@@ -3313,6 +3220,71 @@ Link del MockAPI de Demy: https://mockapi.io/projects/6820406072e59f922ef8198c
 | /attendance-record      | Se implemento las operaciones CRUD y por atributos para el registro de asistencia     |
 
 #### 5.2.2.7.  Software Deployment Evidence for Sprint Review.
+
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+Los pasos para la connexion del netlify con el github.
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_1.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_2.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_3.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_4.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_5.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_6.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_7.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_8.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_9.jpg)
+
+![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_11.jpg)
+
+Capturas de pantalla del Web Applications
+1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/login.png)
+
+2. SignUp: Vista donde el usuario registra las credenciales que desee tener en la pagina.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/sign-up.png)
+
+3. select-plan: Vista donde están los planes de Demy a escoger.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/select-plan.png)
+
+4. Organization: Vista donde están las funcionalidades de demy.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization.png)
+
+5. Organization/Courses: Vista donde se puede agregar, editar o eliminar un Cursos.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-course.png)
+
+6. Organization/Periods: Vista donde se puede agregar, editar o eliminar un Periodo.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-periods.png)
+
+7. Organization/Rooms: Vista donde se puede agregar, editar o eliminar una Clase.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-rooms.png)
+
+8. Organization/Teacher: Vista donde se puede agregar, editar o eliminar un Profesor.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/organization-teacher.png)
+
+9. Matrícula: Vista donde se puede registrar una matrícula, luego de ingresar el nombre del estudiante, el periodo academico, la fecha de la matrícula, el monto, el estado de la matrícula y el estado de pago.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/enrollment-management.png)
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/enrollment-management_2.png)
+
+10. Alumnos: Vista donde se puede agregar un nuevo estudiante por medio del dni, su nombre, apellido, sexo, fecha, direccion y telefono.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/student.png)
+
+11. Pagos: Vista donde se podra buscar a un alumno por su dni y se mostrara los pagos realizados.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/payments.png)
+
+12. Asistencia: Vista donde se podra marcar la asistencia de los estudiantes dependiendo de la fecha y la clase ingresada.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/attendance.png)
+
+13. Finanzas: Vista donde se podra registrar un egreso en el sistema, dependiendo de la categoria, el monto, el concepto y la fecha ingresada.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/finance.png)
 
 #### 5.2.2.8.  Team Collaboration Insights during Sprint.
 
@@ -3368,7 +3340,7 @@ Enlace de los videos de las entrevistas para needfinding: https://upcedupe-my.sh
 
 Enlace del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWdD5IfcqUVCs0SpFXO__twBdB6F8eom5OqukHaUnwY22w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DcXuHu
 
-Enlace del video de exposición TP1: 
+Enlace del video de exposición TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESPZQ3b8JD9MnWUaZW2bNc0BXqVTcFT0OI_3TIbotbM1bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w8nmdv
 
 Enlace del repositorio en Github: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
 
