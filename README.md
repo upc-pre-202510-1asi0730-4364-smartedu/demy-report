@@ -1522,7 +1522,6 @@ Pantalla que muestra el error señalado en el campo de datos de la matrícula
 
 ![Wireframe-24](assets/images/wireframes-appweb/mobile/error-señalado-matrícula.png)
 
-
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 **Enlace al Lucidchart de los Web Application Wireflow 1:** https://lucid.app/lucidchart/dc62c656-47ca-4421-a712-0eedd29917aa/edit?invitationId=inv_bb16034b-1368-435e-be1c-228f3b1829f3
@@ -1797,7 +1796,6 @@ En la siguiente imagen se muestra la pestaña del panel de Reportes de Finanzas,
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/2Finanzas_Reporte.png)  
 ![imagesFlowDiagrams](./assets/images/Muck_ups/Movil_Web_Browser/ADMIN/8Finanzas/3Finanzas_Reporte_Filtros.png)
 
-
 **Mi organización - Bandeja de notificaciones**
 En la siguiente imagen se muestra la ventana de bandeja de notificaciones
 
@@ -1822,7 +1820,6 @@ En la siguiente imagen se muestra una ventana de error al registrar una matrícu
 En la siguiente imagen se señala el error en un campo de dato de la matrícula
 
 ![imagesFlowDiagrams](/assets/images/Muck_ups/Movil_Web_Browser/ADMIN/3Matricula/mobile-error-seañalado-matricula.png)
-
 
 #### **Mock-ups que tiene como usuario al profesor de la academia**
 
@@ -2043,12 +2040,19 @@ Cuando le dé a la opción de Guardar se mostrará una pestaña que dice "La asi
 
 ## 4.5. Web Applications Prototyping
 
-Esta sección tiene como objetivo describir los posibles flujos de usuario (User Flows) que se han diseñado para la aplicación web tanto en versión de escritorio como en dispositivos móviles. A través de prototipos interactivos, se pretende ilustrar los caminos de interacción del usuario, mostrando cómo los diferentes tipos de usuarios (profesor, administrativo) navegan por la plataforma para realizar sus actividades.
-A continuación, se incluyen los enlaces a los videos explicativos que detallan los flujos de usuario correspondientes:
+Esta sección tiene como objetivo describir los posibles flujos de usuario diseñados para la aplicación web, tanto en su versión de escritorio como en dispositivos móviles. Mediante el uso de prototipos interactivos, se ilustra la navegación y las rutas que siguen los diferentes tipos de usuarios al interactuar con la plataforma para cumplir sus respectivas tareas.
 
-Enlace para ver la explicación del prototipado de la aplicación web en versión de escritorio y versión móvil. https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b
+A continuación, se presentan los enlaces al video explicativo y a los prototipos interactivos:
 
-Enlace para acceder al Flujo en figma https://www.figma.com/design/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=0-1&t=UsmyKCKlx8hSZYvH-1
+- **Video - Web Applications Prototyping**  
+  Explicación en video de los flujos de usuario en la aplicación web (desktop y mobile):  
+  [Ver video en OneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUfY3Wr3CJNDjOBBF7zuK4oB099Oi_piBe5a_lgbVRFgDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jyza8b)
+
+- **Prototype Desktop**  
+  [Ver prototipo en Figma](https://www.figma.com/proto/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=2-5914&t=0TiBqa9fHgytAp1n-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A13470&show-proto-sidebar=1)
+
+- **Prototype Mobile**  
+  [Ver prototipo en Figma](https://www.figma.com/proto/4EgUY0zqioRcsS9MNoPsJb/Prototyping?node-id=2-6623&t=RmBjbv7xDjcHej7j-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A13470&show-proto-sidebar=1)
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -2975,7 +2979,6 @@ Los pasos para la connexion del netlify con el github.
 
 ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/netlify_11.jpg)
 
-
 Capturas de pantalla del Web Applications
 1. Login: Vista donde el usuario ingresa sus credenciales para ingresar a la pagina.
    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_2_Aplicaciones_Web/login.png)
@@ -3019,10 +3022,48 @@ Capturas de pantalla del Web Applications
 
 
 
-# Conclusiones
 
-En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
-Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
+
+
+
+
+
+| Repository                                         | Branch                        | Commit ID                                 | Commit Message                                                      | Commit Body | Committed On |
+|----------------------------------------------------|-------------------------------|-------------------------------------------|---------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 54634638d23137cd843fe864735b5e6d0165bdd7  | feat(plan-select): add plan-select page                             | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 9e630abc53683debf5db1190d8c6ec9d6a29f08c  | feat(teacher): add teacher page                                     | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | d3a50f84bf2e1a5f6b8a6e714684bb278d1253bf  | feat: add sign-up and login css                                     | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | a8cd93802cc7274706dcb52979fd02ff355e6a23  | feat(sign-up): add sign-up components and logic                     | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/iam-user              | 8e94b77603fa953cfb3a02b367242fdac86d4225  | feat(login): add login components and logic                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/scheduling-management | b92438eca819883d51a26aa4b61c13e77b58e1c6  | feat: add course entity, service and components                     | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 1ea457279f5551b9d137cdf216aae28966a17f60  | merge: integrate feature/billing-management into develop            | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 416c610f6cb2fb96dd9627fa49ebd4de3ac780d8  | feat(billing): add payment i18n                                     | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | ed8bd47d569a197879479c76b828ded90734a2ba  | feat(api): edit db.json                                             | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 58a84ae9b392e50e880bb6cf502a733f917f9cfd  | styles: add custom preset to primevue theme                         | —           | 12/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 923087a5ec202a38202b2fb47b0192e6668f4d59  | merge: integrate feature/billing-management into develop            | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | dc97610d594433a0d12bcfd4296ab26e360c20d6  | feat(billing): add fake api logic to register payment for a student | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 28c0b389e024609b88aef465658d57aa2ef31629  | merge: integrate feature/project-setup into develop                 | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 23153242eb7bcb8c130ddbf4a60c28678fe5d9a4  | feat(billing): add payments page logic                              | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | ba7dfae810c018e65710a66326579ce53b62d866  | feat(workspace): add organization page                              | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/enrollment-management | 30ff00ae47a3330753d106b70f547b6d2272a14a  | feat(enrollments): add http instance logic                          | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/enrollment-management | 0641264fb397b1d4f62b39ad4eeaacb56c327cb5  | feat(enrollments): add students logic                               | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | d3e0ca76d433e99b2a527d5e1ffbc1be5b164867  | feat(billing): add payment logic                                    | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | deec41c3746b8af66b282c5b6a677359a9d826cf  | feat(billing): add invoice logic                                    | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 4c644935ecd9845ff9cb00078af352e384086f69  | feat(billing): add financial transaction logic                      | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | c9c0f1b89e01c3e9a2933f948c153f3f3952414d  | feat: add routes logic                                              | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | feature/billing-management    | 3f1c9bd4ab1755a439547c340b5e544b53927b5e  | feat: add layout components and main-layout                         | —           | 11/05/2025   |
+| upc-pre-202501-1asi0730-4304-smartedu/demy-web-app | develop                       | 9faccb64b447f90f054a40444b122955f2863b15  | chore: initial commit                                               | —           | 05/05/2025   |
+
+
+
+
+
+
+
+
+
+
 
 ### 5.2.2. Sprint 2
 
@@ -3168,6 +3209,12 @@ Link del MockAPI de Demy: https://mockapi.io/projects/6820406072e59f922ef8198c
 ![Captura de pantalla de los insights Sprint 2](./assets/screenshots/sprint2-insights.png)
 
 ![Captura 2 de pantalla de los insights del Sprint 2](./assets/screenshots/sprint2-insights-contributors.png)
+
+# Conclusiones
+
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
 ## Conclusiones y Recomendaciones
 
 ### Conclusiones
