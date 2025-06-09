@@ -3300,6 +3300,24 @@ Capturas de pantalla del Web Applications
 
 ![Captura 2 de pantalla de los insights del Sprint 2](./assets/screenshots/sprint2-insights-contributors.png)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+En el sprint 3 se alcanzó un desarrollo parcial de la Aplicación Web.
+
+- US04: Recuperar contraseña mediante correo electrónico
+    ![imagesExecutionEvidence11](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/US04.png)
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Para la entrega de este tercer sprint, se implementó la web application de manera parcial.
+
+1. Recuperar Contraseña: Vista donde podremos ingresar nuestro correo electronico para recuperar contraseña.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/forgot-password.png)
+
+2. Resetear Contraseña: Vista donde podremos actualizar nuestra contraseña.
+    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/reset-password.png)
+
+
 # Conclusiones
 
 En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
