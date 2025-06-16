@@ -3370,6 +3370,10 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 #### 5.2.3.4 Development Evidence for Sprint Review
 
 
+| Repository                                         | Branch | Commit ID                                | Commit Message                                                                                                          | Commit Body | Committed On |
+|----------------------------------------------------|--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202510-1asi0730-4364-smartedu/demy-service | main   | d987ce1ecaec828326af1b563f4ef141d89ca5f0 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                       | —           | 14/05/2025   |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -3393,7 +3397,21 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 ### 5.3.1. Diseño de Entrevistas
 
+**User Goal:** Agregar un nuevo profesor <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:**<br>
+En la sección "Mi organización", el usuario verá cinco recuadros. Al seleccionar "Profesores", será dirigido a la sección de Profesores, donde podrá visualizar todos los profesores registrados en Demy.
+Para agregar un nuevo profesor, el usuario debe hacer clic en la opción "Nuevo Profesor", lo que abrirá un modal donde podrá ingresar el nombre completo, el correo electrónico y la contraseña del profesor. Al completar los datos, el usuario deberá presionar "Guardar", registrando así al nuevo profesor en el sistema.
 
+**Pregunta:** ¿Te pareció que el proceso de agregar un nuevo profesor es consistente con otros procesos similares que has visto en otras aplicaciones? ¿Hubo algún aspecto que te resultó confuso o diferente? ¿Cómo podríamos hacer que este proceso sea más familiar y fácil de seguir?
+
+**User Goal:** Matricular a un alumno <br>
+**User Persona:** Administrador <br>
+**Descripción del flujo:** <br>
+El administrador ingresa al módulo de "Matrícula" desde la barra lateral. Dentro de este módulo, se presenta un formulario en el que el administrador debe seleccionar al alumno, el periodo académico, el monto, el estado de pago, el estado de la matrícula y la fecha de matriculación. Una vez que todos los campos estén completos, el administrador debe presionar el botón "Registrar matrícula".
+La matrícula registrada se reflejará en la sección "Historial de matrícula", donde el administrador podrá consultar todas las matrículas realizadas, incluida la del alumno recientemente matriculado.
+
+**Pregunta:** Durante el proceso de matrícula, ¿la aplicación te ayuda a evitar errores al ingresar información, como seleccionar al alumno o el estado del pago? ¿Hay alguna parte del formulario donde te gustaría recibir más ayuda o información para evitar posibles errores?    
 
 ### 5.3.2. Registro de Entrevistas
 
