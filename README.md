@@ -50,7 +50,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
+Enlace para acceder al repositorio para el reporte del proyecto: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -2167,7 +2167,7 @@ El flujo comienza con el AppComponent, que organiza la aplicación. El Subscript
 Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
 Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
 
-![Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report/refs/heads/develop/docs/class-diagram.puml)
+![Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report/refs/heads/develop/docs/class-diagram.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -2466,9 +2466,9 @@ El equipo utilizará **GitHub** como plataforma de alojamiento y **Git** como co
 
 | **Producto**              | **Repositorio GitHub**                                                                                                                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización SmartEdu** | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu](https://github.com/upc-pre-202501-1asi0730-4364-smartedu)                                     |
-| **Landing Page**          | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page) |
-| **Report**                | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)             |
+| **Organización SmartEdu** | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu](https://github.com/upc-pre-202510-1asi0730-4364-smartedu)                                     |
+| **Landing Page**          | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-landing-page](https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-landing-page) |
+| **Report**                | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report](https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report)             |
 
 **GitFlow Workflow**
 
@@ -3457,7 +3457,7 @@ Enlace del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 Enlace del video de exposición TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESPZQ3b8JD9MnWUaZW2bNc0BXqVTcFT0OI_3TIbotbM1bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w8nmdv
 
-Enlace del repositorio en Github: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
+Enlace del repositorio en Github: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report
 
 Enlace a la landing page: https://demy-smartedu.netlify.app/
 
