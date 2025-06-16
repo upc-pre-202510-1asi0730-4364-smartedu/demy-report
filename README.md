@@ -3415,6 +3415,18 @@ El usuario podrá ver la información autocompletada en los campos y deberá sel
 **Pregunta:**
 ¿Hubo algún momento del proceso en que no supiste qué hacer o tuviste que detenerte a pensar? ¿Cuál fue ese momento y qué crees que podría mejorarse? ¿El sistema te dio suficiente retroalimentación al completar el registro (por ejemplo, cambio de estado, desaparición del botón, etc.)?
 
+#### User Goal: Registrar egresos y ver resumen
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección del Dashboard se observa por defecto la categoría "Mi organización". En la parte de la derecha se observan las diferentes categorías, el usuario tendrá que dar a la opción de "Finanzas", se redirigirá al usuario a la categoría Finanzas, donde observará que se piden varios datos, estos son Concepto, Fecha, Monto y Categoría.
+
+Cuando el usuario haya completado los datos podrá darle a la opción de "Confirmar" para subir su egreso. En caso de que confirme, se mostrará la tabla del resumen mensual actualizada con el nuevo egreso registrado. En dicha tabla se mostrarán las transacciones financieras del mes actual.
+
+**Pregunta:**
+¿Qué tan claro te resultó el proceso para registrar un egreso? ¿Notaste con facilidad que el egreso fue registrado exitosamente? ¿La actualización del resumen mensual te pareció suficiente como confirmación del registro?
+
 ### 5.3.2. Registro de Entrevistas
 
 
