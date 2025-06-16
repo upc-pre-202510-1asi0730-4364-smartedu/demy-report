@@ -3393,11 +3393,13 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 ## 5.3. Validation Interviews
 
+En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
 
+A través de estas entrevistas, buscamos obtener comentarios directos sobre su experiencia de uso, sus necesidades y sugerencias de mejora. De esta manera, nos aseguramos de que la plataforma no solo sea funcional, sino que también responda a las expectativas y problemas reales de los usuarios a los que está dirigida. A continuación, se detallan los objetivos de usuario que guiarán estas entrevistas.
 
 ### 5.3.1. Diseño de Entrevistas
 
-
+En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
 
 ### 5.3.2. Registro de Entrevistas
 
