@@ -8,7 +8,7 @@
 
 <h4 style="text-align: center"> 1ASI0730 - Aplicaciones Web</h4>
 
-<h4 style="text-align: center"> Seccíón: 4364  </h4>
+<h4 style="text-align: center"> NRC: 4364  </h4>
 
 <h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
@@ -50,7 +50,7 @@
 
 # Project Report Collaboration Insights
 
-Enlace para acceder al repositorio para el reporte del proyecto: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
+Enlace para acceder al repositorio para el reporte del proyecto: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report
 
 **TB1**
 <br>Para el desarrollo del TB1 cada participante del equipo realizo las siguientes tareas:
@@ -216,7 +216,7 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2. Sprint 2](#522-sprint-2)
             - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
             - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
             - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
@@ -225,9 +225,24 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
             - [5.2.2.6. Services Documentation Evidence for Sprint Review ](#5226-services-documentation-evidence-for-sprint-review)
             - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
             - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.3. Validation Interviews](#53-validation-interviews)
+            - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+            - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+            - [5.3.3. Evaluaciones según Heurísticas](#533-evaluaciones-según-heurísticas)
+        - [5.4. Video About-the-Product](#54-video-about-the-product)
 
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -2152,7 +2167,7 @@ El flujo comienza con el AppComponent, que organiza la aplicación. El Subscript
 Esta sección presenta el diagrama de clases del sistema, modelado bajo principios de diseño orientado a objetos y alineado con los conceptos de Domain-Driven Design (DDD).
 Se representan las entidades clave, value objects, aggregates, así como las relaciones y los límites de contexto, reflejando la lógica del dominio identificada en el análisis previo.
 
-![Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report/refs/heads/develop/docs/class-diagram.puml)
+![Class Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report/refs/heads/develop/docs/class-diagram.puml)
 
 ### 4.7.2. Class Dictionary
 
@@ -2451,9 +2466,9 @@ El equipo utilizará **GitHub** como plataforma de alojamiento y **Git** como co
 
 | **Producto**              | **Repositorio GitHub**                                                                                                                                   |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización SmartEdu** | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu](https://github.com/upc-pre-202501-1asi0730-4364-smartedu)                                     |
-| **Landing Page**          | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page) |
-| **Report**                | [https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report](https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report)             |
+| **Organización SmartEdu** | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu](https://github.com/upc-pre-202510-1asi0730-4364-smartedu)                                     |
+| **Landing Page**          | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-landing-page](https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-landing-page) |
+| **Report**                | [https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report](https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report)             |
 
 **GitFlow Workflow**
 
@@ -3309,6 +3324,93 @@ Capturas de pantalla del Web Applications
 
 ![Captura 2 de pantalla de los insights del Sprint 2](./assets/screenshots/sprint2-insights-contributors.png)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
+
+| Sprint #                            | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                           |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint planning Background          |                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                                | 2025/06/05                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                                | 20:00                                                                                                                                                                                                                                                                                                                                                                                                              | 
+| Location                            | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                            |
+| Prepared By                         | Salim Ramirez                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Attendees <br>(to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca y Diego Vilca                                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**      |                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 3 Goal                       | Desarrollar el backend para la API REST de la plataforma Demy, usando C# con ASP.NET Core, siguiendo una arquitectura basada en DDD, utilizando Swagger para probar el funcionamiento de los endpoints creados.<br>Finalizar la implementación de la interfaz de la Web Application, además de integrarlo correctamente con la Landing Page.<br>Integrar parcialmente el frontend con el backend de la aplicación. |
+| Sprint 3 Velocity                   | 63                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sum of story points                 | 63                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este tercer sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+#### 5.2.3.3. Sprint Backlog 3
+
+
+
+#### 5.2.3.4 Development Evidence for Sprint Review
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.3.6.  Services Documentation Evidence for Sprint Review
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+
+#### 5.2.3.8.  Team Collaboration Insights during Sprint
+
+
+
+## 5.3. Validation Interviews
+
+
+
+### 5.3.1. Diseño de Entrevistas
+
+
+
+### 5.3.2. Registro de Entrevistas
+
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+
+
+## 5.4. Video About-the-Product
+
+
+
 # Conclusiones
 
 En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
@@ -3339,6 +3441,10 @@ Estas acciones permitirán optimizar el roadmap del producto y acercarse de mane
 Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
 Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
+## Video About-the-Team
+
+
+
 # Bibliografía
 
 Gan@Más. (2014, julio 24). Docentes usan hasta el 29% de su tiempo en las tareas administrativas. Revista Gan@Más. https://revistaganamas.com.pe/docentes-utilizan-hasta-el-29-de-su-tiempo-en-las-tareas-administrativas/
@@ -3351,7 +3457,7 @@ Enlace del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 Enlace del video de exposición TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESPZQ3b8JD9MnWUaZW2bNc0BXqVTcFT0OI_3TIbotbM1bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w8nmdv
 
-Enlace del repositorio en Github: https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-report
+Enlace del repositorio en Github: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report
 
 Enlace a la landing page: https://demy-smartedu.netlify.app/
 
