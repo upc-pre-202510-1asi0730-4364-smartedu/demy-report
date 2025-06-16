@@ -3398,6 +3398,29 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 ### 5.3.1. Diseño de Entrevistas
 
+**User Goal:** Iniciar sesión como profesor
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+El usuario inicia su interacción en la landing page de Demy, donde puede visualizar la presentación general de la plataforma Demy, conocer sus funcionalidades principales y los beneficios para las academias educativas. Desde esta página, identifica el botón de "Iniciar sesión" ubicado en el header. Al hacer clic en este botón, es redirigido automáticamente a la aplicación web de Demy.
+
+Una vez en la aplicación, el usuario visualiza directamente la pantalla de inicio de sesión. Allí debe completar el formulario ingresando su correo electrónico y contraseña, los cuales han sido previamente proporcionados por su coordinador de academia al momento de ser registrado en el sistema. Después de ingresar las credenciales, si los datos son correctos, el sistema valida el acceso y redirige al usuario hacia la vista principal correspondiente al perfil de profesor, donde podrá gestionar sus aulas, horarios y demás funcionalidades asignadas.
+
+**Pregunta:**
+- ¿El proceso desde la landing page hasta ingresar a la plataforma como profesor fue claro y sin dificultades?
+- ¿El formulario de inicio de sesión con sus credenciales proporcionadas fue fácil de completar?
+
+**User Goal:** Visualizar horarios de aulas asignadas
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+Luego de iniciar sesión y ser redirigido al dashboard principal correspondiente al perfil de profesor, el usuario visualiza la interfaz principal de la plataforma Demy. Desde el sidenavbar ubicado en el lateral de la pantalla, selecciona la opción "Mi horario". Al ingresar a esta sección, el sistema muestra automáticamente el listado de clases programadas para el docente, incluyendo los datos específicos como fecha, hora, aula asignada, sede donde se dicta la clase y demás detalles relevantes. Además de visualizar su programación, el profesor tiene la opción de gestionar la reprogramación de sus clases en caso sea necesario, accediendo a la funcionalidad de reprogramación disponible dentro de la misma sección.
+
+**Preguntas:**
+- ¿El acceso a la sección de mi horario dentro de la plataforma le resultó sencillo y fácil de ubicar?
+- ¿La visualización del horario asignado fue clara y le permitió entender rápidamente su programación de clases?
 
 
 ### 5.3.2. Registro de Entrevistas
