@@ -3401,6 +3401,20 @@ A través de estas entrevistas, buscamos obtener comentarios directos sobre su e
 
 En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
 
+#### User Goal: Registrar el pago de un alumno
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección del Dashboard, la categoría "Mi organización" aparece de manera predeterminada. En el panel derecho, se encuentran diversas categorías, y el usuario deberá seleccionar la opción "Pagos". Al hacerlo, se lo redirige a la sección de Pagos, donde encontrará un buscador que solicita el DNI de un estudiante.
+
+Si el usuario introduce un DNI válido, se mostrarán en la tabla los datos básicos del estudiante, el estado del pago y la fecha de vencimiento. Si el DNI no está registrado, la pestaña permanecerá vacía.
+
+El usuario podrá ver la información autocompletada en los campos y deberá seleccionar la opción "Registrar Pago". El sistema desplegará los datos del estudiante y permitirá modificar la fecha de pago, la cual está configurada por defecto al día actual. Al presionar "Guardar Pago", el pago se registrará de forma automática y la opción para registrar el pago desaparecerá. Además, el estado de pago cambiará de "Pendiente" a "Pagado".
+
+**Pregunta:**
+¿Hubo algún momento del proceso en que no supiste qué hacer o tuviste que detenerte a pensar? ¿Cuál fue ese momento y qué crees que podría mejorarse? ¿El sistema te dio suficiente retroalimentación al completar el registro (por ejemplo, cambio de estado, desaparición del botón, etc.)?
+
 ### 5.3.2. Registro de Entrevistas
 
 
