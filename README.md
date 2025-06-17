@@ -134,6 +134,37 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 ![Insights - Commits](./assets/images/insights-commits-tp.png)
 
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TB2**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph]()
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors]()
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits]()
+
+</div>
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
