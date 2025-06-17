@@ -3317,6 +3317,48 @@ Para la entrega de este tercer sprint, se implementó la web application de mane
 2. Resetear Contraseña: Vista donde podremos actualizar nuestra contraseña.
     ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/reset-password.png)
 
+### 5.3.1. Validation Interviews
+**User Goal:** Registrar Usuario
+
+**User Persona:** Administradores
+
+**Explicación del flujo:** El usuario estará en la página de registro de Demy, donde deberá ingresar su nombre completo, el nombre de su academia, su RUC, su correo institucional y una contraseña segura.
+
+Antes de continuar, el sistema requerirá que el usuario acepte los términos y condiciones de uso de la plataforma. Una vez que complete todos los campos obligatorios y presione el botón "Crear Cuenta", será redirigido automáticamente a la sección de "Planes".
+
+En esta nueva vista, el usuario deberá elegir entre uno de los tres planes disponibles que ofrece Demy. Al seleccionar un plan, se asignará automáticamente un pago correspondiente a la institución vinculada y el usuario será redirigido a la sección "Mi organización", dentro del Dashboard.
+
+**Preguntas:**
+
+¿Hubo algún momento durante el proceso en que no tuviste claro qué información debías ingresar? Si es así, ¿en qué parte ocurrió y qué sugerencias tienes para que sea más comprensible?
+
+¿Sentiste que el sistema te brindó una retroalimentación clara al completar el registro? Por ejemplo ¿hubo algún mensaje de confirmación, actualización visible en la interfaz o cierre automático del formulario que te indicara que la acción se realizó con éxito?
+
+
+**User Goal:** Agregar nuevo curso
+
+**User Persona:** Administradores
+
+**Explicación del flujo:** En la sección "Mi organización", el usuario verá en todo momento cinco recuadros principales. El usuario deberá seleccionar el recuadro "Cursos", lo cual lo llevará a la sección correspondiente donde podrá visualizar todos los cursos registrados en Demy hasta el momento.
+
+Para agregar uno nuevo, el usuario deberá hacer clic en el botón "Agregar Curso", lo que desplegará una ventana emergente en la que se le solicitará ingresar dos campos obligatorios: el Nombre del curso, el Código del curso y una descripcion.
+
+Una vez completados estos campos, el usuario podrá presionar el botón "Guardar". Al hacerlo, el sistema registrará automáticamente el nuevo curso y este pasará a mostrarse en la lista general de cursos disponibles.
+
+Si el usuario desea editar un curso, deberá hacer clic en el ícono de lápiz correspondiente al curso deseado. Esto abrirá una pestaña emergente con los datos actuales del curso: el Nombre del curso, el Código del curso y la Descripción.
+
+El usuario podrá modificar libremente cualquiera de estos campos y luego presionar el botón "Guardar" para confirmar los cambios. El sistema actualizará los datos del curso en la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+Si el usuario desea eliminar un curso, deberá hacer clic en el ícono de tacho de basura junto al curso correspondiente. Al hacerlo, se abrirá una ventana emergente de confirmación que preguntará si está seguro de eliminar el curso.
+
+Si el usuario confirma la acción presionando "Eliminar", el curso será removido de la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+**Preguntas:**
+
+¿Al ingresar a la sección de Cursos, hubo algún momento en que no te quedó claro para qué servía cada botón o elemento? Si es así, ¿Cuál fue ese momento y qué crees que podría hacerse para mejorar la comprensión?
+
+¿El sistema te dio suficiente retroalimentación al completar una acción como agregar, editar o eliminar un curso? Por ejemplo, ¿recibiste algún mensaje de confirmación, cambio visible en la lista o cierre automático de ventanas emergentes que te indicara que la acción fue exitosa?
+
 
 # Conclusiones
 
