@@ -3744,6 +3744,33 @@ El botón "Comenzar ahora" en la página principal no tiene ninguna acción asoc
 Asignar una redirección adecuada al botón "Comenzar ahora", para que lleve al usuario a una página donde pueda comenzar el proceso de registro o el flujo principal de la aplicación.
 
 
+**PROBLEMA #2:** Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la landing page, los precios de los planes no se muestran en soles (moneda local), lo que puede generar incertidumbre en los usuarios peruanos, quienes podrían esperar ver la moneda local para realizar una compra o evaluación de costos.
+
+![Captura](./assets/screenshots/usability-problem-2-landing.png)
+
+**Recomendación:**  
+Mostrar los precios en soles (PEN), o al menos incluir la opción de cambiar la moneda a soles en un desplegable.
+
+
+**PROBLEMA #3:** Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+Cuando el usuario selecciona un plan, la página solo lo redirige al encabezado, pero no ofrece una opción para proceder con el pago o continuar con el proceso. Este error dificulta la experiencia de compra.
+
+![Captura](./assets/screenshots/usability-problem-3-landing.png)
+
+**Recomendación:**  
+Hacer que el enlace al plan seleccionado redirija a una página de pago o a una sección donde el usuario pueda completar el proceso de compra.
+
 
 ## 5.4. Video About-the-Product
 
