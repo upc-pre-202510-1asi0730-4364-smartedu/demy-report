@@ -3720,6 +3720,31 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
 | 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
+#### TABLA RESUMEN:
+
+**Landing Page**
+
+| #  | Problema                                                                                            | Escala de severidad | Heurística/ Principio Violado                   |
+|----|-----------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | El botón "Comenzar ahora" no redirige a ninguna sección funcional                                   | 2                   | Usability: Control y libertad del usuario       |
+| 2  | Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales | 1                   | Usability: Aesthetic and minimalist design      |
+| 3  | Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago | 2                   | Usability: Control y libertad del usuario       |
+
+**PROBLEMA #1:** El botón "Comenzar ahora" no redirige a ninguna sección funcional
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+El botón "Comenzar ahora" en la página principal no tiene ninguna acción asociada, lo que impide que el usuario avance a una sección funcional. Este tipo de problemas genera confusión, ya que los usuarios esperan una acción inmediata al hacer clic en botones de llamada a la acción.
+
+![Captura](./assets/screenshots/usability-problem-1-landing.png)
+
+**Recomendación:**  
+Asignar una redirección adecuada al botón "Comenzar ahora", para que lleve al usuario a una página donde pueda comenzar el proceso de registro o el flujo principal de la aplicación.
+
+
+
 ## 5.4. Video About-the-Product
 
 
