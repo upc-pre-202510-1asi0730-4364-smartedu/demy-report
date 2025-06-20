@@ -3909,6 +3909,74 @@ Hacer que la casilla “remember me” esté marcada por defecto para reducir el
 
 ![Captura](./assets/screenshots/usability-problem-2-teacher1.png)
 
+
+**PROBLEMA #8:** Las imágenes en la sección "Mi Organización" tardan en cargarse
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Reconocer antes que recordar
+
+**Problema:**  
+En la sección "Mi Organización", las imágenes no se cargan rápidamente, lo que retrasa la visualización de los datos importantes y afecta la experiencia del usuario.
+
+![Captura](./assets/screenshots/usability-problem-8-administrator.png)
+
+**Recomendación:**  
+Optimizar las imágenes para que se carguen más rápido y mejorar la fluidez de la experiencia, utilizando imágenes de menor resolución o implementando carga progresiva.
+
+
+**PROBLEMA #9:** En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de gestión de matrícula, los campos para ingresar no siguen un flujo claro ni están organizados de manera intuitiva, lo que dificulta la navegación y confunde al usuario.
+
+![Captura](./assets/screenshots/usability-problem-9-administrator.png)
+
+**Recomendación:**  
+Reorganizar los campos de manera lógica y asegurarse de que el flujo de trabajo sea coherente para facilitar la entrada de datos y mejorar la experiencia de usuario.
+
+
+**PROBLEMA #10:** En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Visibilidad del estado del sistema
+
+**Problema:**  
+Cuando un alumno no tiene registros de pagos, no hay ningún mensaje que indique la falta de información, lo que deja al usuario sin saber si es un error o simplemente no hay pagos registrados.
+
+![Captura](./assets/screenshots/usability-problem-10-administrator.png)
+
+**Recomendación:**  
+Incluir un mensaje que indique claramente que no hay pagos registrados para ese alumno, para que el usuario sepa qué está sucediendo y pueda tomar las acciones necesarias.
+
+
+**PROBLEMA #11:** En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de finanzas, no hay un contraste visual claro entre los ingresos y los egresos, lo que puede dificultar la interpretación rápida de la información financiera.
+
+![Captura](./assets/screenshots/usability-problem-11-administrator.png)
+
+**Recomendación:**  
+Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingresos de los egresos, mejorando así la comprensión visual y la accesibilidad de los datos financieros.
+
+
+**PROBLEMA #12:** Confusión en las etiquetas de estado de matrícula
+
+**Severidad:** 2 <br>
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** En el formulario de matrícula, al completar el registro del alumno, el sistema muestra dos estados distintos (“cancelado” y “completado”) para indicar si la matrícula está activa o finalizada. Kevin comentó que esto puede prestarse a error, ya que un único estado (“Matriculado”) resultaría más claro.
+
+![Captura](./assets/screenshots/usability-problem-12-administrator.png)
+
+**Recomendación:** Unificar las etiquetas bajo un único estado representativo (por ejemplo, “Matriculado”) o usar un indicador booleano acompañado de una descripción clara. Así se evita la ambigüedad y se respeta la consistencia terminológica en toda la aplicación.
+
 ## 5.4. Video About-the-Product
 
 
