@@ -3754,13 +3754,71 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi073
 
 ### 5.3.1. Diseño de Entrevistas
 
+**User Goal**: Registrar asistencia de una sesión de clase
 
+**User Persona**: Profesores
+
+**Explicación del flujo**: En la sección del Dashboard, la categoría "Mi organización" es la que aparece
+de manera predeterminada. El usuario al navegar mediante el navbar izquierdo, selecciona la sección de "Asistencia",
+entonces luego de ser dirigido, el usuario deberá seleccionar el curso correspondiente, la fecha y marcará la asistencia
+de los alumnos mediante el checkbox.
+Finalmente, el usuario apretará el botón de "Guardar asistencia".
+
+**Pregunta**:¿La navegación hasta la sección de asistencia te pareció fácil de entender, por qué? ¿Te pareció intuitivo
+el proceso de registrar una asistencia, por qué? ¿Qué opinas del diseño de la sección de registrar asistencia,
+es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
 
 
 ### 5.3.3. Evaluaciones según heurísticas
+
+SITE o APP A EVALUAR: <br>
+*Demy*
+
+TAREAS A EVALUAR: <br>
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas: <br>
+
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+
+FUERA DE ALCANCE: <br>
+
+
+TABLA RESUMEN:
+
+| # | Problema                                                    | Escala de severidad | Heurística/ Principio Violado                  |
+|---|-------------------------------------------------------------|---------------------|------------------------------------------------|
+| 1 | La página de guardar asistencia carece de imágenes          | 1                   | Usability: Reconocer antes que recordar        |
+| 2 | Los checkbox de asistencia no aparecen marcados por defecto | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: La página de guardar asistencia carece de imágenes <br>
+Severidad: 1 <br>
+Heurística violada: Usability- Reconocer antes que recordar <br>
+Problema: <br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+Recomendación: <br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+PROBLEMA #2: Los checkbox de asistencia no aparecen marcados por defecto <br>
+Severidad: 2<br>
+Heurística violada: Usability- Flexibilidad y eficiencia en el uso <br>
+Problema: <br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste
+, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+Recomendación: <br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
 
 
 
