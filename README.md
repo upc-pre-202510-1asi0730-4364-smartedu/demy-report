@@ -3878,6 +3878,37 @@ En la sección de “Asistencia”, aunque la navegación es sencilla y el dise�
 <br>
 Agregar una columna o ícono en la lista de alumnos que muestre la cantidad de inasistencias acumuladas, o bien un acceso rápido al historial de asistencia por alumno. Esto mejoraría el seguimiento, permitiría decisiones pedagógicas más informadas y mantendría al usuario actualizado sobre el estado del grupo en tiempo real.
 
+
+**PROBLEMA #6:** El mensaje de error en Login no especifica el error cometido por el usuario <br>
+
+**Severidad:** 2
+
+**Heurística violada:** Usability- Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores<br>
+
+**Problema:**
+
+Al momento de registrar las credenciales incorrectas en Login, no se muestra ningún mensaje que indique que el error está relacionado con las credenciales. Este mensaje es necesario, ya que orienta al usuario y le permite recuperarse del problema de manera adecuada. <br>
+
+**Recomendación:** <br>
+Agregar una descripción leve de la causa del problema para que el usuario pueda recuperarse del problema. <br>
+
+![Captura](./assets/screenshots/usability-problem1-teacher1.png)
+
+
+**PROBLEMA #7:** La casilla de remember me debería de estar marcada por defecto
+
+**Severidad:** 1
+
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+Al momento de registrar las credenciales en Login, la casilla “remember me” no está marcada por defecto lo cual evita que se optimice el flujo del caso mas común, pues casi siempre uno quiere mantener su sesión iniciada. <br>
+
+**Recomendación:**
+Hacer que la casilla “remember me” esté marcada por defecto para reducir el tiempo que toma el usuario al iniciar sesión por primera vez  <br>
+
+![Captura](./assets/screenshots/usability-problem-2-teacher1.png)
+
 ## 5.4. Video About-the-Product
 
 
