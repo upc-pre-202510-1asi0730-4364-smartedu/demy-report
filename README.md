@@ -1121,7 +1121,7 @@ Para llevar un correcto orden del Product Backlog, se utilizó la herramienta de
 
 ![Product Backlog](./assets/images/backlog-pivotal.jpg)
 
-**Enlace al Pivotal Tracker:** https://www.pivotaltracker.com/n/projects/2740485
+**Enlace al Pivotal Tracker:** 
 
 # Capítulo IV: Product Design
 
@@ -3433,7 +3433,149 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 </div>
 
 #### 5.2.3.3. Sprint Backlog 3
+El tercer sprint estuvo dedicado al mayor avance posible de nuestro Backend junto a algunas correcciones del FrontEnd.<br>
+El objetivo principal de este sprint fue avanzar los endpoints core de nuestro proyecto.
 
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura](./assets/screenshots/trello-sprint3-appweb.png)
+
+Link del Trello:  https://trello.com/invite/b/6855d1df16c24dad77543acd/ATTI26e2f981662d6fb3291751434378e54f093BE1D9/sprint-3-apps-web
+
+<div style="font-size:60%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>TS01</td><td>Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)</td><td>TS01a</td><td>Dominio e Infraestructura</td><td>Definir entidad Enrollment, repositorio y persistencia</td><td>3</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS01</td><td>Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)</td><td>TS01b</td><td>Application Command Service</td><td>Implementar servicios para POST, PUT, DELETE</td><td>4</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS01</td><td>Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)</td><td>TS01c</td><td>Exponer Endpoints</td><td>Crear endpoints /enrollments</td><td>2</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS05</td><td>Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)</td><td>TS05a</td><td>Dominio e Infraestructura</td><td>Definir entidad Student, repositorio y persistencia</td><td>3</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS05</td><td>Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)</td><td>TS05b</td><td>Application Command Service</td><td>Implementar servicios para POST, PUT, DELETE</td><td>4</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS05</td><td>Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)</td><td>TS05c</td><td>Exponer Endpoints</td><td>Crear endpoints /students</td><td>2</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS08</td><td>Implementar endpoint para registrar y gestionar periodos académicos (POST, PUT, DELETE /academic-periods)</td><td>TS08a</td><td>Dominio e Infraestructura</td><td>Definir entidad AcademicPeriod, repositorio y persistencia</td><td>3</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS08</td><td>Implementar endpoint para registrar y gestionar periodos académicos (POST, PUT, DELETE /academic-periods)</td><td>TS08b</td><td>Application Command Service</td><td>Implementar servicios para POST, PUT, DELETE</td><td>4</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS08</td><td>Implementar endpoint para registrar y gestionar periodos académicos (POST, PUT, DELETE /academic-periods)</td><td>TS08c</td><td>Exponer Endpoints</td><td>Crear endpoints /academic-periods</td><td>2</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS04</td><td>Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni})</td><td>TS04a</td><td>Query Service</td><td>Crear query y handler para búsqueda por DNI</td><td>2</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS04</td><td>Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni})</td><td>TS04b</td><td>Exponer Endpoint</td><td>GET /enrollments/dni/{dni}</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS02</td><td>Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})</td><td>TS02a</td><td>Query Service</td><td>Crear query y handler por ID</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS02</td><td>Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})</td><td>TS02b</td><td>Exponer Endpoint</td><td>GET /enrollments/{id}</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS03</td><td>Implementar endpoint para listar matrículas (GET /enrollments)</td><td>TS03a</td><td>Query Service</td><td>Crear query y handler para lista</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS03</td><td>Implementar endpoint para listar matrículas (GET /enrollments)</td><td>TS03b</td><td>Exponer Endpoint</td><td>GET /enrollments</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS06</td><td>Implementar endpoint para obtener estudiante por ID (GET /students/{id})</td><td>TS06a</td><td>Query Service</td><td>Crear query y handler para estudiante por ID</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS06</td><td>Implementar endpoint para obtener estudiante por ID (GET /students/{id})</td><td>TS06b</td><td>Exponer Endpoint</td><td>GET /students/{id}</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS07</td><td>Implementar endpoint para listar estudiantes (GET /students)</td><td>TS07a</td><td>Query Service</td><td>Crear query y handler para lista de estudiantes</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS07</td><td>Implementar endpoint para listar estudiantes (GET /students)</td><td>TS07b</td><td>Exponer Endpoint</td><td>GET /students</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS09</td><td>Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})</td><td>TS09a</td><td>Query Service</td><td>Crear query y handler para periodo por ID</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS09</td><td>Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})</td><td>TS09b</td><td>Exponer Endpoint</td><td>GET /academic-periods/{id}</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS10</td><td>Implementar endpoint para listar períodos académicos (GET /academic-periods)</td><td>TS10a</td><td>Query Service</td><td>Crear query y handler para lista de periodos</td><td>1</td><td>Paul</td><td>Done</td></tr>
+<tr><td>TS10</td><td>Implementar endpoint para listar períodos académicos (GET /academic-periods)</td><td>TS10b</td><td>Exponer Endpoint</td><td>GET /academic-periods</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>TS11</td><td> Implementar un endpoint para registrar una class sesión</td><td>TS11a</td><td>Dominio e Infraestructura</td><td>Definir agregados, entidades, repositorios y persistencia para ClassSession.</td><td>4</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS11</td><td> Implementar un endpoint para registrar una class sesión</td><td>TS11b</td><td>Implementación de capas restantes</td><td>Implementar la capa de aplicación y interfaz</td><td>4</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para obtener asistencia por DNI</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12b</td><td>Application Query Service</td><td>Crear query, handler y servicio de aplicación para consulta por DNI</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/student/{dni}</td><td>1</td><td>Diego</td><td>To-do</td></tr>
+
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para filtrar por studentId y courseId</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13b</td><td>Application Query Service</td><td>Crear query, handler y servicio para consultar asistencia por curso</td><td>2</td><td>Diego</td><td>To-do</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/course/{courseId}/student/{id}</td><td>1</td><td>Diego</td><td>To-do</td></tr>
+
+<tr><td>TS14</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS14a</td><td>Dominio e Infraestructura</td><td>Definir entidad FinancialTransaction, repositorio y mapeo</td><td>3</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS14</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS14b</td><td>Application CQRS Services</td><td>Crear Command (POST) y Query (GET) con handlers</td><td>2</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS14</td><td>Implementar endpoint para crea y consultar transacciones financiera (GET, POST /financial-transactions)</td><td>TS14c</td><td>Exponer Endpoints</td><td>Crear controlador GET y POST /financial-transactions</td><td>1</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS15a</td><td>Infraestructura</td><td>Agregar método en repositorio que filtre por rol ADMIN</td><td>1</td><td>Rafael</td><td>In-progress</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS15b</td><td>Application Query Service</td><td>Crear query, handler y servicio para filtro por rol</td><td>1.5</td><td>Rafael</td><td>In-progress</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin
+(GET/users/role/{name})</td><td>TS15c</td><td>Exponer Endpoint</td><td>Crear GET /users/role/ADMIN</td><td>0.5</td><td>Rafael</td><td>In-progress</td></tr>
+
+<tr><td>TS16</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS16a</td><td>Infraestructura</td><td>Agregar método en repositorio que filtre por rol TEACHER</td><td>1</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS16</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS16b</td><td>Application Query Service</td><td>Crear query, handler y servicio para filtro por rol</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS16</td><td>Implementar  endpoint para poder consultar los perfiles de usuarios Teacher 
+(GET/users/role/{name})</td><td>TS16c</td><td>Exponer Endpoint</td><td>Crear GET /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+<tr><td>TS17</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS17a</td><td>Dominio e Infraestructura</td><td>Agregar método de eliminación en repositorio de usuario</td><td>1</td><td>Done</td><td>To-do</td></tr>
+<tr><td>TS17</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS17b</td><td>Application Command</td><td>Crear Command y Handler para eliminar por ID</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS17</td><td>Implementar endpoints para eliminar a los Usuarios Teachers de Demy (DELETE /users/{id})</td><td>TS17c</td><td>Exponer Endpoint</td><td>Crear DELETE /users/{id}</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+<tr><td>TS18</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS18a</td><td>Dominio e Infraestructura</td><td>Implementar mapeo y persistencia de usuarios Teacher</td><td>2</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS18</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS18b</td><td>Application Command</td><td>Crear Command y Handler para crear Teacher</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS18</td><td>Implementar endpoint para poder agregar los perfiles de usuarios teacher
+(Post/users/role/{name})</td><td>TS18c</td><td>Exponer Endpoint</td><td>Crear POST /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+<tr><td>TS19</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS19a</td><td>Dominio e Infraestructura</td><td>Agregar método de actualización en repositorio</td><td>2</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS19</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS19b</td><td>Application Command</td><td>Crear Command y Handler para editar datos de Teacher</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS19</td><td>Implementar endpoint para poder editar los perfiles de teacher (Put/users/role/{Teacher})</td><td>TS19c</td><td>Exponer Endpoint</td><td>Crear PUT /users/role/TEACHER</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+<tr><td>TS20</td><td>Implementar endpoint para consultar los pagos de una factura (`GET /payments/{invoiceId}`)</td><td>TS20a</td><td>Implementar el endpoint GET /payments/{invoiceId}</td><td>Exponer el endpoint que permitirá consultar los pagos realizados a una factura mediante su ID.</td><td>3</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>TS21</td><td>Implementar endpoints para obtener datos de cursos (`GET /courses`, `GET /courses/{id}`)</td><td>TS21a</td><td>Implementar el endpoint GET /courses</td><td>Exponer el endpoint que permitirá obtener todos los cursos del sistema.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS21</td><td>Implementar endpoints para obtener datos de cursos (`GET /courses`, `GET /courses/{id}`)</td><td>TS21b</td><td>Implementar el endpoint GET /courses/{id}</td><td>Exponer el endpoint que permitirá obtener un curso específico mediante su ID.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS22</td><td>Implementar endpoints para registrar, actualizar y eliminar un curso (`POST /courses`, `PUT /courses/{id}`, `DELETE /courses/{id}`)</td><td>TS22a</td><td>Implementar el endpoint POST /courses</td><td>Exponer el endpoint que permitirá registrar un nuevo curso.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS22</td><td>Implementar endpoints para registrar, actualizar y eliminar un curso (`POST /courses`, `PUT /courses/{id}`, `DELETE /courses/{id}`)</td><td>TS22b</td><td>Implementar el endpoint PUT /courses/{id}</td><td>Exponer el endpoint que permitirá actualizar un curso existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS22</td><td>Implementar endpoints para registrar, actualizar y eliminar un curso (`POST /courses`, `PUT /courses/{id}`, `DELETE /courses/{id}`)</td><td>TS22c</td><td>Implementar el endpoint DELETE /courses/{id}</td><td>Exponer el endpoint que permitirá eliminar un curso existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS23</td><td>Implementar endpoints para obtener datos de aulas (`GET /classrooms`, `GET /classrooms/{id}`)</td><td>TS23a</td><td>Implementar el endpoint GET /classrooms</td><td>Exponer el endpoint que permitirá obtener todas las aulas del sistema.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS23</td><td>Implementar endpoints para obtener datos de aulas (`GET /classrooms`, `GET /classrooms/{id}`)</td><td>TS23b</td><td>Implementar el endpoint GET /classrooms/{id}</td><td>Exponer el endpoint que permitirá obtener una aula específica mediante su ID.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS24</td><td>Implementar endpoints para registrar, actualizar y eliminar un aula (`POST /classrooms`, `PUT /classrooms/{id}`, `DELETE /classrooms/{id}`)</td><td>TS24a</td><td>Implementar el endpoint POST /classrooms</td><td>Exponer el endpoint que permitirá registrar una nueva aula.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS24</td><td>Implementar endpoints para registrar, actualizar y eliminar un aula (`POST /classrooms`, `PUT /classrooms/{id}`, `DELETE /classrooms/{id}`)</td><td>TS24b</td><td>Implementar el endpoint PUT /classrooms/{id}</td><td>Exponer el endpoint que permitirá actualizar una aula existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS24</td><td>Implementar endpoints para registrar, actualizar y eliminar un aula (`POST /classrooms`, `PUT /classrooms/{id}`, `DELETE /classrooms/{id}`)</td><td>TS24c</td><td>Implementar el endpoint DELETE /classrooms/{id}</td><td>Exponer el endpoint que permitirá eliminar una aula existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS25</td><td>Implementar endpoints para obtener datos de horarios semanales (`GET /weeklyschedules`, `GET /weeklyschedules/{id}`)</td><td>TS25a</td><td>Implementar el endpoint GET /weeklyschedules</td><td>Exponer el endpoint que permitirá obtener todos los horarios semanales del sistema.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS25</td><td>Implementar endpoints para obtener datos de horarios semanales (`GET /weeklyschedules`, `GET /weeklyschedules/{id}`)</td><td>TS25b</td><td>Implementar el endpoint GET /weeklyschedules/{id}</td><td>Exponer el endpoint que permitirá obtener un horario semanal específico mediante su ID.</td><td>3</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS26</td><td>Implementar endpoints para registrar, actualizar y eliminar un horario semanal (`POST /weeklyschedules`, `PUT /weeklyschedules/{id}`, `DELETE /weeklyschedules/{id}`)</td><td>TS26a</td><td>Implementar el endpoint POST /weeklyschedules</td><td>Exponer el endpoint que permitirá registrar un nuevo horario semanal.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS26</td><td>Implementar endpoints para registrar, actualizar y eliminar un horario semanal (`POST /weeklyschedules`, `PUT /weeklyschedules/{id}`, `DELETE /weeklyschedules/{id}`)</td><td>TS26b</td><td>Implementar el endpoint PUT /weeklyschedules/{id}</td><td>Exponer el endpoint que permitirá actualizar un horario semanal existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>TS26</td><td>Implementar endpoints para registrar, actualizar y eliminar un horario semanal (`POST /weeklyschedules`, `PUT /weeklyschedules/{id}`, `DELETE /weeklyschedules/{id}`)</td><td>TS26c</td><td>Implementar el endpoint DELETE /weeklyschedules/{id}</td><td>Exponer el endpoint que permitirá eliminar un horario semanal existente mediante su ID.</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS27</td><td>Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)</td><td>TS27a</td><td>Dominio e Infraestructura</td><td>Definir entidad Invoice, repositorio y persistencia</td><td>3</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS27</td><td>Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)</td><td>TS27b</td><td>Application Command Service</td><td>Implementar servicios para POST, PUT y DELETE</td><td>4</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS27</td><td>Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)</td><td>TS27c</td><td>Exponer Endpoints</td><td>Crear endpoints POST, PUT y DELETE /invoices</td><td>2</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>TS28</td><td>Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})</td><td>TS28a</td><td>Query Service</td><td>Crear query y handler para consultar facturas por studentId</td><td>2</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS28</td><td>Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})</td><td>TS28b</td><td>Exponer Endpoint</td><td>GET /invoices/{studentId}</td><td>1</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>TS29</td><td>Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})</td><td>TS29a</td><td>Query Service</td><td>Crear query y handler para obtener factura por ID</td><td>2</td><td>Salim</td><td>Done</td></tr>
+<tr><td>TS29</td><td>Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})</td><td>TS29b</td><td>Exponer Endpoint</td><td>GET /invoices/{id}</td><td>1</td><td>Salim</td><td>Done</td></tr>
+  </tbody>
+</table>
+</div>
 
 
 #### 5.2.3.4 Development Evidence for Sprint Review
