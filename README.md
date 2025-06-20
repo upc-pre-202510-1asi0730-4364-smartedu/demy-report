@@ -3438,6 +3438,70 @@ A través de estas entrevistas, buscamos obtener comentarios directos sobre su e
 
 En esta sección, se describen los objetivos específicos de los usuarios que guían nuestras entrevistas. Estos objetivos son fundamentales para asegurar que la plataforma web cumpla con las necesidades reales de los usuarios en lo que respecta a la gestión y administración de academias educativas.
 
+#### User Goal: Registrar Usuario
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+El usuario estará en la página de registro de Demy, donde deberá ingresar su nombre completo, el nombre de su academia, su RUC, su correo institucional y una contraseña segura.
+
+Antes de continuar, el sistema requerirá que el usuario acepte los términos y condiciones de uso de la plataforma. Una vez que complete todos los campos obligatorios y presione el botón "Crear Cuenta", será redirigido automáticamente a la sección de "Planes".
+
+En esta nueva vista, el usuario deberá elegir entre uno de los tres planes disponibles que ofrece Demy. Al seleccionar un plan, se asignará automáticamente un pago correspondiente a la institución vinculada y el usuario será redirigido a la sección "Mi organización", dentro del Dashboard.
+
+**Preguntas:**
+¿Hubo algún momento durante el proceso en que no tuviste claro qué información debías ingresar? Si es así, ¿en qué parte ocurrió y qué sugerencias tienes para que sea más comprensible?
+
+¿Sentiste que el sistema te brindó una retroalimentación clara al completar el registro? Por ejemplo ¿hubo algún mensaje de confirmación, actualización visible en la interfaz o cierre automático del formulario que te indicara que la acción se realizó con éxito?
+
+#### User Goal: Agregar nuevo curso
+
+**User Persona:** Administradores
+
+**Explicación del flujo:**
+En la sección "Mi organización", el usuario verá en todo momento cinco recuadros principales. El usuario deberá seleccionar el recuadro "Cursos", lo cual lo llevará a la sección correspondiente donde podrá visualizar todos los cursos registrados en Demy hasta el momento.
+
+Para agregar uno nuevo, el usuario deberá hacer clic en el botón "Agregar Curso", lo que desplegará una ventana emergente en la que se le solicitará ingresar dos campos obligatorios: el Nombre del curso, el Código del curso y una descripcion.
+
+Una vez completados estos campos, el usuario podrá presionar el botón "Guardar". Al hacerlo, el sistema registrará automáticamente el nuevo curso y este pasará a mostrarse en la lista general de cursos disponibles.
+
+Si el usuario desea editar un curso, deberá hacer clic en el ícono de lápiz correspondiente al curso deseado. Esto abrirá una pestaña emergente con los datos actuales del curso: el Nombre del curso, el Código del curso y la Descripción.
+
+El usuario podrá modificar libremente cualquiera de estos campos y luego presionar el botón "Guardar" para confirmar los cambios. El sistema actualizará los datos del curso en la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+Si el usuario desea eliminar un curso, deberá hacer clic en el ícono de tacho de basura junto al curso correspondiente. Al hacerlo, se abrirá una ventana emergente de confirmación que preguntará si está seguro de eliminar el curso.
+
+Si el usuario confirma la acción presionando "Eliminar", el curso será removido de la lista. En caso contrario, podrá cancelar la acción con el botón "Cancelar".
+
+**Preguntas:**
+¿Al ingresar a la sección de Cursos, hubo algún momento en que no te quedó claro para qué servía cada botón o elemento? Si es así, ¿Cuál fue ese momento y qué crees que podría hacerse para mejorar la comprensión?
+
+¿El sistema te dio suficiente retroalimentación al completar una acción como agregar, editar o eliminar un curso? Por ejemplo, ¿recibiste algún mensaje de confirmación, cambio visible en la lista o cierre automático de ventanas emergentes que te indicara que la acción fue exitosa?
+
+#### User Goal: Agregar un nuevo profesor
+
+**User Persona:** Administrador
+
+**Descripción del flujo:**
+En la sección "Mi organización", el usuario verá cinco recuadros. Al seleccionar "Profesores", será dirigido a la sección de Profesores, donde podrá visualizar todos los profesores registrados en Demy.
+
+Para agregar un nuevo profesor, el usuario debe hacer clic en la opción "Nuevo Profesor", lo que abrirá un modal donde podrá ingresar el nombre completo, el correo electrónico y la contraseña del profesor. Al completar los datos, el usuario deberá presionar "Guardar", registrando así al nuevo profesor en el sistema.
+
+**Pregunta:**
+¿Te pareció que el proceso de agregar un nuevo profesor es consistente con otros procesos similares que has visto en otras aplicaciones? ¿Hubo algún aspecto que te resultó confuso o diferente? ¿Cómo podríamos hacer que este proceso sea más familiar y fácil de seguir?
+
+#### User Goal: Matricular a un alumno
+
+**User Persona:** Administrador
+
+**Descripción del flujo:**
+El administrador ingresa al módulo de "Matrícula" desde la barra lateral. Dentro de este módulo, se presenta un formulario en el que el administrador debe seleccionar al alumno, el periodo académico, el monto, el estado de pago, el estado de la matrícula y la fecha de matriculación. Una vez que todos los campos estén completos, el administrador debe presionar el botón "Registrar matrícula".
+
+La matrícula registrada se reflejará en la sección "Historial de matrícula", donde el administrador podrá consultar todas las matrículas realizadas, incluida la del alumno recientemente matriculado.
+
+**Pregunta:**
+Durante el proceso de matrícula, ¿la aplicación te ayuda a evitar errores al ingresar información, como seleccionar al alumno o el estado del pago? ¿Hay alguna parte del formulario donde te gustaría recibir más ayuda o información para evitar posibles errores?
+
 #### User Goal: Registrar el pago de un alumno
 
 **User Persona:** Administradores
@@ -3463,6 +3527,46 @@ Cuando el usuario haya completado los datos podrá darle a la opción de "Confir
 
 **Pregunta:**
 ¿Qué tan claro te resultó el proceso para registrar un egreso? ¿Notaste con facilidad que el egreso fue registrado exitosamente? ¿La actualización del resumen mensual te pareció suficiente como confirmación del registro?
+
+#### User Goal: Iniciar sesión como profesor
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+El usuario inicia su interacción en la landing page de Demy, donde puede visualizar la presentación general de la plataforma Demy, conocer sus funcionalidades principales y los beneficios para las academias educativas. Desde esta página, identifica el botón de "Iniciar sesión" ubicado en el header. Al hacer clic en este botón, es redirigido automáticamente a la aplicación web de Demy.
+
+Una vez en la aplicación, el usuario visualiza directamente la pantalla de inicio de sesión. Allí debe completar el formulario ingresando su correo electrónico y contraseña, los cuales han sido previamente proporcionados por su coordinador de academia al momento de ser registrado en el sistema. Después de ingresar las credenciales, si los datos son correctos, el sistema valida el acceso y redirige al usuario hacia la vista principal correspondiente al perfil de profesor, donde podrá gestionar sus aulas, horarios y demás funcionalidades asignadas.
+
+**Pregunta:**
+¿El proceso desde la landing page hasta ingresar a la plataforma como profesor fue claro y sin dificultades?
+¿El formulario de inicio de sesión con sus credenciales proporcionadas fue fácil de completar?
+
+#### User Goal: Visualizar horarios de aulas asignadas
+
+**User Persona:** Profesores de academia
+
+**Explicación del flujo:**
+Luego de iniciar sesión y ser redirigido al dashboard principal correspondiente al perfil de profesor, el usuario visualiza la interfaz principal de la plataforma Demy. Desde el sidenavbar ubicado en el lateral de la pantalla, selecciona la opción "Mi horario". Al ingresar a esta sección, el sistema muestra automáticamente el listado de clases programadas para el docente, incluyendo los datos específicos como fecha, hora, aula asignada, sede donde se dicta la clase y demás detalles relevantes. Además de visualizar su programación, el profesor tiene la opción de gestionar la reprogramación de sus clases en caso sea necesario, accediendo a la funcionalidad de reprogramación disponible dentro de la misma sección.
+
+**Preguntas:**
+¿El acceso a la sección de mi horario dentro de la plataforma le resultó sencillo y fácil de ubicar?
+¿La visualización del horario asignado fue clara y le permitió entender rápidamente su programación de clases?
+
+#### User Goal: Registrar asistencia de una sesión de clase
+
+**User Persona**: Profesores
+
+**Explicación del flujo**:
+En la sección del Dashboard, la categoría "Mi organización" es la que aparece
+de manera predeterminada. El usuario al navegar mediante el navbar izquierdo, selecciona la sección de "Asistencia",
+entonces luego de ser dirigido, el usuario deberá seleccionar el curso correspondiente, la fecha y marcará la asistencia
+de los alumnos mediante el checkbox.
+Finalmente, el usuario apretará el botón de "Guardar asistencia".
+
+**Pregunta**:
+¿La navegación hasta la sección de asistencia te pareció fácil de entender, por qué? ¿Te pareció intuitivo
+el proceso de registrar una asistencia, por qué? ¿Qué opinas del diseño de la sección de registrar asistencia,
+es cómoda a la vista?
 
 ### 5.3.2. Registro de Entrevistas
 
