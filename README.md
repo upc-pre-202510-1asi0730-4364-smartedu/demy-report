@@ -3977,6 +3977,42 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 
 **Recomendación:** Unificar las etiquetas bajo un único estado representativo (por ejemplo, “Matriculado”) o usar un indicador booleano acompañado de una descripción clara. Así se evita la ambigüedad y se respeta la consistencia terminológica en toda la aplicación.
 
+
+**PROBLEMA #13:** Feedback de confirmación de matrícula fuera de la vista inicial
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Tras registrar la matrícula de un alumno, la confirmación se ubica en la parte inferior de la pantalla, obligando al usuario a “scrollear” para verificar que el proceso fue exitoso. Esto añade pasos innecesarios y puede generar incertidumbre inmediata.
+
+![Captura](./assets/screenshots/usability-problem-13-administrator.png)
+
+**Recomendación:** Mostrar un mensaje de éxito o ventana emergente cerca del punto de acción (por ejemplo, arriba del formulario) que confirme inmediatamente la operación sin necesidad de desplazarse. De esta forma se mejora la percepción de respuesta ágil del sistema.
+
+
+**PROBLEMA #14:** Campos de matrícula resaltados en rojo tras envío exitoso
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:** Después de registrar una matrícula correctamente, el formulario se limpia pero mantiene el borde rojo (estado de error), lo que induce al usuario a pensar que la operación ha fallado.
+
+![Captura](./assets/screenshots/usability-problem-14-administrator.png)
+
+**Recomendación:** Al completar con éxito el registro, restablecer el estilo neutro de los campos (borde gris) y mostrar una notificación de éxito (por ejemplo, un mensaje verde) para confirmar la creación sin ambigüedades.
+
+
+**PROBLEMA #15:** Icono de eliminar sin etiqueta
+
+**Severidad:** 2<br>
+**Heurística violada:** Reconocer antes que recordar
+
+**Descripción:** El botón para eliminar o editar cursos o profesores se identifica solo con un icono de basurero, sin texto ni descripción emergente, lo que puede confundir a usuarios menos experimentados.
+
+![Captura](./assets/screenshots/usability-problem-15-administrator.png)
+
+**Recomendación:** Añadir un atributo `title` con texto descriptivo (“Eliminar curso”/“Eliminar profesor”) y, de ser posible, una etiqueta visible en pantallas anchas.
+
 ## 5.4. Video About-the-Product
 
 
