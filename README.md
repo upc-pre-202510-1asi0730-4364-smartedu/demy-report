@@ -3774,52 +3774,369 @@ es cómoda a la vista?
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-SITE o APP A EVALUAR: <br>
-*Demy*
+#### UX Heuristics & Principles Evaluation
+#### Usability – Inclusive Design – Information Architecture
 
-TAREAS A EVALUAR: <br>
-El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas: <br>
+**CARRERA** : Ingeniería de Software
 
+**CURSO** : Desarrollo de Aplicaciones Open Source
+
+**SECCIÓN** : 4304
+
+**PROFESOR** : Efraín Ricardo Bautista Ubillús
+
+**AUDITOR** : SmartEdu
+
+**CLIENTES** : Kevin Rodríguez, Marleni Flores, Jhon Candioti, Sebastían Maguiña, Diego Meléndez, Jeff Quispe
+
+#### SITE o APP A EVALUAR:
+
+**Demy**
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Web Application**
 1. Inicio de sesión
 2. Ver horario
 3. Registrar asistencia
+4. Gestionar profesores
+5. Gestionar cursos
+6. Gestionar Aulas
+7. Gestionar Horarios semanales
+8. Gestionar Periodos académicos
+9. Registrar matrícula de alumno
+10. Consultar estado de pago
+11. Consultar horarios por periodo
+12. Consultar las finanzas
 
-FUERA DE ALCANCE: <br>
+#### FUERA DE ALCANCE:
 
+No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-TABLA RESUMEN:
+**Landing Page**
+1. Redes sociales asociadas a la startup
+2. Política de privacidad y condiciones de uso
 
-| # | Problema                                                    | Escala de severidad | Heurística/ Principio Violado                  |
-|---|-------------------------------------------------------------|---------------------|------------------------------------------------|
-| 1 | La página de guardar asistencia carece de imágenes          | 1                   | Usability: Reconocer antes que recordar        |
-| 2 | Los checkbox de asistencia no aparecen marcados por defecto | 2                   | Usability: Flexibilidad y eficiencia en el uso |
+**Web Application**
+1. Recuperación de contraseña
+2. Política de privacidad y condiciones de uso
 
-DESCRIPCIÓN DE PROBLEMAS:
+#### ESCALA DE SEVERIDAD:
 
-PROBLEMA #1: La página de guardar asistencia carece de imágenes <br>
-Severidad: 1 <br>
-Heurística violada: Usability- Reconocer antes que recordar <br>
-Problema: <br>
+| Nivel   | Descripción                                                                                                                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1       | **Problema superficial**: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2       | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+#### TABLA RESUMEN:
+
+**Landing Page**
+
+| #  | Problema                                                                                            | Escala de severidad | Heurística/ Principio Violado                   |
+|----|-----------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | El botón "Comenzar ahora" no redirige a ninguna sección funcional                                   | 2                   | Usability: Control y libertad del usuario       |
+| 2  | Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales | 1                   | Usability: Aesthetic and minimalist design      |
+| 3  | Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago | 2                   | Usability: Control y libertad del usuario       |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** El botón "Comenzar ahora" no redirige a ninguna sección funcional
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+El botón "Comenzar ahora" en la página principal no tiene ninguna acción asociada, lo que impide que el usuario avance a una sección funcional. Este tipo de problemas genera confusión, ya que los usuarios esperan una acción inmediata al hacer clic en botones de llamada a la acción.
+
+![Captura](./assets/screenshots/usability-problem-1-landing.png)
+
+**Recomendación:**  
+Asignar una redirección adecuada al botón "Comenzar ahora", para que lleve al usuario a una página donde pueda comenzar el proceso de registro o el flujo principal de la aplicación.
+
+**PROBLEMA #2:** Los precios no están mostrados en soles, lo cual podría generar confusión para los usuarios locales
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la landing page, los precios de los planes no se muestran en soles (moneda local), lo que puede generar incertidumbre en los usuarios peruanos, quienes podrían esperar ver la moneda local para realizar una compra o evaluación de costos.
+
+![Captura](./assets/screenshots/usability-problem-2-landing.png)
+
+**Recomendación:**  
+Mostrar los precios en soles (PEN), o al menos incluir la opción de cambiar la moneda a soles en un desplegable.
+
+**PROBLEMA #3:** Al elegir un plan, la página solo redirige al encabezado, sin ofrecer la opción de proceder al pago
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Control y libertad del usuario
+
+**Problema:**  
+Cuando el usuario selecciona un plan, la página solo lo redirige al encabezado, pero no ofrece una opción para proceder con el pago o continuar con el proceso. Este error dificulta la experiencia de compra.
+
+![Captura](./assets/screenshots/usability-problem-3-landing.png)
+
+**Recomendación:**  
+Hacer que el enlace al plan seleccionado redirija a una página de pago o a una sección donde el usuario pueda completar el proceso de compra.
+
+**Web Application**
+
+| #   | Problema                                                                                                              | Escala de severidad | Heurística/ Principio Violado                                                          |
+|-----|-----------------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------|
+| 1   | La página de guardar asistencia carece de imágenes                                                                    | 1                   | Usability: Reconocer antes que recordar                                                |
+| 2   | Los checkbox de asistencia no aparecen marcados por defecto                                                           | 2                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 3   | Campos de correo y contraseña desalineados visualmente                                                                | 1                   | Usability: Aesthetic and minimalist design                                             |
+| 4   | La sección “Mi horario” no aparece por defecto tras iniciar sesión                                                    | 2                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 5   | No se muestra un contador de inasistencias en la lista de alumnos                                                     | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 6   | El mensaje de error en login no especifica el error cometido por el usuario                                           | 2                   | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+| 7   | La casilla "remember me" debería de estar marcada por defecto                                                         | 1                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 8   | Las imágenes en la sección "Mi Organización" tardan en cargarse                                                       | 2                   | Usability: Reconocer antes que recordar                                                |
+| 9   | En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara                  | 1                   | Usability: Aesthetic and minimalist design                                             |
+| 10  | En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados   | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 11  | En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia        | 2                   | Usability: Aesthetic and minimalist design                                             |
+| 12  | Confusión en las etiquetas de estado de matrícula (“cancelado” vs. “completado”)                                      | 2                   | Usability: Consistencia y estándares                                                   |
+| 13  | Feedback de confirmación de matrícula aparece fuera de la vista inicial (requiere desplazarse hacia abajo)            | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 14  | Icono de eliminar sin etiqueta                                                                                        | 2                   | Usability: Reconocer antes que recordar                                                |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** La página de guardar asistencia carece de imágenes
+
+**Severidad: 1**
+<br>
+**Heurística violada:** Usability- Reconocer antes que recordar
+
+**Problema:**
+<br>
 Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
 ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
 
 ![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
 
-Recomendación: <br>
+**Recomendación:**
+<br>
 Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
 
-PROBLEMA #2: Los checkbox de asistencia no aparecen marcados por defecto <br>
-Severidad: 2<br>
-Heurística violada: Usability- Flexibilidad y eficiencia en el uso <br>
-Problema: <br>
-Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste
-, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+**PROBLEMA #2:** Los checkbox de asistencia no aparecen marcados por defecto <br>
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
 
 ![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
 
-Recomendación: <br>
+**Recomendación:**
+<br>
 Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
 
+**PROBLEMA #3:** Campos de correo y contraseña desalineados visualmente
+
+**Severidad: 1**
+<br>
+**Heurística violada: Usabilidad** – Aesthetic and minimalist design
+
+**Problema:**
+<br>
+Durante el proceso de inicio de sesión, los campos de entrada para el correo y la contraseña aparecen desalineados o con un espaciado que rompe la armonía visual del formulario. Aunque esto no impide completar la tarea, genera una percepción visual negativa que puede afectar la credibilidad visual de la plataforma, sobre todo en el primer punto de contacto. El entrevistado menciona que “no le parece malo”, pero sí considera que podría verse más ordenado.
+
+![Captura](./assets/screenshots/usability-problem-3-teacher2.png)
+
+**Recomendación:**:
+<br>
+Revisar el diseño del formulario de login asegurando una alineación coherente entre etiquetas y campos de entrada, respetando márgenes y jerarquía visual. Se sugiere validar el espaciado con herramientas como Figma o inspección del DOM para ajustar paddings, margins y tamaños de fuente, logrando así un aspecto más pulido y profesional.
+
+**PROBLEMA #4:** La sección “Mi horario” no aparece por defecto tras iniciar sesión
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+El usuario menciona que al iniciar sesión le gustaría acceder directamente a la sección “Mi horario” en lugar de “Asistencia”, ya que suele usarla con mayor frecuencia para consultar rápidamente su agenda. Aunque valora la organización general de la interfaz y la funcionalidad de reprogramación de clases, considera que este pequeño ajuste mejoraría la eficiencia en su flujo de uso habitual. Actualmente, el sistema no anticipa esta necesidad, lo que genera un paso adicional innecesario.
+
+![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
+
+**Recomendación:**
+<br>
+Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
+
+**PROBLEMA #5:** No se muestra un contador de inasistencias en la lista de alumnos
+
+**Severidad: 2**
+**Heurística violada:** Usabilidad – Visibility of system status
+
+**Problema:**
+<br>
+En la sección de “Asistencia”, aunque la navegación es sencilla y el diseño es visualmente agradable, el usuario señala que sería útil contar con un indicador visible del número de inasistencias por estudiante. Actualmente, esta información no está disponible de forma directa en la interfaz, lo que obliga al usuario a buscarla en otra parte del sistema (si es que existe), perdiendo eficiencia y visibilidad sobre el estado actual de cada alumno.
+
+![Captura](./assets/screenshots/usability-problem-5-teacher2.png)
+
+**Recomendación:**
+<br>
+Agregar una columna o ícono en la lista de alumnos que muestre la cantidad de inasistencias acumuladas, o bien un acceso rápido al historial de asistencia por alumno. Esto mejoraría el seguimiento, permitiría decisiones pedagógicas más informadas y mantendría al usuario actualizado sobre el estado del grupo en tiempo real.
+
+**PROBLEMA #6:** El mensaje de error en Login no especifica el error cometido por el usuario <br>
+
+**Severidad:** 2
+
+**Heurística violada:** Usability- Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores<br>
+
+**Problema:**
+
+Al momento de registrar las credenciales incorrectas en Login, no se muestra ningún mensaje que indique que el error está relacionado con las credenciales. Este mensaje es necesario, ya que orienta al usuario y le permite recuperarse del problema de manera adecuada. <br>
+
+**Recomendación:** <br>
+Agregar una descripción leve de la causa del problema para que el usuario pueda recuperarse del problema. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher1.png)
+
+**PROBLEMA #7:** La casilla de remember me debería de estar marcada por defecto
+
+**Severidad:** 1
+
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+Al momento de registrar las credenciales en Login, la casilla “remember me” no está marcada por defecto lo cual evita que se optimice el flujo del caso mas común, pues casi siempre uno quiere mantener su sesión iniciada. <br>
+
+**Recomendación:**
+Hacer que la casilla “remember me” esté marcada por defecto para reducir el tiempo que toma el usuario al iniciar sesión por primera vez  <br>
+
+![Captura](./assets/screenshots/usability-problem-2-teacher1.png)
+
+**PROBLEMA #8:** Las imágenes en la sección "Mi Organización" tardan en cargarse
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Reconocer antes que recordar
+
+**Problema:**  
+En la sección "Mi Organización", las imágenes no se cargan rápidamente, lo que retrasa la visualización de los datos importantes y afecta la experiencia del usuario.
+
+![Captura](./assets/screenshots/usability-problem-8-administrator.png)
+
+**Recomendación:**  
+Optimizar las imágenes para que se carguen más rápido y mejorar la fluidez de la experiencia, utilizando imágenes de menor resolución o implementando carga progresiva.
+
+**PROBLEMA #9:** En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara
+
+**Severidad: 1**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de gestión de matrícula, los campos para ingresar no siguen un flujo claro ni están organizados de manera intuitiva, lo que dificulta la navegación y confunde al usuario.
+
+![Captura](./assets/screenshots/usability-problem-9-administrator.png)
+
+**Recomendación:**  
+Reorganizar los campos de manera lógica y asegurarse de que el flujo de trabajo sea coherente para facilitar la entrada de datos y mejorar la experiencia de usuario.
+
+**PROBLEMA #10:** En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Visibilidad del estado del sistema
+
+**Problema:**  
+Cuando un alumno no tiene registros de pagos, no hay ningún mensaje que indique la falta de información, lo que deja al usuario sin saber si es un error o simplemente no hay pagos registrados.
+
+![Captura](./assets/screenshots/usability-problem-10-administrator.png)
+
+**Recomendación:**  
+Incluir un mensaje que indique claramente que no hay pagos registrados para ese alumno, para que el usuario sepa qué está sucediendo y pueda tomar las acciones necesarias.
+
+**PROBLEMA #11:** En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia
+
+**Severidad: 2**  
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema:**  
+En la sección de finanzas, no hay un contraste visual claro entre los ingresos y los egresos, lo que puede dificultar la interpretación rápida de la información financiera.
+
+![Captura](./assets/screenshots/usability-problem-11-administrator.png)
+
+**Recomendación:**  
+Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingresos de los egresos, mejorando así la comprensión visual y la accesibilidad de los datos financieros.
+
+
+**PROBLEMA #12:** Confusión en las etiquetas de estado de matrícula
+
+**Severidad:** 2 <br>
+**Heurística violada:** Consistencia y estándares
+
+**Problema:** En el formulario de matrícula, al completar el registro del alumno, el sistema muestra dos estados distintos (“cancelado” y “completado”) para indicar si la matrícula está activa o finalizada. Kevin comentó que esto puede prestarse a error, ya que un único estado (“Matriculado”) resultaría más claro.
+
+![Captura](./assets/screenshots/usability-problem-12-administrator.png)
+
+**Recomendación:** Unificar las etiquetas bajo un único estado representativo (por ejemplo, “Matriculado”) o usar un indicador booleano acompañado de una descripción clara. Así se evita la ambigüedad y se respeta la consistencia terminológica en toda la aplicación.
+
+
+**PROBLEMA #13:** Feedback de confirmación de matrícula fuera de la vista inicial
+
+**Severidad:** 2<br>
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Problema:** Tras registrar la matrícula de un alumno, la confirmación se ubica en la parte inferior de la pantalla, obligando al usuario a “scrollear” para verificar que el proceso fue exitoso. Esto añade pasos innecesarios y puede generar incertidumbre inmediata.
+
+![Captura](./assets/screenshots/usability-problem-13-administrator.png)
+
+**Recomendación:** Mostrar un mensaje de éxito o ventana emergente cerca del punto de acción (por ejemplo, arriba del formulario) que confirme inmediatamente la operación sin necesidad de desplazarse. De esta forma se mejora la percepción de respuesta ágil del sistema.
+
+**PROBLEMA #14:** Icono de eliminar sin etiqueta
+
+**Severidad:** 2<br>
+**Heurística violada:** Reconocer antes que recordar
+
+**Descripción:** El botón para eliminar o editar cursos o profesores se identifica solo con un icono de basurero, sin texto ni descripción emergente, lo que puede confundir a usuarios menos experimentados.
+
+![Captura](./assets/screenshots/usability-problem-14-administrator.png)
+
+**Recomendación:** Añadir un atributo `title` con texto descriptivo (“Eliminar curso”/“Eliminar profesor”) y, de ser posible, una etiqueta visible en pantallas anchas.
+
+![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
+
+**Recomendación:**
+<br>
+Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
+
+## 5.4. Video About-the-Product
+
+Enlace al video about-the-product: [Ver en Microsoft Streams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESETwQAXHZFHofT6lFN0cY4Bs8m-TbRog2PpkGOtmfz0AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2EJ5Ef)
+
+## Conclusiones y Recomendaciones
+
+En esta sección se presentan las principales conclusiones del equipo respecto al desarrollo del modelo de negocio digital, alineadas a los Problem Statements e hipótesis del proceso Lean UX.
+Se contrastan los hallazgos obtenidos con la implementación realizada durante este primer sprint.
+
+### Conclusiones
+
+El equipo concluyó que las academias presenciales enfrentan serias limitaciones en su gestión administrativa diaria debido al uso de herramientas no integradas, como hojas de cálculo y documentos físicos.
+Nuestro producto busca abordar estas ineficiencias mediante funcionalidades como la automatización de matrículas, control de asistencia y pagos, así como la centralización de horarios y comunicación.
+Aunque aún no se ha realizado la validación con usuarios reales, el desarrollo de la Landing Page permite comunicar efectivamente el valor de la solución, siendo un primer paso clave para atraer y educar al segmento objetivo.
+
+Las hipótesis se consideran parcialmente validadas: se identificó un fuerte interés por una plataforma centralizada, con alertas y accesibilidad desde múltiples dispositivos, lo cual respalda funcionalidades como recordatorios de pago y visualización de horarios.
+Sin embargo, aún no se ha contrastado el comportamiento real de adopción o retención por parte de los usuarios, ya que la Web Application y la API aún no se han implementado.
+A pesar de ello, los entregables desarrollados hasta el momento están enfocados en facilitar la experiencia del usuario, así como la accesibilidad e internacionalización, y aportar claridad al modelo de negocio.
+
+Se recomienda priorizar en el siguiente sprint el desarrollo de la Web Application con las funcionalidades esenciales para usuarios administrativos y docentes, como la gestión de asistencia, matrícula y pagos.
+Asimismo, se sugiere integrar la arquitectura backend junto a la API RESTful para garantizar la escalabilidad de la solución.
+
+### Recomendaciones
+
+Es crucial preparar los escenarios de validación con usuarios reales a fin de ajustar la experiencia, identificar puntos de fricción y validar hipótesis críticas como la aceptación del sistema por parte de personal con poca experiencia tecnológica.
+
+Además, se recomienda mantener la coherencia visual y de navegación entre la Landing Page y la Web Application, e implementar métricas desde el inicio para medir adopción, retención y efectividad en la automatización de tareas administrativas.
+Estas acciones permitirán optimizar el roadmap del producto y acercarse de manera sostenida a los objetivos de negocio establecidos.
+
+Finalmente, se sugiere incorporar una sección de ayuda dentro del sistema con tutoriales breves y guías interactivas para facilitar la adopción por parte de usuarios con baja familiaridad tecnológica.
+Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción de usabilidad desde los primeros usos.
 
 
 ## 5.4. Video About-the-Product
