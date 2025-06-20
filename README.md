@@ -3772,6 +3772,79 @@ Cuando el usuario selecciona un plan, la página solo lo redirige al encabezado,
 Hacer que el enlace al plan seleccionado redirija a una página de pago o a una sección donde el usuario pueda completar el proceso de compra.
 
 
+**Web Application**
+
+| #   | Problema                                                                                                              | Escala de severidad | Heurística/ Principio Violado                                                          |
+|-----|-----------------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------|
+| 1   | La página de guardar asistencia carece de imágenes                                                                    | 1                   | Usability: Reconocer antes que recordar                                                |
+| 2   | Los checkbox de asistencia no aparecen marcados por defecto                                                           | 2                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 3   | Campos de correo y contraseña desalineados visualmente                                                                | 1                   | Usability: Aesthetic and minimalist design                                             |
+| 4   | La sección “Mi horario” no aparece por defecto tras iniciar sesión                                                    | 2                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 5   | No se muestra un contador de inasistencias en la lista de alumnos                                                     | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 6   | El mensaje de error en login no especifica el error cometido por el usuario                                           | 2                   | Usability: Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores |
+| 7   | La casilla "remember me" debería de estar marcada por defecto                                                         | 1                   | Usability: Flexibilidad y eficiencia en el uso                                         |
+| 8   | Las imágenes en la sección "Mi Organización" tardan en cargarse                                                       | 2                   | Usability: Reconocer antes que recordar                                                |
+| 9   | En la sección de gestión de matrícula, los campos para ingresar no están organizados de manera clara                  | 1                   | Usability: Aesthetic and minimalist design                                             |
+| 10  | En la sección de pagos, no hay ninguna respuesta cuando un alumno no tiene registros de pagos pendientes ni pagados   | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 11  | En la sección de finanzas, no existe un contraste visual claro entre los ingresos y los egresos de la academia        | 2                   | Usability: Aesthetic and minimalist design                                             |
+| 12  | Confusión en las etiquetas de estado de matrícula (“cancelado” vs. “completado”)                                      | 2                   | Usability: Consistencia y estándares                                                   |
+| 13  | Feedback de confirmación de matrícula aparece fuera de la vista inicial (requiere desplazarse hacia abajo)            | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 14  | Campos de matrícula resaltados en rojo tras envío exitoso                                                             | 2                   | Usability: Visibilidad del estado del sistema                                          |
+| 15  | Icono de eliminar sin etiqueta                                                                                        | 2                   | Usability: Reconocer antes que recordar                                                |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** La página de guardar asistencia carece de imágenes
+
+**Severidad: 1**
+<br>
+**Heurística violada:** Usability- Reconocer antes que recordar
+
+**Problema:**
+<br>
+Al momento de ingresar a la página de guardar asistencia, hace falta algunas imágenes referenciales para que sea un poco más cómoda a la vista,
+ya que estas sirven para que el usuario no tenga que recordar o interpretar mucho cada sección. <br>
+
+![Captura](./assets/screenshots/usability-problem-1-teacher3.png)
+
+**Recomendación:**
+<br>
+Agregar unas cuantas imágenes referenciales en las secciones marcadas de color rojo en la captura anteriormente presentada. <br>
+
+
+**PROBLEMA #2:** Los checkbox de asistencia no aparecen marcados por defecto <br>
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usability- Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+Al momento de registrar una asistencia, las checkbox no aparecen marcadas por defecto, esto impide que se optimize el flujo del caso más común, que es cuando la mayoría asiste, lo cual aumenta el número de clics que tendrá que dar el usuario si tomamos en cuenta que es un salón muy grande.
+
+![Captura](./assets/screenshots/usability-problem-2-teacher3.png)
+
+**Recomendación:**
+<br>
+Hacer que las checkbox de asistencia ya aparecen marcadas por defecto, esto reducirá el número de clics que tendrá que dar el usuario al momento de tomar asistencia en un salón con gran cantidad de alumnos.
+
+
+**PROBLEMA #3:** Campos de correo y contraseña desalineados visualmente
+
+**Severidad: 1**
+<br>
+**Heurística violada: Usabilidad** – Aesthetic and minimalist design
+
+**Problema:**
+<br>
+Durante el proceso de inicio de sesión, los campos de entrada para el correo y la contraseña aparecen desalineados o con un espaciado que rompe la armonía visual del formulario. Aunque esto no impide completar la tarea, genera una percepción visual negativa que puede afectar la credibilidad visual de la plataforma, sobre todo en el primer punto de contacto. El entrevistado menciona que “no le parece malo”, pero sí considera que podría verse más ordenado.
+
+![Captura](./assets/screenshots/usability-problem-3-teacher2.png)
+
+**Recomendación:**:
+<br>
+Revisar el diseño del formulario de login asegurando una alineación coherente entre etiquetas y campos de entrada, respetando márgenes y jerarquía visual. Se sugiere validar el espaciado con herramientas como Figma o inspección del DOM para ajustar paddings, margins y tamaños de fuente, logrando así un aspecto más pulido y profesional.
+
 ## 5.4. Video About-the-Product
 
 
