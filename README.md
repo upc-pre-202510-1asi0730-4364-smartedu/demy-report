@@ -3588,7 +3588,143 @@ Link del Trello:  https://trello.com/invite/b/6855d1df16c24dad77543acd/ATTI26e2f
 
 #### 5.2.3.6.  Services Documentation Evidence for Sprint Review
 
+Para el sprint 3, se decidió avanzar correcciones del FrontEnd y los endpoints CORE de nuestro proyecto.<br>
+Inicialmente se trabajó con MOCKAPI, pero para esta entrega se fue desarrollando los endpoints correspondientes,
+actualmente no hay conexión, pero los endpoints se encuentran funcionales de manera local y levantada.
 
+Web Service:
+
+| Endpoint        | Operaciones | Parámetros              | URL                                                   | Response                                                    | 
+|-----------------|-------------|-------------------------|-------------------------------------------------------|-------------------------------------------------------------|
+| Users           | PUT         | {id}                    | /api/v1/users/teachers/{id}                           | Edita el perfil del teacher<br> con el id correspondiente   |  
+| Users           | DELETE      | {id}                    | /api/v1/users/teachers/{id}                           | Elimina el perfil del teacher<br> con el id correspondiente | 
+| Users           | PUT         | No tiene                | /api/v1/users/reset-password                          | Restablece la contraseña                                    |
+| Users           | PUT         | {id}                    | /api/v1/users/admins/{id}                             | Edita el perfil de un admin<br> con el id correspondiente   | 
+| Users           | GET         | No tiene                | /api/v1/users/teachers                                | Obtiene todos los perfiles<br> teachers                     | 
+| Users           | POST        | No tiene                | /api/v1/users/teachers                                | Agrega un nuevo perfil teacher                              | 
+| Users           | POST        | No tiene                | /api/v1/users/teachers/sign-in                        | Guarda el inicio de sesión de un teacher                    | 
+| Users           | POST        | No tiene                | /api/v1/users/admins/sign-up                          | Guarda el registro de un perfil admin                       | 
+| Users           | POST        | No tiene                | /api/v1/users/admins/sign-in                          | Guarda el inicio de sesión de un admin                      | 
+| Users           | GET         | {id}                    | /api/v1/users/{id}                                    | Obtiene un user por su id                                   |  
+| Users           | GET         | No tiene                | /api/v1/users/admins                                  | Obtiene todos los perfiles de tipo admin                    | 
+| Classrooms      | GET         | {classroomId}           | /api/v1/classrooms/{classroomId}                      | Obtiene un classroom por su ID                              |
+| Classrooms      | PUT         | {classroomId}           | /api/v1/classrooms/{classroomId}                      | Edita un classroom por su ID                                |
+| Classrooms      | GET         | No tiene                | /api/v1/classrooms                                    | Obtiene todos los classrooms                                |
+| Classrooms      | POST        | No tiene                | /api/v1/classrooms                                    | Crea un nuevo classroom                                     |
+| Courses         | GET         | {courseId}              | /api/v1/courses/{courseId}                            | Obtiene un curso por su ID                                  |                                  
+| Courses         | PUT         | {courseId}              | /api/v1/courses/{courseId}                            | Edita un curso por su ID                                    |
+| Courses         | DELETE      | {courseId}              | /api/v1/courses/{courseId}                            | Elimina un curso por su ID                                  |
+| Courses         | GET         | No tiene                | /api/v1/courses                                       | Obtiene todos los cursos                                    |
+| Courses         | POST        | No tiene                | /api/v1/courses                                       | Crea un nuevo curso                                         |
+| Enrollment      | POST        | No tiene                | /api/v1/enrollments                                   | Crea una nueva matrícula                                    |
+| Enrollment      | DELETE      | {enrollmentId}          | /api/v1/enrollments/{enrollmentId}                    | Elimina una matrícula por su Id                             |
+| Enrollment      | GET         | No tiene                | /api/v1/enrollments                                   | Obtiene todas las matrículas                                |
+| Enrollment      | GET         | {studentDni}            | /api/v1/enrollments/student/dni/{dni}                 | Obtiene las matrículas de un estudiante por DNI             |
+| Enrollment      | GET         | {studentId}             | /api/v1/enrollments/student/{studentId}               | Obtiene las matrículas de un estudiante por Id              |
+| Enrollment      | GET         | {enrollmentId}          | /api/v1/enrollments/{enrollmentId}                    | Obtiene las matrículas por su ID                            |
+| Academic Period | DELETE      | {academicPeriodId}      | /api/v1/academic-periods/{academicPeriodId}           | Elimina un periodo académico  por su ID                     |
+| Academic Period | GET         | No tiene                | /api/v1/academic-periods                              | Obtiene todos los periodos académicos                       |
+| Academic Period | POST        | No tiene                | /api/v1/academic-periods                              | Guarda un periodo académico                                 |
+| Academic Period | PUT         | {academicPeriodId}      | /api/v1/academic-periods/{academicPeriodId}           | Edita un periodo académico                                  |
+| Student         | DELETE      | {studentId}             | /api/v1/students/{studentId}                          | Elimina un estudiante                                       |
+| Student         | GET         | No tiene                | /api/v1/students                                      | Obtiene todos los estudiantes                               |
+| Student         | GET         | {studentId}             | /api/v1/students/{studentId}                          | Obtiene un estudiante con el Id solicitado                  |
+| Student         | GET         | {studentDni}            | /api/v1/students/{studentDni}                         | Obtiene un estudiante con el DNI solicitado                 |
+| Student         | POST        | No tiene                | /api/v1/students                                      | Guarda un estudiante                                        |
+| Student         | PUT         | No tiene                | /api/v1/students                                      | Edita un estudiante                                         |
+| WeeklySchedules | GET         | {weeklyScheduleId}      | /api/v1/weekly-schedules/{weeklyScheduleId}           | Obtiene un horario semanal por su ID                        |
+| WeeklySchedules | PUT         | {weeklyScheduleId}      | /api/v1/weekly-schedules/{weeklyScheduleId}           | Edita un horario semanal por su ID                          |
+| WeeklySchedules | GET         | No tiene                | /api/v1/weekly-schedules                              | Obtiene todos los horarios semanales                        |
+| WeeklySchedules | POST        | No tiene                | /api/v1/weekly-schedules                              | Crea un nuevo horario semanal                               |
+| WeeklySchedules | POST        | {weeklyScheduleId}      | /api/v1/weekly-schedules/{weeklyScheduleId}/schedules | Agrega un nuevo horario al horario semanal                  |
+| Invoices        | GET         | {studentId}             | /api/v1/invoices/by-student/{studentId}               | Obtiene las facturas de un alumno por su ID                 |
+| Class Sessions  | POST        | No tiene                | /api/v1/class-sessions                                | Guarda el registro de asistencia una sesión clase           |
+
+A continuación se presenta capturas de los endpoints en ejecución:
+
+Users:<br>
+
+![Captura](./assets/screenshots/Add_New_Teacher_Profile.png)
+
+![Captura](./assets/screenshots/Admin_sign_in.png)
+
+![Captura](./assets/screenshots/Admin_sign_up.png)
+
+![Captura](./assets/screenshots/Delete_Teacher.png)
+
+![Captura](./assets/screenshots/Edit_Teacher.png)
+
+![Captura](./assets/screenshots/Editar_Admin_Profile.png)
+
+![Captura](./assets/screenshots/Get_Admin_Profiles.png)
+
+![Captura](./assets/screenshots/Get_Teacher_Profiles.png)
+
+![Captura](./assets/screenshots/Get_User_By_Id.png)
+
+![Captura](./assets/screenshots/Reset_Password.png)
+
+![Captura](./assets/screenshots/Teacher_sign_in.png)
+
+![Captura](./assets/screenshots/UserAccount_Swagger.png)
+
+Enrollment: <br>
+
+![Captura](./assets/screenshots/CREATE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/DELETE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20STUDENT.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ACADEMIC%20PERIODS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20DNI.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20ID.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20STUDENTS.png)
+
+![Captura](./assets/screenshots/GET%20ENROLLMENT%20BY%20ID.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20DNI%20.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20ID.png )
+
+![Captura](./assets/screenshots/POST%20ACADEMIC-PERIODS.png)
+
+![Captura](./assets/screenshots/POST%20STUDENT.png)
+
+![Captura](./assets/screenshots/PUT%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/PUT%20STUDENT.png)
+
+Scheduling: <br>
+
+![Captura](./assets/screenshots/add-schedule-on-weekly.jpeg)
+
+![Captura](./assets/screenshots/get-all-classroom.jpeg)
+
+![Captura](./assets/screenshots/get-all-courses.jpeg)
+
+![Captura](./assets/screenshots/get-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/get-course-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-course-by-id.jpeg)
+
+Attendance: <br>
+
+![Captura](./assets/screenshots/add-attendance-class-session.png)
+
+Invoices: <br>
+
+![Captura](./assets/screenshots/get-invoices-by-studentid.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
