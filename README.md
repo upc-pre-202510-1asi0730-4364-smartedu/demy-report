@@ -3340,19 +3340,73 @@ Capturas de pantalla del Web Applications
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
-En el sprint 3 se alcanzó un desarrollo parcial de la Aplicación Web.
+Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las technical histories
 
-- US04: Recuperar contraseña mediante correo electrónico
-    ![imagesExecutionEvidence11](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/US04.png)
+- TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS01.png)
+- TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+
+- TS03: Implementar endpoint para listar matrículas (GET /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS03.png)
+
+- TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+- TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+- TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+- TS07: Implementar endpoint para listar estudiantes (GET /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS07.png)
+
+- TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
+- TS09: Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})
+- TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS10.png)
+
+
+- TS11: Implementar un endpoint para registrar una class sesión
+- TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS12.png)
+
+
+- TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+- TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+- TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS15.png)
+
+- TS16: Implementar endpoint para poder editar los perfiles de admin
+- TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+- TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+- TS19: Implementar endpoint para poder editar los perfiles de teacher
+- TS20: Implementar endpoint para consultar los pagos de una factura (GET /payments/{invoiceId})
+- TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS21.jpg)
+
+- TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+- TS27: Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)
+- TS28: Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS28.png)
+
+- TS29: Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
-Para la entrega de este tercer sprint, se implementó la web application de manera parcial.
+Para la entrega de este tercer sprint, se implementó el backend en swagger
 
-1. Recuperar Contraseña: Vista donde podremos ingresar nuestro correo electronico para recuperar contraseña.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/forgot-password.png)
+1. Bounded Iam: Vista donde podremos ingresar nuestro correo electronico para recuperar contraseña.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Iam.png)
 
-2. Resetear Contraseña: Vista donde podremos actualizar nuestra contraseña.
-    ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/reset-password.png)
+2. Bounded Attendance Managemet: Vista donde podremos actualizar nuestra contraseña.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Attendance.png)
+
+3. Bounded Billing Management: Vista donde podremos actualizar nuestra contraseña.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Vista donde podremos actualizar nuestra contraseña.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Vista donde podremos actualizar nuestra contraseña.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Scheduling.png)
 
 ### 5.3. Validation Interviews
 
@@ -3413,7 +3467,7 @@ Si el usuario confirma la acción presionando "Eliminar", el curso será removid
 | **Fecha de entrevista** | 08 de abril del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Timing**              | 00:00 - 00:00                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Video**               | [Ver en Microsoft Stream]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Captura**             | ![Captura](./assets/images/registro_de_entrevistas_2/Captura_Video_Entrevista_Open.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Captura**             | ![Captura](./assets/images/registro_de_entrevistas_2/Captura_Video_Entrevista_Web.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Resumen**             | Sebastián comentó que el acceso desde la landing page hasta el login como profesor fue claro y sin complicaciones, y que el formulario de inicio de sesión fue fácil de completar con las credenciales proporcionadas. Una vez dentro de la plataforma, pudo acceder sin problemas a la sección "Mi horario" y visualizó correctamente las clases asignadas, considerando el flujo claro y directo. Sobre el registro de asistencia, señaló que la navegación hasta esa sección fue intuitiva y el proceso de marcar asistencia mediante checkboxes le resultó fácil de entender. También valoró positivamente el diseño visual de la sección, describiéndolo como cómodo y claro para el usuario. |
 
 ## 5.3.3. Evaluaciones según herurísticas
