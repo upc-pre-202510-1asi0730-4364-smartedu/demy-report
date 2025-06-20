@@ -3845,6 +3845,39 @@ Durante el proceso de inicio de sesión, los campos de entrada para el correo y 
 <br>
 Revisar el diseño del formulario de login asegurando una alineación coherente entre etiquetas y campos de entrada, respetando márgenes y jerarquía visual. Se sugiere validar el espaciado con herramientas como Figma o inspección del DOM para ajustar paddings, margins y tamaños de fuente, logrando así un aspecto más pulido y profesional.
 
+
+**PROBLEMA #4:** La sección “Mi horario” no aparece por defecto tras iniciar sesión
+
+**Severidad: 2**
+<br>
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia en el uso
+
+**Problema:**
+<br>
+El usuario menciona que al iniciar sesión le gustaría acceder directamente a la sección “Mi horario” en lugar de “Asistencia”, ya que suele usarla con mayor frecuencia para consultar rápidamente su agenda. Aunque valora la organización general de la interfaz y la funcionalidad de reprogramación de clases, considera que este pequeño ajuste mejoraría la eficiencia en su flujo de uso habitual. Actualmente, el sistema no anticipa esta necesidad, lo que genera un paso adicional innecesario.
+
+![Captura](./assets/screenshots/usability-problem-4-teacher2.png)
+
+**Recomendación:**
+<br>
+Permitir configurar una pantalla inicial preferida según la frecuencia de uso o establecer “Mi horario” como la vista por defecto, si los datos de uso indican que es la sección más consultada por los usuarios. Esto reduciría fricción y aumentaría la eficiencia, especialmente para usuarios recurrentes.
+
+
+**PROBLEMA #5:** No se muestra un contador de inasistencias en la lista de alumnos
+
+**Severidad: 2**
+**Heurística violada:** Usabilidad – Visibility of system status
+
+**Problema:**
+<br>
+En la sección de “Asistencia”, aunque la navegación es sencilla y el diseño es visualmente agradable, el usuario señala que sería útil contar con un indicador visible del número de inasistencias por estudiante. Actualmente, esta información no está disponible de forma directa en la interfaz, lo que obliga al usuario a buscarla en otra parte del sistema (si es que existe), perdiendo eficiencia y visibilidad sobre el estado actual de cada alumno.
+
+![Captura](./assets/screenshots/usability-problem-5-teacher2.png)
+
+**Recomendación:**
+<br>
+Agregar una columna o ícono en la lista de alumnos que muestre la cantidad de inasistencias acumuladas, o bien un acceso rápido al historial de asistencia por alumno. Esto mejoraría el seguimiento, permitiría decisiones pedagógicas más informadas y mantendría al usuario actualizado sobre el estado del grupo en tiempo real.
+
 ## 5.4. Video About-the-Product
 
 
