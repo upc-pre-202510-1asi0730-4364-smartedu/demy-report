@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h4 style="text-align: center;"> Informe del Trabajo Parcial </h4>
+<h4 style="text-align: center;"> Informe del TB2 </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -3662,7 +3662,63 @@ es cómoda a la vista?
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+#### Usability – Inclusive Design – Information Architecture
 
+**CARRERA** : Ingeniería de Software
+
+**CURSO** : Aplicaciones Web
+
+**SECCIÓN** : 4364
+
+**PROFESOR** : Alex Humberto Sánchez Ponce
+
+**AUDITOR** : SmartEdu
+
+**CLIENTES** : Kevin Rodríguez, Marleni Flores, Jhon Candioti, Sebastían Maguiña, Diego Meléndez, Jeff Quispe
+
+#### SITE o APP A EVALUAR:
+
+**Demy**
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+
+**Web Application**
+1. Inicio de sesión
+2. Ver horario
+3. Registrar asistencia
+4. Gestionar profesores
+5. Gestionar cursos
+6. Gestionar Aulas
+7. Gestionar Horarios semanales
+8. Gestionar Periodos académicos
+9. Registrar matrícula de alumno
+10. Consultar estado de pago
+11. Consultar horarios por periodo
+12. Consultar las finanzas
+
+#### FUERA DE ALCANCE:
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+**Landing Page**
+1. Redes sociales asociadas a la startup
+2. Política de privacidad y condiciones de uso
+
+**Web Application**
+1. Recuperación de contraseña
+2. Política de privacidad y condiciones de uso
+
+#### ESCALA DE SEVERIDAD:
+
+| Nivel   | Descripción                                                                                                                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1       | **Problema superficial**: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2       | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3       | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4       | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
 
 ## 5.4. Video About-the-Product
 
