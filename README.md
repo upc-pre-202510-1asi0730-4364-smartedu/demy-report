@@ -4015,7 +4015,7 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 
 ## 5.4. Video About-the-Product
 
-
+Enlace al video about-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWMMHWAA5pBJsuUCjTDNoWUBHxTbQl_OLf7-8x1gly-how?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MfWyEd
 
 # Conclusiones
 
@@ -4049,7 +4049,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 ## Video About-the-Team
 
-
+Enlace al video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EcoI0jW219xEmDDfRUBzI24B-366WSktMnXE3AJ166JZfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8DYhsM
 
 # Bibliografía
 
@@ -4063,8 +4063,12 @@ Enlace del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/pe
 
 Enlace del video de exposición TP1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESPZQ3b8JD9MnWUaZW2bNc0BXqVTcFT0OI_3TIbotbM1bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w8nmdv
 
+Enlace del video de exposición TP2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EUr7mjkN02FKqBQY11I0KVgBGw_zszvjEGrs3uSzBrJY-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TrRCRO
+
 Enlace del repositorio en Github: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-report
 
 Enlace a la landing page: https://demy-smartedu.netlify.app/
 
 Enlace al frontend web application: https://demy-frontend.netlify.app/
+
+Enlace al backend web service: https://demy-web-service-production-3027.up.railway.app/swagger/index.html
