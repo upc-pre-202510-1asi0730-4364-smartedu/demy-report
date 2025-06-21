@@ -134,6 +134,37 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 ![Insights - Commits](./assets/images/insights-commits-tp.png)
 
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+**TB2**
+
+Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
+
+![Insights - Network Graph](./assets/images/Network_Graph_Sprint_3_Web.png)
+
+</div>
+
+A continuación, se presentan los gráficos que muestran el análisis de los commits en el repositorio correspondiente al informe.  
+Estos gráficos detallan la cantidad de líneas de código añadidas por cada miembro del equipo y la actividad de commits registrada.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de líneas de código añadidas por contribuyente.
+
+![Insights - Contributors](./assets/images/Contributors_Sprint_3_Web.png)
+
+</div>
+
+El siguiente gráfico muestra la cantidad de commits realizados en la semana con mayor actividad en el proyecto.
+
+<div style="text-align: center; margin-top: 1rem; margin-bottom: 1rem;">
+
+Análisis de cantidad de commits realizados por semana.
+
+![Insights - Commits](./assets/images/commits_sprint_3_Web.png)
+
+</div>
+
 # Contenido
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -1028,6 +1059,12 @@ Se elaboraron historias de usuario (US), técnicas (TS) y de sitio web estático
 | TS15            | Exponer endpoint para consultar perfil del docente (`GET /users/:id/profile`)          | Como developer,<br>quiero exponer la información académica de un docente,<br>para mostrar sus cursos asignados y horarios.                                                                             | **Scenario 1:** Perfil disponible<br>Given que el ID corresponde a un docente<br>When consulta el perfil<br>Then retorna info con 200 OK<br><br>**Scenario 2:** Usuario no es docente<br>Given que el rol no aplica<br>When accede<br>Then retorna 403 Forbidden<br><br>**Scenario 3:** ID inválido<br>Given que el ID no existe<br>When consulta<br>Then retorna 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | EP07                                                                                                                                 |
 | TS16            | Exponer endpoint para listar alumnos por curso (`GET /courses/:id/students`)           | Como developer,<br>quiero permitir consultar los estudiantes inscritos por curso,<br>para mostrar esta información a los docentes.                                                                     | **Scenario 1:** Listado exitoso<br>Given que el curso tiene inscritos<br>When se consulta<br>Then retorna lista con 200 OK<br><br>**Scenario 2:** Curso vacío<br>Given que no hay alumnos<br>When se consulta<br>Then retorna lista vacía<br><br>**Scenario 3:** Curso inexistente<br>Given que el ID no existe<br>When consulta<br>Then retorna 404 Not Found                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | EP07                                                                                                                                 |
 | TS17            | Implementar encriptación de contraseñas y validación segura (`BCrypt`, JWT, etc.)      | Como developer,<br>quiero encriptar contraseñas y validar credenciales,<br>para proteger los accesos al sistema.                                                                                       | **Scenario 1:** Contraseña encriptada<br>Given que se crea un usuario<br>When se guarda<br>Then se usa `BCrypt` para encriptar<br><br>**Scenario 2:** Validación en login<br>Given que se inicia sesión<br>When se compara la contraseña<br>Then se verifica con `BCrypt.compare`<br><br>**Scenario 3:** Generar JWT<br>Given que el login es válido<br>When se autentica<br>Then se genera un token con info mínima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP07                                                                                                                                 |
+| TS18            | Implementar endpoint para poder consultar los perfiles de usuarios Admin               | Como developer,<br> quiero exponer un endpoint,<br> para consultar los perfiles de usuarios administradores                                                                                            | **Scenario 1:** Usuarios ADMIN encontrado <br>Given que existen usuarios con rol "Admin" registrados <br>When hago una petición GET al endpoint /api/v1/users/admins <br>Then el sistema responde con una lista de perfiles de administradores <br>And el código de respuesta HTTP es 200 <br><br>Scenario 2: Usuarios ADMIN no encontrados <br>Given que no hay usuarios con rol "Admin" en el sistema <br>When hago una petición GET al endpoint /api/v1/users/admins/ <br>Then el sistema responde con una lista vacía <br>And el código de respuesta HTTP es 200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | EP01                                                                                                                                 |
+| TS19            | Implementar endpoint para poder editar los perfiles de admin                           | Como developer,<br> quiero exponer un endpoint,<br> para editar los perfiles de usuarios administradores, por medio del id.                                                                            | **Scenario 1:** Usuario ADMIN existente <br>Given que existe un administrador con ID valido <br>When hago una petición PUT al endpoint /api/v1/users/admins/{id} con datos válidos <br>Then el sistema actualiza el perfil del administrador <br>And responde con el perfil actualizado y HTTP 200 <br><br>Scenario 2: Usuario ADMIN no encontrado <br>Given que el ID no corresponde a ningún administrador <br>When hago una petición PUT al endpoint /api/v1/users/admins/{id} <br>Then el sistema responde con un mensaje de error <br>And el código de respuesta HTTP es 404 <br><br>Scenario 3: Datos inválidos <br>Given que existe un administrador con ID existente <br>When hago una petición PUT al endpoint /api/v1/users/admins con datos inválidos <br>Then el sistema rechaza la solicitud <br>And responde con errores de validación <br>And el código de respuesta HTTP es 400                                                                                                                                                                                           | EP01                                                                                                                                 |
+| TS20            | Implementar  endpoint para poder consultar los perfiles de usuarios Teacher            | Como developer,<br> quiero exponer un endpoint,<br> para consultar los perfiles de usuarios profesores.                                                                                                | **Scenario 1:** Usuario TEACHER encontrado <br>Given que existen usuarios con rol "Teacher" registrados <br>When hago una petición GET al endpoint /api/v1/users/teachers <br>Then el sistema responde con una lista de perfiles de profesores <br>And el código de respuesta HTTP es 200 <br><br>Scenario 2: Usuario TEACHER no encontrado <br>Given que no hay usuarios con rol "Teacher" <br>When hago una petición GET al endpoint /api/v1/users/teachers <br>Then el sistema devuelve una lista vacía <br>And el código de respuesta HTTP es 200                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP01                                                                                                                                 |
+| TS21            | Implementar endpoint para poder agregar los perfiles de usuarios teacher               | Como developer,<br> quiero exponer un endpoint,<br> para añadir nuevos usuarios profesores.                                                                                                            | **Scenario 1:** Usuario TEACHER encontrado <br>Given que envío una petición POST con un cuerpo válido al endpoint /api/v1/users/teachers/{id} <br>When los datos cumplen con las validaciones <br>Then el sistema crea un nuevo usuario con rol "Teacher" <br>And responde con HTTP 201 y los datos del nuevo perfil <br><br>Scenario 2: Usuario TEACHER no encontrado <br>Given que envío una petición POST con datos inválidos <br>When intento crear el usuario <br>Then el sistema rechaza la petición <br>And responde con un mensaje de validación y código HTTP 400                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP01                                                                                                                                 |
+| TS22            | Implementar endpoint para poder editar los perfiles de teacher                         | Como developer,<br> quiero exponer un endpoint,<br> para editar usuarios profesores, usando el id.                                                                                                     | **Scenario 1:** Usuario TEACHER encontrado <br>Given que existe un profesor con ID existente <br>When envío una petición PUT a /api/v1/users/teachers/{id} con nuevos datos válidos <br>Then el sistema actualiza el perfil correctamente <br>And responde con el perfil actualizado y HTTP 200 <br><br>Scenario 2: Usuario TEACHER no encontrado <br>Given que intento editar al profesor con un ID que no existe <br>When hago una petición PUT a /api/v1/users/teachers/{id} <br>Then el sistema responde con un error de recurso no encontrado <br>And devuelve HTTP 404 <br><br>Scenario 3: Datos inválidos <br>Given que existe un profesor con ID <br>When hago una petición PUT al endpoint /api/v1/users/teachers con datos inválidos <br>Then el sistema rechaza la solicitud <br>And responde con mensajes de error de validación <br>And el código de respuesta HTTP es 400                                                                                                                                                                                                   | EP01                                                                                                                                 |
+| TS23            | Implementar endpoints para eliminar a los Usuarios Teachers de Demy                    | Como developer,<br> quiero exponer un endpoint,<br> para eliminar usuarios profesores, usando el id.                                                                                                   | **Scenario 1:** Usuario TEACHER encontrado <br>Given que existe un profesor con ID existente <br>When hago una petición DELETE a /api/v1/users/teachers/{id} <br>Then el sistema elimina al usuario Teacher <br>And responde con HTTP 204 <br><br>Scenario 2: Usuario TEACHER no encontrado <br>Given que intento eliminar al profesor con ID no existente <br>When hago una petición DELETE a /api/v1/users/teachers/{id} <br>Then el sistema responde con un mensaje de error <br>And devuelve HTTP 404                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP01                                                                                                                                 |
 
 ## 3.3. Impact Mapping
 En esta sección hemos elaborado nuestro Impact Mapping. Para ello, utilizamos la hipótesis desarrollada durante nuestro proceso de Lean UX. Reemplazamos los segmentos de cliente por los User Personas, los cuales fueron elaborados previamente en el capítulo II, y conectamos las funcionalidades con los objetivos, para que formen parte del Product Backlog.
@@ -3464,7 +3501,53 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Para la entrega de este tercer sprint, el backend de manera parcial siguiendo las technical histories
 
+- TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS01.png)
+- TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+
+- TS03: Implementar endpoint para listar matrículas (GET /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS03.png)
+
+- TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+- TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+- TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+- TS07: Implementar endpoint para listar estudiantes (GET /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS07.png)
+
+- TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
+- TS09: Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})
+- TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS10.png)
+
+- TS11: Implementar un endpoint para registrar una class sesión
+- TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS12.png)
+
+- TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+- TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+- TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS15.png)
+
+- TS16: Implementar endpoint para poder editar los perfiles de admin
+- TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+- TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+- TS19: Implementar endpoint para poder editar los perfiles de teacher
+- TS20: Implementar endpoint para consultar los pagos de una factura (GET /payments/{invoiceId})
+- TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS21.jpg)
+
+- TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+- TS27: Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)
+- TS28: Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/TS28.png)
+
+- TS29: Implementar endpoint para consultar una factura por su ID (GET /invoices/{id})
 
 #### 5.2.3.6.  Services Documentation Evidence for Sprint Review
 
@@ -3472,7 +3555,87 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para la entrega de este tercer sprint, se implementó el backend en swagger
 
+**Pasos para el despliegue del backend en Railway:**
+
+1. Entrar a la pagina principal https://railway.com/
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/1.jpg)
+
+2. Iniciar sesión con github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/2.jpg)
+
+3. Elegir un nuevo proyecto
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/3.jpg)
+
+4. Seleccionar el proyecto desde github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/4.jpg)
+
+5. Elegir la organizacion
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/5.jpg)
+
+6. Seleccionar el proyecto y autorizar
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/6.jpg)
+
+7. Esperar a que complete
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/7.jpg)
+
+8. Aparece activo por unos momentos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/8.jpg)
+
+9. Pero fallará porque no encuentra la base de datos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/9.jpg)
+
+10. Crea una instancia de la base de datos en mysql
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/10.jpg)
+
+11. Espera a que termine
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/11.jpg)
+
+12. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/12.jpg)
+
+13. Entra a la instancia del backend y crear una nueva variable de entorno "ConnectionStrings__DefaultConnection" y con el valor: server=<host>;port=<port>;user=<user>;password=<pass>;database=<db>
+    (reemplazar por los valores copiados anteriormente)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/13.jpg)
+
+14. Desplegar nuevamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/14.jpg)
+
+15. Despliegue completado y sin errores
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/15.jpg)
+
+16. Entrar a settings > networking > generate domain
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/16.jpg)
+
+17. Generamos la URL e ingresamos a la dirección que nos asigna y añadimos "/swagger/index.html" al final
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/17.jpg)
+
+18. Visualizamos los endpoints en swagger
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/18.jpg)
+
+19. Probamos que los endpoints funcionen correctamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/19.jpg)
+
+
+
+**Pagina swagger desplegado:**
+1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Iam.png)
+
+2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Attendance.png)
+
+3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Scheduling.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EShmrTTEIzpFlbN56Q-7O2IBRm_qgfldHJhPkYk6v0rbpA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p7OAKe)
 
 #### 5.2.3.8.  Team Collaboration Insights during Sprint
 
