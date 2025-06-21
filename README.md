@@ -3457,6 +3457,10 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 #### 5.2.3.4 Development Evidence for Sprint Review
 
 
+| Repository                                         | Branch | Commit ID                                | Commit Message                                                                                                          | Commit Body | Committed On |
+|----------------------------------------------------|--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202510-1asi0730-4364-smartedu/demy-service | main   | d987ce1ecaec828326af1b563f4ef141d89ca5f0 | Merge branch 'main' of https://github.com/upc-pre-202501-1asi0730-4364-smartedu/demy-landing-page                       | —           | 14/05/2025   |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
