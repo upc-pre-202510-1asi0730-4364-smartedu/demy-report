@@ -140,7 +140,7 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 Gráfico de red (*network graph*) de ramas en el repositorio de GitHub.
 
-![Insights - Network Graph]()
+![Insights - Network Graph](./assets/images/Network_Graph_Sprint_3_Web.png)
 
 </div>
 
@@ -151,7 +151,7 @@ Estos gráficos detallan la cantidad de líneas de código añadidas por cada mi
 
 Análisis de líneas de código añadidas por contribuyente.
 
-![Insights - Contributors]()
+![Insights - Contributors](./assets/images/Contributors_Sprint_3_Web.png)
 
 </div>
 
@@ -161,7 +161,7 @@ El siguiente gráfico muestra la cantidad de commits realizados en la semana con
 
 Análisis de cantidad de commits realizados por semana.
 
-![Insights - Commits]()
+![Insights - Commits](./assets/images/commits_sprint_3_Web.png)
 
 </div>
 
@@ -3393,20 +3393,83 @@ Para la entrega de este tercer sprint, el backend de manera parcial siguiendo la
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 Para la entrega de este tercer sprint, se implementó el backend en swagger
 
-1. Bounded Iam: Vista donde podremos ingresar nuestro correo electronico para recuperar contraseña.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Iam.png)
+**Pasos para el despliegue del backend en Railway:**
 
-2. Bounded Attendance Managemet: Vista donde podremos actualizar nuestra contraseña.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Attendance.png)
+1. Entrar a la pagina principal https://railway.com/
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/1.jpg)
 
-3. Bounded Billing Management: Vista donde podremos actualizar nuestra contraseña.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Billing.png)
+2. Iniciar sesión con github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/2.jpg)
 
-4. Bounded Enrollment Managemet: Vista donde podremos actualizar nuestra contraseña.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Enrollment.png)
+3. Elegir un nuevo proyecto
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/3.jpg)
 
-5. Bounded Scheduling Managemet: Vista donde podremos actualizar nuestra contraseña.
-   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_web/bounded_Scheduling.png)
+4. Seleccionar el proyecto desde github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/4.jpg)
+
+5. Elegir la organizacion
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/5.jpg)
+
+6. Seleccionar el proyecto y autorizar
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/6.jpg)
+
+7. Esperar a que complete
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/7.jpg)
+
+8. Aparece activo por unos momentos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/8.jpg)
+
+9. Pero fallará porque no encuentra la base de datos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/9.jpg)
+
+10. Crea una instancia de la base de datos en mysql
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/10.jpg)
+
+11. Espera a que termine
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/11.jpg)
+
+12. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/12.jpg)
+
+13. Entra a la instancia del backend y crear una nueva variable de entorno "ConnectionStrings__DefaultConnection" y con el valor: server=<host>;port=<port>;user=<user>;password=<pass>;database=<db>
+    (reemplazar por los valores copiados anteriormente)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/13.jpg)
+
+14. Desplegar nuevamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/14.jpg)
+
+15. Despliegue completado y sin errores
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/15.jpg)
+
+16. Entrar a settings > networking > generate domain
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/16.jpg)
+
+17. Generamos la URL e ingresamos a la dirección que nos asigna y añadimos "/swagger/index.html" al final
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/17.jpg)
+
+18. Visualizamos los endpoints en swagger
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/18.jpg)
+
+19. Probamos que los endpoints funcionen correctamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/19.jpg)
+
+
+
+**Pagina swagger desplegado:**
+1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Iam.png)
+
+2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Attendance.png)
+
+3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/Bounded_Scheduling.png)
 
 ### 5.3. Validation Interviews
 
