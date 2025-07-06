@@ -2203,44 +2203,95 @@ A continuación, se presentan los enlaces al video explicativo y a los prototipo
 
 ## 4.6. Domain-Driven Software Architecture
 
-En esta sección se detallará la arquitectura basada en DDD para nuestra aplicación frontend
+En esta sección se detallará la arquitectura basada en DDD para nuestra aplicación front-end.
 
 ### 4.6.1. Software Architecture Context Diagram
 
-Demy es una plataforma web diseñada específicamente para resolver los problemas administrativos que enfrentan las academias educativas. Tiene dos segmentos objetivos. El Coordinador es el usuario encargado de gestionar la academia. El Docente utiliza Demy para consultar los horarios y registrar la asistencia de los estudiantes. 
+Demy es una plataforma web diseñada específicamente para resolver los problemas administrativos que enfrentan las academias educativas. Tiene dos segmentos objetivos. El Coordinador es el usuario encargado de gestionar la academia. El Docente utiliza Demy para consultar los horarios y registrar la asistencia de los estudiantes.
 
 Además, Demy interactúa con dos sistemas externos: Microsoft Outlook, que se utiliza para enviar notificaciones por correo electrónico, y IoT Attendance, un sistema de IoT que recibe información sobre la asistencia de los docentes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContextDiagram.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 El Container Diagram de Demy muestra los principales contenedores del sistema y cómo interactúan entre sí. El sistema está conformado por una aplicación web de una sola página (SPA), una API RESTful y una base de datos monolitica. Los usuarios ingresan al sistema a través de una Landing Page, que los redirige a la SPA, donde se manejan tareas clave como el control de asistencia y la gestión de horarios. El sistema se comunica con la API de Demy, que consulta la base de datos para gestionar la información académica.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SoftwareArchitectureContainerDiagrams.png)
 
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendContainerDiagram.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
+
+**All Bounded Context**
+
+![Image](assets/domain-driven-software-architecture/Backend/BackendComponentsDiagram.png)
 
 **Attendance Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El AttendanceRecordComponent registra la asistencia, y los datos se transforman a través del AttendanceService y AttendanceRecord.assembler. El AttendanceDashboardComponent muestra la asistencia, mientras que el ClassSessionComponent visualiza las sesiones de clase. Los datos se procesan y transforman en modelos y DTOs para ser mostrados en la interfaz de usuario.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/AttendanceComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/AttendanceBoundedContextL.png)
+
 **Enrollments Context**
 El flujo en este diagrama comienza con el AppComponent, que organiza la interfaz. El EnrollmentComponent gestiona las inscripciones y usa el EnrollmentApiService para obtener y actualizar datos del backend. De manera similar, el AcademyComponent maneja la información de academias y períodos académicos a través del AcademyApiService. Los datos se transforman en modelos de dominio mediante los Assemblers antes de ser utilizados en la aplicación. En resumen, los componentes interactúan con los servicios de backend, transformando y mostrando los datos relevantes.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/EnrollmentsComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/EnrollmentBoundedContextL.png)
+
+
 **IAM Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El UserAccountComponent gestiona los detalles de la cuenta y el RoleManagementComponent maneja los roles. El LoginComponent se encarga del inicio de sesión, interactuando con el AuthenticationApiService para autenticar a los usuarios. El UserApiService actualiza los datos del usuario, comunicándose con el Demy API. Los datos se transforman con User.assembler y se estructuran en modelos como User.entity y User.response
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/IAMComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/IAMBoundedContextL.png)
+
 **Scheduling Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El ScheduleManagementComponent gestiona los horarios semanales a través del WeeklyScheduleService, que transforma los datos con WeeklySchedule.assembler y los guarda en WeeklySchedule.entity. El ScheduleService maneja las entradas individuales de horarios, utilizando el SchedulingApiService para comunicarse con el backend, y transforma los datos con Schedule.assembler en Schedule.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SchedulingComponents.png)
-**Subscription and Billing Context**
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/SchedulingBoundedContextL.png)
+
+**Billing Context**
 El flujo comienza con el AppComponent, que organiza la aplicación. El SubscriptionManagementComponent gestiona las suscripciones y usa el SubscriptionService para interactuar con la API. Los datos se transforman con Subscription.assembler y se estructuran en Subscription.entity. El PlanManagementComponent maneja los planes de suscripción, mientras que el InvoiceManagementComponent gestiona las facturas, utilizando servicios similares para procesar y estructurar los datos en Invoice.entity. El TransactionManagementComponent maneja las transacciones financieras, interactuando con el FinancialTransactionService y procesando los datos en FinancialTransaction.entity.
 <br> <br>
+**FrontEnd**
+
 ![Image](assets/domain-driven-software-architecture/SubscriptionBillingComponents.png)
+
+**Backend**
+
+![Image](assets/domain-driven-software-architecture/Backend/BillingBoundedContextL.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -4155,6 +4206,163 @@ Link del Trello: https://trello.com/invite/b/686477356801fb92eb59a08e/ATTI892d93
 </div>
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
+
+En esta sección se documentan los avances de implementación realizados durante el Sprint, específicamente en los componentes desarrollados de la solución: Landing Page, Frontend y Backend. La sección comienza con una introducción que resume los logros técnicos más relevantes alcanzados durante el periodo.
+
+<div style="font-size:55%;">
+
+| Repository                                             | Branch                        | Commit ID                                | Commit Message                                                                                            | Commit Body | Committed On |
+|--------------------------------------------------------|-------------------------------|------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------|--------------|
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 7fa9c5795c314e7a9931abad90f5d57fb459b453 | refactor(enrollment): udpate create method                                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | b1983f4e195b9a46bd9a65500f73744954276a0a | feat(app): register ExternalSchedulingService and Scheduling facades in Program                           | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | f7f60704c01f9f905c24c8bf70314e14a3873c4e | refactor(enrollment): convert ExternalSchedulingService to primary constructor                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | c1e56c4c256256f4957e362609e1c643ffc2648e | refactor(enrollment): update id name                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | f51da4aa1a175ab13dfeabfbea5edce6dfe87b04 | refactor(enrollment): add validation for create method                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 0a17964e8199afcac5cc33a5f0b0450503e04d33 | refactor(enrollments): update enums values                                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 82e42b49800fc8c37aa843604e8cc91626c99b6a | docs(enrollment): add documentation for DNI VO                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | becf289a8f501d3db88867bd3fb1d73b8fb98c4f | feat(enrollment): add weeklyScheduleName parameter to CreateEnrollmentResource                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 41d42a096748a3546be10dea521bc9b6fef0c709 | refactor(db): update AppDbContext                                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 4b98eea4323fea1a7d1c376affe3577f16ba3b12 | merge: integrate branch 'feature/scheduling-management' into 'feature/enrollment-management'              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 4fa03879884b93f3212f99d38afa29b86fc712f9 | feat(shared): add StudentId VO                                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 257044eb3e692f62a2096c681f72db60473783d3 | refactor(bd): update Enrollment Context in AppDbContext                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | bbc52fef46c5ec05c442abf5f541326ef5af9a5e | feat(enrollment): add WeeklyScheduleName to CreateEnrollmentCommand                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 0a66099ebc1236b11ecd3473cbabeaf39412217a | feat(enrollment): add CreateEnrollmentCommandFromResourceAssembler weeklyScheduleName field               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 215980a817e29bb69971bc2dce9b79458340f42c | feat(enrollment): add WeeklyScheduleId to Enrollment aggregate                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | f6c2d69e3e25d7a86217f1e24de22127c4714a42 | refactor(enrollment): update EnrollmentCommandService create method                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | a2c553199569ee8beb31bd78198475b5fc44c9aa | feat(enrollment): add ExternalSchedulingService ACL adapter                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 0afcd24d9cfa4b8699daa19971bec3aaa58e09f7 | refactor(enrollment): update StudentResource                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | c464d6c0d559ad1912a64b7778b7f54f386e2e99 | refactor(enrollment): update StudentResourceFromEntityAssembler                                           | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | 9954735f3ecd1945b60bdbefb4e374b52b39c96d | docs(enrollment): add docs for student aggregate, services and controller                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | a18ac894454e9f5bc126bc9387c803f83309d047 | docs(enrollment): add docs for enrollment query service and controller                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/enrollment-management | cf56b89d78ada8176cd005959c57de9603c0a238 | docs(enrollment): add docs for AcademicPeriod aggregate, services and controller                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | e1bc2d109476229750c97205802f951525cae743 | feat:update AppDbContext                                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 51159234428a7bd22a4ba4581949bb000f953fb0 | feat: update IClassSessionRepository                                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | edfbb6dd5bf9df354656e80de51d106f1b93fad1 | feat: update CreateClassSessionResource                                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 905e5b1670666203067cae9ad3ece34b2bbd664e | feat:update assembler CreateClassSessionCommandFromResourceAssembler                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 1f5765113bd872441d1f3f0b536c3e2e41d44839 | feat: update CreateClassSessionCommand                                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 1ff82496bd0bb5c7d87f0de82fb23569425a56fc | feat: update ClassSessionResourceFromEntityAssembler                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | b52d862235736e73745702a6fb3481f09de74eae | feat: update ClassSessionResource                                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | db4b15580f718f5e7e97981e07cc888d046c7c7b | feat: update AttendanceRecordResource                                                                     | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | fc7a418f4fe78611064e79ccae5c931b411c8a03 | feat: update ClassSessionRepository                                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 07b240a83fee73384e7ba268f3f232374a121ad3 | feat: move dni value object                                                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 67ce4f2a36ce1725f925cc59c0467ce4d8e5ecdd | feat: update ClassSession aggregate root                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | 02fdbae69fbee984d73c4d1bbc8bc494e0fd29c5 | feat: Add AttendanceDraft value object                                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | ad987df1c1bef61ac65a01ec92a89e77675c7453 | feat: add AttendanceRecord audit                                                                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/attendance-management | e16776c9b881aa908d313306bab17abb57265116 | feat: update AttendanceRecord                                                                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | da972d92f2c8d362e00d30527e91282b1d27b2a7 | feat(billing): add FinancialTransactionCommandService in billing context                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | fcd601c6da14fa70e448629968ccff08e9fb4439 | refactor(billing): update invoiceId attribute in Payment entity to make it optional                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 6eb7b110cf2888f8444e6ecc0d7094a770a9b28a | feat(billing): add FinancialTransactionQueryService implementation                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 423d59bbae8110eed69b5fd8211eb055a1af22d5 | feat(billing): add FinancialTransactionCommandService interface                                           | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 4b0b0971abde3e5ac09e24823a10108ab231d421 | feat(billing): add FinancialTransactionQueryService interface                                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 1beecf2154a7b98e64a27514f610ee94e1533c38 | feat(billing): add FinancialTransactionRepository interface                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 8353411729259d6ccd6aaf4d480a9b7957c1b982 | feat(billing): add GetAllFinancialTransactionsQuery                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 9a7951fed1d5500f55ed101ec0ec25e0d788fbdb | refactor(billing): delete GetAllInvoicesByStudentIdQuery for unused                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 2cbe489570a524d709ff54d110a9a2c2f3bef220 | feat(billing): add RegisterPaymentCommand                                                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 422f95cf8667359577bdbc5f3f6b467c994b650d | feat(billing): add RegisterExpense command                                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 2ddfa99259e61e4eb2390457c4bd55c5bcffc493 | feat(billing): add CreateFinancialTransaction command                                                     | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | d43beec606f8371d1b912b4665e87caccd588ef6 | feat(billing): add FinancialTransactionAudit for auditing                                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 1f8a12b7438d164059d10fcf4efa505a0ef8453d | feat(billing): add FinancialTransaction aggregate in billing context                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 58ec3810f2922f84e26ca7aaee2bdfbe6fce2fbc | feat(billing): update Payment entity with new attributes                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 6dc260792fba168c47ae1ee6a68e8a15bdc96780 | feat(billing): add TransactionCategory Enum                                                               | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 4dca82eccc268b91d2f9759b624dc5aeb1e34247 | feat(billing): add TransactionType Enum                                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | cd445ccb75be5c4c2d3d392f38b3cd1ac6a27aa7 | feat(billing): add implementation of CreateInvoiceCommand Handle in InvoiceCommandService                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 30c3462423fecb2f510cd212832fb7dfc53ddbc9 | refactor(billing): change constructor of Invoice aggregate                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | c1932f79f171dfdb0b61aa8201b646715274507d | fix(billing): change attribute name in CreateInvoiceCommand from date to dueDate                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 9ea7485adf47c82d27431ce4c2b022dec24f3dff | refactor(billing): update InvoiceCommandService interface return type from Task\<int?> to Task<int>       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 03c20ee3fa999e7ef5c353d04a42298eff288352 | feat(billing): add ExternalEnrollmentsService ACL in billing context                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | b6850be35c86cc5dc0296921810661911165e9d8 | feat(enrollments): add implementation of enrollments context facade                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 8ede734e16e164a7d079b603c6fec316dc92c7e9 | feat(enrollments): add interface for EnrollmentsContextFacade Anti-Corruption Layer                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | d65727da0b6f9dc6388e1791d23c2d4417de528f | feat(billing): implement methods from interface in InvoiceQueryService.cs                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | d1303a180f7cf53d67005251a957805baf5b055e | feat(billing): add handle for GetInvoiceByIdQuery in InvoiceQueryService interface                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 4411732e6e304c17545aebc986deb542a6f6b50d | feat(billing): add query GetInvoiceByIdQuery                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 27d2f0843cf2e27d57f76134d4555500fb62cb04 | feat(billing): implement method FindAllByStudentIdAsync in InvoiceRepository                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 68f38a1a0ebfdbe168903e2a9716cbd9ef5990d3 | feat(billing): update invoice repository interface for new method                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | cff72f25bb2176c431421faed2685474ebe915e6 | feat(billing): add handle method for CreateInvoiceCommand                                                 | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | b9c15f8e8d80cb246fb503a461d2afa4cce6d76a | feat(billing): add get all invoices by dni query                                                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | eb89a5cc0aeab415401c136af5c0493a820c6d4e | feat(billing): add create invoice command for invoice aggregate                                           | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | 840163a84c884d65a33573e27e0522d7d010a8c7 | feat(billing): update Invoice aggregate                                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/billing-management    | b1ce132902ccb656e9552694637303f6daf47fd4 | refactor(enrollment): move dni value object to shared context                                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 47cf77537790c8ea10b75b3d95b85f1738330a03 | feat(scheduling): rename scheduling context facade                                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c7cff74928f5697868d22b38153a30a3d35c2e33 | feat(scheduling): add assembler of update schedule command from resource                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | a75941c990a8eb2f4e49221c3f7ea701d23b3bb8 | feat(scheduling): add schedule repository implement                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 13015ca1cb205449dd63647d1ff3461f82a39a5d | feat(scheduling): add schedule repository interface                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | f8bdd1bda093da2b7b3187f7c8f80e4d6b6ac65d | feat(scheduling): add schedule query service implement                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | de6fef4a6786211285b63bde521177ceae9fcd33 | feat(scheduling): add schedule query service interface                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 155bc4d5b670c429c5a134e9329aaa3966088b24 | feat(scheduling): add query to get schedules by teacher Id                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | cfb5b691412eac4562c5409a41be409849d2efaa | feat(scheduling): add command to update schedule                                                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 1ddcd432d89f00c0dc6df5228d52b9e0b5070639 | feat(scheduling): add command to delete weekly schedule                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c699c6a378a4a5fb40fb4488329f9fa1e07a4dde | feat(program): add endpoints to delete weekly schedule                                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c3397ab0653cbde0e3099787e0022dc900129a6d | feat: add section in AppDbContext about scheduling context                                                | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | db4d20f618b26caa0f512715a78c3dae83b727d5 | feat(program): add relations from scheduling context                                                      | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | d45177041b94b321870b6f99ecc3030d803fcc36 | feat(scheduling): add schedule resource                                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c0bb2ae38fbccaee4c65e91aacf2949cb5272941 | feat(scheduling): add weekly schedule resource                                                            | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 6f01ba4325036da40cb93925df1a62539aa67391 | feat(scheduling): add assembler to convert weekly schedule entity to resource                             | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | b7efbdedd58099c3d3a43f26f1b231a521d48aad | feat(scheduling): add assembler to convert schedule entity to resource                                    | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | adaa5569c6ad9e88c2b18ff65cf42d22496a9453 | feat(scheduling): add command service of weekly schedule                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | d73983f7ef202f406924ae5c664550c4a5e77b5e | feat(scheduling): add command service interface of weekly schedule                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 7c77b185bf7f3bb15829cb3b6ed0dd6d57adc6f2 | feat(scheduling): add assembler to add schedule in weekly schedule                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | a5344854d69da083f8abda48cf7471530f69830e | feat(scheduling): add resource to add schedule in weekly schedule                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 2ddfe02932945772f8e4f1f50c1e166e77e169d7 | feat(scheduling): add command to add schedule in weekly schedule                                          | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 7ceeb857b05289969e6848c1878cebdd3218ec61 | feat(scheduling): add course command service                                                              | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 2b9083058f711319857f5813fcea351114a29881 | feat(scheduling): add classroom command service                                                           | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | d360bbffaf8bc04dd866d00ac68839a4708aa4cd | feat(scheduling): update weekly schedule aggregate                                                        | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 0abdaf68e0e2a8676fcd6abb8932c74c835914ee | feat(scheduling): update entity schedule                                                                  | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 4aa666778ce80f0a87e4734a4705358d286f0c7c | feat(scheduling): add resource to update schedule                                                         | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c47f37d308cceca75c3bedea0a1d4df0322cc587 | feat(scheduling): add files to implement scheduling context facade in other bounded                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | febd837578c01dbf2a81062ce70dcee2ef860fc3 | feat(scheduling): add GetWeeklyScheduleByName query                                                       | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 13857f880f98ab12cbf81d8ca84f776adad14662 | feat(scheduling): add scheduling context facade interface and implement                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | 0576b724f5717dbb1e71294efa74385d8d3d796d | chore: merge develop into feature/scheduling-management                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/scheduling-management | c2fb1080fbe12709583f1996b8a836d51b5896b4 | feat: add configuration in AppDbContext                                                                   | —           | 05/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 16ab397626dce7f6476182573d6beb76aa26b753 | docs(api): add XML documentation for AcademyResourceFromEntityAssembler                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 580ba6565aa1c5d81cbc17461e0b8e3594f42bed | chore(iam): function with backend                                                                         | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 752e38d2193f51d56a2aa919fc0fe8732cbe24ee | chore(iam): fix backend                                                                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | f1fea7667e313b6da976a55ddcd0f01acbcbc898 | refactor(repository): rename and update user account repository interface and implementation              | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 455d1fa20ec2f6ef317f1c75d9504939ca400f1e | feat(auth): add user account controller, services and resources                                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | adec0d1b0719321a3c72fc155273511114c9a689 | feat(auth): add SignIn and SignUp commands for admin and teacher accounts                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 380280fac0be43d3a51726d1c65d9c037045822f | refactor(teacher): update teacher command and resource classes                                            | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | a742572d445a03c2eb45abf66cb5fa6d1334fa87 | chore(infrastructure): update EF configuration and context for new Academy entities                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/iam-user              | 4545e9fae3a9e8bd5f2c0aa3d0106ec9972411fb | feat(academy): add commands, services, resources and assembler for Academy feature                        | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | ce5a173d9898ae01b2bb93eb80ee0497ca902cbd | merge: integrate feature/internal-enhancements into develop                                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | aa53368218558f69093b38ee254d531478d5b277 | refactor(shared): move GlobalExceptionHandlingMiddleware to Infrastructure.Pipeline.Middleware.Components | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | a4d14adcebfea8a4212737eff1202ace4e93e746 | merge: integrate feature/internal-enhancements into develop                                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 34377405de03b347f1dcd4bfb1833629e6a52a91 | feat: add hashing service in program.cs                                                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 397de69ff0e96ffcb9a9ef03af17fff4846ba600 | fix(iam): change max length for password to 150 characters for bcrypt                                     | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 98a3c53977e6f53dc23ce52a76890f42699544cd | chore(iam): consolidate authentication and user management endpoints in UsersController                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 9de4f2f249dade06ea995218eca6cda4193d4dc8 | fix(jwt): add "Attribute" inheritance in AllowAnonymousAttribute.cs                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | fc4ae5367ea65d6a1e133e02274cdb955895e19d | feat(iam): update UserAccountCommandService to support JWT authentication on sign in                      | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | b0d6b6b6fdeb8cc2f7dd4ce567961453173540b5 | refactor(iam): replace static Hash method with IHashingService for secure password hashing                | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 43c1f766983daaaeb242ee2110f9e16cac7312af | chore(iam): register RequestAuthorizationMiddleware in app pipeline                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 50225ffb82f5d5e93b5fda14657d0f4fef1f229c | feat(iam): add UseRequestAuthorization extension for middleware registration                              | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | b0f14ce6a8a1eaa6ba94d9a6cb99b8c0f56e7781 | feat(iam): add RequestAuthorizationMiddleware for JWT validation and user context injection               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 757371df4f852a53a554e34f8b05cc701278a775 | refactor(iam): update UsersController to use GetUserAccountByIdQuery with handler                         | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | c0e0119390287f85d2108f89491176ac1602d65d | feat(iam): add GetUserAccountByIdQuery and implement handler in UserAccountQueryService                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 2d6503b429fbba70b3a9e47f8b9ac4dce89c8258 | feat(iam): implement Handle method in UserAccountQueryService for GetUserAccountByIdQuery                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | b9c4570d2419591f8808a6aa7930698937a5686a | feat(iam): add GetUserAccountByIdQuery model for user retrieval                                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 309c07e5a0c19dde8da9ecaa6aa45fe717e0c82d | feat(iam): implement custom AuthorizeAttribute for user access control                                    | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 6018fe8e57c92d4470f18f2e2125b528d18e4770 | feat(iam): add custom AllowAnonymousAttribute for authorization pipeline                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 6d6900d48cb5019442280cb08a1087f70065d745 | feat(token): add TokenSettings in appsettings.json                                                        | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | fd806c37e0acffc4289709feb33cf96a88003716 | feat(api): configure Swagger for JWT Bearer authentication and add TokenService DI                        | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 46e587a6a3bf582da4f8ea50e684886100c14025 | feat(iam): implement TokenService for JWT generation and validation                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 29edfa64cf88fc44ceee671352c04036a98732a9 | feat(iam): add TokenSettings configuration for JWT support                                                | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 43669c967d9f6d36378aec959cbf4af46cf48619 | feat(iam): implement HashingService with BCrypt for password encryption                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 191c6d1a03a8b88849fde065981d196a93802585 | feat(iam): define ITokenService interface for JWT generation and validation                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | d7bd11c9115aaa8a2e9b883983a57852f68ece86 | feat(iam): add IHashingService interface for password encryption                                          | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 8362811ec46ccfe7d2779e486f733204813f32eb | build: change database name                                                                               | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | c4be8ac4d30a5192b91673b68b388a4bd422146b | chore(startup): register global exception handling middleware in pipeline                                 | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 5578f686ab46c9e6d7e3716af40f235a840653e5 | feat(shared): add global exception handling middleware for consistent JSON error responses                | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | abb138c8a29c776ad9af098919fad24698254c05 | feat(events): add IEventHandler interface for domain event handling                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | f962d0159c1d636fe749d5dabf0e35fd95f1d0b2 | feat(domain): add IEvent interface to mark domain events                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 00c0ece74859e143d3c050e217f78bd627b0cc84 | feat(mediator): add LoggingCommandBehavior to intercept and log command handling                          | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 4b3a90fad1f4f19352801410ad46f6312e4584fc | docs(build): add comments in csproj                                                                       | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | aa23e103dbc475fe23a30a320843fee0ecd27daa | feat(mediator): add Cortex.Mediator for mediator pattern implementation                                   | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 796af0ca6ccfe42b356f5ca1503a5138d64c3707 | feat(auth): add Microsoft.IdentityModel.Tokens for token signing and validation                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 6c1fe76e35a85beeae6376d4d2fe8a9d83f93703 | feat(auth): add Microsoft.AspNetCore.Authentication.JwtBearer for JWT authentication middleware           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | e238b78f4d5490e328ff4cb58ae9e73d77936036 | feat(auth): add System.IdentityModel.Tokens.Jwt for JWT creation and validation                           | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 9644f550b016aafa3118922950d3bf356c36e15a | feat(security): add BCrypt.Net-Next for password hashing                                                  | —           | 04/07/2025   |
+| upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 162b0823deb45702c7db956b1290e8db5eb1f3ab | feat(di): add Microsoft.Extensions.DependencyInjection for dependency injection support                   | —           | 04/07/2025   |
+
+</div>
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 
