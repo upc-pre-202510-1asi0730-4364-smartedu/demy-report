@@ -4680,8 +4680,6 @@ Invoices: <br>
 
 Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-web-service.git
 
-
-
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
@@ -4697,6 +4695,7 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi073
 ![Captura de pantalla de los insights Sprint 3](./assets/screenshots/sprint4-insights-1.png)
 
 ![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint4-insights-2.png)
+
 ## 5.3. Validation Interviews
 
 En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
