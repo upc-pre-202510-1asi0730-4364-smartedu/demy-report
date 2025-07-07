@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h4 style="text-align: center;"> Informe del TB2 </h4>
+<h4 style="text-align: center;"> Informe del Trabajo Final </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -278,6 +278,15 @@ Análisis de cantidad de commits realizados por semana.
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Sprint 4](#523-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5231-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5233-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
         - [5.3. Validation Interviews](#53-validation-interviews)
             - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
             - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -4079,6 +4088,51 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 
 ![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint3-insights-2.png)
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+A continuación se presentará el sprint planning para esta entrega, donde definimos que trabajo se va a realizar para el siguiente sprint y cómo se va a lograr.
+
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                            | 2025-06-21                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Time                            | 08:00 PM                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Location                        | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Salim Ramirez                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting) | Daniel Crispin, Rafael Dominguez, Paúl Sulca, Diego Vilca                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 3 Review Summary         | Durante el Sprint 3 se implementó la base del backend utilizando ASP.NET Core y C#. Se avanzó en la definición de los endpoints principales, así como en la estructura del modelo de dominio. Se realizaron pruebas iniciales con Swagger. Además, se avanzó el diseño del frontend del proyecto.                                                                                                               |
+| Sprint 3 Retrospective Summary  | El equipo identificó como fortalezas la buena comunicación diaria y el cumplimiento de tiempos en el backend. Sin embargo, se señaló la necesidad de mejorar la integración entre frontend y backend, así como distribuir mejor las tareas de pruebas y revisión.                                                                                                                                               |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 4 Goal                   | Our focus is on integrating the frontend of Demy with its backend API and finalizing the UI implementation. We believe it delivers a functional and testable version of the platform to internal testers and mentors. This will be confirmed when all main user flows (student creation, payment registration, and visualizations) are accessible through the web interface and tested via Swagger and browser. |
+| Sprint 4 Velocity               | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Sum of Story Points             | 33                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+A continuación se presenta el artefacto LACX (Leadership-and-Collaboration Matrix) que ayudará a saber quién lidera y quién colabora en cada aspecto de este cuarto sprint.<br>
+Los aspectos que tomamos en cuenta para este tercer sprint fueron los features para el Backend Web Service y el Frontend Web Application, concluyendo su integración.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username**  | **IAM Context** <br> L/C | **Enrollment Context** <br> L/C | **Billing Context** <br> L/C | **Scheduling Context** <br> L/C | **Attendance Context** <br> L/C |
+|:------------------------------------------:|:--------------------:|:------------------------:|:-------------------------------:|:----------------------------:|:-------------------------------:|:-------------------------------:|
+|             **Crispin Daniel**             |      danielcr04      |            C             |                C                |              C               |                L                |                C                |
+|            **Dominguez Rafael**            |       Radv2005       |            L             |                C                |              C               |                C                |                C                |
+|             **Ramirez Salim**              |     salimramirez     |            C             |                C                |              L               |                C                |                C                |
+|               **Sulca Paúl**               |        Kyrubi        |            C             |                L                |              C               |                C                |                C                |
+|              **Vilca Diego**               |       diesoks        |            C             |                C                |              C               |                C                |                L                |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
 ## 5.3. Validation Interviews
 
 En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
@@ -4713,4 +4767,4 @@ Enlace a la landing page: https://demy-smartedu.netlify.app/
 
 Enlace al frontend web application: https://demy-frontend.netlify.app/
 
-Enlace al backend web service: https://demy-web-service-production-3027.up.railway.app/swagger/index.html
+Enlace al backend web service: https://demy-backend-production.up.railway.app/swagger/index.html
