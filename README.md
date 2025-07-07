@@ -4511,8 +4511,88 @@ En esta sección se documentan los avances de implementación realizados durante
 | upc-pre-202510-1asi0730-4364-smartedu/demy-web-service | feature/internal-enhancements | 162b0823deb45702c7db956b1290e8db5eb1f3ab | feat(di): add Microsoft.Extensions.DependencyInjection for dependency injection support                   | —           | 04/07/2025   |
 </div>
 
-
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+- TS01: Implementar endpoint para registrar y gestionar matrículas (POST, PUT, DELETE /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS01.png)
+- TS02: Implementar endpoint para consultar matrícula por ID (GET /enrollments/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS02.png)
+
+- TS03: Implementar endpoint para listar matrículas (GET /enrollments)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS03.png)
+
+- TS04: Implementar endpoint para consultar matrícula por DNI (GET /enrollments/dni/{dni)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS04.png)
+
+- TS05: Implementar endpoint para registrar y gestionar estudiantes (POST, PUT, DELETE /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS05.png)
+
+- TS06: Implementar endpoint para obtener estudiante por ID (GET /students/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS06.png)
+
+- TS07: Implementar endpoint para listar estudiantes (GET /students)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS07.png)
+
+- TS08: Implementar endpoint para registrar y gestionar periodos academicos (POST, PUT, DELETE /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS08.png)
+
+- TS09: Implementar endpoint para obtener período académico por ID (GET /academic-periods/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS09.png)
+
+- TS10: Implementar endpoint para listar períodos académicos (GET /academic-periods)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS10.png)
+
+
+- TS11: Implementar un endpoint para registrar una class sesión
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS11.png)
+
+- TS12: Implementar un endpoint para consultar la asistencia de un alumno por DNI
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS12.png)
+
+- TS13: Implementar un endpoint para consultar la asistencia de un alumno en un curso
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS13.png)
+
+- TS14: Implementar endpoint para registrar y consultar transacciones financieras (GET, POST /financial-transactions)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS14.png)
+
+- TS15: Implementar endpoint para poder consultar los perfiles de usuarios Admin
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS15.png)
+
+- TS17: Implementar endpoint para poder consultar los perfiles de usuarios Teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS17.png)
+
+- TS18: Implementar endpoint para poder agregar los perfiles de usuarios teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS18.png)
+
+- TS19: Implementar endpoint para poder editar los perfiles de teacher
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS19.png)
+
+- TS20: Implementar endpoint para consultar los pagos de una factura (GET /payments/{invoiceId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS20.png)
+
+- TS21: Implementar endpoints para obtener datos de cursos (GET /courses, GET /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS21.jpg)
+
+- TS22: Implementar endpoints para registrar, actualizar y eliminar un curso (POST /courses, PUT /courses/{id}, DELETE /courses/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS22.png)
+
+- TS23: Implementar endpoints para obtener datos de aulas (GET /classrooms, GET /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS23.png)
+
+- TS24: Implementar endpoints para registrar, actualizar y eliminar un aula (POST /classrooms, PUT /classrooms/{id}, DELETE /classrooms/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS24.png)
+
+- TS25: Implementar endpoints para obtener datos de horarios semanales (GET /weeklyschedules, GET /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS25.png)
+
+- TS26: Implementar endpoints para registrar, actualizar y eliminar un horario semanal (POST /weeklyschedules, PUT /weeklyschedules/{id}, DELETE /weeklyschedules/{id})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS26.png)
+
+- TS27: Implementar endpoint para registrar y gestionar facturas (POST, PUT, DELETE /invoices)
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS27.png)
+
+- TS28: Implementar endpoint para consultar todas las facturas de un estudiante (GET /invoices/{studentId})
+  ![imagesExecutionEvidence1](./assets/images/Execution_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_web/TS28.png)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 Para el sprint 4, se adaptó el frontend con el backend y se terminó los endpoints restantes.<br>
@@ -4681,6 +4761,86 @@ Invoices: <br>
 Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-web-service.git
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+**Pasos para el despliegue del backend en Railway:**
+
+1. Entrar a la pagina principal https://railway.com/
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/1.jpg)
+
+2. Iniciar sesión con github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/2.jpg)
+
+3. Elegir un nuevo proyecto
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/3.jpg)
+
+4. Seleccionar el proyecto desde github
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/4.jpg)
+
+5. Elegir la organizacion
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/5.jpg)
+
+6. Seleccionar el proyecto y autorizar
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/6.jpg)
+
+7. Esperar a que complete
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/7.jpg)
+
+8. Aparece activo por unos momentos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/8.jpg)
+
+9. Pero fallará porque no encuentra la base de datos
+   ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/9.jpg)
+
+10. Crea una instancia de la base de datos en mysql
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/10.jpg)
+
+11. Espera a que termine
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/11.jpg)
+
+12. Una vez iniciado, entrar a Variables y copiar los datos de: MYSQLHOST, MYSQLPORT, MYSQLDATABASE, MYSQLUSER y MYSQLPASSWORD
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/12.jpg)
+
+13. Entra a la instancia del backend y crear una nueva variable de entorno "ConnectionStrings__DefaultConnection" y con el valor: server=<host>;port=<port>;user=<user>;password=<pass>;database=<db>
+    (reemplazar por los valores copiados anteriormente)
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/13.jpg)
+
+14. Desplegar nuevamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/14.jpg)
+
+15. Despliegue completado y sin errores
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/15.jpg)
+
+16. Entrar a settings > networking > generate domain
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/16.jpg)
+
+17. Generamos la URL e ingresamos a la dirección que nos asigna y añadimos "/swagger/index.html" al final
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/17.jpg)
+
+18. Visualizamos los endpoints en swagger
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/18.jpg)
+
+19. Probamos que los endpoints funcionen correctamente
+    ![imagesExecutionEvidence1](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_3_Aplicaciones_Web/19.jpg)
+
+
+
+**Pagina swagger desplegado:**
+1. Bounded Iam: Bounded el cual contiene las funcionalidades con los datos de user teacher y admin
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_Web/Bounded_Iam.png)
+
+2. Bounded Attendance Managemet: Bounded el cual contiene las funcionalidades con los datos de student
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_Web/Bounded_Attendance.png)
+
+3. Bounded Billing Management: Bounded el cual contiene las funcionalidades con los datos de pagos
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_Web/Bounded_Billing.png)
+
+4. Bounded Enrollment Managemet: Bounded el cual contiene las funcionalidades con los datos de registro
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_Web/bounded_Enrollment.png)
+
+5. Bounded Scheduling Managemet: Bounded el cual contiene las funcionalidades con los datos de cursos, horarios y ciclo académico.
+   ![imagesSoftwareDeploymentEvidence](./assets/images/Software_Deployment_Evidence_for_Sprint_Review_sprint_4_Aplicaciones_Web/Bounded_Scheduling.png)
+
+Link de video de presentación sobre el Web Application [VideoPresentacionWebApplication](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/ESvvpL04tO1Co8hnBHyVGtoBg1pn1gTT90UV11lB4Afc8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lcxRSc)
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
@@ -5270,7 +5430,7 @@ Aplicar un sistema de colores o etiquetas para diferenciar claramente los ingres
 
 ## 5.4. Video About-the-Product
 
-Enlace al video about-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EWMMHWAA5pBJsuUCjTDNoWUBHxTbQl_OLf7-8x1gly-how?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MfWyEd
+Enlace al video about-the-product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EZSldx7pm2ZIrxpBQNQSbEIBsSLLtqIFdsKklpunw5j0YA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ep3u63
 
 # Conclusiones
 
@@ -5304,7 +5464,7 @@ Esto contribuirá a reducir la curva de aprendizaje y a mejorar la percepción d
 
 ## Video About-the-Team
 
-Enlace al video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EcoI0jW219xEmDDfRUBzI24B-366WSktMnXE3AJ166JZfQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8DYhsM
+Enlace al video about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e843_upc_edu_pe/EfTK7-U-y3RInhgf1Qm-6yQBNL40FLqC0ZR7o3R5qcNRpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6H28Lj
 
 # Bibliografía
 
@@ -5331,3 +5491,8 @@ Enlace a la landing page: https://demy-smartedu.netlify.app/
 Enlace al frontend web application: https://demy-frontend.netlify.app/
 
 Enlace al backend web service: https://demy-backend-production.up.railway.app/swagger/index.html
+
+Credenciales de acceso a la aplicación:
+
+email: profe123@gmail.com
+password: profe123
