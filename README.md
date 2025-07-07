@@ -4332,7 +4332,17 @@ Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi073
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
+| Alumno                             | Actividad                             |
+|------------------------------------|---------------------------------------|
+| Crispin Ramos, Daniel Franco       | scheduling management                 |
+| Dominguez Vargas, Rafael Alexander | iam user (Sign up, Sign in)           |
+| Ramirez Mestanza, Salim Ignacio    | initial structure and billing context |
+| Sulca Gonzales, Paúl Fernando      | enrollment management                 |
+| Vilca Saboya, Diego Alejandro      | attendance management                 |
 
+![Captura de pantalla de los insights Sprint 3](./assets/screenshots/sprint4-insights-1.png)
+
+![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint4-insights-2.png)
 ## 5.3. Validation Interviews
 
 En esta sección, nos enfocamos en evaluar la usabilidad de la página web creada para optimizar la gestión de academias educativas en el país. Esta etapa fundamental consiste en realizar entrevistas con los usuarios principales: administrativos y profesores.
