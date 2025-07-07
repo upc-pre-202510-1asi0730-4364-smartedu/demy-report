@@ -12,7 +12,7 @@
 
 <h4 style="text-align: center"> Docente: Alex Humberto Sánchez Ponce </h4>
 
-<h4 style="text-align: center;"> Informe del TB2 </h4>
+<h4 style="text-align: center;"> Informe del Trabajo Final </h4>
 
 <h4 style="text-align: center"> Startup: SmartEdu </h4>
 
@@ -49,6 +49,8 @@
 | 7.0     | 14/05/25   | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca   | Se agrego toda la sección del Sprint 2 y se levanto observaciones de la TB1 anterior                                         |
 | 7.1     | 18/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca   | Se actualizó las technical stories                                                                                           | 
 | 8.0     | 19/06/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca   | Se agrego toda la sección del Sprint 3 y se levanto observaciones                                                            |
+| 9.0     | 1/07/2025  | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca   | Se agregó sprint 4 backlog                                                                                                   |
+| 9.1     | 06/07/2025 | Daniel Crispin <br> Rafael Dominguez <br> Salim Ramirez <br> Paúl Sulca <br> Diego Vilca   | Se agrego toda la sección del Sprint 4 y se levanto observaciones                                                            |
 
 # Project Report Collaboration Insights
 
@@ -278,6 +280,15 @@ Análisis de cantidad de commits realizados por semana.
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+      - [5.2.4. Sprint 4](#524-sprint-4)
+          - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+          - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+          - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+          - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+          - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+          - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+          - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+          - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)        
         - [5.3. Validation Interviews](#53-validation-interviews)
             - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
             - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -4078,6 +4089,249 @@ Link de video de presentación sobre el Web Application [VideoPresentacionWebApp
 ![Captura de pantalla de los insights Sprint 3](./assets/screenshots/sprint3-insights-1.png)
 
 ![Captura 2 de pantalla de los insights del Sprint 3](./assets/screenshots/sprint3-insights-2.png)
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4.
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+El cuarto sprint estuvo dedicado a completar detalles faltantes de nuestra web application, tanto en el front como en el backend<br>
+El objetivo principal de este sprint fue pulir nuestra web application y agregar detalles faltantes antes del project release.
+
+A continuación, se presenta una captura de pantalla de la herramienta de control que usamos, que fue Trello:
+![Captura](./assets/screenshots/sprint4-trello-web.png)
+
+Link del Trello: https://trello.com/invite/b/686477356801fb92eb59a08e/ATTI892d93ee83e9167c6aa379e72e205a0e46FBC9E9/sprint-4-apps-web
+
+<div style="font-size:60%; overflow-x:auto;">
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="2">Sprint #</th>
+      <th colspan="6">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td>US07</td><td>Consultar historial de matrículas por estudiante</td><td>US07a</td><td>Adaptación al backend</td><td> Adaptar detalles del frontend de acuerdo al backend</td><td>1</td><td>Paul</td><td>Done</td></tr>
+
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12a</td><td>Maquetar la vista de consulta de asistencia de un estudiante</td><td>Agregar la opción de consultar las asistencias de un estudiante y su vista, utilizando la biblioteca de componentes UI correspondiente</td><td>5</td><td>Diego</td><td>Done</td></tr>
+<tr><td>US12</td><td>Consultar asistencia de un estudiante</td><td>US12b</td><td>Integración de la vista de consulta con el backend</td><td>Implementar el consumo de nuestro backend </td><td>4</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18a</td><td>Maquetar la vista de reporte de financiero mensual</td><td>Arreglar detalles de  la vista mensual de reportes financieros empleando la librería de componentes UI correspondiente</td><td>3</td><td>Salim</td><td>Done</td></tr>
+<tr><td>US18</td><td>Generar reporte financiero mensual</td><td>US18b</td><td>Integración de la vista de reportes financieros mensuales con el backend</td><td>Conectar la vista de reportes financieros de acuerdo a lo establecido en el backend</td><td>2</td><td>Salim</td><td>Done</td></tr>
+
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20a</td><td>Maquetar la vista de asignación de horarios para los docentes y cursos</td><td>Arreglar detalles de  la interfaz que permita asignar horarios tanto a docentes como a cursos, usando la librería de componentes UI</td><td>5</td><td>Daniel</td><td>Done</td></tr>
+<tr><td>US20</td><td>Asignar horarios a los docentes y cursos</td><td>US20b</td><td>Integración de la vista de asignación de horarios a los docentes y cursos con el backend</td><td>Integrar la vista de asignación de horarios de acuerdo al backend </td><td>2</td><td>Daniel</td><td>Done</td></tr>
+
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para obtener asistencia por DNI</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12b</td><td>Application Query Service</td><td>Crear query, handler y servicio de aplicación para consulta por DNI</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS12</td><td>Implementar un endpoint para consultar la asistencia de un alumno por DNI</td><td>TS12c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/student/{dni}</td><td>1</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13a</td><td>Dominio e Infraestructura</td><td>Agregar método en repositorio para filtrar por studentId y courseId</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13b</td><td>Application Query Service</td><td>Crear query, handler y servicio para consultar asistencia por curso</td><td>2</td><td>Diego</td><td>Done</td></tr>
+<tr><td>TS13</td><td>Implementar un endpoint para consultar la asistencia de un alumno en un curso</td><td>TS13c</td><td>Exponer Endpoint</td><td>Crear controlador GET /attendance/course/{courseId}/student/{id}</td><td>1</td><td>Diego</td><td>Done</td></tr>
+
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15a</td><td>Infraestructura</td><td>Implementar un método en el repositorio que permita obtener usuarios con el rol ADMIN</td><td>1</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15b</td><td>Application Query Service</td><td>Desarrollar la query, el handler y el servicio necesarios para aplicar el filtro por rol</td><td>1.5</td><td>Rafael</td><td>Done</td></tr>
+<tr><td>TS15</td><td>Implementar endpoint para poder consultar los perfiles de usuarios Admin</td><td>TS15c</td><td>Exponer Endpoint</td><td>Exponer un endpoint GET en la ruta /users/role/ADMIN para consultar usuarios con ese rol</td><td>0.5</td><td>Rafael</td><td>Done</td></tr>
+
+  </tbody>
+</table>
+</div>
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Para el sprint 4, se adaptó el frontend con el backend y se terminó los endpoints restantes.<br>
+Inicialmente se trabajó con MOCKAPI, pero para esta entrega se completó nuestro BACKEND y lo integramos con el FRONTEND,<br>
+dando así de baja nuestro MOCKAPI.
+
+Web Service:
+
+<div style="font-size:70%;">
+
+| Endpoint              | Operaciones | Parámetros         | URL                                                         | Response                                                                       | 
+|-----------------------|-------------|--------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Users                 | PUT         | {id}               | /api/v1/users/teachers/{id}                                 | Edita el perfil del teacher<br> con el id correspondiente                      |  
+| Users                 | DELETE      | {id}               | /api/v1/users/teachers/{id}                                 | Elimina el perfil del teacher<br> con el id correspondiente                    | 
+| Users                 | PUT         | No tiene           | /api/v1/users/reset-password                                | Restablece la contraseña                                                       |
+| Users                 | GET         | No tiene           | /api/v1/users/teachers                                      | Obtiene todos los perfiles<br> teachers                                        | 
+| Users                 | POST        | No tiene           | /api/v1/users/teachers                                      | Agrega un nuevo perfil teacher                                                 |
+| Users                 | POST        | No tiene           | /api/v1/users/admins/sign-up                                | Guarda el registro de un perfil admin                                          | 
+| Users                 | POST        | No tiene           | /api/v1/users/sign-in                                       | Guarda el inicio de sesión de un admin                                         |
+| Classrooms            | GET         | {classroomId}      | /api/v1/classrooms/{classroomId}                            | Obtiene un classroom por su ID                                                 |
+| Classrooms            | PUT         | {classroomId}      | /api/v1/classrooms/{classroomId}                            | Edita un classroom por su ID                                                   |
+| Classrooms            | GET         | No tiene           | /api/v1/classrooms                                          | Obtiene todos los classrooms                                                   |
+| Classrooms            | POST        | No tiene           | /api/v1/classrooms                                          | Crea un nuevo classroom                                                        |
+| Courses               | GET         | {courseId}         | /api/v1/courses/{courseId}                                  | Obtiene un curso por su ID                                                     |                                  
+| Courses               | PUT         | {courseId}         | /api/v1/courses/{courseId}                                  | Edita un curso por su ID                                                       |
+| Courses               | DELETE      | {courseId}         | /api/v1/courses/{courseId}                                  | Elimina un curso por su ID                                                     |
+| Courses               | GET         | No tiene           | /api/v1/courses                                             | Obtiene todos los cursos                                                       |
+| Courses               | POST        | No tiene           | /api/v1/courses                                             | Crea un nuevo curso                                                            |
+| Enrollment            | POST        | No tiene           | /api/v1/enrollments                                         | Crea una nueva matrícula                                                       |
+| Enrollment            | DELETE      | {enrollmentId}     | /api/v1/enrollments/{enrollmentId}                          | Elimina una matrícula por su Id                                                |
+| Enrollment            | GET         | No tiene           | /api/v1/enrollments                                         | Obtiene todas las matrículas                                                   |
+| Enrollment            | GET         | {studentDni}       | /api/v1/enrollments/student/dni/{dni}                       | Obtiene las matrículas de un estudiante por DNI                                |
+| Enrollment            | GET         | {studentId}        | /api/v1/enrollments/student/{studentId}                     | Obtiene las matrículas de un estudiante por Id                                 |
+| Enrollment            | GET         | {enrollmentId}     | /api/v1/enrollments/{enrollmentId}                          | Obtiene las matrículas por su ID                                               |
+| Academic Period       | DELETE      | {academicPeriodId} | /api/v1/academic-periods/{academicPeriodId}                 | Elimina un periodo académico  por su ID                                        |
+| Academic Period       | GET         | No tiene           | /api/v1/academic-periods                                    | Obtiene todos los periodos académicos                                          |
+| Academic Period       | POST        | No tiene           | /api/v1/academic-periods                                    | Guarda un periodo académico                                                    |
+| Academic Period       | PUT         | {academicPeriodId} | /api/v1/academic-periods/{academicPeriodId}                 | Edita un periodo académico                                                     |
+| Student               | DELETE      | {studentId}        | /api/v1/students/{studentId}                                | Elimina un estudiante                                                          |
+| Student               | GET         | No tiene           | /api/v1/students                                            | Obtiene todos los estudiantes                                                  |
+| Student               | GET         | {studentId}        | /api/v1/students/{studentId}                                | Obtiene un estudiante con el Id solicitado                                     |
+| Student               | GET         | {studentDni}       | /api/v1/students/{studentDni}                               | Obtiene un estudiante con el DNI solicitado                                    |
+| Student               | POST        | No tiene           | /api/v1/students                                            | Guarda un estudiante                                                           |
+| Student               | PUT         | No tiene           | /api/v1/students                                            | Edita un estudiante                                                            |
+| WeeklySchedules       | GET         | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Obtiene un horario semanal por su ID                                           |
+| WeeklySchedules       | PUT         | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Edita un horario semanal por su ID                                             |
+| WeeklySchedules       | GET         | No tiene           | /api/v1/weekly-schedules                                    | Obtiene todos los horarios semanales                                           |
+| WeeklySchedules       | POST        | No tiene           | /api/v1/weekly-schedules                                    | Crea un nuevo horario semanal                                                  |
+| WeeklySchedules       | POST        | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}/schedules       | Agrega un nuevo horario al horario semanal                                     |
+| WeeklySchedules       | GET         | {teacherId}        | /api/v1/weekly-schedules/by-teacher/{teacherId}             | Obtiene los horarios semanales de un profesor por su teacherId                 |
+| WeeklySchedules       | PUT         | {scheduleId}       | /api/v1/weekly-schedules/schedules/{scheduleId}             | Edita un horario semanal por su scheduleId                                     |
+| WeeklySchedules       | DELETE      | {weeklyScheduleId} | /api/v1/weekly-schedules/{weeklyScheduleId}                 | Elimina un horario semanal por su weeklyScheduleId                             |
+| Invoices              | GET         | {dni}              | /api/v1/students/{dni}/invoices                             | Obtiene las facturas de un estudiante por su DNI                               |
+| Invoices              | POST        | {dni}              | /api/v1/students/{dni}/invoices                             | Guarda la factura de un estudiante por su DNI                                  |
+| FinancialTransactions | POST        | no tiene           | /api/v1/financial-transactions/expenses                     | Guarda los gastos de una transacción financiera                                |
+| FinancialTransactions | POST        | {invoiceId}        | /api/v1/financial-transactions/invoices/{invoiceId}/payment | Guarda el pago de un estudiante a su factura por su invoiceId                  |
+| FinancialTransactions | POST        | no tiene           | /api/v1/financial-transactions/                             | Guarda una transacción financiera                                              |
+| Class Sessions        | POST        | No tiene           | /api/v1/class-sessions                                      | Guarda el registro de asistencia una sesión clase                              |
+| Class Sessions        | GET         | No tiene           | /api/v1/class-sessions/report                               | Obtiene la asistencia de un estudiante por su CourseId, Dni y rango de fechas  |
+
+
+</div>
+
+A continuación se presenta capturas de los endpoints en ejecución:
+
+Users:<br>
+
+![Captura](./assets/screenshots/Add_New_Teacher_Profile.png)
+
+![Captura](./assets/screenshots/Admin-sign-in.jpg)
+
+![Captura](./assets/screenshots/Admin_sign_up.jpg)
+
+![Captura](./assets/screenshots/Delete_Teacher.png)
+
+![Captura](./assets/screenshots/Edit_Teacher.png)
+
+![Captura](./assets/screenshots/Get_Teacher_Profiles.png)
+
+![Captura](./assets/screenshots/Reset_Password.png)
+
+
+Enrollment: <br>
+
+![Captura](./assets/screenshots/CREATE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/DELETE%20ENROLLMENT.png)
+
+![Captura](./assets/screenshots/DELETE%20STUDENT.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ACADEMIC%20PERIODS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20DNI.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20ENROLLMENTS%20BY%20STUDENT%20ID.png)
+
+![Captura](./assets/screenshots/GET%20ALL%20STUDENTS.png)
+
+![Captura](./assets/screenshots/GET%20ENROLLMENT%20BY%20ID.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20DNI%20.png)
+
+![Captura](./assets/screenshots/GET%20STUDENT%20BY%20ID.png )
+
+![Captura](./assets/screenshots/POST%20ACADEMIC-PERIODS.png)
+
+![Captura](./assets/screenshots/POST%20STUDENT.png)
+
+![Captura](./assets/screenshots/PUT%20ACADEMIC%20PERIOD.png)
+
+![Captura](./assets/screenshots/PUT%20STUDENT.png)
+
+Scheduling: <br>
+
+![Captura](./assets/screenshots/add-schedule-on-weekly.jpeg)
+
+![Captura](./assets/screenshots/get-all-classroom.jpeg)
+
+![Captura](./assets/screenshots/get-all-courses.jpeg)
+
+![Captura](./assets/screenshots/get-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/get-course-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-classroom-by-id.jpeg)
+
+![Captura](./assets/screenshots/update-course-by-id.jpeg)
+
+![Captura](./assets/screenshots/delete-weekyl-schedule.jpg)
+
+![Captura](./assets/screenshots/put-weekly-schedule.jpg)
+
+![Captura](./assets/screenshots/get-weekly-byteacher.jpg)
+
+Attendance: <br>
+
+![Captura](./assets/screenshots/add-attendance-class-session.png)
+
+![Captura](./assets/screenshots/get-classsession-report.png)
+
+Invoices: <br>
+
+![Captura](./assets/screenshots/get-student-invoices.jpg)
+
+![Captura](./assets/screenshots/get-financial.jpg)
+
+![Captura](./assets/screenshots/post-financial-expense.jpg)
+
+![Captura](./assets/screenshots/post-financial-payment.jpg)
+
+![Captura](./assets/screenshots/post-student-invoices.jpg)
+
+
+| Endpoint    | Commit Id |
+|-------------|-----------|
+| users       | 16ab397   |
+| attendance  | 7017903   |
+| billing     | efbaa29   |
+| schedule    | 0211580   |
+| enrollment  | 7fa9c57   |
+
+Link del Repositorio del Web Services: https://github.com/upc-pre-202510-1asi0730-4364-smartedu/demy-web-service.git
+
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 
 ## 5.3. Validation Interviews
 
